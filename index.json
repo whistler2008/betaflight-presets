@@ -625,6 +625,22 @@
       ]
     },
     {
+      "fullPath": "presets/factory/hakrc411D.txt",
+      "hash": "d6791ed03824dbd3d6d4e9cff02d8422a3e3521d5a56049b1d36beb5cc2d9759",
+      "title": "HAKRC F4126 V2 - HAKRCF411D",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
       "fullPath": "presets/factory/happymodel_x12.txt",
       "hash": "734caa6bc832ec7eed2f17fa49832c788c33f3de43cdc594b6e33cfd9fcb693e",
       "title": "HappyModel X12",

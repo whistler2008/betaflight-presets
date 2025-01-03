@@ -1,0 +1,20 @@
+#$ TITLE: HAKRC F4126 V2 - HAKRCF411D
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: FACTORY
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: factory
+#$ DESCRIPTION: Fix RPM Filter on HAKRC F4126 V2 - HAKRCF411D
+
+
+resource PINIO 1 none
+resource PINIO 2 none
+
+dma ADC 1 1
+# ADC 1: DMA2 Stream 4 Channel 0
+
+set dshot_burst = AUTO
+set dshot_bitbang = OFF
+set pinio_box = 255,255,255,255
