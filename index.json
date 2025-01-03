@@ -866,7 +866,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44_digital_o3.txt",
-      "hash": "51ccf43d053c5ecef1d82a0fd3b727117a247c7a836165c80aff08d987d1d5a9",
+      "hash": "7a51c2a4c78c95f3af767c77b4ddbce41705bc0babc5b9723a69ecbecd722f76",
       "title": "AUX with GPS Rescue - Digital O3 (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -882,7 +882,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44_digital_other.txt",
-      "hash": "eef654c1c72f20558cf0c9022829117d84f861a4f57c83b80cbe627b6bb26cad",
+      "hash": "e6bf1d5230e6b229dc1a827f4ee98d148a7b96a83c41c3aa0adba20004bc8e16",
       "title": "AUX with GPS Rescue - Digital (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -1054,7 +1054,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_digital_o3_lq.txt",
-      "hash": "02add6af8bd68402b051290717e83865e398513f0991a4d6c7bf132cd71b5428",
+      "hash": "1fb7a95a0b846d3d7fabf2435307e6182a973ff0f715c7ced2a771765455a7b3",
       "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1070,7 +1070,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_digital_o3_rssi.txt",
-      "hash": "02add6af8bd68402b051290717e83865e398513f0991a4d6c7bf132cd71b5428",
+      "hash": "75ded774b7742179977e030616c7a4ba9996bdde5a528bb36079f15e6d91e6ce",
       "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1086,7 +1086,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_digital_other_lq.txt",
-      "hash": "dc0be0c74002ec98fead88c673cc8218d49cd9c52e8c3eb8a6132e5e00ee7c9c",
+      "hash": "6bd493ced1fb1e4a4520ad68a1112d1cd92882ccbb376854dda517c204d4a019",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1102,7 +1102,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_digital_other_rssi.txt",
-      "hash": "adcfc68de0d6ee83465b1f11da783cc29ef7b7b6c3aedc059064bcf1665cf23f",
+      "hash": "478fd42bcc037bc2996d606e8fc0fce8a94989ddf6946fd177da644942d46f40",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",

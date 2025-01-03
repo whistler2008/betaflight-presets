@@ -26,7 +26,7 @@ set osd_vbat_pos = 2711
 set osd_rssi_pos = 2687
 set osd_core_temp_pos = 2719
 
-set osd_flymode_pos = 2705
 set osd_throttle_pos = 2673
+set osd_flymode_pos = 2705
 
 set osd_tim_2_pos = 2689

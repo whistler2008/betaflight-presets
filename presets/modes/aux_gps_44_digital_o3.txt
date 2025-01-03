@@ -42,8 +42,8 @@ set gps_rescue_allow_arming_without_fix = OFF
 set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
 
 # GPS OSD
-set osd_compass_bar_pos = 2137
-set osd_home_dir_pos = 2141
+set osd_compass_bar_pos = 2134
+set osd_home_dir_pos = 2170
 
 set osd_gps_lat_pos = 18465
 set osd_gps_lon_pos = 18497
