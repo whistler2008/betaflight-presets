@@ -626,7 +626,7 @@
     },
     {
       "fullPath": "presets/factory/hakrc411d.txt",
-      "hash": "cf6dedeed53609457011acc204e719f6fc01acde78852bf99df2573a39abcd90",
+      "hash": "e121051162df1499a9144e9cda911c47d75d52044ef36da37563fc6317df4129",
       "title": "HAKRC F4126 V2",
       "firmware_version": [
         "4.2",
@@ -865,9 +865,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/modes/aux_gps_44_digital.txt",
-      "hash": "1997b0cdf32115cd698d44d2150d6eefe12bacf1cd256e67b90fcb84abc9c12d",
-      "title": "AUX with GPS Rescue - Digital (Betaflight 4.4)",
+      "fullPath": "presets/modes/aux_gps_44_digital_o3.txt",
+      "hash": "51ccf43d053c5ecef1d82a0fd3b727117a247c7a836165c80aff08d987d1d5a9",
+      "title": "AUX with GPS Rescue - Digital O3 (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -881,9 +881,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/modes/aux_gps_44_digital_o3.txt",
-      "hash": "b416ac8be87b5309642a2b357c996fef255cc2046aba5f8ccd7d0f56ee770c96",
-      "title": "AUX with GPS Rescue - Digital O3 (Betaflight 4.4)",
+      "fullPath": "presets/modes/aux_gps_44_digital_other.txt",
+      "hash": "eef654c1c72f20558cf0c9022829117d84f861a4f57c83b80cbe627b6bb26cad",
+      "title": "AUX with GPS Rescue - Digital (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1053,8 +1053,40 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_44_digital.txt",
-      "hash": "80c268e1b3f2325bcc704f1db2f016347792621b3804add2cd7be3fa9916a824",
+      "fullPath": "presets/osd/osd_44_digital_o3_lq.txt",
+      "hash": "02add6af8bd68402b051290717e83865e398513f0991a4d6c7bf132cd71b5428",
+      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_digital_o3_rssi.txt",
+      "hash": "02add6af8bd68402b051290717e83865e398513f0991a4d6c7bf132cd71b5428",
+      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_digital_other_lq.txt",
+      "hash": "dc0be0c74002ec98fead88c673cc8218d49cd9c52e8c3eb8a6132e5e00ee7c9c",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1069,9 +1101,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_digital_o3.txt",
-      "hash": "02add6af8bd68402b051290717e83865e398513f0991a4d6c7bf132cd71b5428",
-      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "fullPath": "presets/osd/osd_44_digital_other_rssi.txt",
+      "hash": "adcfc68de0d6ee83465b1f11da783cc29ef7b7b6c3aedc059064bcf1665cf23f",
+      "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3405,7 +3437,7 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "198f2bacab9b0e3443b2853c1f58b3f73e4a3ce88efe1d49e15f6e0c2b461868",
+      "hash": "f01c5268d31245b88a4baa9f15b0a9c972005662b0e821c089730f7eb1706ad1",
       "title": "CineWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3451,7 +3483,7 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "bc4cfe186d85f4714a2630332b0bd53ea4c65daaf0883bb92b5e3c8b94689ce1",
+      "hash": "a0fa3a3850291344e7ca072c3cf2dc2e4069f00dea2cf7040984d57f1eb088fc",
       "title": "FreeStyle Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3527,7 +3559,7 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "e68183f4acad2b190eaa7427c5714285447aaaa1c4754553452c2d47e01e5f23",
+      "hash": "78c7f0f557849a6444ec8002beca4682ed6bc63f192986ba09ccc2aa4af578c5",
       "title": "RaceWhoop Tune 4.4/5",
       "firmware_version": [
         "4.4",
@@ -3573,7 +3605,7 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "849f79ba1965df4c0a3b4b94394ad979a838b04f7a139c3ed658285aba2087d6",
+      "hash": "6d7dfc7b07628993db5415094e808fe08fee9a47856d0ece1321e037ddeb4989",
       "title": "Race Tune 4.4/5",
       "firmware_version": [
         "4.4",

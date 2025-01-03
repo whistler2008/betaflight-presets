@@ -42,12 +42,17 @@ set gps_rescue_allow_arming_without_fix = OFF
 set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
 
 # GPS OSD
-set osd_gps_speed_pos = 2369
-set osd_gps_sats_pos = 3151
-set osd_home_dir_pos = 2138
-set osd_home_dist_pos = 3375
-set osd_flight_dist_pos = 3407
-set osd_altitude_pos = 2337
+set osd_compass_bar_pos = 2137
+set osd_home_dir_pos = 2141
+
+set osd_gps_lat_pos = 18465
+set osd_gps_lon_pos = 18497
+
+set osd_altitude_pos = 2177
+set osd_home_dist_pos = 2209
+set osd_flight_dist_pos = 2241
+set osd_gps_speed_pos = 2273
+set osd_gps_sats_pos = 2337
 
 # GPS Beeper
 beeper GPS_STATUS

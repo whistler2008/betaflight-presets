@@ -73,12 +73,20 @@ set dshot_bidir = ON
 #$ INCLUDE: presets/osd/osd_44_ntsc_lq.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital
-#$ INCLUDE: presets/osd/osd_44_digital.txt
+#$ OPTION BEGIN (UNCHECKED): Digital & RSSI
+#$ INCLUDE: presets/osd/osd_44_digital_other_rssi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital O3
-#$ INCLUDE: presets/osd/osd_44_digital_o3.txt
+#$ OPTION BEGIN (UNCHECKED): Digital & LQ
+#$ INCLUDE: presets/osd/osd_44_digital_other_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital O3 & RSSI
+#$ INCLUDE: presets/osd/osd_44_digital_o3_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital O3 & LQ
+#$ INCLUDE: presets/osd/osd_44_digital_o3_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -308,7 +316,7 @@ set dshot_bidir = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): With GPS - Digital
-#$ INCLUDE: presets/modes/aux_gps_44_digital.txt
+#$ INCLUDE: presets/modes/aux_gps_44_digital_other.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): With GPS - Digital O3

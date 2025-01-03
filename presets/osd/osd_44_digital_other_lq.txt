@@ -1,0 +1,33 @@
+#$ TITLE: Digital OSD settings (Betaflight 4.4-4.5)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: osd
+#$ DESCRIPTION: Digital OSD settings (Betaflight 4.4-4.5)
+#$ INCLUDE: presets/osd/osd_44_default.txt
+#$ HIDDEN: true
+
+# OSD Digital System
+set vcd_video_system = HD
+set osd_displayport_device = MSP
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+
+# OSD Digital Placement
+set osd_craft_name_pos = 2105
+
+set osd_warnings_pos = 14680
+set osd_disarmed_pos = 2426
+
+set osd_avg_cell_voltage_pos = 2679
+set osd_vbat_pos = 2711
+
+set osd_link_quality_pos = 2687
+set osd_link_tx_power_pos = 2719
+
+set osd_flymode_pos = 2705
+set osd_throttle_pos = 2673
+
+set osd_core_temp_pos = 2657
+set osd_tim_2_pos = 2689
