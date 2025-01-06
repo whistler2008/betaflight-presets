@@ -820,7 +820,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_42.txt",
-      "hash": "8ade962179ff369a31fc4620d7b6bc79eef03149cb7065ce77176f30943dcb01",
+      "hash": "02fdb2df01153d88b993d850f1d2517e78d5ee58e00525b4a92a5f1e1203f437",
       "title": "AUX with GPS Rescue (Betaflight 4.2)",
       "firmware_version": [
         "4.2"
@@ -835,7 +835,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_43.txt",
-      "hash": "87d4244d54b0ed7c148319b6b6bad101d92b959bb4c9d151f671f7fe67958ed0",
+      "hash": "215c9217b122f5728fbbfb6c8f0d61bc712e63b052bacf55cabe84eeb7d5c425",
       "title": "AUX with GPS Rescue (Betaflight 4.3)",
       "firmware_version": [
         "4.3"
@@ -850,7 +850,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44_analog.txt",
-      "hash": "8a05c3259150738aaebe952564f39321868e65687ec0fcc77789ac7848ee4493",
+      "hash": "10a0787fa69c9181b8f3025aee6aee49c8d9de6191061575a3779ee5dd5b23df",
       "title": "AUX with GPS Rescue - Analog (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -866,7 +866,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44_digital_o3.txt",
-      "hash": "7a51c2a4c78c95f3af767c77b4ddbce41705bc0babc5b9723a69ecbecd722f76",
+      "hash": "b8259789428770df35073f15b9530c17d3f1c2c25be2ff17e297437301db8968",
       "title": "AUX with GPS Rescue - Digital O3 (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -882,7 +882,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44_digital_other.txt",
-      "hash": "e6bf1d5230e6b229dc1a827f4ee98d148a7b96a83c41c3aa0adba20004bc8e16",
+      "hash": "b608a2f9e716a6e6586ce84bae9c6f648d9bc383ed95aafb83e681cbd52ee3e9",
       "title": "AUX with GPS Rescue - Digital (Betaflight 4.4)",
       "firmware_version": [
         "4.4",

@@ -8,6 +8,9 @@
 #$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true
 
+# feature
+feature GPS
+
 # AUX
 aux 0 0 0 1550 2100 0 0
 aux 1 1 1 900 1300 0 0
