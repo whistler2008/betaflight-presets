@@ -1086,7 +1086,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_digital_other_lq.txt",
-      "hash": "6bd493ced1fb1e4a4520ad68a1112d1cd92882ccbb376854dda517c204d4a019",
+      "hash": "2e24902797acb3bc774090850a00f7a04e6f94753b59ddae55eb95997f2cfa3f",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1102,7 +1102,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_digital_other_rssi.txt",
-      "hash": "478fd42bcc037bc2996d606e8fc0fce8a94989ddf6946fd177da644942d46f40",
+      "hash": "fc1260e64627194533efd74de236e52046f8c99c7c94a60db42ec7c011e5d921",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
