@@ -1102,8 +1102,40 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_vista.txt",
-      "hash": "c540d587477d68d47fc7a2f21bcdb8466c56da75ece5844631cc6d0c5d512d68",
-      "title": "DJI Vista OSD settings (Betaflight 4.4-4.5)",
+      "hash": "d6872d257e58cf401999305e3680be8db49bd362892029b610e111820189d70f",
+      "title": "HD DJI Vista OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_vista_lq.txt",
+      "hash": "d2dc6c63eae2235c7bef6095a9ba5fb3b00b8669be3107b615406009be8120b8",
+      "title": "HD DJI Vista LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_vista_rssi.txt",
+      "hash": "058c8c69aa25e1b1dd528c23fb179f8f79197728357364616f427ae961f0276f",
+      "title": "HD DJI Vista RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1150,8 +1182,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc.txt",
-      "hash": "edfaa0767d08300a4987b580bd42d50eb54d74ffe58391aac76c6a1973868c6e",
-      "title": "NTSC OSD settings (Betaflight 4.4-4.5)",
+      "hash": "90f2e6c9144eeb2ec2eca8448a8960c4729a63b74af5b7deacb1f1d293ce9c6d",
+      "title": "Analog NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1166,8 +1198,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc_lq.txt",
-      "hash": "0560b9b9adceff504b59bcdaf76e2c1f89bcb60ef691cb7c3c4ce92583765f6b",
-      "title": "NTSC LQ OSD settings (Betaflight 4.4-4.5)",
+      "hash": "8840954d901fd2e3f5da1a9e0162d810566bd083ff3fe765f7d76f114e5c95a8",
+      "title": "Analog NTSC LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1182,8 +1214,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc_rssi.txt",
-      "hash": "61263f84e59d417bce4b1ac697810ec2cea2619c59b3a5fa2ed2397b5b6e5f29",
-      "title": "NTSC RSSI OSD settings (Betaflight 4.4-4.5)",
+      "hash": "f725d1192e92552d27cae887baa11766e9b823a97e5a21391e1c5bacd9161ec7",
+      "title": "Analog NTSC RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1198,8 +1230,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "2d88d321d25db3b99390b412d5d26557120f4610f743ab3a8bb59e91c3bda2be",
-      "title": "PAL OSD settings (Betaflight 4.4-4.5)",
+      "hash": "360bc0700615a0b13f24b0fbb4fbd4e9c6aaaae6e3da2c210b0620891a49d2f5",
+      "title": "Analog PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1214,8 +1246,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal_lq.txt",
-      "hash": "2ed97075eaacc796d3fb76ea72028448ec31dfc474254a4c2fa4c00eb6689495",
-      "title": "PAL LQ OSD settings (Betaflight 4.4-4.5)",
+      "hash": "a17ced7b2ba505317e8b3e28dda181386ef2378e7847d4a91628a2a4da2e0eb3",
+      "title": "Analog PAL LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1230,8 +1262,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal_rssi.txt",
-      "hash": "29a0ab814bcd28b6346966cfb9451385ccf439a7fa765eae5d452bfc1735ae11",
-      "title": "PAL RSSI OSD settings (Betaflight 4.4-4.5)",
+      "hash": "30188d390fc6ae979f8e4dcb2156cdeb4a5eabf73c1b52595e2087031fc39375",
+      "title": "Analog PAL RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3621,7 +3653,7 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "4c0ed225c97a5184e62a0e2184d4eecbff7e66370ca691f859471562da124f28",
+      "hash": "a0ba6766bdd41455183477ca8d0cf451e6d96a57ac014e8736d1e8803afeb8a9",
       "title": "OSD Placement (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",

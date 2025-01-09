@@ -1,11 +1,11 @@
-#$ TITLE: NTSC RSSI OSD settings (Betaflight 4.4-4.5)
+#$ TITLE: Analog NTSC RSSI OSD settings (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: NTSC RSSI OSD settings (Betaflight 4.4-4.5)
+#$ DESCRIPTION: Analog NTSC RSSI OSD settings (Betaflight 4.4-4.5)
 #$ HIDDEN: true
 
 # OSD RSSI
-set osd_rssi_pos = 2512
+set osd_rssi_pos = 2391

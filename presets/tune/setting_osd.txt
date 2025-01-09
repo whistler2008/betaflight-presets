@@ -41,6 +41,12 @@
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI Vista & LQ
 #$ INCLUDE: presets/osd/osd_44_hd_dji_vista.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_vista_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI Vista & RSSI
+#$ INCLUDE: presets/osd/osd_44_hd_dji_vista.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_vista_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS & LQ
