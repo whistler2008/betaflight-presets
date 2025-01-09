@@ -8,12 +8,14 @@
 #$ INCLUDE: presets/osd/osd_44_default.txt
 #$ HIDDEN: true
 
-# OSD NTSC
+# OSD System
 set vcd_video_system = NTSC
 set osd_displayport_device = MAX7456
 set osd_canvas_width = 30
 set osd_canvas_height = 13
 
+
+# OSD Placement
 set osd_vtx_channel_pos = 2113
 set osd_craft_name_pos = 2081
 set osd_flip_arrow_pos = 2094
@@ -21,7 +23,6 @@ set osd_flip_arrow_pos = 2094
 set osd_warnings_pos = 14593
 set osd_disarmed_pos = 2219
 
-set osd_warn_bitmask = 8175
 set osd_vbat_pos = 2408
 set osd_tim_2_pos = 2423
 set osd_flymode_pos = 2416

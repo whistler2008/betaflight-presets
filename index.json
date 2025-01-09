@@ -1053,56 +1053,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_44_digital_o3_lq.txt",
-      "hash": "1fb7a95a0b846d3d7fabf2435307e6182a973ff0f715c7ced2a771765455a7b3",
-      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_digital_o3_rssi.txt",
-      "hash": "75ded774b7742179977e030616c7a4ba9996bdde5a528bb36079f15e6d91e6ce",
-      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_digital_other_lq.txt",
-      "hash": "2e24902797acb3bc774090850a00f7a04e6f94753b59ddae55eb95997f2cfa3f",
-      "title": "Digital OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/osd/osd_44_digital_other_rssi.txt",
-      "hash": "fc1260e64627194533efd74de236e52046f8c99c7c94a60db42ec7c011e5d921",
+      "hash": "4e8dd4213d0ac0a512c0ac577450cdcb60a2b3311c853e01e5f782ff5e3b9d6f",
       "title": "Digital OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1117,9 +1069,73 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_lq.txt",
-      "hash": "8db3bc80ee46b5a404619e1e5069da23a06530b6daa84effa602bae9e54a7c1a",
-      "title": "LQ OSD settings (Betaflight 4.4-4.5)",
+      "fullPath": "presets/osd/osd_44_hd_avatar.txt",
+      "hash": "98c865732b3e09155a4165eafd2a370a874ee4d2c47c5f6564a69fa45069af16",
+      "title": "Avatar OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_o3.txt",
+      "hash": "6147327d588f631700010b600e9474b57c117ad0757fccb39a7dffac02c33e3c",
+      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_vista.txt",
+      "hash": "c540d587477d68d47fc7a2f21bcdb8466c56da75ece5844631cc6d0c5d512d68",
+      "title": "DJI Vista OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_wtfos.txt",
+      "hash": "d136cd3d26503900d7bdac2ddc827f18696a94a7c13fd918f5c9ef09f74c60e1",
+      "title": "DJI WTF_OS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_hdzero.txt",
+      "hash": "7c005585a93b6094b93bb8e82c5b85c43c86e4cc9c48b3c54da4be6a3fd5ba1f",
+      "title": "HDZero OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1134,7 +1150,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_ntsc.txt",
-      "hash": "8ebfe6b0458c85361a0256a40304b409ffd1001b7520ef771a15ba5d5f6d9dea",
+      "hash": "edfaa0767d08300a4987b580bd42d50eb54d74ffe58391aac76c6a1973868c6e",
       "title": "NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1182,7 +1198,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "c2149d09035315f73383a3ad5dc5305176f90672110645925596f7d347b669ce",
+      "hash": "2d88d321d25db3b99390b412d5d26557120f4610f743ab3a8bb59e91c3bda2be",
       "title": "PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1216,22 +1232,6 @@
       "fullPath": "presets/osd/osd_44_pal_rssi.txt",
       "hash": "29a0ab814bcd28b6346966cfb9451385ccf439a7fa765eae5d452bfc1735ae11",
       "title": "PAL RSSI OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_rssi.txt",
-      "hash": "ee15262871b3a1d70ab5cda255a42dc0f4efd14e21aebaba393bdabc1b086623",
-      "title": "RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3437,8 +3437,8 @@
     },
     {
       "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "f01c5268d31245b88a4baa9f15b0a9c972005662b0e821c089730f7eb1706ad1",
-      "title": "CineWhoop Tune 4.4/5",
+      "hash": "287d4810514a3a5f5e96966c557a0d3694d20f76ea62682420bc91678ad7b251",
+      "title": "CineWhoop Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3483,8 +3483,8 @@
     },
     {
       "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "a0fa3a3850291344e7ca072c3cf2dc2e4069f00dea2cf7040984d57f1eb088fc",
-      "title": "FreeStyle Tune 4.4/5",
+      "hash": "0f757a307cd475d0aeea8164cdf951feee36e5d705e3bc4eb9ab5bbccfa07df0",
+      "title": "FreeStyle Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3559,8 +3559,8 @@
     },
     {
       "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "78c7f0f557849a6444ec8002beca4682ed6bc63f192986ba09ccc2aa4af578c5",
-      "title": "RaceWhoop Tune 4.4/5",
+      "hash": "c9a3ce40b51a709a005b501905dc81bc06a078646e2c825848298e3171174dd7",
+      "title": "RaceWhoop Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3605,8 +3605,8 @@
     },
     {
       "fullPath": "presets/tune/race_44.txt",
-      "hash": "6d7dfc7b07628993db5415094e808fe08fee9a47856d0ece1321e037ddeb4989",
-      "title": "Race Tune 4.4/5",
+      "hash": "0b1dd9c12ee83fb61550f00c7ad75a3e3a55d3b5f9442c81080f7d647d16615a",
+      "title": "Race Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3615,6 +3615,22 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/setting_osd.txt",
+      "hash": "4c0ed225c97a5184e62a0e2184d4eecbff7e66370ca691f859471562da124f28",
+      "title": "OSD Placement (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
       ],
       "author": "Whistler2008",
       "priority": 0

@@ -1,0 +1,54 @@
+#$ TITLE: OSD Placement (Betaflight 4.4-4.5)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: osd
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: OSD Placement for Betaflight 4.4-4.5
+#$ DESCRIPTION: 
+
+
+#$ OPTION_GROUP BEGIN: OSD Placement
+
+#$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
+#$ INCLUDE: presets/osd/osd_44_pal.txt
+#$ INCLUDE: presets/osd/osd_44_pal_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
+#$ INCLUDE: presets/osd/osd_44_pal.txt
+#$ INCLUDE: presets/osd/osd_44_pal_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
+#$ INCLUDE: presets/osd/osd_44_ntsc.txt
+#$ INCLUDE: presets/osd/osd_44_ntsc_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
+#$ INCLUDE: presets/osd/osd_44_ntsc.txt
+#$ INCLUDE: presets/osd/osd_44_ntsc_rssi.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail & LQ
+#$ INCLUDE: presets/osd/osd_44_hd_avatar.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas & LQ
+#$ INCLUDE: presets/osd/osd_44_hd_dji_o3.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI Vista & LQ
+#$ INCLUDE: presets/osd/osd_44_hd_dji_vista.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS & LQ
+#$ INCLUDE: presets/osd/osd_44_hd_dji_wtfos.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital HDZero & LQ
+#$ INCLUDE: presets/osd/osd_44_hd_hdzero.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END

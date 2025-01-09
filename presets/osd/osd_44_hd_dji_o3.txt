@@ -8,13 +8,14 @@
 #$ INCLUDE: presets/osd/osd_44_default.txt
 #$ HIDDEN: true
 
-# OSD Digital
+# OSD System
 set vcd_video_system = HD
 set osd_displayport_device = MSP
 set osd_canvas_width = 53
 set osd_canvas_height = 20
 
-# OSD Digital Placement
+
+# OSD Placement
 set osd_craft_name_pos = 2102
 
 set osd_warnings_pos = 14645

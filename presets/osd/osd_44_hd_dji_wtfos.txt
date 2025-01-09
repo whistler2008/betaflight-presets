@@ -1,20 +1,21 @@
-#$ TITLE: Digital OSD settings (Betaflight 4.4-4.5)
+#$ TITLE: DJI WTF_OS OSD settings (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
-#$ DESCRIPTION: Digital OSD settings (Betaflight 4.4-4.5)
+#$ DESCRIPTION: DJI WTF_OS OSD settings (Betaflight 4.4-4.5)
 #$ INCLUDE: presets/osd/osd_44_default.txt
 #$ HIDDEN: true
 
-# OSD Digital System
+# OSD System
 set vcd_video_system = HD
 set osd_displayport_device = MSP
 set osd_canvas_width = 60
 set osd_canvas_height = 22
 
-# OSD Digital Placement
+
+# OSD Placement
 set osd_craft_name_pos = 2105
 
 set osd_warnings_pos = 14680

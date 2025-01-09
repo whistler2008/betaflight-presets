@@ -1,11 +1,11 @@
-#$ TITLE: RaceWhoop Tune 4.4/5
+#$ TITLE: RaceWhoop Tune (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: RaceWhoop Tune for Betaflight 4.4/5
+#$ DESCRIPTION: RaceWhoop Tune for Betaflight 4.4-4.5
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -46,47 +46,6 @@ set dshot_bidir = ON
 
 #$ OPTION BEGIN (CHECKED): Other
 #$ INCLUDE: presets/other/other.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: VTX & RX Type
-
-#$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
-#$ INCLUDE: presets/osd/osd_44_pal.txt
-#$ INCLUDE: presets/osd/osd_44_pal_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
-#$ INCLUDE: presets/osd/osd_44_pal.txt
-#$ INCLUDE: presets/osd/osd_44_pal_lq.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
-#$ INCLUDE: presets/osd/osd_44_ntsc.txt
-#$ INCLUDE: presets/osd/osd_44_ntsc_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
-#$ INCLUDE: presets/osd/osd_44_ntsc.txt
-#$ INCLUDE: presets/osd/osd_44_ntsc_lq.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Digital & RSSI
-#$ INCLUDE: presets/osd/osd_44_digital_other_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Digital & LQ
-#$ INCLUDE: presets/osd/osd_44_digital_other_lq.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Digital O3 & RSSI
-#$ INCLUDE: presets/osd/osd_44_digital_o3_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Digital O3 & LQ
-#$ INCLUDE: presets/osd/osd_44_digital_o3_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -236,32 +195,26 @@ set dshot_bidir = ON
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
 #$ INCLUDE: presets/rx/serial_sbus_43.txt
-#$ INCLUDE: presets/osd/osd_44_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
 #$ INCLUDE: presets/rx/serial_ibus_43.txt
-#$ INCLUDE: presets/osd/osd_44_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
 #$ INCLUDE: presets/rx/spi_sbus_ibus_43.txt
-#$ INCLUDE: presets/osd/osd_44_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
 #$ INCLUDE: presets/rx/race_elrs_200_43.txt
-#$ INCLUDE: presets/osd/osd_44_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
 #$ INCLUDE: presets/rx/race_elrs_200_43.txt
-#$ INCLUDE: presets/osd/osd_44_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
 #$ INCLUDE: presets/rx/race_elrs_500_43.txt
-#$ INCLUDE: presets/osd/osd_44_lq.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
