@@ -1,0 +1,277 @@
+#$ TITLE: CineWhoop Tune (Betaflight 4.4-4.5)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: tune
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: CineWhoop Tune for Betaflight 4.4-4.5
+#$ DESCRIPTION: 
+#$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
+#$ WARNING: EXPERIMENTAL
+
+
+#$ OPTION_GROUP BEGIN: Basic Setting
+
+#$ OPTION BEGIN (UNCHECKED): LED
+#$ INCLUDE: presets/other/custom_led.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): BEEPER
+#$ INCLUDE: presets/other/custom_beeper.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Rates
+#$ INCLUDE: presets/rates/rates_cinewhoop.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CRAFT Name
+set craft_name = CINEWHOOP
+set pilot_name = CINEWHOOP
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CAM Angle
+#$ INCLUDE: presets/other/custom_cam_angle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
+# per cell or whole pack voltage readings:
+set report_cell_voltage = ON
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): RPM Filter
+set motor_pwm_protocol = DSHOT300
+set dshot_bidir = ON
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Other
+#$ INCLUDE: presets/other/other.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Crash Recovery
+
+#$ OPTION BEGIN (CHECKED): Crash Recovery OFF
+#$ INCLUDE: presets/crash/crash_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery ON
+#$ INCLUDE: presets/crash/crash_on.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crash Recovery DISARM
+#$ INCLUDE: presets/crash/crash_disarm.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: BlackBox
+
+#$ OPTION BEGIN (UNCHECKED): OFF
+#$ INCLUDE: presets/blackbox/blackbox_off.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): GyroFlow
+#$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Battery
+
+#$ OPTION BEGIN (CHECKED): Battery Sag Compensation
+#$ INCLUDE: presets/battery/batt_sag.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Li-Ion - Minimum Cell Voltage 3.0V
+#$ INCLUDE: presets/battery/batt_30.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): LiPo/HV - Minimum Cell Voltage 3.3V
+#$ INCLUDE: presets/battery/batt_33.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV - Minimum Cell Voltage 3.5V
+#$ INCLUDE: presets/battery/batt_35.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Motor Pole
+
+#$ OPTION BEGIN (UNCHECKED): 12 Pole
+#$ INCLUDE: presets/poles/poles_12.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 14 Pole
+#$ INCLUDE: presets/poles/poles_14.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Gyro
+
+#$ OPTION BEGIN (UNCHECKED): BMI270
+#$ INCLUDE: presets/gyro/gyro_bmi270.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Other
+#$ INCLUDE: presets/gyro/gyro_other.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: ESC PWM
+
+#$ OPTION BEGIN (UNCHECKED): 24 kHz
+#$ INCLUDE: presets/esc/24.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): 48 kHz
+#$ INCLUDE: presets/esc/48.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 96 kHz
+#$ INCLUDE: presets/esc/96.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: D-Term Filter - RPM Filter ON
+
+#$ OPTION BEGIN (UNCHECKED): Noisy Motor
+#$ INCLUDE: presets/filter/rpm_noisy.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Normal Motor
+#$ INCLUDE: presets/filter/rpm_normal.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Clean Motor
+#$ INCLUDE: presets/filter/rpm_clean.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Propeller
+
+#$ OPTION BEGIN (UNCHECKED): 2 Blade
+#$ INCLUDE: presets/prop/prop_2_blade.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3 Blade
+#$ INCLUDE: presets/prop/prop_3_blade.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4-6 Blade
+#$ INCLUDE: presets/prop/prop_4_blade.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Max Supported Cell
+
+#$ OPTION BEGIN (UNCHECKED): 1S
+#$ INCLUDE: presets/pid/cinewhoop_42_1s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_1s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p0.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 2S
+#$ INCLUDE: presets/pid/cinewhoop_42_2s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_2s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_1s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_1s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p1.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3S
+#$ INCLUDE: presets/pid/cinewhoop_42_3s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_3s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_2s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_2s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_1s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_1s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4S
+#$ INCLUDE: presets/pid/cinewhoop_42_4s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_4s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_3s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_3s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_2s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_2s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p2.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 6S
+#$ INCLUDE: presets/pid/cinewhoop_42_6s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_6s_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_4s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_4s_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_42_3s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_43_3s_p2.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p0.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p1.txt
+#$ INCLUDE: presets/pid/cinewhoop_44_p2.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: RX Hardware
+
+#$ OPTION BEGIN (UNCHECKED): Serial SBUS
+#$ INCLUDE: presets/rx/serial_sbus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Serial IBUS
+#$ INCLUDE: presets/rx/serial_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+#$ INCLUDE: presets/rx/spi_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+#$ INCLUDE: presets/rx/cinewhoop_elrs_200.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+#$ INCLUDE: presets/rx/cinewhoop_elrs_200.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+#$ INCLUDE: presets/rx/cinewhoop_elrs_500.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: GPS Hardware
+
+#$ OPTION BEGIN (CHECKED): Without GPS
+#$ INCLUDE: presets/modes/aux_std.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): With GPS
+#$ INCLUDE: presets/modes/aux_gps.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END

@@ -130,7 +130,6 @@
       "4.5"
     ],
     "category": [
-      "BNF",
       "DEFAULT",
       "FACTORY",
       "RATES",
@@ -145,7 +144,6 @@
       "akk",
       "battery",
       "betafpv",
-      "bnf",
       "caos",
       "chipset",
       "default",
@@ -257,26 +255,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/blackbox/42_blackbox_gyroflow.txt",
-      "hash": "c3236ee81911e1bd720d5129ddce625907bd09caadd80ad4abcf3b99f9dd3c87",
-      "title": "BlackBox GyroFlow (Betaflight 4.2)",
+      "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
+      "hash": "242b8946302a672cef179f836402ba39e1022bb0e56e4d1239c9df83e52b9d4b",
+      "title": "BlackBox GyroFlow",
       "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/blackbox/43_blackbox_gyroflow.txt",
-      "hash": "fcb26d5f70a491b29b09b9a395e6c963e9c4deac3e493962c6b875083ebacf1e",
-      "title": "BlackBox GyroFlow (Betaflight 4.3)",
-      "firmware_version": [
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -289,178 +271,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/blackbox/off_blackbox.txt",
-      "hash": "52e8ca5ac545dfc7988d4c971208005c063a030f4072bb0c4145c5202c802c06",
+      "fullPath": "presets/blackbox/blackbox_off.txt",
+      "hash": "36debefc7181a49ef8f93c69e7474ba18698aaecea7f64d797b8e32615e74a6f",
       "title": "BlackBox OFF",
       "firmware_version": [
-        "4.2",
         "4.3",
-        "4.4",
         "4.5"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "default"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/bnf/andang.txt",
-      "hash": "b6799f0883cf9e6979308d412d8c4349f5daddb8474fc1590fdce09e7a14c992",
-      "title": "Agan Andang",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf"
-      ]
-    },
-    {
-      "fullPath": "presets/bnf/andang_alfarc.txt",
-      "hash": "9eb0a6ca6de86d977eddffd38954f9034a2af12cd33949484694e75558465a09",
-      "title": "AlfaRC Agan Andang",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/bnf/krisna.txt",
-      "hash": "8ae0cc983f0955c123e6f8586347bf385c1904c8add3926b91e7fcc06ce91abb",
-      "title": "Kang Krisna",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf"
-      ]
-    },
-    {
-      "fullPath": "presets/bnf/krisna_rcloud.txt",
-      "hash": "bad473323ff2fb37240307534ef026bd1fc9afd93d29a1184e1fd304ae9561e7",
-      "title": "RCloud Kang Krisna",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/bnf/reky.txt",
-      "hash": "57e551abe30cf1c872d52b3f210cbdac27bf1ce72e4ad448449162280085f7d1",
-      "title": "Agan Reky",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf"
-      ]
-    },
-    {
-      "fullPath": "presets/bnf/reky_flywoo.txt",
-      "hash": "212f459f441bb87a83bcac473f6c7c46e370e2399c8752b5b4dc17df7baa2455",
-      "title": "Toothpick Flywoo Agan Reky",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/bnf/reky_mob_elrs.txt",
-      "hash": "3a2871c08258ae5378094337b9c1919f64acbfe77cd88bb0d718aab005f5c629",
-      "title": "MicroWhoop Mobula6 ELRS Agan Reky",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/chipset/42_f4.txt",
-      "hash": "39295c0c90a504ae1dcf136a5e68d8f8a312b819c782224b0fcbc20147bb0a44",
-      "title": "Chipset F4 (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "chipset"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/chipset/42_f7.txt",
-      "hash": "09848a751db0622ae5a625023210c2d6f9a27de95b39cbd7ef76b3be54ddeca8",
-      "title": "Chipset F7 (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "chipset"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/chipset/43_f4.txt",
-      "hash": "877252978415f36ce08786580025aa7a3ed0821de7e12fadf0eda5033db9b2ab",
-      "title": "Chipset F4 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "chipset"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/chipset/43_f7.txt",
-      "hash": "210783bc032b54dbf1d10ddb843a0ac20a5cca40f4cb214adf26b7cc09ce37c5",
-      "title": "Chipset F7 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "chipset"
       ],
       "hidden": true,
       "priority": 0
@@ -524,11 +345,9 @@
     },
     {
       "fullPath": "presets/esc/24.txt",
-      "hash": "363e47c939e8a99c8478efe974f1ec6eb890f4dd5cde131258ad5d730c665dc3",
+      "hash": "9ce51184bfea9bc071db89dc36cd103686a36b5d1c6a0c1ff63f32ae80ac5af7",
       "title": "ESC PWM 24 kHz",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -542,11 +361,9 @@
     },
     {
       "fullPath": "presets/esc/48.txt",
-      "hash": "64ace3b0cfe31e68863591f46ee1319162cbe9b9739cc3d21ad6ebc1ab5920a0",
+      "hash": "df7da2ae79059ec28629db2742f6658bdb6821c77c041c02caf043a2b2aff739",
       "title": "ESC PWM 48 kHz",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -560,11 +377,9 @@
     },
     {
       "fullPath": "presets/esc/96.txt",
-      "hash": "7f9717265b2e89ed6e3640bb774111bd7f63d3057359a24a5460da8e80798a4b",
+      "hash": "518e454964f5222321580f6d76f60c123d7fc98d8c4dcac5bb102d77c6b3630d",
       "title": "ESC PWM 48 kHz",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -671,56 +486,10 @@
       ]
     },
     {
-      "fullPath": "presets/filter/42_rpm_clean.txt",
-      "hash": "86a286c04c4aa4b05581a7524d987eeda4df611981e214eca413297d730254fd",
-      "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
+      "fullPath": "presets/filter/rpm_clean.txt",
+      "hash": "4113b4b586d08f0deaf6f6d38ba4cc7f18191c1a08971ad4339dca5502506b63",
+      "title": "CLEAN MOTOR, PROP Filter - RPM Filter",
       "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/filter/42_rpm_noisy.txt",
-      "hash": "4e392b36ec25a4e3dbac1e118bd79a455ffcf6bdad1873626a463836bacbf78a",
-      "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/filter/42_rpm_normal.txt",
-      "hash": "d6165849b7b4e19ae42781762c935286eaed0e703c4a8d87032f57d5ac00ee07",
-      "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/filter/43_rpm_clean.txt",
-      "hash": "a8a48212b2d50bbf92c0ddc2c5839177ddc1b5e16525229b5782dd7e2a9edf62",
-      "title": "CLEAN MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.5)",
-      "firmware_version": [
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -733,11 +502,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/filter/43_rpm_noisy.txt",
-      "hash": "5251d30529b904bfd36bd22350a3502560d40a16e643a02cd313c38bce9e56b2",
-      "title": "NOISY MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.5)",
+      "fullPath": "presets/filter/rpm_noisy.txt",
+      "hash": "5966a1714e0e3020af5696fc57974341a4cbc14eb8b4069e1c6b9e4f4c91debf",
+      "title": "NOISY MOTOR, PROP Filter - RPM Filter",
       "firmware_version": [
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -750,11 +518,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/filter/43_rpm_normal.txt",
-      "hash": "31583d7233f390e2491e394c44d84b30dd995e2e659505930f1e53a5d80a3f6c",
-      "title": "NORMAL MOTOR, PROP Filter - RPM Filter (Betaflight 4.3-4.5)",
+      "fullPath": "presets/filter/rpm_normal.txt",
+      "hash": "5fdaee98cac4bec4502841562217cc2e645b9ca4f3d5a8387fac8e54279ca827",
+      "title": "NORMAL MOTOR, PROP Filter - RPM Filter",
       "firmware_version": [
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -767,11 +534,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/gyro/bmi270.txt",
-      "hash": "ab7130bb2da99a3238848dca6664cea36caa6f0d1196fb5184ac63a8b1923ab3",
-      "title": "Gyro_BMI270 (Betaflight 4.3-4.5)",
+      "fullPath": "presets/gyro/gyro_bmi270.txt",
+      "hash": "8235b64155800baad38605f07853dc86c881d65f13d5723a562c4075c0c2ee5d",
+      "title": "Gyro_BMI270",
       "firmware_version": [
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -784,11 +550,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/gyro/other.txt",
-      "hash": "36127498fa55df3836da3e78a57609cf576e3f9642be2ab6bdedf7a8d5db477e",
-      "title": "Gyro_Other (Betaflight 4.3-4.5)",
+      "fullPath": "presets/gyro/gyro_other.txt",
+      "hash": "e7af341dcadb1f9544a089f678c30a73371c0d48608eadd4800db6a350db753c",
+      "title": "Gyro_Other",
       "firmware_version": [
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -796,6 +561,23 @@
       "status": "COMMUNITY",
       "keywords": [
         "chipset"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/modes/40_aux_std.txt",
+      "hash": "550f7d02a1629ba1bf99c06053990b52c302c4808df3f19a68e1d1160ac957da",
+      "title": "AUX Standard (Betaflight 4.3)",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes"
       ],
       "hidden": true,
       "priority": 0
@@ -819,71 +601,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/modes/aux_gps_42.txt",
-      "hash": "02fdb2df01153d88b993d850f1d2517e78d5ee58e00525b4a92a5f1e1203f437",
-      "title": "AUX with GPS Rescue (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "modes"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/modes/aux_gps_43.txt",
-      "hash": "215c9217b122f5728fbbfb6c8f0d61bc712e63b052bacf55cabe84eeb7d5c425",
-      "title": "AUX with GPS Rescue (Betaflight 4.3)",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "modes"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/modes/aux_gps_44_analog.txt",
-      "hash": "50285d188bc4d934a8e5fa87a3ed94761d5574c3fa3d00bd1708f067ac4cf771",
-      "title": "AUX with GPS Rescue - Analog (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "modes"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/modes/aux_gps_44_digital_o3.txt",
-      "hash": "b8259789428770df35073f15b9530c17d3f1c2c25be2ff17e297437301db8968",
-      "title": "AUX with GPS Rescue - Digital O3 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "modes"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/modes/aux_gps_44_digital_other.txt",
-      "hash": "b608a2f9e716a6e6586ce84bae9c6f648d9bc383ed95aafb83e681cbd52ee3e9",
-      "title": "AUX with GPS Rescue - Digital (Betaflight 4.4)",
+      "fullPath": "presets/modes/aux_gps.txt",
+      "hash": "b3e42ac7d84a3f49e2c095e1efb229c8901a8e09dab8a6850623603b069bf63f",
+      "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -898,25 +618,8 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "e311844385cd0e35ff82a6fcc7eee0cbf7e2bc36ebb4dec81984ffe26828bba1",
-      "title": "AUX Standard (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "modes"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/modes/aux_std_44.txt",
-      "hash": "e0a66b80ab021eccd31d3041b8a659ddab7384e4fb215b444fa58f479e0a12cb",
-      "title": "AUX Standard (Betaflight 4.4)",
+      "hash": "ae08f43e39d3066ddeb2a5e21e187489bb4d5f5b1da849e9d17ad5450d1a24eb",
+      "title": "AUX Standard",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -930,7 +633,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_40_default.txt",
+      "fullPath": "presets/osd/40_osd_default.txt",
       "hash": "016b7ec96b2cf055c62f52ac3a5477e93a1e7d5d6839e4233774a473bb750014",
       "title": "Default OSD settings (Betaflight 4.0)",
       "firmware_version": [
@@ -944,8 +647,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_40_global.txt",
-      "hash": "1264a479f32c3a364a8ad601b3a498b21180735a7fbe432bc59d8f2b747105b5",
+      "fullPath": "presets/osd/40_osd_global.txt",
+      "hash": "d010fd295ef22af0ef23d2db4dc1b09271634844febab7e3f9a600d2641ce062",
       "title": "Global OSD settings (Betaflight 4.0)",
       "firmware_version": [
         "4.0"
@@ -959,86 +662,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_42_default.txt",
-      "hash": "d47322fb30d4551720a88e0aed82d7085c5fe726d343523b4747701955b6bec7",
-      "title": "Default OSD settings (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "DEFAULT",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_42_lq.txt",
-      "hash": "87f23ee30c54ec1590ecae1472fb0465d7fadfeceb94ba7e332d7c53899557d2",
-      "title": "LQ OSD settings (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_42_ntsc.txt",
-      "hash": "7ae71ef0061f918a1f346a9e0113c05dbf46a5f550aaa3b59bb8bf205cad2697",
-      "title": "Global OSD settings (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_42_pal.txt",
-      "hash": "f2e0953c4d83373735fb169db86cea9f545f2aa3775f445bace4f0e1ad722d06",
-      "title": "Global OSD settings (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_42_rssi.txt",
-      "hash": "d60048b69fdc5908d7b1f713eec7161f1c580df2d874608715a11c527b9d274a",
-      "title": "RSSI OSD settings (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_analog_gps.txt",
+      "fullPath": "presets/osd/osd_analog_gps.txt",
       "hash": "f09bbb9d3b40d66e71772120c43b23f32a66babe69a8d052ea97518e510007f2",
       "title": "Analog GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1054,8 +678,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_analog_ntsc.txt",
-      "hash": "90f2e6c9144eeb2ec2eca8448a8960c4729a63b74af5b7deacb1f1d293ce9c6d",
+      "fullPath": "presets/osd/osd_analog_ntsc.txt",
+      "hash": "11ec1385d79eca74131544ea6e448c5dd16214fdb6ed7dcfdbce630aed147901",
       "title": "Analog NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1070,7 +694,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_analog_ntsc_lq.txt",
+      "fullPath": "presets/osd/osd_analog_ntsc_lq.txt",
       "hash": "1e50c9a9167d7d12d989336d8ba846047c8bbca1a58fe1050961a3c0e9104b12",
       "title": "Analog NTSC LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1086,7 +710,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_analog_ntsc_rssi.txt",
+      "fullPath": "presets/osd/osd_analog_ntsc_rssi.txt",
       "hash": "d5212d3fc51aae0bd079a133a62b7ad43f066f510912c6ef41afa7a7dd51f3de",
       "title": "Analog NTSC RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1102,8 +726,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_analog_pal.txt",
-      "hash": "360bc0700615a0b13f24b0fbb4fbd4e9c6aaaae6e3da2c210b0620891a49d2f5",
+      "fullPath": "presets/osd/osd_analog_pal.txt",
+      "hash": "0631549b77b87755850dbdccc3ac4e7c766dc1fe9c186cb4690aaba073483d42",
       "title": "Analog PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1118,7 +742,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_analog_pal_lq.txt",
+      "fullPath": "presets/osd/osd_analog_pal_lq.txt",
       "hash": "a17ced7b2ba505317e8b3e28dda181386ef2378e7847d4a91628a2a4da2e0eb3",
       "title": "Analog PAL LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1134,7 +758,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_analog_pal_rssi.txt",
+      "fullPath": "presets/osd/osd_analog_pal_rssi.txt",
       "hash": "b82b1ec3e10d3e5d107852d8617564eff77bda3b19ce06fab044e4fe5d975830",
       "title": "Analog PAL RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1150,7 +774,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_default.txt",
+      "fullPath": "presets/osd/osd_default.txt",
       "hash": "a8a0ea8c694414f42642ab5d5d8750a621c753f1ed7f317684eb378127359879",
       "title": "Default OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1165,8 +789,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_avatar.txt",
-      "hash": "f15d4db7f7577396bfac735cde7d0bb3fe4592f4793ae8978e20c7e004f1de3f",
+      "fullPath": "presets/osd/osd_hd_avatar.txt",
+      "hash": "2d5ee44942fa5036ce800048dba820f26b6c187cc5d34a564466e599e3f2e2a2",
       "title": "HD Avatar OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1181,7 +805,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_avatar_gps.txt",
+      "fullPath": "presets/osd/osd_hd_avatar_gps.txt",
       "hash": "cf818bab7202b604b51c0e12f3cb3858ee691d7b3d7883bfc6a2bc4e290fb709",
       "title": "HD Avatar GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1197,8 +821,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_fpv.txt",
-      "hash": "929c2719a4be81d7c2632f6cdfbf3e1ad73228950487003031657e05ee6624ff",
+      "fullPath": "presets/osd/osd_hd_dji_fpv.txt",
+      "hash": "179e602e5805853be6aff5f2a4e402609f2fe1bc898fd5178f33af42b6275850",
       "title": "HD DJI FPV OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1213,7 +837,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_fpv_gps.txt",
+      "fullPath": "presets/osd/osd_hd_dji_fpv_gps.txt",
       "hash": "f213527f309743b56eec5b65b073a024b271f2ef9628f3c871a1e7f638231bad",
       "title": "HD DJI FPV GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1229,7 +853,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_fpv_lq.txt",
+      "fullPath": "presets/osd/osd_hd_dji_fpv_lq.txt",
       "hash": "01f23aff1417eaac63862c1e0639e4c9b143ba25b80bb54d053ff5c64067b3ee",
       "title": "HD DJI FPV LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1245,7 +869,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_fpv_rssi.txt",
+      "fullPath": "presets/osd/osd_hd_dji_fpv_rssi.txt",
       "hash": "b7a7d1f2cc0b6ed845a28a4b87af138838c7be454fc3dd4cd19da9a4df172fbe",
       "title": "HD DJI FPV RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1261,8 +885,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_o3.txt",
-      "hash": "eabeca599f20d83f1b46508382ea80c280f7545784d35f0ccfa7d8bf7b419144",
+      "fullPath": "presets/osd/osd_hd_dji_o3.txt",
+      "hash": "c4001a53d740ae53a8f4abfe51fc3f6c7e50aa19b362d56368a58c269ed87abe",
       "title": "HD DJI O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1277,7 +901,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_o3_gps.txt",
+      "fullPath": "presets/osd/osd_hd_dji_o3_gps.txt",
       "hash": "5708fd0daa03de2998ad2eeffc127e2444d9baceb51f6ed920df7c5df8d191a5",
       "title": "HD DJI O3 GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1293,7 +917,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_o3_lq.txt",
+      "fullPath": "presets/osd/osd_hd_dji_o3_lq.txt",
       "hash": "2b1165246e8bae84bfc449ddd63c95338f18e2d48a87b361ebe690676c5cd1fc",
       "title": "HD DJI O3 LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1309,7 +933,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_o3_rssi.txt",
+      "fullPath": "presets/osd/osd_hd_dji_o3_rssi.txt",
       "hash": "04bc8f6593852e9d53b1070f62eea8fc63ab0cf7339c70169510f38c24761d6f",
       "title": "HD DJI O3 RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1325,8 +949,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_wtfos.txt",
-      "hash": "34caead1f55978ce06642898dabcc68b0fe9cd369d184002aed0f8ee97bc5f5e",
+      "fullPath": "presets/osd/osd_hd_dji_wtfos.txt",
+      "hash": "0c0e0ffa3d6902cab5b10b6eb27a2184bf4607084f216ec493a4382375007cad",
       "title": "DJI WTFOS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1341,7 +965,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_wtfos_gps.txt",
+      "fullPath": "presets/osd/osd_hd_dji_wtfos_gps.txt",
       "hash": "16110a2403bf4db724bff94f046290b91a044549dd8ed236041555341e257316",
       "title": "HD DJI WTFOS GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1357,8 +981,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_hdzero.txt",
-      "hash": "548f370f91482ffc0f24ac3d33a3cba639c49e7306ba34f1839fefd7ac35e425",
+      "fullPath": "presets/osd/osd_hd_hdzero.txt",
+      "hash": "35066d2b8546f2b60128abf59c982cb2ef81c93612b4e1c8b5cc78afa4278363",
       "title": "HD Zero OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1373,7 +997,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_hdzero_gps.txt",
+      "fullPath": "presets/osd/osd_hd_hdzero_gps.txt",
       "hash": "3cac1dbc145175e7d3eaa577f8a76fc73e1bc3e053f80323b901deae85f7f728",
       "title": "HD Zero GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
@@ -1409,7 +1033,7 @@
     },
     {
       "fullPath": "presets/other/custom_cam_angle.txt",
-      "hash": "080243a47fc751ba8a8d70fd5e18cd61654ebc2209462788f245466e0b49f632",
+      "hash": "ff7517810c1e4bac9cc3e52f6ff09f3dbbc41e84ed2f01332474817635119af5",
       "title": "Custom CAM Angle Setting",
       "firmware_version": [
         "4.0",
@@ -3192,7 +2816,39 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/prop/2_blade.txt",
+      "fullPath": "presets/poles/poles_12.txt",
+      "hash": "cdef5332bc443b43898ae6b6148c08d92e15347ecdda6763c116be4a046960b9",
+      "title": "Default RPM Filter - 12 Poles",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rpm_filter"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/poles/poles_14.txt",
+      "hash": "4c2500d5ce0d0745690e1d45fb10088241c7fd1c59606a567933004153e68a82",
+      "title": "Default RPM Filter - 14 Poles",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rpm_filter"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/prop/prop_2_blade.txt",
       "hash": "96a5abf444e82d160bb18d398f0b581cfbe09f3c53b2a8786c4fca82b7ced027",
       "title": "2 Blade Dimmable RPM Harmonics",
       "firmware_version": [
@@ -3207,7 +2863,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/prop/3_blade.txt",
+      "fullPath": "presets/prop/prop_3_blade.txt",
       "hash": "0ec6760a2c28e74a76e7349c815b4264dc194356b77f397193bdbe8fdf645112",
       "title": "3 Blade Dimmable RPM Harmonics",
       "firmware_version": [
@@ -3222,7 +2878,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/prop/4_blade.txt",
+      "fullPath": "presets/prop/prop_4_blade.txt",
       "hash": "702599237d1a29d6d5b74785702d2e212dc7a81d843102fed49db5f557ee1c35",
       "title": "4-6 Blade Dimmable RPM Harmonics",
       "firmware_version": [
@@ -3237,12 +2893,10 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rate/cinewhoop.txt",
-      "hash": "85c88df1a8008363ecb8be7355e454beb753b93597b85a520a35d27decbfc4fc",
+      "fullPath": "presets/rates/rates_cinewhoop.txt",
+      "hash": "325cecc0c06153e53c7a70c0d73b3eed4276ad6bc72b35d1d35c7bbe812c9496",
       "title": "CineWhoop Rate Profile",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -3254,12 +2908,10 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rate/default.txt",
-      "hash": "4bdf67e36738787f109492c597cfcb1243413605cca8958fe5412146dabcfc75",
+      "fullPath": "presets/rates/rates_default.txt",
+      "hash": "d480b664b8adf7934fb3e35445abb6b75cf4ac49e7a49d25570dda64f9b637df",
       "title": "Default Rate",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -3271,12 +2923,10 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rate/freestyle.txt",
-      "hash": "ed1ea4eefa2463960cf9a0caac9765e53c3f6e2abd16700d7768513f7f0b3677",
+      "fullPath": "presets/rates/rates_freestyle.txt",
+      "hash": "2cd2aaedbf7b1aede274a13f753d75040535a1b2edc8010e1df3becf17f6d7ca",
       "title": "FreeStyle Rate Profile",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -3288,12 +2938,10 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rate/race.txt",
-      "hash": "75e3d245cf72b23bd2d83a586288061a76ecdff227e05b9d7af1f7222675fd21",
+      "fullPath": "presets/rates/rates_race.txt",
+      "hash": "889503372bb15f7b2e2d309b5a128dc369a63de57e831fa1afbecff95a7b72db",
       "title": "Race Rate Profile",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -3305,12 +2953,10 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rate/racewhoop.txt",
-      "hash": "bfb5a43fcb720ff138eda9f70c8504cc03cf624b0b06f988915c5ad4d5180fc8",
+      "fullPath": "presets/rates/rates_racewhoop.txt",
+      "hash": "3cbce628b226df646d5fab5d2b09e9dba6e9a0422a1019524d83b8c0ab680d0f",
       "title": "RaceWhoop Rate Profile",
       "firmware_version": [
-        "4.2",
-        "4.3",
         "4.4",
         "4.5"
       ],
@@ -3322,61 +2968,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rpm_filter/12.txt",
-      "hash": "fabd210f0b0f20ee9284b6c8a9b56ca70f300d82a9e38474dab0417664d77835",
-      "title": "Default RPM Filter - 12 Poles",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rpm_filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/rpm_filter/14.txt",
-      "hash": "d66df658da068887b45c2bf05194e8d5ad1b32b83acbe26cdc062c182f8ed064",
-      "title": "Default RPM Filter - 14 Poles",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rpm_filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/rpm_filter/off.txt",
-      "hash": "5a7e044a0fbb7f5d6f925ce5f065e562f9b5804404a573b2e7e284159f1022f0",
-      "title": "Default RPM Filter - OFF",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rpm_filter"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/rx/cinewhoop_elrs_200_43.txt",
+      "fullPath": "presets/rx/cinewhoop_elrs_200.txt",
       "hash": "b583e31b05c3db123bd4088a7ae018cf7dbbd5c6fb8a5da93455092f40cf29bb",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3392,7 +2984,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/cinewhoop_elrs_500_43.txt",
+      "fullPath": "presets/rx/cinewhoop_elrs_500.txt",
       "hash": "49eaa125cee237a7d6d924385e43671be6f5a7a60d26112f0fdcd236e811e5a2",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3408,21 +3000,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/elrs_4.2.txt",
-      "hash": "dd6610958f633edd1bb389bf52bbd1f6baa3325a458eca80ebb12a3ace4c2a5e",
-      "title": "RX ELRS (Betaflight 4.2)",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "RX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "rx"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/rx/freestyle_elrs_200_43.txt",
+      "fullPath": "presets/rx/freestyle_elrs_200.txt",
       "hash": "0d077f11d3f9b6cd94beaf5a49629e26f7892dda3b52a84ab7e62eaab89a941e",
       "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3438,7 +3016,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/freestyle_elrs_500_43.txt",
+      "fullPath": "presets/rx/freestyle_elrs_500.txt",
       "hash": "e879261070095273a70db80769b5054ca37e5782ba6754dff3b9022f38e48e8c",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3454,7 +3032,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/race_elrs_200_43.txt",
+      "fullPath": "presets/rx/race_elrs_200.txt",
       "hash": "b14551fb34738ce43c195e58dd864316ee978c6e21752fb4f9eb5d349c233ba7",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3470,7 +3048,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/race_elrs_500_43.txt",
+      "fullPath": "presets/rx/race_elrs_500.txt",
       "hash": "3335bddd88aea90b58f20ca7f3d253e2ac14ab0eab566e532b6f4a698a42a23d",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3486,7 +3064,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/serial_ibus_43.txt",
+      "fullPath": "presets/rx/serial_ibus.txt",
       "hash": "9f4cd151f18a83c2185450dac26e524a6521d43e468a2b5650a65c445f086ee5",
       "title": "RX Serial IBUS",
       "firmware_version": [
@@ -3502,7 +3080,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/serial_sbus_43.txt",
+      "fullPath": "presets/rx/serial_sbus.txt",
       "hash": "a5920aa05bbc0e3120b1ec5935d588a39e85f36f7c232aed56d086981ffc6aeb",
       "title": "RX Serial SBUS",
       "firmware_version": [
@@ -3518,7 +3096,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/spi_elrs_150_43.txt",
+      "fullPath": "presets/rx/spi_elrs_150.txt",
       "hash": "5401b8eafd0da4722bf739068cdd6708691910922270049582f9137e75aa65d6",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3534,7 +3112,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/spi_sbus_ibus_43.txt",
+      "fullPath": "presets/rx/spi_sbus_ibus.txt",
       "hash": "06d7545a52b29c59bcebe6de7f9a264c326207810b643a6085054f010b13c58c",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
@@ -3550,14 +3128,14 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/tune/cinewhoop_42.txt",
-      "hash": "a95e3c91e4130c620512434698709a8c575e61578ddffe149679720ded69da39",
-      "title": "CineWhoop Tune 4.2",
+      "fullPath": "presets/tune/40_tune_mockingbrid_f3.txt",
+      "hash": "4d375d4f43334cbf1a9a8d99b4cf4770d48db4b7d7642b4f58ee5e7ac0dbf9ae",
+      "title": "MockingBird 1-2S F3 4.0",
       "firmware_version": [
-        "4.2"
+        "4.0"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "tune"
       ],
@@ -3565,23 +3143,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/tune/cinewhoop_43.txt",
-      "hash": "8b411c2aeee3005e5e4f4328efab2f64848f2940b42a6fc4b38c70ca769e80d3",
-      "title": "CineWhoop Tune 4.3",
+      "fullPath": "presets/tune/setting_osd.txt",
+      "hash": "c97330ee58e729f0976a87ae8233aa37252cd87ad4c1edd4b85ad58ef46cfc09",
+      "title": "OSD Placement (Betaflight 4.4-4.5)",
       "firmware_version": [
-        "4.3"
+        "4.4",
+        "4.5"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
-        "tune"
+        "osd"
       ],
       "author": "Whistler2008",
       "priority": 0
     },
     {
-      "fullPath": "presets/tune/cinewhoop_44.txt",
-      "hash": "287d4810514a3a5f5e96966c557a0d3694d20f76ea62682420bc91678ad7b251",
+      "fullPath": "presets/tune/tune_cinewhoop.txt",
+      "hash": "988972bb30cae28ffbcf01ab6da91fc67f652ca12564b3fec73194349be3e4d1",
       "title": "CineWhoop Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3596,38 +3175,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/tune/freestyle_42.txt",
-      "hash": "ca2903a8fb4ced055a07343237bf564c217de43634245de8055740dfe25f57aa",
-      "title": "FreeStyle Tune 4.2",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/freestyle_43.txt",
-      "hash": "06722944fcf98fdda09082d0c8d697ba3e4dd72c75535cba4a443caaa2699949",
-      "title": "FreeStyle Tune 4.3",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/freestyle_44.txt",
-      "hash": "0f757a307cd475d0aeea8164cdf951feee36e5d705e3bc4eb9ab5bbccfa07df0",
+      "fullPath": "presets/tune/tune_freestyle.txt",
+      "hash": "0d0a7fc7c14e1bbb7191f3d35d5582cd93d07ffaa219d1f6cc4bc0f6ad781dd2",
       "title": "FreeStyle Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3642,114 +3191,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/tune/mockingbrid_f3_40.txt",
-      "hash": "131af2683c0d9536ddee63a17b3478df7e8d23831c5aec73c9227776f1625f67",
-      "title": "MockingBird 1-2S F3 4.0",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/mockingbrid_f4_42.txt",
-      "hash": "eaed1e3a85fe9a80a8d510b3817011a1e7ea1b70f8e6bb4b1c533589d5ab349d",
-      "title": "MockingBird 1-2S F4 4.2",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/racewhoop_42.txt",
-      "hash": "44f5d9a519343998157fb38f86ec5b03f05d5d360ba5b5de98a3c042a59e51bf",
-      "title": "RaceWhoop Tune 4.2",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/racewhoop_43.txt",
-      "hash": "c872741ab7f6125cb370e9861eb4833956b0d2de4698b4c292393dd127ece7da",
-      "title": "RaceWhoop Tune 4.3",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/racewhoop_44.txt",
-      "hash": "c9a3ce40b51a709a005b501905dc81bc06a078646e2c825848298e3171174dd7",
-      "title": "RaceWhoop Tune (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/race_42.txt",
-      "hash": "1c83d16deea663514694953f5b375883b7bc18afd0aa26571a929a2161f2f55d",
-      "title": "Race Tune 4.2",
-      "firmware_version": [
-        "4.2"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/race_43.txt",
-      "hash": "0d8cb31f842380abc7b5a0ed1de38ca1f80864e0a90a16477679d687bee1abef",
-      "title": "Race Tune 4.3",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/race_44.txt",
-      "hash": "0b1dd9c12ee83fb61550f00c7ad75a3e3a55d3b5f9442c81080f7d647d16615a",
+      "fullPath": "presets/tune/tune_race.txt",
+      "hash": "30106d3352561d490029b652b2b31c8c71d38d878ae55a40fa473da8bf009346",
       "title": "Race Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -3764,17 +3207,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "418a57b0e54a4b7e258eab8ed1c82580b379506584db8e4ee25f1ade2afd87cd",
-      "title": "OSD Placement (Betaflight 4.4-4.5)",
+      "fullPath": "presets/tune/tune_racewhoop.txt",
+      "hash": "b0720550632803e90e1583b62d506e517444ae77e2d63c6ca6866c7a2928e956",
+      "title": "RaceWhoop Tune (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "osd"
+        "tune"
       ],
       "author": "Whistler2008",
       "priority": 0

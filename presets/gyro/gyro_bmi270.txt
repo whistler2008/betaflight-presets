@@ -1,0 +1,16 @@
+#$ TITLE: Gyro_BMI270
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: chipset
+#$ DESCRIPTION: Setting for BMI270 Gyro
+#$ HIDDEN: true
+
+# Gyro_Other Denom
+set pid_process_denom = 1
+
+# Gyro_BMI270
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0

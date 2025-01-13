@@ -1,0 +1,90 @@
+#$ TITLE: Default Rate
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rate
+#$ DESCRIPTION: Default Rate
+#$ HIDDEN: true
+
+
+# Motor Direction
+set yaw_motors_reversed = OFF
+
+# Default Rate
+#profile 0
+
+# profile 0
+#set angle_level_strength = 50
+#set horizon_level_strength = 50
+#set horizon_transition = 75
+#set level_limit = 55
+
+#profile 1
+#set angle_level_strength = 50
+#set horizon_level_strength = 50
+#set horizon_transition = 75
+#set level_limit = 55
+
+#profile 2
+#set angle_level_strength = 50
+#set horizon_level_strength = 50
+#set horizon_transition = 75
+#set level_limit = 55
+
+# restore original profile selection
+profile 0
+
+# rateprofile 0
+rateprofile 0
+
+set rates_type = ACTUAL
+set roll_rc_rate = 7
+set pitch_rc_rate = 7
+set yaw_rc_rate = 7
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 0
+set roll_srate = 67
+set pitch_srate = 67
+set yaw_srate = 67
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+
+# rateprofile 1
+rateprofile 1
+
+set rates_type = ACTUAL
+set roll_rc_rate = 7
+set pitch_rc_rate = 7
+set yaw_rc_rate = 7
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 0
+set roll_srate = 67
+set pitch_srate = 67
+set yaw_srate = 67
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+
+# rateprofile 2
+rateprofile 2
+
+set rates_type = ACTUAL
+set roll_rc_rate = 7
+set pitch_rc_rate = 7
+set yaw_rc_rate = 7
+set roll_expo = 0
+set pitch_expo = 0
+set yaw_expo = 0
+set roll_srate = 67
+set pitch_srate = 67
+set yaw_srate = 67
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+
+# restore original rateprofile selection
+rateprofile 0

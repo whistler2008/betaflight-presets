@@ -1,0 +1,32 @@
+#$ TITLE: DJI WTFOS OSD settings (Betaflight 4.4-4.5)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: osd
+#$ DESCRIPTION: DJI WTFOS OSD settings (Betaflight 4.4-4.5)
+#$ INCLUDE: presets/osd/osd_default.txt
+#$ HIDDEN: true
+
+# OSD System
+set vcd_video_system = HD
+set osd_displayport_device = MSP
+set osd_canvas_width = 60
+set osd_canvas_height = 22
+
+
+# OSD Placement
+set osd_craft_name_pos = 2105
+set osd_flip_arrow_pos = 2142
+
+set osd_disarmed_pos = 2394
+
+set osd_flymode_pos = 2593
+set osd_core_temp_pos = 2625
+set osd_tim_2_pos = 2657
+
+set osd_warnings_pos = 15032
+
+set osd_throttle_pos = 3575
+set osd_link_quality_pos = 3605
+set osd_avg_cell_voltage_pos = 3637

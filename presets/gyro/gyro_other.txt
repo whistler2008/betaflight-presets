@@ -1,0 +1,18 @@
+#$ TITLE: Gyro_Other
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: chipset
+#$ DESCRIPTION: Setting for Other Gyro
+#$ HIDDEN: true
+
+
+# Gyro_Other Denom
+set pid_process_denom = 2
+
+# Gyro_Other Filter
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 750
+set gyro_lpf1_dyn_min_hz = 0
+set simplified_gyro_filter_multiplier = 150

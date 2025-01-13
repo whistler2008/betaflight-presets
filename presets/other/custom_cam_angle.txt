@@ -11,5 +11,5 @@
 #$ HIDDEN: true
 
 # CAM angle
-set fpv_mix_degrees = 15
+set fpv_mix_degrees = 10
 set small_angle = 180

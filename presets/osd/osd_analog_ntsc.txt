@@ -1,0 +1,33 @@
+#$ TITLE: Analog NTSC OSD settings (Betaflight 4.4-4.5)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: osd
+#$ DESCRIPTION: Analog NTSC OSD settings (Betaflight 4.4-4.5)
+#$ INCLUDE: presets/osd/osd_default.txt
+#$ HIDDEN: true
+
+# OSD System
+set vcd_video_system = NTSC
+set osd_displayport_device = MAX7456
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+
+
+# OSD Placement
+set osd_craft_name_pos = 2090
+set osd_flip_arrow_pos = 2127
+
+set osd_disarmed_pos = 2251
+
+set osd_flymode_pos = 2337
+set osd_core_temp_pos = 2369
+set osd_tim_2_pos = 2401
+
+set osd_warnings_pos = 14665
+set osd_vtx_channel_pos = 2410
+
+set osd_throttle_pos = 2361
+
+set osd_avg_cell_voltage_pos = 2423

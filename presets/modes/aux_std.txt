@@ -1,15 +1,14 @@
-#$ TITLE: AUX Standard (Betaflight 4.2-4.3)
-#$ FIRMWARE_VERSION: 4.0
-#$ FIRMWARE_VERSION: 4.2
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: AUX Standard
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: modes
-#$ DESCRIPTION: AUX Standard (Betaflight 4.2-4.3)
+#$ DESCRIPTION: AUX Standard
 #$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true
 
-# aux
+# AUX
 aux 0 0 0 1550 2100 0 0
 aux 1 1 1 900 1300 0 0
 aux 2 13 2 1700 2100 0 0
@@ -21,12 +20,7 @@ aux 4 35 3 1700 2100 0 0
 rxfail 3 s 1100
 rxfail 5 s 1100
 
-# master
+# Failsafe Setting
 set failsafe_off_delay = 75
-set failsafe_throttle = 1350
+set failsafe_throttle = 1150
 set failsafe_procedure = AUTO-LAND
-
-# osd
-set osd_warn_no_gps_rescue = OFF
-set osd_warn_gps_rescue_disabled = OFF
-set osd_stat_max_dist = OFF
