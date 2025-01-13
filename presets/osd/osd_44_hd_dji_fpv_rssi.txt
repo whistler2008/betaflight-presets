@@ -1,0 +1,12 @@
+#$ TITLE: HD DJI FPV RSSI OSD settings (Betaflight 4.4-4.5)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: osd
+#$ DESCRIPTION: HD DJI FPV RSSI OSD settings (Betaflight 4.4-4.5)
+#$ HIDDEN: true
+
+# OSD RSSI
+set osd_rssi_pos = 2458
+set osd_throttle_pos = 2489

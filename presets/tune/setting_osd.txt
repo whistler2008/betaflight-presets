@@ -39,14 +39,14 @@
 #$ INCLUDE: presets/osd/osd_44_hd_dji_o3.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI Vista & LQ
-#$ INCLUDE: presets/osd/osd_44_hd_dji_vista.txt
-#$ INCLUDE: presets/osd/osd_44_hd_dji_vista_lq.txt
+#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & LQ
+#$ INCLUDE: presets/osd/osd_44_hd_dji_fpv.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_fpv_lq.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI Vista & RSSI
-#$ INCLUDE: presets/osd/osd_44_hd_dji_vista.txt
-#$ INCLUDE: presets/osd/osd_44_hd_dji_vista_rssi.txt
+#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & RSSI
+#$ INCLUDE: presets/osd/osd_44_hd_dji_fpv.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_fpv_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS & LQ
@@ -73,9 +73,8 @@
 #$ INCLUDE: presets/osd/osd_44_hd_dji_o3.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI Vista
-#$ INCLUDE: presets/osd/osd_44_hd_dji_vista.txt
-#$ INCLUDE: presets/osd/osd_44_hd_dji_vista_lq.txt
+#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
+#$ INCLUDE: presets/osd/osd_44_hd_dji_fpv.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS

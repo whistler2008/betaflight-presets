@@ -1039,7 +1039,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_analog_gps.txt",
-      "hash": "570bc0bf9dc965c94c713d1e760169c57a6f2a7dfa1b3f90809a42763771978d",
+      "hash": "f09bbb9d3b40d66e71772120c43b23f32a66babe69a8d052ea97518e510007f2",
       "title": "Analog GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1166,8 +1166,72 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_avatar.txt",
-      "hash": "98c865732b3e09155a4165eafd2a370a874ee4d2c47c5f6564a69fa45069af16",
-      "title": "Avatar OSD settings (Betaflight 4.4-4.5)",
+      "hash": "f15d4db7f7577396bfac735cde7d0bb3fe4592f4793ae8978e20c7e004f1de3f",
+      "title": "HD Avatar OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_avatar_gps.txt",
+      "hash": "cf818bab7202b604b51c0e12f3cb3858ee691d7b3d7883bfc6a2bc4e290fb709",
+      "title": "HD Avatar GPS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_fpv.txt",
+      "hash": "929c2719a4be81d7c2632f6cdfbf3e1ad73228950487003031657e05ee6624ff",
+      "title": "HD DJI FPV OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_fpv_lq.txt",
+      "hash": "01f23aff1417eaac63862c1e0639e4c9b143ba25b80bb54d053ff5c64067b3ee",
+      "title": "HD DJI FPV LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_fpv_rssi.txt",
+      "hash": "b7a7d1f2cc0b6ed845a28a4b87af138838c7be454fc3dd4cd19da9a4df172fbe",
+      "title": "HD DJI FPV RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1182,8 +1246,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_o3.txt",
-      "hash": "6147327d588f631700010b600e9474b57c117ad0757fccb39a7dffac02c33e3c",
-      "title": "Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "hash": "286f3abab6a8f82962be31405f5a6cb1bc12ec6b97366fb4aea7d3eb0253a8cb",
+      "title": "HD Digital O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1197,41 +1261,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/osd/osd_44_hd_dji_vista.txt",
-      "hash": "d6872d257e58cf401999305e3680be8db49bd362892029b610e111820189d70f",
-      "title": "HD DJI Vista OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_hd_dji_vista_lq.txt",
-      "hash": "d2dc6c63eae2235c7bef6095a9ba5fb3b00b8669be3107b615406009be8120b8",
-      "title": "HD DJI Vista LQ OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_hd_dji_vista_rssi.txt",
-      "hash": "058c8c69aa25e1b1dd528c23fb179f8f79197728357364616f427ae961f0276f",
-      "title": "HD DJI Vista RSSI OSD settings (Betaflight 4.4-4.5)",
+      "fullPath": "presets/osd/osd_44_hd_dji_o3_gps.txt",
+      "hash": "5708fd0daa03de2998ad2eeffc127e2444d9baceb51f6ed920df7c5df8d191a5",
+      "title": "HD DJI O3 GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3653,7 +3685,7 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "de814fa731c1c6e61e28bc834ce72f14edc2c3cc1953bff0cb86607f81ce9f3c",
+      "hash": "dab624f2e1b8609a2ed650412fd3bda4c48461a22a59c344e6ef8e59072a0b4a",
       "title": "OSD Placement (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
