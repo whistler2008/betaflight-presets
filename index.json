@@ -610,7 +610,7 @@
     },
     {
       "fullPath": "presets/factory/diamondf4.txt",
-      "hash": "dcc6089b6d199f628be44c6882e03eb67cce902c481fd47705b3edfef76a2e4c",
+      "hash": "d347d2be3c7a8938a56afd3bb18d212358ec918f5ecbb1e7348967f5e25f2c85",
       "title": "Happymodel DiamondF4",
       "firmware_version": [
         "4.2",
@@ -850,7 +850,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps_44_analog.txt",
-      "hash": "10a0787fa69c9181b8f3025aee6aee49c8d9de6191061575a3779ee5dd5b23df",
+      "hash": "50285d188bc4d934a8e5fa87a3ed94761d5574c3fa3d00bd1708f067ac4cf771",
       "title": "AUX with GPS Rescue - Analog (Betaflight 4.4)",
       "firmware_version": [
         "4.4",
@@ -1038,6 +1038,118 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/osd/osd_44_analog_gps.txt",
+      "hash": "6c7c016634ad113b8b674284b208f868bf2ecd48d0440a688d7137aca9621119",
+      "title": "Analog GPS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_analog_ntsc.txt",
+      "hash": "90f2e6c9144eeb2ec2eca8448a8960c4729a63b74af5b7deacb1f1d293ce9c6d",
+      "title": "Analog NTSC OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_analog_ntsc_lq.txt",
+      "hash": "8840954d901fd2e3f5da1a9e0162d810566bd083ff3fe765f7d76f114e5c95a8",
+      "title": "Analog NTSC LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_analog_ntsc_rssi.txt",
+      "hash": "d5212d3fc51aae0bd079a133a62b7ad43f066f510912c6ef41afa7a7dd51f3de",
+      "title": "Analog NTSC RSSI OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_analog_pal.txt",
+      "hash": "360bc0700615a0b13f24b0fbb4fbd4e9c6aaaae6e3da2c210b0620891a49d2f5",
+      "title": "Analog PAL OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_analog_pal_lq.txt",
+      "hash": "a17ced7b2ba505317e8b3e28dda181386ef2378e7847d4a91628a2a4da2e0eb3",
+      "title": "Analog PAL LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_analog_pal_rssi.txt",
+      "hash": "b82b1ec3e10d3e5d107852d8617564eff77bda3b19ce06fab044e4fe5d975830",
+      "title": "Analog PAL RSSI OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_44_default.txt",
       "hash": "a8a0ea8c694414f42642ab5d5d8750a621c753f1ed7f317684eb378127359879",
       "title": "Default OSD settings (Betaflight 4.4-4.5)",
@@ -1051,22 +1163,6 @@
         "osd"
       ],
       "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_44_digital_other_rssi.txt",
-      "hash": "4e8dd4213d0ac0a512c0ac577450cdcb60a2b3311c853e01e5f782ff5e3b9d6f",
-      "title": "Digital OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
     },
     {
       "fullPath": "presets/osd/osd_44_hd_avatar.txt",
@@ -1168,102 +1264,6 @@
       "fullPath": "presets/osd/osd_44_hd_hdzero.txt",
       "hash": "7c005585a93b6094b93bb8e82c5b85c43c86e4cc9c48b3c54da4be6a3fd5ba1f",
       "title": "HDZero OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_ntsc.txt",
-      "hash": "90f2e6c9144eeb2ec2eca8448a8960c4729a63b74af5b7deacb1f1d293ce9c6d",
-      "title": "Analog NTSC OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_ntsc_lq.txt",
-      "hash": "8840954d901fd2e3f5da1a9e0162d810566bd083ff3fe765f7d76f114e5c95a8",
-      "title": "Analog NTSC LQ OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_ntsc_rssi.txt",
-      "hash": "f725d1192e92552d27cae887baa11766e9b823a97e5a21391e1c5bacd9161ec7",
-      "title": "Analog NTSC RSSI OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_pal.txt",
-      "hash": "360bc0700615a0b13f24b0fbb4fbd4e9c6aaaae6e3da2c210b0620891a49d2f5",
-      "title": "Analog PAL OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_pal_lq.txt",
-      "hash": "a17ced7b2ba505317e8b3e28dda181386ef2378e7847d4a91628a2a4da2e0eb3",
-      "title": "Analog PAL LQ OSD settings (Betaflight 4.4-4.5)",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "osd"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/osd/osd_44_pal_rssi.txt",
-      "hash": "30188d390fc6ae979f8e4dcb2156cdeb4a5eabf73c1b52595e2087031fc39375",
-      "title": "Analog PAL RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3653,7 +3653,7 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "a0ba6766bdd41455183477ca8d0cf451e6d96a57ac014e8736d1e8803afeb8a9",
+      "hash": "de814fa731c1c6e61e28bc834ce72f14edc2c3cc1953bff0cb86607f81ce9f3c",
       "title": "OSD Placement (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",

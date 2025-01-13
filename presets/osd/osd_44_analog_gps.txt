@@ -1,0 +1,19 @@
+#$ TITLE: Analog GPS OSD settings (Betaflight 4.4-4.5)
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: osd
+#$ DESCRIPTION: Analog GPS OSD settings (Betaflight 4.4-4.5)
+#$ HIDDEN: true
+
+# OSD GPS
+set osd_gps_lon_pos = 18547
+set osd_gps_lat_pos = 18529
+
+set osd_home_dir_pos = 2095
+
+set osd_gps_speed_pos = 2209
+set osd_home_dist_pos = 2177
+set osd_altitude_pos = 2198
+set osd_gps_sats_pos = 2233

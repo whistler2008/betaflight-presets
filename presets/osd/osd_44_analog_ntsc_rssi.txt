@@ -8,4 +8,5 @@
 #$ HIDDEN: true
 
 # OSD RSSI
-set osd_rssi_pos = 2391
+set osd_rssi_pos = 2362
+set osd_throttle_pos = 2393

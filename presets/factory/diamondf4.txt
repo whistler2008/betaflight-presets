@@ -9,6 +9,11 @@
 #$ DESCRIPTION: Factory setting for Happymodel DiamondF4
 
 # resources
+resource MOTOR 1 none
+resource MOTOR 2 none
+resource MOTOR 3 none
+resource MOTOR 4 none
+
 resource MOTOR 1 B08
 resource MOTOR 2 B07
 resource MOTOR 3 B06

@@ -44,16 +44,6 @@ set gps_rescue_min_sats = 6
 set gps_rescue_allow_arming_without_fix = OFF
 set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
 
-# GPS OSD
-set osd_gps_speed_pos = 2209
-set osd_gps_lon_pos = 18547
-set osd_gps_lat_pos = 18529
-set osd_gps_sats_pos = 2233
-set osd_home_dir_pos = 2095
-set osd_home_dist_pos = 2177
-set osd_altitude_pos = 2198
-
-
 # GPS Beeper
 beeper GPS_STATUS
 beeper READY_BEEP

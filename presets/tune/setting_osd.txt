@@ -9,26 +9,26 @@
 #$ DESCRIPTION: 
 
 
-#$ OPTION_GROUP BEGIN: OSD Placement
+#$ OPTION_GROUP BEGIN: OSD General Placement
 
 #$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
-#$ INCLUDE: presets/osd/osd_44_pal.txt
-#$ INCLUDE: presets/osd/osd_44_pal_lq.txt
+#$ INCLUDE: presets/osd/osd_44_analog_pal.txt
+#$ INCLUDE: presets/osd/osd_44_analog_pal_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
-#$ INCLUDE: presets/osd/osd_44_pal.txt
-#$ INCLUDE: presets/osd/osd_44_pal_rssi.txt
+#$ INCLUDE: presets/osd/osd_44_analog_pal.txt
+#$ INCLUDE: presets/osd/osd_44_analog_pal_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
-#$ INCLUDE: presets/osd/osd_44_ntsc.txt
-#$ INCLUDE: presets/osd/osd_44_ntsc_lq.txt
+#$ INCLUDE: presets/osd/osd_44_analog_ntsc.txt
+#$ INCLUDE: presets/osd/osd_44_analog_ntsc_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
-#$ INCLUDE: presets/osd/osd_44_ntsc.txt
-#$ INCLUDE: presets/osd/osd_44_ntsc_rssi.txt
+#$ INCLUDE: presets/osd/osd_44_analog_ntsc.txt
+#$ INCLUDE: presets/osd/osd_44_analog_ntsc_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail & LQ
@@ -54,6 +54,35 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital HDZero & LQ
+#$ INCLUDE: presets/osd/osd_44_hd_hdzero.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: OSD GPS Placement
+
+#$ OPTION BEGIN (UNCHECKED): Analog
+#$ INCLUDE: presets/osd/osd_44_analog_gps.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
+#$ INCLUDE: presets/osd/osd_44_hd_avatar.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas
+#$ INCLUDE: presets/osd/osd_44_hd_dji_o3.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI Vista
+#$ INCLUDE: presets/osd/osd_44_hd_dji_vista.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_vista_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
+#$ INCLUDE: presets/osd/osd_44_hd_dji_wtfos.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital HDZero
 #$ INCLUDE: presets/osd/osd_44_hd_hdzero.txt
 #$ OPTION END
 
