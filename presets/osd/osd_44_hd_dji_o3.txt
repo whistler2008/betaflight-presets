@@ -21,12 +21,12 @@ set osd_flip_arrow_pos = 2138
 
 set osd_disarmed_pos = 2358
 
-set osd_flymode_pos = 2561
-set osd_core_temp_pos = 2593
-set osd_tim_2_pos = 2625
+set osd_flymode_pos = 2529
+set osd_core_temp_pos = 2561
+set osd_tim_2_pos = 2593
 
-set osd_warnings_pos = 14933
+set osd_warnings_pos = 14965
 
-set osd_throttle_pos = 3600
-set osd_link_quality_pos = 3662
-set osd_avg_cell_voltage_pos = 3630
+set osd_throttle_pos = 3504
+
+set osd_avg_cell_voltage_pos = 3534

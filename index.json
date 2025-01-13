@@ -1071,7 +1071,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_analog_ntsc_lq.txt",
-      "hash": "8840954d901fd2e3f5da1a9e0162d810566bd083ff3fe765f7d76f114e5c95a8",
+      "hash": "1e50c9a9167d7d12d989336d8ba846047c8bbca1a58fe1050961a3c0e9104b12",
       "title": "Analog NTSC LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1246,7 +1246,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_o3.txt",
-      "hash": "3b7d829a93cdd4ace41ef1eba7847193817f4b6016305c1aa1e68445e493f6fc",
+      "hash": "86a382d9d207bc4cff77858f8755bab217e5a21591dbd5c54c93bd7c8b8999c3",
       "title": "HD DJI O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1277,6 +1277,38 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/osd/osd_44_hd_dji_o3_lq.txt",
+      "hash": "56a26af6bb524767972469b6addae284e022434abe51d2b8dbb99fa5174af2b6",
+      "title": "HD DJI O3 LQ OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_o3_rssi.txt",
+      "hash": "4554bb989fa5d09b3b32cea03376b36c9f64036fb9a4046f1a022a0103e96ed0",
+      "title": "HD DJI O3 RSSI OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_44_hd_dji_wtfos.txt",
       "hash": "d136cd3d26503900d7bdac2ddc827f18696a94a7c13fd918f5c9ef09f74c60e1",
       "title": "DJI WTF_OS OSD settings (Betaflight 4.4-4.5)",
@@ -1294,8 +1326,24 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_hdzero.txt",
-      "hash": "7c005585a93b6094b93bb8e82c5b85c43c86e4cc9c48b3c54da4be6a3fd5ba1f",
-      "title": "HDZero OSD settings (Betaflight 4.4-4.5)",
+      "hash": "578d6e7e3181b73f4c09e441b80ce2e8e917d26e4c951fc2118314e95abad8cf",
+      "title": "HD Zero OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_hdzero_gps.txt",
+      "hash": "b65261a959bcc4848e62500d3fcb90c49e1f8812a0cf4ce410a6c83a3e6f26b2",
+      "title": "HD Zero GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3685,7 +3733,7 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "d0f8ce31a5d5a8860a00434b4bf43a266edfcaf3474e806a88b7a7f1b7ad00ac",
+      "hash": "c8e833186c84cef4f664ad990ce1b4af507e0166e71fe764777e228cb8f92489",
       "title": "OSD Placement (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",

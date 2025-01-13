@@ -37,6 +37,12 @@
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas & LQ
 #$ INCLUDE: presets/osd/osd_44_hd_dji_o3.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_o3_lq.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas & RSSI
+#$ INCLUDE: presets/osd/osd_44_hd_dji_o3.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_o3_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & LQ
