@@ -1294,7 +1294,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_o3_lq.txt",
-      "hash": "56a26af6bb524767972469b6addae284e022434abe51d2b8dbb99fa5174af2b6",
+      "hash": "f2f1a1994f51b23c25a52fb2d64f251bfcca8b2e84d58a6b9dd0686ceb1b977a",
       "title": "HD DJI O3 LQ OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1310,7 +1310,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_o3_rssi.txt",
-      "hash": "4554bb989fa5d09b3b32cea03376b36c9f64036fb9a4046f1a022a0103e96ed0",
+      "hash": "c4c3f33890ded169ac78faae23ec159c08d02a80c789970ed10d9f4fc263e6bb",
       "title": "HD DJI O3 RSSI OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",

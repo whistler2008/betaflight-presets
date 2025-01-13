@@ -5,10 +5,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
 #$ DESCRIPTION: HD DJI O3 LQ OSD settings (Betaflight 4.4-4.5)
-#$ INCLUDE: presets/osd/osd_44_default.txt
 #$ HIDDEN: true
 
 # OSD LQ
-set osd_link_quality_pos = 2391
-
 set osd_link_quality_pos = 3566

@@ -5,7 +5,6 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
 #$ DESCRIPTION: HD DJI O3 RSSI OSD settings (Betaflight 4.4-4.5)
-#$ INCLUDE: presets/osd/osd_44_default.txt
 #$ HIDDEN: true
 
 # OSD RSSI
