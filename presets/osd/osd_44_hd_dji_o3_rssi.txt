@@ -9,4 +9,4 @@
 
 # OSD RSSI
 set osd_rssi_pos = 3504
-set osd_throttle_pos = 3569
+set osd_throttle_pos = 3535

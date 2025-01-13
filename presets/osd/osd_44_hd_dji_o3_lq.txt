@@ -8,4 +8,4 @@
 #$ HIDDEN: true
 
 # OSD LQ
-set osd_link_quality_pos = 3566
+set osd_link_quality_pos = 3534

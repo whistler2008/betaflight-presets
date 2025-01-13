@@ -17,17 +17,16 @@ set osd_canvas_height = 22
 
 # OSD Placement
 set osd_craft_name_pos = 2105
+set osd_flip_arrow_pos = 2142
 
-set osd_warnings_pos = 14680
+set osd_disarmed_pos = 2394
 
-set osd_disarmed_pos = 2561
+set osd_flymode_pos = 2593
 set osd_core_temp_pos = 2625
 set osd_tim_2_pos = 2657
 
-set osd_flymode_pos = 2680
-set osd_avg_cell_voltage_pos = 2711
-set osd_vbat_pos = 2743
+set osd_warnings_pos = 15032
 
-set osd_throttle_pos = 2687
-set osd_link_quality_pos = 2719
-set osd_link_tx_power_pos = 2751
+set osd_throttle_pos = 3575
+
+set osd_avg_cell_voltage_pos = 3637

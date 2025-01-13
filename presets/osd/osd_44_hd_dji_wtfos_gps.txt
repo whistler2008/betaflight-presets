@@ -11,8 +11,8 @@
 set osd_gps_lat_pos = 18497
 set osd_gps_lon_pos = 18465
 
-set osd_home_dir_pos = 2137
-set osd_flip_arrow_pos = 2139
+set osd_home_dir_pos = 2141
+set osd_flip_arrow_pos = 2142
 
 set osd_altitude_pos = 2177
 set osd_home_dist_pos = 2209

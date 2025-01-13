@@ -29,4 +29,4 @@ set osd_warnings_pos = 14965
 
 set osd_throttle_pos = 3504
 
-set osd_avg_cell_voltage_pos = 3534
+set osd_avg_cell_voltage_pos = 3566
