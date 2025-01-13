@@ -1,11 +1,11 @@
-#$ TITLE: OSD Placement (Betaflight 4.4-4.5)
+#$ TITLE: OSD Placement
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: OSD Placement for Betaflight 4.4-4.5
+#$ DESCRIPTION: OSD Placement
 #$ DESCRIPTION: 
 
 

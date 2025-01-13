@@ -1,4 +1,4 @@
-#$ TITLE: MockingBird 1-2S F3 4.0
+#$ TITLE: MockingBird 1-2S F3 (Betaflight 4.0)
 #$ FIRMWARE_VERSION: 4.0
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
@@ -85,6 +85,9 @@ set yaw_motors_reversed = ON
 set motor_pwm_protocol = DSHOT300
 set dshot_idle_value = 800
 
+
+#$ OPTION_GROUP BEGIN: Max Supported Cell
+
 #$ OPTION BEGIN (UNCHECKED): 1S
 profile 0
 
@@ -145,3 +148,5 @@ set horizon_tilt_expert_mode = ON
 # restore original profile selection
 profile 0
 #$ OPTION END
+
+#$ OPTION_GROUP END

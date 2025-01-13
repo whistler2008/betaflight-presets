@@ -344,54 +344,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/esc/24.txt",
-      "hash": "9ce51184bfea9bc071db89dc36cd103686a36b5d1c6a0c1ff63f32ae80ac5af7",
-      "title": "ESC PWM 24 kHz",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "esc"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/esc/48.txt",
-      "hash": "df7da2ae79059ec28629db2742f6658bdb6821c77c041c02caf043a2b2aff739",
-      "title": "ESC PWM 48 kHz",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "esc"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/esc/96.txt",
-      "hash": "518e454964f5222321580f6d76f60c123d7fc98d8c4dcac5bb102d77c6b3630d",
-      "title": "ESC PWM 48 kHz",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "esc"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/factory/crazyf4_2g4.txt",
       "hash": "affd1c0309cd3d8f25fd73a3579017d88254f7590ba060318bbe78a2fcd4860b",
       "title": "Happymodel CrazyF4 2G4",
@@ -2893,6 +2845,54 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pwm/pwm_24.txt",
+      "hash": "9ce51184bfea9bc071db89dc36cd103686a36b5d1c6a0c1ff63f32ae80ac5af7",
+      "title": "ESC PWM 24 kHz",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "esc"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pwm/pwm_48.txt",
+      "hash": "df7da2ae79059ec28629db2742f6658bdb6821c77c041c02caf043a2b2aff739",
+      "title": "ESC PWM 48 kHz",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "esc"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pwm/pwm_96.txt",
+      "hash": "518e454964f5222321580f6d76f60c123d7fc98d8c4dcac5bb102d77c6b3630d",
+      "title": "ESC PWM 48 kHz",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "esc"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rates/rates_cinewhoop.txt",
       "hash": "325cecc0c06153e53c7a70c0d73b3eed4276ad6bc72b35d1d35c7bbe812c9496",
       "title": "CineWhoop Rate Profile",
@@ -2968,7 +2968,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/cinewhoop_elrs_200.txt",
+      "fullPath": "presets/rx/rx_cinewhoop_elrs_200.txt",
       "hash": "b583e31b05c3db123bd4088a7ae018cf7dbbd5c6fb8a5da93455092f40cf29bb",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -2984,7 +2984,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/cinewhoop_elrs_500.txt",
+      "fullPath": "presets/rx/rx_cinewhoop_elrs_500.txt",
       "hash": "49eaa125cee237a7d6d924385e43671be6f5a7a60d26112f0fdcd236e811e5a2",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3000,7 +3000,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/freestyle_elrs_200.txt",
+      "fullPath": "presets/rx/rx_freestyle_elrs_200.txt",
       "hash": "0d077f11d3f9b6cd94beaf5a49629e26f7892dda3b52a84ab7e62eaab89a941e",
       "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3016,7 +3016,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/freestyle_elrs_500.txt",
+      "fullPath": "presets/rx/rx_freestyle_elrs_500.txt",
       "hash": "e879261070095273a70db80769b5054ca37e5782ba6754dff3b9022f38e48e8c",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3032,7 +3032,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/race_elrs_200.txt",
+      "fullPath": "presets/rx/rx_race_elrs_200.txt",
       "hash": "b14551fb34738ce43c195e58dd864316ee978c6e21752fb4f9eb5d349c233ba7",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3048,7 +3048,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/race_elrs_500.txt",
+      "fullPath": "presets/rx/rx_race_elrs_500.txt",
       "hash": "3335bddd88aea90b58f20ca7f3d253e2ac14ab0eab566e532b6f4a698a42a23d",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3064,7 +3064,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/serial_ibus.txt",
+      "fullPath": "presets/rx/rx_serial_ibus.txt",
       "hash": "9f4cd151f18a83c2185450dac26e524a6521d43e468a2b5650a65c445f086ee5",
       "title": "RX Serial IBUS",
       "firmware_version": [
@@ -3080,7 +3080,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/serial_sbus.txt",
+      "fullPath": "presets/rx/rx_serial_sbus.txt",
       "hash": "a5920aa05bbc0e3120b1ec5935d588a39e85f36f7c232aed56d086981ffc6aeb",
       "title": "RX Serial SBUS",
       "firmware_version": [
@@ -3096,7 +3096,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/spi_elrs_150.txt",
+      "fullPath": "presets/rx/rx_spi_elrs_150.txt",
       "hash": "5401b8eafd0da4722bf739068cdd6708691910922270049582f9137e75aa65d6",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
@@ -3112,7 +3112,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rx/spi_sbus_ibus.txt",
+      "fullPath": "presets/rx/rx_spi_sbus_ibus.txt",
       "hash": "06d7545a52b29c59bcebe6de7f9a264c326207810b643a6085054f010b13c58c",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
@@ -3129,8 +3129,8 @@
     },
     {
       "fullPath": "presets/tune/40_tune_mockingbrid_f3.txt",
-      "hash": "4d375d4f43334cbf1a9a8d99b4cf4770d48db4b7d7642b4f58ee5e7ac0dbf9ae",
-      "title": "MockingBird 1-2S F3 4.0",
+      "hash": "9d929e5ea27c513fce1f60a247448a78a1b481ac496d0ad0441a720a81423694",
+      "title": "MockingBird 1-2S F3 (Betaflight 4.0)",
       "firmware_version": [
         "4.0"
       ],
@@ -3144,8 +3144,8 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "c97330ee58e729f0976a87ae8233aa37252cd87ad4c1edd4b85ad58ef46cfc09",
-      "title": "OSD Placement (Betaflight 4.4-4.5)",
+      "hash": "f46cb40909e14c2186d7ea9b3b79cefc03edd311e638f6c1457ad5a6dcad7c74",
+      "title": "OSD Placement",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3160,8 +3160,8 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "988972bb30cae28ffbcf01ab6da91fc67f652ca12564b3fec73194349be3e4d1",
-      "title": "CineWhoop Tune (Betaflight 4.4-4.5)",
+      "hash": "d0650b3bb77bacfad9e0c85ff2b687526c5c0c26f753b4fa0aacfe51e8de1039",
+      "title": "CineWhoop Tune",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3176,8 +3176,8 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "0d0a7fc7c14e1bbb7191f3d35d5582cd93d07ffaa219d1f6cc4bc0f6ad781dd2",
-      "title": "FreeStyle Tune (Betaflight 4.4-4.5)",
+      "hash": "b8df2a2edc218a7e4a0d9bac57eaa15b018e14528ba581e9abd3fae0f2efdf40",
+      "title": "FreeStyle Tune",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3192,8 +3192,8 @@
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "30106d3352561d490029b652b2b31c8c71d38d878ae55a40fa473da8bf009346",
-      "title": "Race Tune (Betaflight 4.4-4.5)",
+      "hash": "8730ae7e661d14f684252d7000f0f637045f1c10f1f9669cc29658a0ff2ef411",
+      "title": "Race Tune",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3208,8 +3208,8 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "b0720550632803e90e1583b62d506e517444ae77e2d63c6ca6866c7a2928e956",
-      "title": "RaceWhoop Tune (Betaflight 4.4-4.5)",
+      "hash": "3b5f18f1f5ffdc04be55682b145124671f45ee0e4a8cd0c0a871e19c071d2912",
+      "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.4",
         "4.5"

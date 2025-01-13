@@ -1,11 +1,11 @@
-#$ TITLE: Race Tune (Betaflight 4.4-4.5)
+#$ TITLE: Race Tune
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: Race Tune for Betaflight 4.4-4.5
+#$ DESCRIPTION: Race Tune
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -127,11 +127,15 @@ set dshot_bidir = ON
 #$ OPTION_GROUP BEGIN: ESC PWM
 
 #$ OPTION BEGIN (UNCHECKED): 24 kHz
-#$ INCLUDE: presets/esc/24.txt
+#$ INCLUDE: presets/pwm/pwm_24.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 48 kHz
-#$ INCLUDE: presets/esc/48.txt
+#$ INCLUDE: presets/pwm/pwm_48.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 96 kHz
+#$ INCLUDE: presets/pwm/pwm_96.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -206,27 +210,27 @@ set dshot_bidir = ON
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
-#$ INCLUDE: presets/rx/serial_sbus.txt
+#$ INCLUDE: presets/rx/rx_serial_sbus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
-#$ INCLUDE: presets/rx/serial_ibus.txt
+#$ INCLUDE: presets/rx/rx_serial_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-#$ INCLUDE: presets/rx/spi_sbus_ibus.txt
+#$ INCLUDE: presets/rx/rx_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
-#$ INCLUDE: presets/rx/race_elrs_200.txt
+#$ INCLUDE: presets/rx/rx_race_elrs_200.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-#$ INCLUDE: presets/rx/race_elrs_200.txt
+#$ INCLUDE: presets/rx/rx_race_elrs_200.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-#$ INCLUDE: presets/rx/race_elrs_500.txt
+#$ INCLUDE: presets/rx/rx_race_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
