@@ -66,11 +66,11 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
-#$ INCLUDE: presets/osd/osd_44_hd_avatar.txt
+#$ INCLUDE: presets/osd/osd_44_hd_avatar_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI O3 Canvas
-#$ INCLUDE: presets/osd/osd_44_hd_dji_o3.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_o3_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI FPV

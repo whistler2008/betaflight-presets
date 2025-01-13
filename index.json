@@ -1246,8 +1246,8 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_o3.txt",
-      "hash": "286f3abab6a8f82962be31405f5a6cb1bc12ec6b97366fb4aea7d3eb0253a8cb",
-      "title": "HD Digital O3 OSD settings (Betaflight 4.4-4.5)",
+      "hash": "3b7d829a93cdd4ace41ef1eba7847193817f4b6016305c1aa1e68445e493f6fc",
+      "title": "HD DJI O3 OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3685,7 +3685,7 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "dab624f2e1b8609a2ed650412fd3bda4c48461a22a59c344e6ef8e59072a0b4a",
+      "hash": "d0f8ce31a5d5a8860a00434b4bf43a266edfcaf3474e806a88b7a7f1b7ad00ac",
       "title": "OSD Placement (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
