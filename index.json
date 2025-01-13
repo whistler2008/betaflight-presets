@@ -1326,7 +1326,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_wtfos.txt",
-      "hash": "fc11dd0b36fb1b97d612bb38a7225e991841a01cae693317479167d2399ee7a7",
+      "hash": "34caead1f55978ce06642898dabcc68b0fe9cd369d184002aed0f8ee97bc5f5e",
       "title": "DJI WTFOS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
