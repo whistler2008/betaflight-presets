@@ -1039,7 +1039,7 @@
     },
     {
       "fullPath": "presets/osd/osd_44_analog_gps.txt",
-      "hash": "6c7c016634ad113b8b674284b208f868bf2ecd48d0440a688d7137aca9621119",
+      "hash": "570bc0bf9dc965c94c713d1e760169c57a6f2a7dfa1b3f90809a42763771978d",
       "title": "Analog GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
