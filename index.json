@@ -1213,6 +1213,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/osd/osd_44_hd_dji_fpv_gps.txt",
+      "hash": "f213527f309743b56eec5b65b073a024b271f2ef9628f3c871a1e7f638231bad",
+      "title": "HD DJI FPV GPS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/osd/osd_44_hd_dji_fpv_lq.txt",
       "hash": "01f23aff1417eaac63862c1e0639e4c9b143ba25b80bb54d053ff5c64067b3ee",
       "title": "HD DJI FPV LQ OSD settings (Betaflight 4.4-4.5)",
@@ -1310,8 +1326,24 @@
     },
     {
       "fullPath": "presets/osd/osd_44_hd_dji_wtfos.txt",
-      "hash": "d136cd3d26503900d7bdac2ddc827f18696a94a7c13fd918f5c9ef09f74c60e1",
-      "title": "DJI WTF_OS OSD settings (Betaflight 4.4-4.5)",
+      "hash": "fc81dfd63ab4344fb1b15b05b5e45b375f60886f9f557c26957137f0dad3285e",
+      "title": "DJI WTFOS OSD settings (Betaflight 4.4-4.5)",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/osd/osd_44_hd_dji_wtfos_gps.txt",
+      "hash": "9a0c7ab14717541825e9fe5561171a212ca69fb1279e102763f34b1c12b399de",
+      "title": "HD DJI WTFOS GPS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -3733,7 +3765,7 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "c8e833186c84cef4f664ad990ce1b4af507e0166e71fe764777e228cb8f92489",
+      "hash": "418a57b0e54a4b7e258eab8ed1c82580b379506584db8e4ee25f1ade2afd87cd",
       "title": "OSD Placement (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",

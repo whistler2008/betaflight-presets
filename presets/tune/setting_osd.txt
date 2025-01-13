@@ -80,15 +80,15 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
-#$ INCLUDE: presets/osd/osd_44_hd_dji_fpv.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_fpv_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
-#$ INCLUDE: presets/osd/osd_44_hd_dji_wtfos.txt
+#$ INCLUDE: presets/osd/osd_44_hd_dji_wtfos_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital HDZero
-#$ INCLUDE: presets/osd/osd_44_hd_hdzero.txt
+#$ INCLUDE: presets/osd/osd_44_hd_hdzero_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
