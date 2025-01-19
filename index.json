@@ -4,20 +4,19 @@
   "settings": {
     "MetapropertyDirective": "#$",
     "PresetCategories": {
-      "BNF": "BNF",
-      "FACTORY": "FACTORY",
-      "QUAD": "QUAD",
       "TUNE": "TUNE",
-      "VTX": "VTX",
-      "RECIEVER": "RECIEVER",
-      "FILTER": "FILTER",
-      "MOTOR": "MOTOR",
-      "RATES": "RATES",
-      "MODES": "MODES",
+      "FACTORY": "FACTORY",
+      "OTHER": "OTHER",
       "BATTERY": "BATTERY",
+      "RATES": "RATES",
+      "FILTER": "FILTER",
+      "RECIEVER": "RECIEVER",
+      "MODES": "MODES",
+      "MOTOR": "MOTOR",
       "OSD": "OSD",
+      "VTX": "VTX",
       "LED": "LED",
-      "OTHER": "OTHER"
+      "BLACKBOX": "BLACKBOX"
     },
     "PresetCategoriesPriorities": {
       "TUNE": 0
@@ -135,6 +134,7 @@
     ],
     "category": [
       "BATTERY",
+      "BLACKBOX",
       "FACTORY",
       "FILTER",
       "LED",
@@ -154,6 +154,7 @@
       "akk",
       "BATTERY",
       "betafpv",
+      "BLACKBOX",
       "caos",
       "default",
       "default_irc",
@@ -261,19 +262,18 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
-      "hash": "242b8946302a672cef179f836402ba39e1022bb0e56e4d1239c9df83e52b9d4b",
+      "hash": "8ce6385c12dcf748d3018b359b0b0faa37bf1e69162fd2f9245b94155d3ac4c7",
       "title": "BlackBox GyroFlow",
       "firmware_version": [
         "4.4",
         "4.5"
       ],
-      "category": "TUNE",
+      "category": "BLACKBOX",
       "status": "COMMUNITY",
       "keywords": [
-        "default"
+        "BLACKBOX"
       ],
-      "hidden": true,
-      "priority": 0
+      "hidden": true
     },
     {
       "fullPath": "presets/crash/crash_disarm.txt",
@@ -535,22 +535,6 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/modes/40_aux_std.txt",
-      "hash": "231c1e3d6f99d4bd71cee13ff19d9562dba4f1d95adbc78a0a53aef4f019618d",
-      "title": "AUX Standard (Betaflight 4.3)",
-      "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3"
-      ],
-      "category": "MODES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "MODES"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/modes/aux_default.txt",
       "hash": "6ed27731ac03e12a63ff09d5a6f5cad5d369b58b0524795b328d134d0f2d22e7",
       "title": "Default AUX settings",
@@ -570,7 +554,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "2570f78ed076d886a350e04d397934ac2fde4ed881c2fe903b54b837e2c7757f",
+      "hash": "f7b1ebd1366e8ecf979bcdea3e4ae63d105bc3165226fd47969c5509840643f3",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.4",
@@ -585,7 +569,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "80d9764a3029c52b1f62724cdb4f7e198111f704e5d341d8789b8f93380140de",
+      "hash": "3a4d3dfcfcdc8e637f693ccb5d681211f8a88a7b7846bf39d52117646b51f647",
       "title": "AUX Standard",
       "firmware_version": [
         "4.4",

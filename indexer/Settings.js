@@ -17,20 +17,19 @@ const PresetStatusEnum = ["OFFICIAL", "COMMUNITY", "EXPERIMENTAL"];
 const ParserEnum =       ["TEXT", "MARKED"];
 
 const PresetCategories = {
-    BNF:		"BNF",
-    FACTORY:	"FACTORY",
-    QUAD:		"QUAD",
     TUNE:		"TUNE",
-    VTX:		"VTX",
-    RECIEVER:	"RECIEVER",
-    FILTER:		"FILTER",
-    MOTOR:		"MOTOR",
-    RATES:		"RATES",
-    MODES:		"MODES",
-    BATTERY:	"BATTERY",
-    OSD:		"OSD",
-    LED:		"LED",
+    FACTORY:	"FACTORY",
     OTHER:		"OTHER",
+    BATTERY:	"BATTERY",
+    RATES:		"RATES",
+    FILTER:		"FILTER",
+    RECIEVER:	"RECIEVER",
+    MODES:		"MODES",
+    MOTOR:		"MOTOR",
+    OSD:		"OSD",
+    VTX:		"VTX",
+    LED:		"LED",
+    BLACKBOX:	"BLACKBOX",
 }
 
 const PresetCategoriesPriorities = {

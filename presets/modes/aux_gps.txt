@@ -18,7 +18,6 @@ aux 2 13 2 1700 2100 0 0
 aux 3 28 1 1700 2100 0 0
 
 # stage-1 failsafe
-# rxfail
 rxfail 3 s 1100
 rxfail 5 s 1100
 
