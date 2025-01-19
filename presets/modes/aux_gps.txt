@@ -1,9 +1,9 @@
 #$ TITLE: AUX with GPS Rescue
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
-#$ CATEGORY: TUNE
+#$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: modes
+#$ KEYWORDS: MODES
 #$ DESCRIPTION: AUX with GPS Rescue
 #$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true

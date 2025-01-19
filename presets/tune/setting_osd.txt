@@ -67,6 +67,9 @@
 
 #$ OPTION_GROUP BEGIN: OSD GPS Placement
 
+#$ OPTION BEGIN (CHECKED): Without GPS
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): Analog
 #$ INCLUDE: presets/osd/osd_analog_gps.txt
 #$ OPTION END

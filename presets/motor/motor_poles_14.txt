@@ -1,0 +1,17 @@
+#$ TITLE: Default RPM Filter - 14 Poles
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: MOTOR
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: MOTOR
+#$ DESCRIPTION: Default RPM Filter - 14 Poles
+#$ HIDDEN: true
+
+# 14 Poles Motor
+# feature
+feature -AIRMODE
+
+# rpm filter
+set dshot_bidir = ON
+set motor_poles = 14
+set dshot_idle_value = 550

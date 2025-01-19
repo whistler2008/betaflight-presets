@@ -1,8 +1,8 @@
 #$ TITLE: Global OSD settings (Betaflight 4.0)
 #$ FIRMWARE_VERSION: 4.0
-#$ CATEGORY: TUNE
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: osd
+#$ KEYWORDS: OSD
 #$ DESCRIPTION: Global OSD settings (Betaflight 4.0)
 #$ INCLUDE: presets/osd/40_osd_default.txt
 #$ HIDDEN: true

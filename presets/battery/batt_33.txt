@@ -4,10 +4,10 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
-#$ CATEGORY: TUNE
+#$ CATEGORY: BATTERY
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: battery
-#$ DESCRIPTION: Battery 3.3V Battery settings
+#$ KEYWORDS: BATTERY
+#$ DESCRIPTION: Battery 3.5V Battery settings
 #$ HIDDEN: true
 
 # Battery ADC

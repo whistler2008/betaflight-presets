@@ -2,9 +2,9 @@
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: TUNE
+#$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: modes
+#$ KEYWORDS: MODES
 #$ DESCRIPTION: AUX Standard (Betaflight 4.3)
 #$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true

@@ -1,0 +1,11 @@
+#$ TITLE: 2 Blade Dimmable RPM Harmonics
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: MOTOR
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: MOTOR
+#$ DESCRIPTION: 2 Blade Dimmable RPM Harmonics
+#$ HIDDEN: true
+
+
+# 2 Blade Dimmable RPM Harmonics
+set rpm_filter_weights = 100, 80, 0

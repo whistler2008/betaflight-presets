@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: rate
+#$ KEYWORDS: RATES
 #$ DESCRIPTION: CineWhoop Rate Profile
 #$ HIDDEN: true
 

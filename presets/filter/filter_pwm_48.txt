@@ -1,0 +1,24 @@
+#$ TITLE: ESC PWM 48 kHz
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: FILTER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: FILTER
+#$ DESCRIPTION: Default ESC PWM 48 kHz
+#$ HIDDEN: true
+
+# ESC PWM
+profile 0
+
+# profile 0
+set thrust_linear = 20
+
+profile 1
+
+# profile 1
+set thrust_linear = 20
+
+profile 2
+
+# profile 2
+set thrust_linear = 20

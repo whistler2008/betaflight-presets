@@ -10,11 +10,11 @@
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (UNCHECKED): LED
-#$ INCLUDE: presets/other/custom_led.txt
+#$ INCLUDE: presets/led/led_blink.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): BEEPER
-#$ INCLUDE: presets/other/custom_beeper.txt
+#$ INCLUDE: presets/other/other_beeper.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): OSD
@@ -43,16 +43,16 @@ name MBIRD F3
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): CAM Angle
-#$ INCLUDE: presets/other/custom_cam_angle.txt
+#$ INCLUDE: presets/other/other_cam_angle.txt
 set fpv_mix_degrees = 25
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other
-#$ INCLUDE: presets/other/other.txt
+#$ INCLUDE: presets/other/other_pid.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Battery
-#$ INCLUDE: presets/battery/batt_33.txt
+#$ INCLUDE: presets/battery/batt_32.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

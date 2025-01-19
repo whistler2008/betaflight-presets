@@ -1,0 +1,11 @@
+#$ TITLE: 3 Blade Dimmable RPM Harmonics
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: MOTOR
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: MOTOR
+#$ DESCRIPTION: 3 Blade Dimmable RPM Harmonics
+#$ HIDDEN: true
+
+
+# 3 Blade Dimmable RPM Harmonics
+set rpm_filter_weights = 100, 0, 80

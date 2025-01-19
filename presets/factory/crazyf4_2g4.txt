@@ -9,6 +9,11 @@
 #$ DESCRIPTION: Factory setting for Happymodel CrazyF4 2G4
 
 # resources
+resource MOTOR 1 none
+resource MOTOR 2 none
+resource MOTOR 3 none
+resource MOTOR 4 none
+
 resource MOTOR 1 B08
 resource MOTOR 2 B07
 resource MOTOR 3 B06
@@ -19,6 +24,8 @@ serial 1 2048 115200 57600 0 115200
 
 # other
 set gyro_1_sensor_align = CW0
+set gyro_1_align_roll = 0
+set gyro_1_align_pitch = 0
 set gyro_1_align_yaw = 0
 
 # vtx tables
@@ -30,23 +37,17 @@ vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
 vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
 vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
 
-# vtx setting
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0
+vtxtable powerlabels 25 100 200
+
+# master
 set vtx_band = 5
 set vtx_channel = 3
+set vtx_power = 2
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
-
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 14 20 26
-vtxtable powerlabels PIT 25 100 400
-
-# vtx setting
-set vtx_power = 2
-
-# calibration
-set acc_calibration = -16,-32,-67,1
-
-# elrs rate
+set expresslrs_uid = 116,160,121,218,231,79
 set expresslrs_rate_index = 2

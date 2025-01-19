@@ -1,9 +1,9 @@
 #$ TITLE: HD Avatar GPS OSD settings (Betaflight 4.4-4.5)
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
-#$ CATEGORY: TUNE
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: osd
+#$ KEYWORDS: OSD
 #$ DESCRIPTION: HD Avatar GPS OSD settings (Betaflight 4.4-4.5)
 #$ HIDDEN: true
 
