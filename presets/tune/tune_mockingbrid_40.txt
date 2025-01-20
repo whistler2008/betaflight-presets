@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.0
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: tune
+#$ KEYWORDS: TUNE
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 
@@ -10,15 +10,56 @@
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (UNCHECKED): LED
-#$ INCLUDE: presets/led/led_blink.txt
+# Custom LED
+led 0 0,0::COVIW:5
+led 1 1,0::COVIW:5
+led 2 2,0::COVIW:5
+led 3 3,0::COVIW:5
+led 4 4,0::COVIW:5
+led 5 5,0::COVIW:5
+led 6 6,0::COVIW:5
+led 7 7,0::COVIW:5
+
+# feature
+feature LED_STRIP
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): BEEPER
-#$ INCLUDE: presets/other/other_beeper.txt
+# Custom Beeper
+beeper -RX_LOST
+beeper -DISARMING
+beeper -ARMING
+beeper -ARMING_GPS_FIX
+beeper -BAT_CRIT_LOW
+beeper -GPS_STATUS
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ARMED
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CRASH_FLIP
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): OSD
-#$ INCLUDE: presets/osd/40_osd_global.txt
+# OSD Global
+set osd_warn_batt_not_full = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_rssi_alarm = 50
+set osd_rssi_pos = 2442
+set osd_tim_2_pos = 2455
+set osd_flymode_pos = 2424
+set osd_throttle_pos = 2447
+set osd_craft_name_pos = 2059
+set osd_avg_cell_voltage_pos = 2433
+set osd_disarmed_pos = 2410
+set osd_stat_max_spd = OFF
+set osd_stat_max_dist = ON
+set osd_stat_battery = ON
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Rates

@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: tune
+#$ KEYWORDS: TUNE
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: CineWhoop Tune
 #$ DESCRIPTION: 
@@ -72,7 +72,7 @@ set dshot_bidir = ON
 
 #$ OPTION BEGIN (UNCHECKED): OFF
 # BlacBbox OFF
-set blackbox_device = NONE
+# set blackbox_device = NONE
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GyroFlow

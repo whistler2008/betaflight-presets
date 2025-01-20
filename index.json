@@ -182,7 +182,7 @@
       "rush",
       "rx",
       "tbs",
-      "tune",
+      "TUNE",
       "vtx",
       "xf"
     ]
@@ -651,34 +651,6 @@
       "status": "COMMUNITY",
       "keywords": [
         "MOTOR"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/40_osd_default.txt",
-      "hash": "fff2a66ce06eb55f63855b98367ef2f405559da1812b896cb0b1dbce59a2a59a",
-      "title": "Default OSD settings (Betaflight 4.0)",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "OSD"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/40_osd_global.txt",
-      "hash": "afb1d213f816dc4ee820f2e69ddcba20c002cb1d16f8c878160380e0f5288f62",
-      "title": "Global OSD settings (Betaflight 4.0)",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "OSD"
       ],
       "hidden": true
     },
@@ -1559,21 +1531,6 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/tune/40_tune_mockingbrid_f3.txt",
-      "hash": "28e3ede1f544eeaed78eb747bab4338ba66b8c59deab93db43e137ef3b82de31",
-      "title": "MockingBird 1-2S F3 (Betaflight 4.0)",
-      "firmware_version": [
-        "4.0"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/tune/setting_osd.txt",
       "hash": "bfb4e3f5f3800579bd365fb0f278b13703b7f23751ac5c9dc285f2eac6c2381b",
       "title": "OSD Placement",
@@ -1591,7 +1548,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "83a7b3b7b83d5d3ff6436d9660dd02d8976479b5539f594b0e290f7fb08dfd14",
+      "hash": "f6ffe4b163d692781d5cef7067044de45a1e336f78e32b6a54b32c74fe5ff9dd",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.4",
@@ -1600,14 +1557,14 @@
       "category": "TUNE",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "tune"
+        "TUNE"
       ],
       "author": "Whistler2008",
       "priority": 0
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "923fb9d8301e0fc5310b1b1040c0118351cef6f36416b355753a7cd40bb5b802",
+      "hash": "b1198ee200b4628e4a46e26105e47b5c5410966f880fb7ed022cb748a9aa8ee0",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.4",
@@ -1616,14 +1573,29 @@
       "category": "TUNE",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "tune"
+        "TUNE"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/tune_mockingbrid_40.txt",
+      "hash": "d25e2f988675254d5c0373f7e6171aeb7e6b95687fc787f89714b4fff5ddaded",
+      "title": "MockingBird 1-2S F3 (Betaflight 4.0)",
+      "firmware_version": [
+        "4.0"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "TUNE"
       ],
       "author": "Whistler2008",
       "priority": 0
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "f2e229909764155e1789de22b7f553e0ef7b0d9628b2c86204c5a855e7eef75a",
+      "hash": "37a10f25e4fe070037ad7338315aa53f549b2a474584762cac5d06885bf5d6c7",
       "title": "Race Tune",
       "firmware_version": [
         "4.4",
@@ -1632,14 +1604,14 @@
       "category": "TUNE",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "tune"
+        "TUNE"
       ],
       "author": "Whistler2008",
       "priority": 0
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "d2d006e2909a596bbcc9d48956e4b58afa9567d074ae43492d84bc37f771eb04",
+      "hash": "fcd38323ff741b63373f1f0826d6a6b26d66bcc4fed539a158f075fb542825bb",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.4",
@@ -1648,7 +1620,7 @@
       "category": "TUNE",
       "status": "EXPERIMENTAL",
       "keywords": [
-        "tune"
+        "TUNE"
       ],
       "author": "Whistler2008",
       "priority": 0
