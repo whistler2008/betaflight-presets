@@ -1,5 +1,4 @@
 #$ TITLE: Freestyle 4S Profile 0 (Betaflight 4.3-4.4)
-#$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
@@ -8,9 +7,6 @@
 #$ DESCRIPTION: Freestyle 4S in Profile 0 (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
-profile 0
-
-# profile 0
 set profile_name = 4S
 set auto_profile_cell_count = 4
 set iterm_relax_cutoff = 15
@@ -30,4 +26,14 @@ set d_yaw = 0
 set d_min_yaw = 0
 set f_yaw = 145
 
-set crash_dthreshold = 40
+set crash_dthreshold = 40set simplified_pids_mode = RPY
+set simplified_d_gain = 100
+set simplified_pi_gain = 110
+set simplified_feedforward_gain = 110
+set simplified_dmax_gain = 0
+set simplified_i_gain = 100
+set simplified_pitch_d_gain = 100
+set simplified_pitch_pi_gain = 100
+set simplified_master_multiplier = 110
+
+set anti_gravity_gain = 50

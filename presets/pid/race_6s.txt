@@ -7,10 +7,26 @@
 #$ DESCRIPTION: Race 6S in Profile 0 (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
-profile 0
+set profile_name = 6S
+set auto_profile_cell_count = 6
+set iterm_relax_cutoff = 25
+set p_pitch = 35
+set i_pitch = 63
+set d_pitch = 32
+set d_min_pitch = 23
+set f_pitch = 104
+set p_roll = 34
+set i_roll = 60
+set d_roll = 28
+set d_min_roll = 20
+set f_roll = 100
+set p_yaw = 34
+set i_yaw = 60
+set d_yaw = 0
+set d_min_yaw = 0
+set f_yaw = 100
 
-# profile 0
-set simplified_pids_mode = RPY
+set crash_dthreshold = 35set simplified_pids_mode = RPY
 set simplified_d_gain = 85
 set simplified_pi_gain = 95
 set simplified_feedforward_gain = 105
@@ -19,3 +35,5 @@ set simplified_i_gain = 100
 set simplified_pitch_d_gain = 100
 set simplified_pitch_pi_gain = 100
 set simplified_master_multiplier = 80
+
+set anti_gravity_gain = 80

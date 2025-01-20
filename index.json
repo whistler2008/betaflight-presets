@@ -1180,311 +1180,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_42_1s_p0.txt",
-      "hash": "38414c6ce488388d2ef337c21fe24dddc703d39f98d823ca413c346089be55fa",
-      "title": "Freestyle 1S Profile 0 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_1s_p1.txt",
-      "hash": "9a2a3a6065a63b597855a949520a5bab77449950a8f09a079f59ec8fcfec6b00",
-      "title": "Freestyle 1S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_1s_p2.txt",
-      "hash": "c41f022b1f09f2de3ddf9004022c80734b430a6cf4c7a91548c180efaa368af8",
-      "title": "Freestyle 1S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_2s_p0.txt",
-      "hash": "86b57446504704843aedc73ecc3919133374ba61914a8b93c74be8bd2f7b41ba",
-      "title": "Freestyle 2S Profile 0 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_2s_p1.txt",
-      "hash": "6959aa147359bd67223ad91893a6c663e6cc323489adc1a83e07e95446aa2e4e",
-      "title": "Freestyle 2S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_2s_p2.txt",
-      "hash": "8e4ab6b18a2fd093c91cde8c4474f75e4661921f10433d9cdd679348ab1b7b7b",
-      "title": "Freestyle 2S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_3s_p0.txt",
-      "hash": "5dd7bb31a7ce8004a7f29dd1f5e3c5669e5f5a061b8de26177c0c1f57fa4f22f",
-      "title": "Freestyle 3S Profile 0 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_3s_p1.txt",
-      "hash": "30cbc5c6bd8f5574821599742b8d7416a0f052d576ce5185954a0b1732e1cfff",
-      "title": "Freestyle 3S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_3s_p2.txt",
-      "hash": "dc649394c24356bf17dd3dbd4ff168b2fc045a15ceac0d4b34c1ae20047cfe64",
-      "title": "Freestyle 3S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_4s_p0.txt",
-      "hash": "1b023061d4577caf065c7ef965f66f20d4656ae86c3b05b962306e06c946104b",
-      "title": "Freestyle 4S Profile 0 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_4s_p1.txt",
-      "hash": "b88dc55fa03753e557d61b5608cf5468199e00181fa09c9321a7b55e0d23fa6b",
-      "title": "Freestyle 4S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_4s_p2.txt",
-      "hash": "7b1196ccf18f10fd17d90ff29c2625e24b6269b8e647e8317986f454c159e94c",
-      "title": "Freestyle 4S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_6s_p0.txt",
-      "hash": "1bbf833c2c6887cdc16b2daf2bd641ca2a54cd726d4f27bee72dd762c5a5f0f5",
-      "title": "Freestyle 6S Profile 0 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_6s_p1.txt",
-      "hash": "d67009ef80780163027408a73cc4b7f3713f99eaee0acd9b13d9189801938e87",
-      "title": "Freestyle 6S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_6s_p2.txt",
-      "hash": "3402461dc7305e170b5e893c6f53bdbddc2d9f6e9938d58bfbfeb3d3b91bed97",
-      "title": "Freestyle 6S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_p0.txt",
-      "hash": "a80af88c0cbf6dd4ea961d2eee6b8a71a0f3be5b102bb1fba0ecd98f07eb9199",
-      "title": "FreeStyle Profile 0 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_p1.txt",
-      "hash": "bdf5b57e4bbf29315a9437542ddf15e2418576e7041f5baa9f72b7311d0c8127",
-      "title": "FreeStyle Profile 1 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_42_p2.txt",
-      "hash": "e218bba304f01d4d62a908c242fc30619a6abba1039ae9130e36b88be4afe9a1",
-      "title": "FreeStyle Profile 2 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_1s_p0.txt",
-      "hash": "a78bea1c09dfe59e6583fc5b4221216e09d4d1bdad8e9c64d042cc2adfd9ccef",
+      "fullPath": "presets/pid/freestyle_1s.txt",
+      "hash": "023c77696a1703aa89c7d2467e4f272625ad6b561df38b2c8c8283eb8c31f473",
       "title": "Freestyle 1S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1499,40 +1196,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_43_1s_p1.txt",
-      "hash": "4c82778bc3b5fb50754f30255249a24fa823f15996f660dc8c5dc03a220821b2",
-      "title": "Freestyle 1S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_1s_p2.txt",
-      "hash": "07944eb1df807301ee6e2e02e4f54c12ffa33e10a81e4db44433689b9c07aaa5",
-      "title": "Freestyle 1S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_2s_p0.txt",
-      "hash": "2eb7072f5cc220b4b6f982e18c8a14949dcad46cea53e9487ae90697fa0985dc",
+      "fullPath": "presets/pid/freestyle_2s.txt",
+      "hash": "a9fc47d95af7393fc78364380d69045a756c9e39bd0afff4c7ef47cf86e53fee",
       "title": "Freestyle 2S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1547,40 +1212,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_43_2s_p1.txt",
-      "hash": "bb0ab476406ca153c860b0f8005f6e0fe39778e6155bdf3f2098c402c5017fd5",
-      "title": "Freestyle 2S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_2s_p2.txt",
-      "hash": "0f2a71bebbd50080014c9186ece754e586202afae69f318ace71540e92d73623",
-      "title": "Freestyle 2S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_3s_p0.txt",
-      "hash": "1a56add4aaa0beb43f3ad1b13bb8e61d8f5c1804d20d4d9539dd4d9cb33f2ce0",
+      "fullPath": "presets/pid/freestyle_3s.txt",
+      "hash": "fe3e67f25a481731713fbe4896e6c1765dbd6f0b411ca4de4cbbffcf5f3f9c3b",
       "title": "Freestyle 3S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1595,40 +1228,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_43_3s_p1.txt",
-      "hash": "f6c8b14547b28fe38ed994f92ea06d73ae9739334cca6433d0aa472d31bd4b79",
-      "title": "Freestyle 3S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_3s_p2.txt",
-      "hash": "e0b7f38702f85ef1f215f0545352d5632f8a99296cd864e96a57956a9b46938e",
-      "title": "Freestyle 3S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_4s_p0.txt",
-      "hash": "fbd0207e1ce07125e549403f62fa5e8a4839d48038dc5d453b60e9a4b5841839",
+      "fullPath": "presets/pid/freestyle_4s.txt",
+      "hash": "a4b0e6230a856e76c774401dfb3b53a25b8faed5409c859ccfddabf882fc909a",
       "title": "Freestyle 4S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1643,40 +1244,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_43_4s_p1.txt",
-      "hash": "14e37abbb6a3ba828d321160e900033693d1543977b5d52647f443d95fb320fb",
-      "title": "Freestyle 4S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_4s_p2.txt",
-      "hash": "4546a366f8a89238b5e91f0c223dc48ba1c6d8b6bc1d048d2c3bf5cd848a993b",
-      "title": "Freestyle 4S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_6s_p0.txt",
-      "hash": "1d7865952a8eaee0b8002656b5ef3cf38d4826d6176ecbe9dbac7485ec017677",
+      "fullPath": "presets/pid/freestyle_6s.txt",
+      "hash": "fcca9f384daf3d86d60365f3634eaebad23787f34d117304ea2088c387ca9c43",
       "title": "Freestyle 6S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1691,168 +1260,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_43_6s_p1.txt",
-      "hash": "ba8d23a275f21a18d99a9de744661ef81c29d1972522925694b273ac61bb4ea1",
-      "title": "Freestyle 6S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_43_6s_p2.txt",
-      "hash": "7f48d4f066abd01f2fabf408b6c816b76c7879f61f3f693185838ac4f02783c5",
-      "title": "Freestyle 6S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_44_p0.txt",
-      "hash": "8f2351dd460fbf0d95422e81d92f55eca3fe1a6cc86d2096a2cd828e8e60c394",
-      "title": "FreeStyle Profile 0 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_44_p1.txt",
-      "hash": "331069993c83fb664890f634febb6c30b40aa95986970389964fc55676fac849",
-      "title": "FreeStyle Profile 1 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_44_p2.txt",
-      "hash": "a25a109f163a4d3ee3991907a67248d89ec98795884d7b53d6677f83891251dc",
-      "title": "FreeStyle Profile 2 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_42_1s_p0.txt",
-      "hash": "1f91695de1b135fa217a1a785fe58cc292a7bbf56c16d0e5b228d4c39ffdf911",
-      "title": "RaceWhoop 1S Profile 0 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_42_1s_p1.txt",
-      "hash": "6da4ee8ba3b5e25f4ae3767e54a895f74fc369dc0bc026db50e168d08e0fbcdb",
-      "title": "RaceWhoop 1S Profile 1 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_42_2s_p0.txt",
-      "hash": "94d79ea7843b563cf88546f3f06e374440e320faf03cc98ad4562c39ed16494c",
-      "title": "RaceWhoop 2S Profile 0 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_42_p0.txt",
-      "hash": "4d52af377c283eede06e6dedfea718d5275254c5fc56bb805fff63766bb17998",
-      "title": "RaceWhoop Profile 0 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_42_p1.txt",
-      "hash": "cc07fe5bebdb501718bb77ed5ce28889f745e55742037e7cda7d3b87209e557c",
-      "title": "RaceWhoop Profile 1 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_43_1s_p0.txt",
-      "hash": "30321c768d01319d38cfc8cabff68eec570b09aaaef26e71cf55b8b7666838e9",
+      "fullPath": "presets/pid/racewhoop_1s.txt",
+      "hash": "05754be4da37a8fde8a75e007d002e080f7f524d1f61f12bd3b82e61112b2388",
       "title": "RaceWhoop 1S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1867,24 +1276,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/racewhoop_43_1s_p1.txt",
-      "hash": "340efca82c6764e544d7673b68e6b2cebfebe7a0d52fcb54227008612f9638b8",
-      "title": "RaceWhoop 1S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_43_2s_p0.txt",
-      "hash": "7974b27d703c46012ba1848c954b7873bc0fae0e4c46ee5086960df752ec93ce",
+      "fullPath": "presets/pid/racewhoop_2s.txt",
+      "hash": "dff06a2d93557b22485b8082caf8df0d1d29ef06ea6e0f077dcd4d04894633c2",
       "title": "RaceWhoop 2S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1899,239 +1292,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/racewhoop_44_p0.txt",
-      "hash": "9bdffbf558851a2645a142ed21863cca56ff2fbf1db282b4db16a030adb3265a",
-      "title": "RaceWhoop Profile 0 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/racewhoop_44_p1.txt",
-      "hash": "542efd84350169dcdc179deb61237c18fb0853528b2689b3e9a80c1c1d769b1f",
-      "title": "RaceWhoop Profile 1 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_3s_p0.txt",
-      "hash": "82ec0f608e44d8886d6eacc1a148f100ae3393e2380e150affc332d721669b9a",
-      "title": "Race 3S Profile 0 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_3s_p1.txt",
-      "hash": "5efd135ea4a5cb795fb30bf21683351ec8c8a20ed5cd27a66498f452ea9eee5b",
-      "title": "Race 3S Profile 1 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_3s_p2.txt",
-      "hash": "25c0417ca08a8ae8c7da9d2f7a9aeeb083f5803a07c57a7dc8fbeef4b62b0e30",
-      "title": "Race 3S Profile 2 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_4s_p0.txt",
-      "hash": "23e7fd6a271b50da0f19e74f29f3fb708be18753c6fe8c6b60db4e0c9dfa27a0",
-      "title": "Race 4S Profile 0 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_4s_p1.txt",
-      "hash": "d36fd68e8819602cab2666967e556882a53581d320b92e5c57e4d2274737e62a",
-      "title": "Race 4S Profile 1 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_4s_p2.txt",
-      "hash": "262f0af841767c46fde701fee39ac2731f61a32ff389366b128942cb4110ff93",
-      "title": "Race 4S Profile 2 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_6s_p0.txt",
-      "hash": "1c72bebac5c509ad8a954296b134f5b06350e518b7c3c7890a2f5f9b1df14a1d",
-      "title": "Race 6S Profile 0 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_6s_p1.txt",
-      "hash": "781d1e7a6ed09c37277599f830741a542f4d3ee9792b4f378c4a37035697f93a",
-      "title": "Race 6S Profile 2 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_6s_p2.txt",
-      "hash": "781d1e7a6ed09c37277599f830741a542f4d3ee9792b4f378c4a37035697f93a",
-      "title": "Race 6S Profile 2 (Betaflight 4.2-4.4)",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_p0.txt",
-      "hash": "9c519e9a03b9e745e4c781026c8d0470a90ffd599933869d9f528968ab1a9e01",
-      "title": "Race Profile 0 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_p1.txt",
-      "hash": "1426c3881e381076444f584353d6acf0e51410135f8e25b5e5a6ac2f675aa20a",
-      "title": "Race Profile 1 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_42_p2.txt",
-      "hash": "ecf18a345a0b33e157f2c66e92b5caac289128d7db70cdb24267098f15f08470",
-      "title": "Race Profile 2 (Betaflight 4.2-4.3)",
-      "firmware_version": [
-        "4.2",
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_43_3s_p0.txt",
-      "hash": "5d310911bfbebe38a6422d05cfa71317779d324d779deb1e6e09245c36d345fb",
+      "fullPath": "presets/pid/race_3s.txt",
+      "hash": "d8fde370b57b8371eef365579bc955b1e5822bb635b582ccac3597c7022ae2ea",
       "title": "Race 3S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2146,40 +1308,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/race_43_3s_p1.txt",
-      "hash": "c2b079c89cae1cb54e1ec94d8f3e7a275a0d6806aaca87d11bea2ee60ba5ec21",
-      "title": "Race 3S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_43_3s_p2.txt",
-      "hash": "8c2c58b22334ef035f15a19789f76ac21c53b7ce1650c041f368a33a8ff628cc",
-      "title": "Race 3S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_43_4s_p0.txt",
-      "hash": "57836a8fc8e9b5c13afa51a2906b3fe4f148f3c7b2f79d9cd486d76f3ffd4e6a",
+      "fullPath": "presets/pid/race_4s.txt",
+      "hash": "16f2a69d4c4b6b2abdf955a2c1ee26eb9ad4ee5c0be972bc63b59103d08eb419",
       "title": "Race 4S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -2194,120 +1324,11 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/race_43_4s_p1.txt",
-      "hash": "4073c76324fc99163eb5a363e74380c8da5aa1af9c81aa0630d6e2d8b5ce4dd7",
-      "title": "Race 4S Profile 1 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_43_4s_p2.txt",
-      "hash": "6beff1cf95d11aa72367088479b5802cc135b407e9d84791100db8baf128cad7",
-      "title": "Race 4S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_43_6s_p0.txt",
-      "hash": "8735645228dfb8bd5938aacb3d730ee34e7adf9e7d654c925922674ba0792c7e",
+      "fullPath": "presets/pid/race_6s.txt",
+      "hash": "0df9037e3f797759fcfcab5b151b057f4b74d31e47699ee300a999b29eda34f7",
       "title": "Race 6S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_43_6s_p1.txt",
-      "hash": "b52666898df410832602bf58fc64b46aaede8a2c53d329b936beea7b1989e327",
-      "title": "Race 6S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_43_6s_p2.txt",
-      "hash": "b52666898df410832602bf58fc64b46aaede8a2c53d329b936beea7b1989e327",
-      "title": "Race 6S Profile 2 (Betaflight 4.3-4.4)",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_44_p0.txt",
-      "hash": "dd47520ae27833ced03230bf12c32059f0f3a5e49134b07b3d007cca147e261f",
-      "title": "Race Profile 0 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_44_p1.txt",
-      "hash": "bbde4ae05edaf448e64810ab93b27a0272cb53b9114565db43addff0c1819682",
-      "title": "Race Profile 1 (Betaflight 4.4)",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "pid"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_44_p2.txt",
-      "hash": "04a5a4337360ca0b17928bc464bba35fb91933da1bbd295e057775842fb970a8",
-      "title": "Race Profile 2 (Betaflight 4.4)",
-      "firmware_version": [
         "4.4"
       ],
       "category": "TUNE",
@@ -2586,7 +1607,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "e43e78a836add7116de35c6936c705d9feb0e7d71455a57d27757ca976e68fa5",
+      "hash": "923fb9d8301e0fc5310b1b1040c0118351cef6f36416b355753a7cd40bb5b802",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.4",
@@ -2602,7 +1623,7 @@
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "dc2c42835e70c80ca50e2299ca5c04174b17a0735eae99b3325133bebcf20dfe",
+      "hash": "f2e229909764155e1789de22b7f553e0ef7b0d9628b2c86204c5a855e7eef75a",
       "title": "Race Tune",
       "firmware_version": [
         "4.4",
@@ -2618,7 +1639,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "b1899cf6dbfeba7d57518e33cb6a488d6d3546e2b5227dffe4d2074d57796375",
+      "hash": "d2d006e2909a596bbcc9d48956e4b58afa9567d074ae43492d84bc37f771eb04",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.4",

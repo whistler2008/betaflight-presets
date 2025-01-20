@@ -183,18 +183,15 @@ set blackbox_device = NONE
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
-#$ INCLUDE: presets/pid/racewhoop_42_1s_p0.txt
-#$ INCLUDE: presets/pid/racewhoop_43_1s_p0.txt
-#$ INCLUDE: presets/pid/racewhoop_44_p0.txt
+profile 0
+#$ INCLUDE: presets/pid/racewhoop_1s.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 2S
-#$ INCLUDE: presets/pid/racewhoop_42_2s_p0.txt
-#$ INCLUDE: presets/pid/racewhoop_43_2s_p0.txt
-#$ INCLUDE: presets/pid/racewhoop_42_1s_p1.txt
-#$ INCLUDE: presets/pid/racewhoop_43_1s_p1.txt
-#$ INCLUDE: presets/pid/racewhoop_44_p0.txt
-#$ INCLUDE: presets/pid/racewhoop_44_p1.txt
+profile 0
+#$ INCLUDE: presets/pid/racewhoop_2s.txt
+profile 1
+#$ INCLUDE: presets/pid/racewhoop_1s.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
