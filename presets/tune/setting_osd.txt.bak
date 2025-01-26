@@ -36,13 +36,13 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas & LQ
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas_lq.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_o3.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_o3_lq.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas & RSSI
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas_rssi.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_o3.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_o3_rssi.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & LQ
@@ -79,7 +79,7 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas_gps.txt
+#$ INCLUDE: presets/osd/osd_hd_dji_o3_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
