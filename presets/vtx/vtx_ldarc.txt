@@ -1,0 +1,100 @@
+#$ TITLE: LDARC VTX
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vtx, LDARC
+#$ DESCRIPTION: LDARC VTX settings
+
+
+#$ OPTION_GROUP BEGIN: Series
+
+#$ OPTION BEGIN (UNCHECKED): LDARC Micro KK20 200mW (IRC)
+#$ INCLUDE: presets/vtx/vtx_default_irc2.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 25 100 200
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Band
+
+#$ OPTION BEGIN (UNCHECKED): BOSCAM_A
+set vtx_band = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BOSCAM_B
+set vtx_band = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BOSCAM_E
+set vtx_band = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): FATSHARK
+set vtx_band = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): RACEBAND
+set vtx_band = 5
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Channel
+
+#$ OPTION BEGIN (CHECKED): CH_1
+set vtx_channel = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CH_2
+set vtx_channel = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CH_3
+set vtx_channel = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CH_4
+set vtx_channel = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CH_5
+set vtx_channel = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CH_6
+set vtx_channel = 6
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CH_7
+set vtx_channel = 7
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CH_8
+set vtx_channel = 8
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Low Power Disarm
+
+#$ OPTION BEGIN (UNCHECKED): OFF
+set vtx_low_power_disarm = OFF
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): ON
+set vtx_low_power_disarm = ON
+#$ OPTION END
+
+#$ OPTION_GROUP END
