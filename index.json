@@ -169,7 +169,7 @@
       "hglrc",
       "iflight",
       "jhemcu",
-      "LDARC",
+      "LDARC VTX",
       "LED",
       "MODES",
       "MOTOR",
@@ -1714,7 +1714,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default_irc2.txt",
-      "hash": "5e691d9c5eba417bffc7016682c50f7c6ae020afaa2cd1934b350a1bc8aa3183",
+      "hash": "a2c1567efef48b09517042bab6d5511dd77a2531e9fd5f0314c99ce4e7599e66",
       "title": "Default IRC2 VTX",
       "firmware_version": [
         "4.2",
@@ -1884,7 +1884,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_ldarc.txt",
-      "hash": "288de7f67ff67f8b0f19d057673abd01e2be08bed09ce2b4f4fa64cb2ada9db9",
+      "hash": "0a89a5722713c50c5eaaf732bf40921335dbe73ef6bffdd4dc0481c3a759d5c2",
       "title": "LDARC VTX",
       "firmware_version": [
         "4.2",
@@ -1896,7 +1896,7 @@
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
-        "LDARC"
+        "LDARC VTX"
       ]
     },
     {
