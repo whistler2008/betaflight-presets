@@ -11,6 +11,10 @@
 
 #$ OPTION_GROUP BEGIN: OSD General Placement
 
+#$ OPTION BEGIN (CHECKED): Default
+#$ INCLUDE: presets/osd/osd_default.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
 #$ INCLUDE: presets/osd/osd_analog_pal.txt
 #$ INCLUDE: presets/osd/osd_analog_pal_lq.txt

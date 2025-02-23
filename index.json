@@ -672,7 +672,7 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_ntsc.txt",
-      "hash": "42d3aab6283e761e8360d30a361b41e58a7ec11c0c5364a5bda51a1896185be7",
+      "hash": "aed1377f9c9904a3e913dfb598ddb42be5905ea565c0bbeb4bd46b977ef9bbcb",
       "title": "Analog NTSC OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -717,7 +717,7 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_pal.txt",
-      "hash": "9acbe194071343936e34379016ec303018d4042c93eb244ee8019f1b2e8eff4c",
+      "hash": "e1b7d8dfe6443f41376bfed60c6838cd0320f39e20f0888a88737d94ade3f422",
       "title": "Analog PAL OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -777,7 +777,7 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_avatar.txt",
-      "hash": "c37f0e8174869d866206c9a9bdcbac7a2658f6b2a98876fd3f0b64afed5972c0",
+      "hash": "2745f9cff25c0cb3f2ff43c62aa02c438b888c5f7eceddfbb9b23f40e7d2cd7f",
       "title": "HD Avatar OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -807,7 +807,7 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_canvas.txt",
-      "hash": "a081a6012abe84776362ec70b07a4575812cdb5cd522b16c34ce70035f58abb9",
+      "hash": "c326d7157f696feb0ac504d7bcfe7ec5875f6db2f5219b7c3b71604628c84d21",
       "title": "HD DJI Canvas OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -867,7 +867,7 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_fpv.txt",
-      "hash": "50c5d730bd1ce98fed078a15f62cca6180b87710795f81b09441661a4e8615b6",
+      "hash": "332b5df5c899231f1da45764ee60f2b0089dca247d594167b9468efb4c5227bf",
       "title": "HD DJI FPV OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -927,7 +927,7 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_wtfos.txt",
-      "hash": "ac9abdbb4dc75f245b50ca1307fff0b4b74b9bc3cb8cca6d3e112f253b773c88",
+      "hash": "41740b871bad017d32ed6e51139f3095e8a7dd8abc1d8b2f0003e3c9cad0550f",
       "title": "DJI WTFOS OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -957,7 +957,7 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_hdzero.txt",
-      "hash": "e68bded7af66f4ab60e8ef534cd53dd9a3411f0ccc031b5719e4785527cb3e62",
+      "hash": "e423794a89b98c9970603c8fc1c96dc7ac4623dbbcd2bfedbde25a2d44f574a8",
       "title": "HD Zero OSD settings (Betaflight 4.4-4.5)",
       "firmware_version": [
         "4.4",
@@ -1025,7 +1025,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_bmi270.txt",
-      "hash": "f11a1c4a6b63f6f577db789327876c1f14f521a446adbfeb8ffdbe8a31ac262f",
+      "hash": "f397cf8b04c24a7fda5a861452a35ebe96a8fff72cb4a57f9e13b1e7b8a43409",
       "title": "Gyro_BMI270",
       "firmware_version": [
         "4.4",
@@ -1533,7 +1533,7 @@
     },
     {
       "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "002c22acd128c6b14a0992cfae06a2339c1624e6dadacbaadf3d51a93f0090e7",
+      "hash": "b0ccfb9a38f7d2ae7a99d8c62b0338fadd25d3ab50aa8c705adfb95aa36b4a40",
       "title": "OSD Placement",
       "firmware_version": [
         "4.4",
