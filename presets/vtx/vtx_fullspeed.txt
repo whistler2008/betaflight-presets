@@ -12,7 +12,7 @@
 #$ OPTION_GROUP BEGIN: Series
 
 #$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 600

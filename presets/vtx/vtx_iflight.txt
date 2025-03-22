@@ -12,7 +12,7 @@
 #$ OPTION_GROUP BEGIN: Series
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Race 25mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 1
 vtxtable powervalues 25
@@ -23,7 +23,7 @@ set vtx_power = 1
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Micro 200mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 25 100 200
@@ -34,7 +34,7 @@ set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Force 300mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 300
@@ -45,7 +45,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 500mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 500
@@ -56,7 +56,7 @@ set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Mini 600mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 200 400 600
@@ -67,7 +67,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight SucceX Force 800mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 400 800
@@ -78,7 +78,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight BLITZ Force 600mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 200 400 600
@@ -89,7 +89,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight BLITZ 1.6mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 400 800 1600
@@ -100,7 +100,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight BLITZ Whoop 1.6mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 400 800 1600
@@ -111,7 +111,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight BLITZ Whoop 2.5mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 400 1000 2500

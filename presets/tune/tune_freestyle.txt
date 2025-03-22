@@ -44,6 +44,10 @@ set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): EC Smoothing
+set rc_smoothing_auto_factor = 60
+#$ OPTION END
+
 #$ OPTION BEGIN (CHECKED): Maximum PID Limit
 #$ INCLUDE: presets/other/other_pid.txt
 #$ OPTION END
@@ -258,19 +262,6 @@ set serialrx_provider = CRSF
 feature RX_SERIAL
 set serialrx_provider = CRSF
 #$ INCLUDE: presets/reciever/reciever_freestyle_elrs_500.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: GPS Hardware
-
-#$ OPTION BEGIN (CHECKED): Without GPS
-#$ INCLUDE: presets/modes/aux_std.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): With GPS
-#$ INCLUDE: presets/modes/aux_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

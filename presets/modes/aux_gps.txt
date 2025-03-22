@@ -11,11 +11,19 @@
 # feature
 feature GPS
 
+# AUX default
+aux 0 0 0 900 900 0 0
+aux 1 0 0 900 900 0 0
+aux 2 0 0 900 900 0 0
+aux 3 0 0 900 900 0 0
+aux 4 0 0 900 900 0 0
+
 # AUX
 aux 0 0 0 1550 2100 0 0
 aux 1 1 1 900 1300 0 0
-aux 2 13 2 1700 2100 0 0
-aux 3 28 1 1700 2100 0 0
+aux 2 46 3 1700 2100 0 0
+aux 3 13 2 1700 2100 0 0
+aux 4 28 1 1700 2100 0 0
 
 # stage-1 failsafe
 rxfail 3 s 1100

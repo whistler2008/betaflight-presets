@@ -12,7 +12,7 @@
 #$ OPTION_GROUP BEGIN: Series
 
 #$ OPTION BEGIN (UNCHECKED): HGLRC Zeus 800 800mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 800
@@ -23,7 +23,7 @@ set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HGLRC FD VTX Micro 400mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 400
@@ -34,7 +34,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HGLRC Zeus Nano 350mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 350

@@ -165,11 +165,12 @@
       "FILTER",
       "fullspeed",
       "geprc",
+      "gps",
       "happymodel",
       "hglrc",
       "iflight",
       "jhemcu",
-      "LDARC VTX",
+      "ldarc",
       "LED",
       "MODES",
       "MOTOR",
@@ -412,6 +413,20 @@
       ]
     },
     {
+      "fullPath": "presets/factory/iflight/evoque.txt",
+      "hash": "f516cd110b91b2e6aefea048db192c58095189ae4348536bf7dbf8ef31934595",
+      "title": "iFlight Nazgul Evoque F5",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "iflight"
+      ]
+    },
+    {
       "fullPath": "presets/factory/matekf405.txt",
       "hash": "74fc8ea8bf9fea3a0b30df61474c1eeb1dc6e2e8685d5ee6b6acdbc09ae2536a",
       "title": "MATEK F405 / OSD",
@@ -555,7 +570,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "f7b1ebd1366e8ecf979bcdea3e4ae63d105bc3165226fd47969c5509840643f3",
+      "hash": "77824bacdf756679165ee9bef6e8e97d0c7f1492437adb312d7b7bf1ef1aa824",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.4",
@@ -570,7 +585,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "3a4d3dfcfcdc8e637f693ccb5d681211f8a88a7b7846bf39d52117646b51f647",
+      "hash": "2922215c62512f0e32453a0d5d396592dd320cc1415f82bb5027b33a4fe55e96",
       "title": "AUX Standard",
       "firmware_version": [
         "4.4",
@@ -1389,7 +1404,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_200.txt",
-      "hash": "c58f2b70c1682225a3415d91cab23721bc59647b548b7787831e846bf5a35a17",
+      "hash": "b363c6b2369b8de5a3b702e9e26a121b5a24aba8e17f7b6d059ad8074b081681",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1405,7 +1420,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "dce10f9fbc055e07183a10f03659efcc1e471c3b6008fcf5ce54bbc40220b914",
+      "hash": "9ba1dd32defad26ceee711ded5094d228f01976522839831cfcecf50f1e333ea",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1421,7 +1436,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_200.txt",
-      "hash": "0c4457f56793df00c4c545f26bc772c8e12e3f1dcaf674e1580dd065b556aa21",
+      "hash": "0e011585a440434c02cadb86af71daf2878c07178b3e44ac468aba8cdba09099",
       "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1437,7 +1452,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "ead5a5b08d1d2861af059d93e788fa849597ef159d563c6b00aa1710d157d43f",
+      "hash": "9d8dabc15cb39c305ddc179eaa6fe9ef08ef7fde89f8a9261c3b204b2d57b435",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1453,7 +1468,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_200.txt",
-      "hash": "5954334aa68673dc930f9b3c6732207895e4de924b5dd4a94b41ffe4cd98074e",
+      "hash": "e71c10937f53414b96bf9881930e96cd985b692df240c9b32dbb320003028803",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1469,7 +1484,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "83dadb7982adfaa778ee2e82506343ac226f4bb2b70e277c1ec87554547b6c2c",
+      "hash": "06be9bb1b3f40ff6b4f8be3a0a0073464d227dd5fe1473d95930bbe5d1551df6",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1532,9 +1547,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/tune/setting_osd.txt",
-      "hash": "b0ccfb9a38f7d2ae7a99d8c62b0338fadd25d3ab50aa8c705adfb95aa36b4a40",
-      "title": "OSD Placement",
+      "fullPath": "presets/tune/setting_gps_osd.txt",
+      "hash": "fb35f95264416648f1ec9665c9f9c43ec3f0a05784fbafdc09ef3407d8459005",
+      "title": "GPS Hardware & OSD Placement",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1542,14 +1557,15 @@
       "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
-        "osd"
+        "osd",
+        "gps"
       ],
       "author": "Whistler2008",
       "priority": 0
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "f6ffe4b163d692781d5cef7067044de45a1e336f78e32b6a54b32c74fe5ff9dd",
+      "hash": "7029749e4125dec1da8fdecafa2ff391967aa0e52e835c6202cda9406febe3ab",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.4",
@@ -1565,7 +1581,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "b1198ee200b4628e4a46e26105e47b5c5410966f880fb7ed022cb748a9aa8ee0",
+      "hash": "0b36adfe9a293ae5d9320be29a1fd9dfb7c2a5e3d1cd13382582734e3f64e833",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.4",
@@ -1596,7 +1612,7 @@
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "37a10f25e4fe070037ad7338315aa53f549b2a474584762cac5d06885bf5d6c7",
+      "hash": "4e50cb756e2dcf8fdf2173094cd4d2fae2d499a5b7e820cd7063aa816a0abe85",
       "title": "Race Tune",
       "firmware_version": [
         "4.4",
@@ -1612,7 +1628,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "fcd38323ff741b63373f1f0826d6a6b26d66bcc4fed539a158f075fb542825bb",
+      "hash": "03441f734ac7b911aae7660926e91791dda9009b10f3c6ab1e0d8161e9e38b86",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.4",
@@ -1696,9 +1712,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/vtx/vtx_default_irc.txt",
-      "hash": "d5e53a4540f99bb9ffc0074e59add8831db8c5509a24300882d1c7a1b4adcfa4",
-      "title": "Default IRC VTX",
+      "fullPath": "presets/vtx/vtx_default_irc_abefhr.txt",
+      "hash": "1281e352ada74989c61387f33c7f8a56a06938e3d1fa162a8b8c6b48f1c053c4",
+      "title": "Default IRC2 VTX",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -1713,9 +1729,9 @@
       ]
     },
     {
-      "fullPath": "presets/vtx/vtx_default_irc2.txt",
-      "hash": "a2c1567efef48b09517042bab6d5511dd77a2531e9fd5f0314c99ce4e7599e66",
-      "title": "Default IRC2 VTX",
+      "fullPath": "presets/vtx/vtx_default_irc_abefr.txt",
+      "hash": "ef61b4211a96396d684b741f4f5ac1df390095e70e10d1a190c7315d83c5dce0",
+      "title": "Default IRC VTX",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -1748,7 +1764,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_eachine.txt",
-      "hash": "e560f4b86a130eb4669dc497d84c4b436d97b475adab0d5db4cc38fab4c631a2",
+      "hash": "39416174864e410a4ae76aa2c325a5e6f8cee1c200e0df935af405fcf95fa4b8",
       "title": "Eachine",
       "firmware_version": [
         "4.2",
@@ -1782,7 +1798,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_fullspeed.txt",
-      "hash": "4edd48fb419b7af6f6286b9819f04d24cd68cb38b17cc48a9faaba3078b826f0",
+      "hash": "adb7b288630fe0c930500b03731f63c95c4ac1095172a6d2a1b2e2e40ab09bba",
       "title": "FullSpeed",
       "firmware_version": [
         "4.2",
@@ -1799,7 +1815,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_geprc.txt",
-      "hash": "e3395a8dfba0dfc0429f580f2d58a56f87446c7023bb086926d03ff73ca0b5dd",
+      "hash": "fba008a96e899d22af243d0b560120fa1bdcdc70b74aee0446a8ead73bc4a3ab",
       "title": "GEPRC",
       "firmware_version": [
         "4.2",
@@ -1833,7 +1849,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_hglrc.txt",
-      "hash": "d8c90c6eb3f395ad811289336394baf2c29fde5fa2a8090c7b58bd771a154dfe",
+      "hash": "44f596cea65af6c12790d8d6357c776b65cd83ff84ceb2ad5193dd544da220a3",
       "title": "HGLRC",
       "firmware_version": [
         "4.2",
@@ -1850,7 +1866,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_iflight.txt",
-      "hash": "b01473b3e793459c704b8d56cbb495f8c33abcec584cf2e86eab0d2d1b9e7017",
+      "hash": "86bb97f2c84835c67150226552976a40004578f48e9675727e0973b157cbe51a",
       "title": "iFlight",
       "firmware_version": [
         "4.2",
@@ -1867,7 +1883,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_jhemcu.txt",
-      "hash": "ae47060c1edb0c9d85958460a3c5cfabf1a59ebff5cc3f89fce988134ee99dc8",
+      "hash": "ad8e50c97b15ceb9e964f4c6f15f562c9ef27853709069abafd4303afe47f6e8",
       "title": "JHEMCU",
       "firmware_version": [
         "4.2",
@@ -1884,8 +1900,8 @@
     },
     {
       "fullPath": "presets/vtx/vtx_ldarc.txt",
-      "hash": "0a89a5722713c50c5eaaf732bf40921335dbe73ef6bffdd4dc0481c3a759d5c2",
-      "title": "LDARC VTX",
+      "hash": "c53f470517910beb23ec95761a1656b185b56aebfb3e2acaadee09b770b74d22",
+      "title": "LDARC",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -1896,12 +1912,12 @@
       "status": "COMMUNITY",
       "keywords": [
         "vtx",
-        "LDARC VTX"
+        "ldarc"
       ]
     },
     {
       "fullPath": "presets/vtx/vtx_nameless.txt",
-      "hash": "5ac7c3a0583ff1a0e9181666b14b1ca48d0d61d275da1c9b791eb0b4165a6087",
+      "hash": "2ef230fd072acc3408909b900a7a0184714999a91c17a08e18d02c5ca8a7451b",
       "title": "NamelessRC",
       "firmware_version": [
         "4.2",
