@@ -30,8 +30,9 @@ set craft_name = CINEWHOOP
 set pilot_name = CINEWHOOP
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): CAM Angle
-#$ INCLUDE: presets/other/other_cam_angle.txt
+#$ OPTION BEGIN (CHECKED): CAM Angle 5%
+set fpv_mix_degrees = 5
+set small_angle = 180
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report

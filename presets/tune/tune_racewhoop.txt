@@ -30,8 +30,9 @@ set craft_name = RACEWHOOP
 set pilot_name = RACEWHOOP
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): CAM Angle
-#$ INCLUDE: presets/other/other_cam_angle.txt
+#$ OPTION BEGIN (CHECKED): CAM Angle 20%
+set fpv_mix_degrees = 20
+set small_angle = 180
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report

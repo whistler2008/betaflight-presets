@@ -30,8 +30,9 @@ set craft_name = FREESTYLE
 set pilot_name = FREESTYLE
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): CAM Angle
-#$ INCLUDE: presets/other/other_cam_angle.txt
+#$ OPTION BEGIN (CHECKED): CAM Angle 10%
+set fpv_mix_degrees = 10
+set small_angle = 180
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
