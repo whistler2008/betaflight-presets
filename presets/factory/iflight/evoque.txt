@@ -122,6 +122,8 @@ set debug_mode = GYRO_SCALED
 set rpm_filter_weights = 100,0,80
 set craft_name = Nazgul F5
 set pilot_name = iFlight
+set tpa_rate = 60
+set tpa_breakpoint = 1280
 
 profile 0
 
