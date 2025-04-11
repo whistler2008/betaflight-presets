@@ -343,7 +343,7 @@
     },
     {
       "fullPath": "presets/crash/crash_off.txt",
-      "hash": "d1855c2c7b9be8bf1b016a849cfdfcd11bc33ee9af5316a624f31c8a63cdb672",
+      "hash": "920828b2fab0032dfe44f57f99e437d001e438e83c7c2983344b86102bc3e288",
       "title": "Crash Recovery OFF",
       "firmware_version": [
         "4.0",
@@ -1483,7 +1483,7 @@
     },
     {
       "fullPath": "presets/tune/setting_basic.txt",
-      "hash": "ffa070656a24fc995b0567d8bd124c452181ad04e4eba87b7dfde7c07ad591bf",
+      "hash": "c0c0080b8d24c0267b4f2a6b22fbad3fcc328ef376030db306de30773e600104",
       "title": "Basic Setting",
       "firmware_version": [
         "4.4",

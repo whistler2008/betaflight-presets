@@ -15,7 +15,7 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (UNCHECKED): LED
+#$ OPTION BEGIN (UNCHECKED): Enable LED
 #$ INCLUDE: presets/led/led_blink.txt
 #$ OPTION END
 
@@ -29,19 +29,25 @@ set yaw_motors_reversed = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
-# per cell voltage readings
+# AVG Cell Telemetry Report
 set report_cell_voltage = ON
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): RPM Filter
+#$ OPTION BEGIN (CHECKED): Enable RPM Filter
+# RPM Filter
 set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Maximum PID Limit
-# Unlock MAX PID
+# Unlock Maximum PID Limit
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Enable EzLanding 
+# EzLanding
+set mixer_type = EZLANDING
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -70,6 +76,7 @@ set pidsum_limit_yaw = 1000
 
 #$ OPTION BEGIN (UNCHECKED): OFF
 # BlacBbox OFF
+#$ INCLUDE: presets/blackbox/blackbox_default.txt
 # set blackbox_device = NONE
 #$ OPTION END
 

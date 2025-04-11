@@ -30,13 +30,3 @@ set crash_time = 500
 set crash_recovery_angle = 10
 set crash_recovery_rate = 100
 set crash_limit_yaw = 200
-
-profile 2
-
-# profile 2
-set crash_recovery = OFF
-set crash_delay = 0
-set crash_time = 500
-set crash_recovery_angle = 10
-set crash_recovery_rate = 100
-set crash_limit_yaw = 200
