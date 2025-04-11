@@ -7,7 +7,7 @@
 #$ CATEGORY: BATTERY
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: BATTERY
-#$ DESCRIPTION: Battery 3.2V Battery settings
+#$ DESCRIPTION: Battery 3.5V Battery settings
 #$ HIDDEN: true
 
 # Battery ADC
@@ -16,5 +16,5 @@ set battery_meter = ADC
 
 # Battery Min, Max and Warning
 set vbat_max_cell_voltage = 440
-set vbat_min_cell_voltage = 320
-set vbat_warning_cell_voltage = 340
+set vbat_min_cell_voltage = 350
+set vbat_warning_cell_voltage = 370

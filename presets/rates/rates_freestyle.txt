@@ -10,9 +10,6 @@
 #$ INCLUDE: presets/rates/rates_default.txt
 
 
-# Motor Direction
-set yaw_motors_reversed = ON
-
 # FreeStyle Rate
 profile 0
 

@@ -37,3 +37,5 @@ set simplified_pitch_pi_gain = 100
 set simplified_master_multiplier = 120
 
 set anti_gravity_gain = 80
+
+simplified_tuning apply

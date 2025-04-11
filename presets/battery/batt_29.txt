@@ -7,7 +7,7 @@
 #$ CATEGORY: BATTERY
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: BATTERY
-#$ DESCRIPTION: Battery 3.0V Battery settings
+#$ DESCRIPTION: Battery 2.9V Battery settings
 #$ HIDDEN: true
 
 # Battery ADC

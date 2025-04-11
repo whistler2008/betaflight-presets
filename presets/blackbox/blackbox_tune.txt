@@ -1,0 +1,21 @@
+#$ TITLE: BlackBox Tune
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BLACKBOX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: BLACKBOX
+#$ DESCRIPTION: BlackBox Tune
+#$ HIDDEN: true
+
+# Blackbox Tune
+set blackbox_sample_rate = 1/2
+set debug_mode = GYRO_SCALED
+set blackbox_disable_pids = OFF
+set blackbox_disable_rc = OFF
+set blackbox_disable_setpoint = OFF
+set blackbox_disable_bat = ON
+set blackbox_disable_rssi = ON
+set blackbox_disable_gyro = OFF
+set blackbox_disable_acc = OFF
+set blackbox_disable_debug = OFF
+set blackbox_disable_motors = OFF

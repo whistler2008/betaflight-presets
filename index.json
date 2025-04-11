@@ -165,7 +165,6 @@
       "FILTER",
       "fullspeed",
       "geprc",
-      "gps",
       "happymodel",
       "hglrc",
       "iflight",
@@ -184,7 +183,7 @@
       "rush",
       "rx",
       "tbs",
-      "TUNE",
+      "tune",
       "vtx",
       "xf"
     ]
@@ -192,7 +191,7 @@
   "presets": [
     {
       "fullPath": "presets/battery/batt_29.txt",
-      "hash": "a8d8935b5fc24b2c4f696fb01f50748c2b4d5b2926b57f96035c882c22229e82",
+      "hash": "b34223d746ec90652a0f7d648ee783a1aa3daf871384e20bf007c409ec0ef050",
       "title": "Battery 3.0V settings",
       "firmware_version": [
         "4.0",
@@ -210,7 +209,7 @@
     },
     {
       "fullPath": "presets/battery/batt_32.txt",
-      "hash": "810df0ca7844d4a49d2a945c15905f4ca6ac66d5d8ad1bf7300896cf703f5da6",
+      "hash": "f8d6191f9dadc9b6d893ecf054b376865cb04513dbe6a18013f314458ea1f95a",
       "title": "Battery 3.0V settings",
       "firmware_version": [
         "4.0",
@@ -228,7 +227,25 @@
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
-      "hash": "4825df50d336ae3920cf67bf7cca963c116953a23101cfd3606518593911dc51",
+      "hash": "bda071b93d5aaf241f00ceb346f3bde45aeb2b71777a2541f4ed14319e5c88df",
+      "title": "Battery 3.0V settings",
+      "firmware_version": [
+        "4.0",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "BATTERY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "BATTERY"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/battery/batt_35.txt",
+      "hash": "87e81b51f50dc1ca66420a3fdf41413ae32d0a91411a0c554fb9702046bafb76",
       "title": "Battery 3.0V settings",
       "firmware_version": [
         "4.0",
@@ -266,6 +283,21 @@
       "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
       "hash": "8ce6385c12dcf748d3018b359b0b0faa37bf1e69162fd2f9245b94155d3ac4c7",
       "title": "BlackBox GyroFlow",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "BLACKBOX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "BLACKBOX"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/blackbox/blackbox_tune.txt",
+      "hash": "d0c1f9c38e76931947975a4cfa8c49479b6a8a92ce1d68578a4b8899183eb654",
+      "title": "BlackBox Tune",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1089,7 +1121,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_1s.txt",
-      "hash": "ea14006f64f06a6fd8a542199c1ebf6248849acf083f2adbd119ad546dc5a7f7",
+      "hash": "c0d22c7c09f2c053d7a50f2e12cc3fb29229fad4f6b9273d712d884b7f6d0f77",
       "title": "Cinewhoop 1S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1105,7 +1137,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_2s.txt",
-      "hash": "3225ba3c92c35ffb3683c5875e4e3866b034a9e803bf3341416ad044debc71a2",
+      "hash": "6f3a4f0761a717ae5e3cc9ca77659d44d975eb531646c725ea5db572a344da06",
       "title": "Cinewhoop 2S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1121,7 +1153,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_3s.txt",
-      "hash": "053797ccc17464c110768b9ff6d9c7195acb97a041587d6fa73f256f8ceb9d41",
+      "hash": "dc08a9dd18c1b7bfe09aef585200cee6d7c638a0599d0d6c1d51e5beb59509db",
       "title": "Cinewhoop 3S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1137,7 +1169,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_4s.txt",
-      "hash": "2b4e934350b47009e4126f8411b5b37e288751e24b11ff4b07efa83b3b3952af",
+      "hash": "c716e863df0ebfc5156788056d0adaec91cbb0962eeb38270ab776eaedccf747",
       "title": "Cinewhoop 4S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1153,7 +1185,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_6s.txt",
-      "hash": "bd7d744b2d503a72196f3174914403b0e26206bd05df6bffa343611a6160a4d9",
+      "hash": "2aabe550e87d5393411ec156946d5015e94dac27a43f673180586b3c551f4bd2",
       "title": "Cinewhoop 6S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1169,7 +1201,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_1s.txt",
-      "hash": "023c77696a1703aa89c7d2467e4f272625ad6b561df38b2c8c8283eb8c31f473",
+      "hash": "ed24d385a8c1d4eb89db2924c993c09688c6724127de5e1d253a0c380b2e9996",
       "title": "Freestyle 1S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1185,7 +1217,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_2s.txt",
-      "hash": "a9fc47d95af7393fc78364380d69045a756c9e39bd0afff4c7ef47cf86e53fee",
+      "hash": "4dd6b234d204acd7bf301725f0d72a69a60f4d4225ed7ff4ba20053a362ec1ed",
       "title": "Freestyle 2S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1201,7 +1233,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_3s.txt",
-      "hash": "fe3e67f25a481731713fbe4896e6c1765dbd6f0b411ca4de4cbbffcf5f3f9c3b",
+      "hash": "6b9252904810f64f2541e25f8787ff45b33921bd5327f5af01c19b21ebe56701",
       "title": "Freestyle 3S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1217,7 +1249,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_4s.txt",
-      "hash": "a4b0e6230a856e76c774401dfb3b53a25b8faed5409c859ccfddabf882fc909a",
+      "hash": "1174414569e286f35a17d69ad24faa7a425e44615e757cdb493b9e691bdb4216",
       "title": "Freestyle 4S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1233,7 +1265,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_6s.txt",
-      "hash": "fcca9f384daf3d86d60365f3634eaebad23787f34d117304ea2088c387ca9c43",
+      "hash": "26fecf8a1b80f2807e2feea418ebcb1d52ff9d79027316288a81330df265fd04",
       "title": "Freestyle 6S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1249,7 +1281,7 @@
     },
     {
       "fullPath": "presets/pid/racewhoop_1s.txt",
-      "hash": "05754be4da37a8fde8a75e007d002e080f7f524d1f61f12bd3b82e61112b2388",
+      "hash": "3475c32dc5e17d1c6a3064676544214f07d9db1ae82e7d805dd8d4c6a1c3f68a",
       "title": "RaceWhoop 1S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1265,7 +1297,7 @@
     },
     {
       "fullPath": "presets/pid/racewhoop_2s.txt",
-      "hash": "dff06a2d93557b22485b8082caf8df0d1d29ef06ea6e0f077dcd4d04894633c2",
+      "hash": "118533d283d38bab61617217f0c579b643c15fec05c00733f51afdc99cf97ee3",
       "title": "RaceWhoop 2S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1281,7 +1313,7 @@
     },
     {
       "fullPath": "presets/pid/race_3s.txt",
-      "hash": "d8fde370b57b8371eef365579bc955b1e5822bb635b582ccac3597c7022ae2ea",
+      "hash": "8f04e720524c19812c832889e7b5339bed07433e02a9f914ee37e20fd53edf49",
       "title": "Race 3S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1297,7 +1329,7 @@
     },
     {
       "fullPath": "presets/pid/race_4s.txt",
-      "hash": "16f2a69d4c4b6b2abdf955a2c1ee26eb9ad4ee5c0be972bc63b59103d08eb419",
+      "hash": "d15945c58eddc307fc0d422fd67487d5a18c6716c5ff67529bad538c400933f1",
       "title": "Race 4S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1313,7 +1345,7 @@
     },
     {
       "fullPath": "presets/pid/race_6s.txt",
-      "hash": "0df9037e3f797759fcfcab5b151b057f4b74d31e47699ee300a999b29eda34f7",
+      "hash": "9fe9a15c21e5033a809b6f7cb9e1eda4d585425cee067af497bf601f1ae12710",
       "title": "Race 6S Profile 0 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1329,7 +1361,7 @@
     },
     {
       "fullPath": "presets/rates/rates_cinewhoop.txt",
-      "hash": "5f9693158c088ab9c00d53619ac332f5cd8b251acbdc6fd3ecf91aacaa196142",
+      "hash": "6b3352d9fc0544ff2ffd93fa7c910af2588b006f440fc80f6cbb2a3a80d8005e",
       "title": "CineWhoop Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1359,7 +1391,7 @@
     },
     {
       "fullPath": "presets/rates/rates_freestyle.txt",
-      "hash": "3911c52767da7ad6a4a6aabafaf7598f75b6bf7f7045c4177e512208fe183535",
+      "hash": "b3d0392fc2706a3ab74217696fd055bc9e62f8fb92ea76b71369bd0d787fbc82",
       "title": "FreeStyle Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1374,7 +1406,7 @@
     },
     {
       "fullPath": "presets/rates/rates_race.txt",
-      "hash": "3a5429098d7889fe7bb333f5e7fa34e22198e874e1449c1a5f05b2758e635a9f",
+      "hash": "f7459052823b5352ff7898f921aa9ec43d0b1a4b17d87c0fe8876ed68118db36",
       "title": "Race Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1389,7 +1421,7 @@
     },
     {
       "fullPath": "presets/rates/rates_racewhoop.txt",
-      "hash": "bb61bc941c84e66db244e4a4c2c1a655e1b775ee546bd6598f1eff4399bce169",
+      "hash": "4ff82f19dc735fd22b2a856fb22a0e562ff4463b870d96e633da6525afd6ed84",
       "title": "RaceWhoop Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1404,7 +1436,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_200.txt",
-      "hash": "b363c6b2369b8de5a3b702e9e26a121b5a24aba8e17f7b6d059ad8074b081681",
+      "hash": "3c810b1b2402ab96a29c20a91f6d288ab2eb89adbfa5421758ef8d5d828db6f8",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1420,7 +1452,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "9ba1dd32defad26ceee711ded5094d228f01976522839831cfcecf50f1e333ea",
+      "hash": "23f3b46b2be2d96d4f7c7ba766eb6eec6d8a56b5e7f1348087f6dac6290a3b2c",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1436,7 +1468,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_200.txt",
-      "hash": "0e011585a440434c02cadb86af71daf2878c07178b3e44ac468aba8cdba09099",
+      "hash": "0d261f3298e9b644a516b10d719b3ce2dd2d56ee84352795940a1df32c23c35c",
       "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1452,7 +1484,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "9d8dabc15cb39c305ddc179eaa6fe9ef08ef7fde89f8a9261c3b204b2d57b435",
+      "hash": "cae5f4b828c8f1a8d25fa98cfebe218c88400f81ccf157651278f3a7f103678b",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1468,7 +1500,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_200.txt",
-      "hash": "e71c10937f53414b96bf9881930e96cd985b692df240c9b32dbb320003028803",
+      "hash": "134f30968de289e385c1d325c54efc9f9ebbca5ac974c2f29bd0fe49dbd9ec93",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1484,7 +1516,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "06be9bb1b3f40ff6b4f8be3a0a0073464d227dd5fe1473d95930bbe5d1551df6",
+      "hash": "af6f1fbd6ccaae85383a1baedd8a7b64e260f88e586d542b2e961b405921ac8d",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1516,7 +1548,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
-      "hash": "bf58db34270d27d1653f103e54b8760095cff9778932111854381e7d36f3529e",
+      "hash": "75d482207c62bf28a386ba901de7a2ec1b256e46514786fb40e5598edc93e84b",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1547,25 +1579,24 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/tune/setting_gps_osd.txt",
-      "hash": "fb35f95264416648f1ec9665c9f9c43ec3f0a05784fbafdc09ef3407d8459005",
-      "title": "GPS Hardware & OSD Placement",
+      "fullPath": "presets/tune/setting_std.txt",
+      "hash": "2b684ddd94bedfa526d993f382158b140b2d8fe02cdda70843b9eaa4bfcc2ece",
+      "title": "Standard Setting",
       "firmware_version": [
         "4.4",
         "4.5"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
       "keywords": [
-        "osd",
-        "gps"
+        "tune"
       ],
       "author": "Whistler2008",
       "priority": 0
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "bc32fa290547c0563558b6d2c513b16b2fb6d78d09b31297c6c741cd5169a2f6",
+      "hash": "6e9c612fb1f96fc1c2439ba76cec4fededf3bd9f4c276c29e81accc82d0b7221",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.4",
@@ -1581,7 +1612,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "5d81f0886ac140e5de2c367145dff08ced5896420f2f161d1e919710466df7bc",
+      "hash": "ffff0bcb08f629bbd351dfbc15f1423efdd94a21e216fb72fb9c51cefbc10981",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.4",
@@ -1597,7 +1628,7 @@
     },
     {
       "fullPath": "presets/tune/tune_mockingbrid_40.txt",
-      "hash": "d25e2f988675254d5c0373f7e6171aeb7e6b95687fc787f89714b4fff5ddaded",
+      "hash": "b1106e2bc25327526462f1c49ee5a992e21bf71b117c274cf7d87730d4ce6426",
       "title": "MockingBird 1-2S F3 (Betaflight 4.0)",
       "firmware_version": [
         "4.0"
@@ -1612,7 +1643,7 @@
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "9385d083f5f6523237c4d86945315eeb5fb7ed88f84032fe6c0c4bc1b5444653",
+      "hash": "eda922ae57c8cc5d4639c8227e7e719ebca365b69fb6f3a5eaf27c741cbc4da5",
       "title": "Race Tune",
       "firmware_version": [
         "4.4",
@@ -1628,7 +1659,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "ac1cbf93c8adf1802306252c326698a7794b57e831f0223de53750f5ceca3b5f",
+      "hash": "8a8bcf61a71328542c9d0a20557ebe4542d6d3b0778d9655aab3a8e634e3e8fc",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.4",

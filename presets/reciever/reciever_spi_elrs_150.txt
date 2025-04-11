@@ -56,5 +56,5 @@ set feedforward_transition = 0
 set feedforward_boost = 15
 
 
-# per cell or whole pack voltage readings:
+# per cell  voltage readings
 set report_cell_voltage = ON

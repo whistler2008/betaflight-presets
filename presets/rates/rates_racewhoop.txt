@@ -10,9 +10,6 @@
 #$ INCLUDE: presets/rates/rates_default.txt
 
 
-# Motor Direction
-set yaw_motors_reversed = OFF
-
 # RaceWhoop Rate
 profile 0
 

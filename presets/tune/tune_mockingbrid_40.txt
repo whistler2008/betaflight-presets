@@ -7,6 +7,27 @@
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 
 
+# feature
+feature -AIRMODE
+
+# aux
+aux 0 0 0 1450 2100 0 0
+aux 1 1 1 900 1300 0 0
+aux 2 13 2 1700 2100 0 0
+aux 3 28 1 1700 2100 0 0
+aux 4 30 1 900 1700 0 0
+
+# other
+set gyro_sync_denom = 2
+set pid_process_denom = 4
+set runaway_takeoff_prevention = OFF
+
+# motor esc
+set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT300
+set dshot_idle_value = 800
+
+
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (UNCHECKED): LED
@@ -83,9 +104,9 @@ rateprofile 0
 name MBIRD F3
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): CAM Angle
+#$ OPTION BEGIN (CHECKED): CAM Angle 20%
 #$ INCLUDE: presets/other/other_cam_angle.txt
-set fpv_mix_degrees = 25
+set fpv_mix_degrees = 20
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Other
@@ -98,33 +119,6 @@ set fpv_mix_degrees = 25
 
 #$ OPTION_GROUP END
 
-
-
-# feature
-feature -AIRMODE
-
-# aux
-aux 0 0 0 1450 2100 0 0
-aux 1 1 1 900 1300 0 0
-aux 2 13 2 1700 2100 0 0
-aux 3 28 1 1700 2100 0 0
-aux 4 30 1 900 1700 0 0
-
-# vtx setting
-set vtx_band = 5
-set vtx_channel = 3
-set vtx_power = 1
-set vtx_freq = 5732
-
-# other
-set gyro_sync_denom = 2
-set pid_process_denom = 4
-set runaway_takeoff_prevention = OFF
-
-# motor esc
-set yaw_motors_reversed = ON
-set motor_pwm_protocol = DSHOT300
-set dshot_idle_value = 800
 
 
 #$ OPTION_GROUP BEGIN: Max Supported Cell

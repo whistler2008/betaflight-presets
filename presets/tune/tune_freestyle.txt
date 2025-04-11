@@ -11,15 +11,8 @@
 #$ WARNING: EXPERIMENTAL
 
 
+#---------------------------------------------------------------------------------------#
 #$ OPTION_GROUP BEGIN: Basic Setting
-
-#$ OPTION BEGIN (UNCHECKED): LED
-#$ INCLUDE: presets/led/led_blink.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): BEEPER
-#$ INCLUDE: presets/other/other_beeper.txt
-#$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Rates
 #$ INCLUDE: presets/rates/rates_freestyle.txt
@@ -35,156 +28,14 @@ set fpv_mix_degrees = 10
 set small_angle = 180
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
-# per cell or whole pack voltage readings:
-set report_cell_voltage = ON
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): RPM Filter
-set motor_pwm_protocol = DSHOT300
-set dshot_bidir = ON
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): EC Smoothing
+#$ OPTION BEGIN (CHECKED): RC Smoothing
 set rc_smoothing_auto_factor = 60
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Maximum PID Limit
-#$ INCLUDE: presets/other/other_pid.txt
-#$ OPTION END
-
 #$ OPTION_GROUP END
 
 
-#$ OPTION_GROUP BEGIN: Crash Recovery
-
-#$ OPTION BEGIN (CHECKED): Crash Recovery OFF
-#$ INCLUDE: presets/crash/crash_off.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Crash Recovery ON
-#$ INCLUDE: presets/crash/crash_on.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Crash Recovery DISARM
-#$ INCLUDE: presets/crash/crash_disarm.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: BlackBox
-
-#$ OPTION BEGIN (UNCHECKED): OFF
-# BlacBbox OFF
-# set blackbox_device = NONE
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): GyroFlow
-#$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Battery
-
-#$ OPTION BEGIN (CHECKED): Battery Sag Compensation
-#$ INCLUDE: presets/battery/batt_sag.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Li-Ion (Minimum Cell Voltage 2.9V)
-#$ INCLUDE: presets/battery/batt_29.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV 1S (Minimum Cell Voltage 3.2V)
-#$ INCLUDE: presets/battery/batt_32.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ (Minimum Cell Voltage 3.3V)
-#$ INCLUDE: presets/battery/batt_33.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Motor Pole
-
-#$ OPTION BEGIN (UNCHECKED): 12 Pole
-#$ INCLUDE: presets/motor/motor_poles_12.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 14 Pole
-#$ INCLUDE: presets/motor/motor_poles_14.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Propeller
-
-#$ OPTION BEGIN (UNCHECKED): 2 Blade
-#$ INCLUDE: presets/motor/motor_prop_2_blade.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3 Blade
-#$ INCLUDE: presets/motor/motor_prop_3_blade.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4-6 Blade
-#$ INCLUDE: presets/motor/motor_prop_4_blade.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: Gyro
-
-#$ OPTION BEGIN (UNCHECKED): BMI270
-#$ INCLUDE: presets/other/other_gyro_bmi270.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Other
-#$ INCLUDE: presets/other/other_gyro_other.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: ESC PWM
-
-#$ OPTION BEGIN (UNCHECKED): 24 kHz
-#$ INCLUDE: presets/filter/filter_pwm_24.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 48 kHz
-#$ INCLUDE: presets/filter/filter_pwm_48.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 96 kHz
-#$ INCLUDE: presets/filter/filter_pwm_96.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
-#$ OPTION_GROUP BEGIN: D-Term Filter - RPM Filter ON
-
-#$ OPTION BEGIN (UNCHECKED): Noisy Motor
-#$ INCLUDE: presets/filter/filter_rpm_noisy.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Normal Motor
-#$ INCLUDE: presets/filter/filter_rpm_normal.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Clean Motor
-#$ INCLUDE: presets/filter/filter_rpm_clean.txt
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-
+#---------------------------------------------------------------------------------------#
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
@@ -204,8 +55,6 @@ profile 0
 #$ INCLUDE: presets/pid/freestyle_3s.txt
 profile 1
 #$ INCLUDE: presets/pid/freestyle_2s.txt
-profile 2
-#$ INCLUDE: presets/pid/freestyle_1s.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4S
@@ -213,8 +62,6 @@ profile 0
 #$ INCLUDE: presets/pid/freestyle_4s.txt
 profile 1
 #$ INCLUDE: presets/pid/freestyle_3s.txt
-profile 2
-#$ INCLUDE: presets/pid/freestyle_2s.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 6S
@@ -222,13 +69,12 @@ profile 0
 #$ INCLUDE: presets/pid/freestyle_6s.txt
 profile 1
 #$ INCLUDE: presets/pid/freestyle_4s.txt
-profile 2
-#$ INCLUDE: presets/pid/freestyle_3s.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
 
+#---------------------------------------------------------------------------------------#
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
