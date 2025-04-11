@@ -1,15 +1,14 @@
 #$ TITLE: AUX Standard
-#$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: MODES
+#$ KEYWORDS: setting
 #$ DESCRIPTION: AUX Standard
 #$ HIDDEN: true
 
 #$ INCLUDE: presets/modes/aux_default.txt
 
-# Standarde AUX #
+# Standard AUX #
 
 # feature
 feature -AIRMODE

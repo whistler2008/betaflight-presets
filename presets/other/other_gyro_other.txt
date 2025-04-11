@@ -1,9 +1,8 @@
 #$ TITLE: Gyro Other
-#$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: OTHER
+#$ KEYWORDS: setting
 #$ DESCRIPTION: Setting for Other Gyro
 #$ HIDDEN: true
 

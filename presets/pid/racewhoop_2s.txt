@@ -1,10 +1,9 @@
-#$ TITLE: RaceWhoop 2S Profile 0 (Betaflight 4.3-4.4)
-#$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: RaceWhoop 2S
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: pid
-#$ DESCRIPTION: RaceWhoop 2S in Profile 0 (Betaflight 4.3-4.4)
+#$ KEYWORDS: setting
+#$ DESCRIPTION: RaceWhoop 2S
 #$ HIDDEN: true
 
 set profile_name = 2S
@@ -26,7 +25,9 @@ set d_yaw = 0
 set d_min_yaw = 0
 set f_yaw = 168
 
-set crash_dthreshold = 72set simplified_pids_mode = RPY
+set crash_dthreshold = 72
+
+set simplified_pids_mode = RPY
 set simplified_d_gain = 140
 set simplified_pi_gain = 100
 set simplified_feedforward_gain = 100

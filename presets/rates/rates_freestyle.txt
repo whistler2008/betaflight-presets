@@ -1,9 +1,8 @@
 #$ TITLE: FreeStyle Rate Profile
-#$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: RATES
+#$ KEYWORDS: setting
 #$ DESCRIPTION: FreeStyle Rate Profile
 #$ HIDDEN: true
 

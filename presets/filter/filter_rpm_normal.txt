@@ -1,9 +1,8 @@
 #$ TITLE: Normal D-Term Filter
-#$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: FILTER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: FILTER
+#$ KEYWORDS: setting
 #$ DESCRIPTION:  Normal D-Term Filter
 #$ HIDDEN: true
 

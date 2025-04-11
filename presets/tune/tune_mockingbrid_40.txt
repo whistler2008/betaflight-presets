@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.0
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: TUNE
+#$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
 #$ DESCRIPTION: MockingBird 1-2S F3 Tune for Betaflight 4.0
 

@@ -1,10 +1,9 @@
-#$ TITLE: Analog NTSC OSD settings (Betaflight 4.4-4.5)
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: Analog NTSC OSD settings
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: OSD
-#$ DESCRIPTION: Analog NTSC OSD settings (Betaflight 4.4-4.5)
+#$ KEYWORDS: setting
+#$ DESCRIPTION: Analog NTSC OSD settings
 #$ HIDDEN: true
 
 # OSD System

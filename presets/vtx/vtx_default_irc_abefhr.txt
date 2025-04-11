@@ -1,12 +1,11 @@
 #$ TITLE: Default IRC2 VTX
-#$ FIRMWARE_VERSION: 4.2
-#$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, default_irc
 #$ DESCRIPTION: Default IRC2 VTX settings
+#$ HIDDEN: true
+
 #$ INCLUDE: presets/vtx/vtx_default.txt
 
 # vtx tables
