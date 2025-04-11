@@ -5,6 +5,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: BLACKBOX
 #$ DESCRIPTION: BlackBox GyroFlow
+#$ INCLUDE: presets/blackbox/blackbox_default.txt
 #$ HIDDEN: true
 
 # Blackbox Gyroflow

@@ -1,17 +1,18 @@
-#$ TITLE: Standard Setting
+#$ TITLE: Basic Setting
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: Standard Setting
+#$ DESCRIPTION: Basic Setting
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
 
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (UNCHECKED): LED
@@ -28,7 +29,7 @@ set yaw_motors_reversed = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
-# per cell or whole pack voltage readings:
+# per cell voltage readings
 set report_cell_voltage = ON
 #$ OPTION END
 
@@ -38,13 +39,15 @@ set dshot_bidir = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Maximum PID Limit
-#$ INCLUDE: presets/other/other_pid.txt
+# Unlock MAX PID
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Crash Recovery
 
 #$ OPTION BEGIN (CHECKED): Crash Recovery OFF
@@ -61,8 +64,8 @@ set dshot_bidir = ON
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: BlackBox
 
 #$ OPTION BEGIN (UNCHECKED): OFF
@@ -80,8 +83,8 @@ set dshot_bidir = ON
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Battery
 
 #$ OPTION BEGIN (CHECKED): Battery Sag Compensation
@@ -96,50 +99,57 @@ set dshot_bidir = ON
 #$ INCLUDE: presets/battery/batt_32.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ (Minimum Cell Voltage 3.3V)
+#$ OPTION BEGIN (UNCHECKED): LiPo/HV 2S++ Standard (Minimum Cell Voltage 3.3V)
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ (Minimum Cell Voltage 3.5V)
+#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ Safer (Minimum Cell Voltage 3.5V)
 #$ INCLUDE: presets/battery/batt_35.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Motor Pole
 
 #$ OPTION BEGIN (UNCHECKED): 12 Pole
-#$ INCLUDE: presets/motor/motor_poles_12.txt
+# 12 Poles Motor
+set motor_poles = 12
+set dshot_idle_value = 550
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 14 Pole
-#$ INCLUDE: presets/motor/motor_poles_14.txt
+# 14 Poles Motor
+set motor_poles = 14
+set dshot_idle_value = 550
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Propeller
 
 #$ OPTION BEGIN (UNCHECKED): 2 Blade
-#$ INCLUDE: presets/motor/motor_prop_2_blade.txt
+# 2 Blade Dimmable RPM Harmonics
+set rpm_filter_weights = 100, 80, 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3 Blade
-#$ INCLUDE: presets/motor/motor_prop_3_blade.txt
+# 3 Blade Dimmable RPM Harmonics
+set rpm_filter_weights = 100, 0, 80
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4-6 Blade
-#$ INCLUDE: presets/motor/motor_prop_4_blade.txt
+# 4-6 Blade Dimmable RPM Harmonics
+set rpm_filter_weights = 100, 80, 60
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Gyro
 
 #$ OPTION BEGIN (UNCHECKED): BMI270
@@ -152,8 +162,8 @@ set dshot_bidir = ON
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: ESC PWM
 
 #$ OPTION BEGIN (UNCHECKED): 24 kHz
@@ -170,8 +180,8 @@ set dshot_bidir = ON
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: D-Term Filter - RPM Filter ON
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
@@ -188,8 +198,8 @@ set dshot_bidir = ON
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: OSD General Placement
 
 #$ OPTION BEGIN (CHECKED): Default
@@ -251,6 +261,7 @@ set dshot_bidir = ON
 #$ OPTION_GROUP END
 
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: GPS Hardware & OSD Placement
 
 #$ OPTION BEGIN (CHECKED): Without GPS

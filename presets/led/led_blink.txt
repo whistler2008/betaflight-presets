@@ -11,6 +11,11 @@
 #$ HIDDEN: true
 
 # Custom LED
+
+# feature
+feature LED_STRIP
+
+# led
 led 0 0,0::COVIW:5
 led 1 1,0::COVIW:5
 led 2 2,0::COVIW:5
@@ -19,6 +24,3 @@ led 4 4,0::COVIW:5
 led 5 5,0::COVIW:5
 led 6 6,0::COVIW:5
 led 7 7,0::COVIW:5
-
-# feature
-feature LED_STRIP

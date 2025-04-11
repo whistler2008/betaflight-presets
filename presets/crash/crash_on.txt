@@ -1,4 +1,4 @@
-#$ TITLE: Crash Recovery Setting
+#$ TITLE: Crash Recovery ON
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
@@ -7,10 +7,10 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
-#$ DESCRIPTION: Crash Recovery Setting
+#$ DESCRIPTION: Crash Recovery ON
 #$ HIDDEN: true
 
-# Crash Recovery
+# Crash Recovery ON
 profile 0
 
 # profile 0
@@ -24,16 +24,6 @@ set crash_limit_yaw = 175
 profile 1
 
 # profile 1
-set crash_recovery = ON
-set crash_delay = 500
-set crash_time = 1000
-set crash_recovery_angle = 5
-set crash_recovery_rate = 75
-set crash_limit_yaw = 175
-
-profile 2
-
-# profile 2
 set crash_recovery = ON
 set crash_delay = 500
 set crash_time = 1000

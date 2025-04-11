@@ -1,13 +1,13 @@
-#$ TITLE: ESC PWM 48 kHz
+#$ TITLE: ESC PWM 96kHz
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: FILTER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FILTER
-#$ DESCRIPTION: Default ESC PWM 48 kHz
+#$ DESCRIPTION: Default ESC PWM 96kHz
 #$ HIDDEN: true
 
-# ESC PWM
+# ESC PWM 96kHz
 profile 0
 
 # profile 0
@@ -16,9 +16,4 @@ set thrust_linear = 40
 profile 1
 
 # profile 1
-set thrust_linear = 40
-
-profile 2
-
-# profile 2
 set thrust_linear = 40

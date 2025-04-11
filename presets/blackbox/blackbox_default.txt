@@ -1,22 +1,25 @@
-#$ TITLE: BlackBox Tune
+#$ TITLE: BlackBox Default
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BLACKBOX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: BLACKBOX
-#$ DESCRIPTION: BlackBox Tune
-#$ INCLUDE: presets/blackbox/blackbox_default.txt
+#$ DESCRIPTION: BlackBox Default
 #$ HIDDEN: true
 
-# Blackbox Tune
-set blackbox_sample_rate = 1/2
-set debug_mode = GYRO_SCALED
+# Blackbox Default
+set blackbox_sample_rate = 1/4
 set blackbox_disable_pids = OFF
 set blackbox_disable_rc = OFF
 set blackbox_disable_setpoint = OFF
-set blackbox_disable_bat = ON
-set blackbox_disable_rssi = ON
+set blackbox_disable_bat = OFF
+set blackbox_disable_alt = OFF
+set blackbox_disable_rssi = OFF
 set blackbox_disable_gyro = OFF
+set blackbox_disable_gyrounfilt = OFF
 set blackbox_disable_acc = OFF
 set blackbox_disable_debug = OFF
 set blackbox_disable_motors = OFF
+set blackbox_disable_rpm = OFF
+set blackbox_disable_gps = OFF
+set blackbox_mode = NORMAL

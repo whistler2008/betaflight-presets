@@ -1,4 +1,4 @@
-#$ TITLE: Crash Recovery Setting
+#$ TITLE: Crash Recovery OFF
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
@@ -7,10 +7,10 @@
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: default
-#$ DESCRIPTION: Crash Recovery Setting
+#$ DESCRIPTION: Crash Recovery OFF
 #$ HIDDEN: true
 
-# Crash Recovery
+# Crash Recovery OFF
 profile 0
 
 # profile 0

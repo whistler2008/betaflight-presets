@@ -10,8 +10,8 @@
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (CHECKED): Rates
@@ -34,8 +34,8 @@ set rc_smoothing_auto_factor = 45
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
@@ -52,8 +52,8 @@ profile 1
 
 #$ OPTION_GROUP END
 
-
 #---------------------------------------------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS

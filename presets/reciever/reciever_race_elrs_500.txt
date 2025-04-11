@@ -34,17 +34,3 @@ set feedforward_smooth_factor = 65
 set feedforward_jitter_factor = 3
 set feedforward_transition = 0
 set feedforward_boost = 17
-
-profile 2
-
-# profile 2
-# feedforward
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 65
-set feedforward_jitter_factor = 3
-set feedforward_transition = 0
-set feedforward_boost = 17
-
-
-# per cell  voltage readings
-set report_cell_voltage = ON

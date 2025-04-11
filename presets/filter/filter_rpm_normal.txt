@@ -20,7 +20,7 @@ set dterm_lpf1_dyn_max_hz = 165
 set dterm_lpf1_static_hz = 82
 set dterm_lpf2_static_hz = 165
 set simplified_dterm_filter_multiplier = 110
-set yaw_lowpass_hz = 0
+set yaw_lowpass_hz = 100
 
 profile 1
 set dterm_lpf1_dyn_min_hz = 82
@@ -28,12 +28,4 @@ set dterm_lpf1_dyn_max_hz = 165
 set dterm_lpf1_static_hz = 82
 set dterm_lpf2_static_hz = 165
 set simplified_dterm_filter_multiplier = 110
-set yaw_lowpass_hz = 0
-
-profile 2
-set dterm_lpf1_dyn_min_hz = 82
-set dterm_lpf1_dyn_max_hz = 165
-set dterm_lpf1_static_hz = 82
-set dterm_lpf2_static_hz = 165
-set simplified_dterm_filter_multiplier = 110
-set yaw_lowpass_hz = 0
+set yaw_lowpass_hz = 100

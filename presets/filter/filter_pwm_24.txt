@@ -1,13 +1,13 @@
-#$ TITLE: ESC PWM 24 kHz
+#$ TITLE: ESC PWM 24kHz
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: FILTER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FILTER
-#$ DESCRIPTION: Default ESC PWM 24 kHz
+#$ DESCRIPTION: Default ESC PWM 24kHz
 #$ HIDDEN: true
 
-# ESC PWM
+# ESC PWM 24kHz
 profile 0
 
 # profile 0
@@ -16,9 +16,4 @@ set thrust_linear = 0
 profile 1
 
 # profile 1
-set thrust_linear = 0
-
-profile 2
-
-# profile 2
 set thrust_linear = 0

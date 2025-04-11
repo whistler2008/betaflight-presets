@@ -139,7 +139,6 @@
       "FILTER",
       "LED",
       "MODES",
-      "MOTOR",
       "OSD",
       "OTHER",
       "RATES",
@@ -172,7 +171,6 @@
       "ldarc",
       "LED",
       "MODES",
-      "MOTOR",
       "namelessrc",
       "openvtx",
       "OSD",
@@ -280,8 +278,23 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/blackbox/blackbox_default.txt",
+      "hash": "c130517052c1b17a1743d1e60576baf68c8c2c3fa1c1d57a3b7379a59a1701ae",
+      "title": "BlackBox Default",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "BLACKBOX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "BLACKBOX"
+      ],
+      "hidden": true
+    },
+    {
       "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
-      "hash": "8ce6385c12dcf748d3018b359b0b0faa37bf1e69162fd2f9245b94155d3ac4c7",
+      "hash": "7f4c11d2f5487f49b5f94c2eb1f61b0c67d5c52c187ac7820b30f290f542b4df",
       "title": "BlackBox GyroFlow",
       "firmware_version": [
         "4.4",
@@ -296,7 +309,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_tune.txt",
-      "hash": "d0c1f9c38e76931947975a4cfa8c49479b6a8a92ce1d68578a4b8899183eb654",
+      "hash": "68ce9807c461a6d760983ba78f3d00a9604ead9065ececcf524f27c99816d648",
       "title": "BlackBox Tune",
       "firmware_version": [
         "4.4",
@@ -311,8 +324,8 @@
     },
     {
       "fullPath": "presets/crash/crash_disarm.txt",
-      "hash": "564dbb48209407c6cecacf31351b104ccfbc1218d6a1ce492294540031213b49",
-      "title": "Crash Recovery Setting",
+      "hash": "58e230a007e07fc300fb9ed9cdb729439f5a64688a147c7416a3a4c9660f9ef7",
+      "title": "Crash Recovery DISARM",
       "firmware_version": [
         "4.0",
         "4.2",
@@ -330,8 +343,8 @@
     },
     {
       "fullPath": "presets/crash/crash_off.txt",
-      "hash": "48913b21315ee302ca6f5410f9129b9266a0811d5008525e309a5274131f6876",
-      "title": "Crash Recovery Setting",
+      "hash": "d1855c2c7b9be8bf1b016a849cfdfcd11bc33ee9af5316a624f31c8a63cdb672",
+      "title": "Crash Recovery OFF",
       "firmware_version": [
         "4.0",
         "4.2",
@@ -349,8 +362,8 @@
     },
     {
       "fullPath": "presets/crash/crash_on.txt",
-      "hash": "7041429b9e3e5c243f2cf550ad88e166bb3f227b965b3cae8f37130ddc7913be",
-      "title": "Crash Recovery Setting",
+      "hash": "655eb93fe60c96430c8d5412d5e3a0c481a64837e9a11da3246eebd3e6972177",
+      "title": "Crash Recovery ON",
       "firmware_version": [
         "4.0",
         "4.2",
@@ -476,8 +489,8 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_24.txt",
-      "hash": "524a7cb2e9a7dfc20370d7191a54df7a1f50786d23dc8c7f817d5f29eeff3fe2",
-      "title": "ESC PWM 24 kHz",
+      "hash": "1a99aeb1aed6164520938a13d22e71fd5d10f2771f1cc3dfade4c0c69587b1e2",
+      "title": "ESC PWM 24kHz",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -491,8 +504,8 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_48.txt",
-      "hash": "24247b76d514e6f300b090eecd88bbf1220d76807d2eca0ed4efd0507ea82006",
-      "title": "ESC PWM 48 kHz",
+      "hash": "bac142eb16dbaaef0ff6a2ae8d2cb847c44398e2fc28cd751025ea1786e20e0e",
+      "title": "ESC PWM 48kHz",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -506,8 +519,8 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_96.txt",
-      "hash": "ecb0308458f6df9aea33ebb11f4219238515785ece4b2226a7a7de2983ec2158",
-      "title": "ESC PWM 48 kHz",
+      "hash": "13d01a0d9448e83d2e2c47ceba5cbb34004f8090b158588915becb0f51aedace",
+      "title": "ESC PWM 96kHz",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -521,7 +534,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
-      "hash": "c0fba99a87721590a1b60dddbd8570576ce554d843f69166e2e30aad5650a528",
+      "hash": "7d80aa9304dbf525df5f111b7372e4455f97cccb3f410b3f684abc483caf625b",
       "title": "CLEAN MOTOR, PROP Filter - RPM Filter",
       "firmware_version": [
         "4.4",
@@ -536,7 +549,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_noisy.txt",
-      "hash": "ba1f20f6fd32f7652b90442b7a23aab05e929a104ae67f20b13577126125b723",
+      "hash": "3609e640ab115197dd99026eeaf39ce4e1454eefb0c600de956e36d803524556",
       "title": "NOISY MOTOR, PROP Filter - RPM Filter",
       "firmware_version": [
         "4.4",
@@ -551,7 +564,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_normal.txt",
-      "hash": "700cd913ec5c8917d651f300b74d23758b2a60e25e2e9b3f4a2a4ecdf583fdcc",
+      "hash": "ef8d2d5b007531fdc5e0bdecaefa59dba8667a73cd71222aaa291415e9d8af83",
       "title": "NORMAL MOTOR, PROP Filter - RPM Filter",
       "firmware_version": [
         "4.4",
@@ -566,7 +579,7 @@
     },
     {
       "fullPath": "presets/led/led_blink.txt",
-      "hash": "b7cbbf59cb16ac5b8f63801e95476dbdefee73683a40006ec341c8606f86805c",
+      "hash": "a32f3dc0ab1ceb76ab57eada96a4c18b4eee3007b117e7bae47076a280b0b5a4",
       "title": "Custom LED settings",
       "firmware_version": [
         "4.0",
@@ -602,7 +615,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "77824bacdf756679165ee9bef6e8e97d0c7f1492437adb312d7b7bf1ef1aa824",
+      "hash": "ac7d4cd77756cc6869bf197d52973df28b26dcec9510b5dfa8703585b77c124a",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.4",
@@ -617,7 +630,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "31aa5487cf2e2bab529c03ff12f98ebb29cf4f06c5c5a48bbb5e91b6e8d78f3e",
+      "hash": "d1e19ce11315f5dda34cbf0bd6841da424c6959897f649ae670427f34a1d1000",
       "title": "AUX Standard",
       "firmware_version": [
         "4.4",
@@ -627,78 +640,6 @@
       "status": "COMMUNITY",
       "keywords": [
         "MODES"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/motor/motor_poles_12.txt",
-      "hash": "903bd17c75521fa9b96868ae5458f45d5cf306b11b93a76f0126f8e5fbbe995a",
-      "title": "Default RPM Filter - 12 Poles",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "MOTOR",
-      "status": "COMMUNITY",
-      "keywords": [
-        "MOTOR"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/motor/motor_poles_14.txt",
-      "hash": "1486ce38ebdaf56da1a3405cdcfb5a0295e496fea77618f35d32c275830f3e7a",
-      "title": "Default RPM Filter - 14 Poles",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "MOTOR",
-      "status": "COMMUNITY",
-      "keywords": [
-        "MOTOR"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/motor/motor_prop_2_blade.txt",
-      "hash": "eaa2c7f8310f2e72429ebc32a720d2df6983efd61746541546d16cb22924ec72",
-      "title": "2 Blade Dimmable RPM Harmonics",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "MOTOR",
-      "status": "COMMUNITY",
-      "keywords": [
-        "MOTOR"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/motor/motor_prop_3_blade.txt",
-      "hash": "0b0f380c8d389146887c8a4b0fc57b279348361c049725082ad1b3130ca58dd5",
-      "title": "3 Blade Dimmable RPM Harmonics",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "MOTOR",
-      "status": "COMMUNITY",
-      "keywords": [
-        "MOTOR"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/motor/motor_prop_4_blade.txt",
-      "hash": "829ac938a5185d48f85660ec0c9e040325f9859fa17a77fc3451209c2fc41480",
-      "title": "4-6 Blade Dimmable RPM Harmonics",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "MOTOR",
-      "status": "COMMUNITY",
-      "keywords": [
-        "MOTOR"
       ],
       "hidden": true
     },
@@ -1052,25 +993,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/other/other_cam_angle.txt",
-      "hash": "ff7517810c1e4bac9cc3e52f6ff09f3dbbc41e84ed2f01332474817635119af5",
-      "title": "Custom CAM Angle Setting",
-      "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/other/other_gyro_bmi270.txt",
       "hash": "f397cf8b04c24a7fda5a861452a35ebe96a8fff72cb4a57f9e13b1e7b8a43409",
       "title": "Gyro_BMI270",
@@ -1099,25 +1021,6 @@
         "OTHER"
       ],
       "hidden": true
-    },
-    {
-      "fullPath": "presets/other/other_pid.txt",
-      "hash": "d9ade31a2843205d64aa9d956dca6c3c96df3f07eb8511b520a99f5277f10c57",
-      "title": "Default Other Setting",
-      "firmware_version": [
-        "4.0",
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "default"
-      ],
-      "hidden": true,
-      "priority": 0
     },
     {
       "fullPath": "presets/pid/cinewhoop_1s.txt",
@@ -1436,7 +1339,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_200.txt",
-      "hash": "3c810b1b2402ab96a29c20a91f6d288ab2eb89adbfa5421758ef8d5d828db6f8",
+      "hash": "1b2c938b74dc27ee524dcbd9ceb37fd6397e15ed9d936fd5bf3eafe5e308b383",
       "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1452,7 +1355,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "23f3b46b2be2d96d4f7c7ba766eb6eec6d8a56b5e7f1348087f6dac6290a3b2c",
+      "hash": "8e2db62134ba6751a90df928a496c28f7faf25d8dc6056a91711895f07971381",
       "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1484,7 +1387,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "cae5f4b828c8f1a8d25fa98cfebe218c88400f81ccf157651278f3a7f103678b",
+      "hash": "ffaf92a924bb49dc8c273962d272d4e3e3792018bf15607b9c8827b69acf3ed0",
       "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1500,7 +1403,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_200.txt",
-      "hash": "134f30968de289e385c1d325c54efc9f9ebbca5ac974c2f29bd0fe49dbd9ec93",
+      "hash": "f785d0e67eb740cbf56af205e7145bad2db69b9c5308f484a7122cf8072a1ff3",
       "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1516,7 +1419,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "af6f1fbd6ccaae85383a1baedd8a7b64e260f88e586d542b2e961b405921ac8d",
+      "hash": "9c2fb1d741b2b427b93794ef0cee97317f1fc8a0d6bb5ceed696e9c2d21e3972",
       "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1532,7 +1435,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_serial_sbus_ibus.txt",
-      "hash": "0b07f9108692410107a3154d9b9bfcec49710f20a7f00ffc54b761cfc29f5e47",
+      "hash": "3888b9e1820ff3be4325b1c1a5ded0b4fe37e869307d1f0e7d4c109bca4e4c0d",
       "title": "RX Serial IBUS",
       "firmware_version": [
         "4.3",
@@ -1548,7 +1451,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
-      "hash": "75d482207c62bf28a386ba901de7a2ec1b256e46514786fb40e5598edc93e84b",
+      "hash": "db51ae5b77c0a0b6baa6251f13ed89ab460fe2a2b073cd6d093a7ff948b808d6",
       "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
       "firmware_version": [
         "4.3",
@@ -1564,7 +1467,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_sbus_ibus.txt",
-      "hash": "f83efa7a129398f22ef35b03f3def73dbb572364fa8ae466933e26f62f6c4c0c",
+      "hash": "8df5c7baadce1b63b18719d5a92175adb860b2eac451c5370b4a3b76afc02c4e",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.3",
@@ -1579,9 +1482,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/tune/setting_std.txt",
-      "hash": "2b684ddd94bedfa526d993f382158b140b2d8fe02cdda70843b9eaa4bfcc2ece",
-      "title": "Standard Setting",
+      "fullPath": "presets/tune/setting_basic.txt",
+      "hash": "ffa070656a24fc995b0567d8bd124c452181ad04e4eba87b7dfde7c07ad591bf",
+      "title": "Basic Setting",
       "firmware_version": [
         "4.4",
         "4.5"
@@ -1596,7 +1499,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "6e9c612fb1f96fc1c2439ba76cec4fededf3bd9f4c276c29e81accc82d0b7221",
+      "hash": "f4678b67a0a421b2f27c865d8b0920997095b69fbd034f541291d17299a0b0d7",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.4",
@@ -1612,7 +1515,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "ffff0bcb08f629bbd351dfbc15f1423efdd94a21e216fb72fb9c51cefbc10981",
+      "hash": "017a6b995cd61e29c324be1258e70b6c7d3861fb2f8008ae78c10dae59c715d6",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.4",
@@ -1628,7 +1531,7 @@
     },
     {
       "fullPath": "presets/tune/tune_mockingbrid_40.txt",
-      "hash": "b1106e2bc25327526462f1c49ee5a992e21bf71b117c274cf7d87730d4ce6426",
+      "hash": "4f2f4f156e178e7d422bf8baf800439af657cba88d171d61661d483875d08317",
       "title": "MockingBird 1-2S F3 (Betaflight 4.0)",
       "firmware_version": [
         "4.0"
@@ -1659,7 +1562,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "8a8bcf61a71328542c9d0a20557ebe4542d6d3b0778d9655aab3a8e634e3e8fc",
+      "hash": "c27bdad3bbe5ed6309ef7d20ce7ccc67db151b918dcf17e17fafbf25bcd3fa81",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.4",
