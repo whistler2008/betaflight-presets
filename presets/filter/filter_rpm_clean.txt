@@ -1,13 +1,16 @@
-#$ TITLE: CLEAN MOTOR, PROP Filter - RPM Filter
+#$ TITLE: CLEAN D-Term Filter
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: FILTER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FILTER
-#$ DESCRIPTION:  Filter settings for CLEAN MOTOR & NO RPM Filter
+#$ DESCRIPTION:  CLEAN D-Term Filter
 #$ HIDDEN: true
 
-# Gyro RPM Filter
+#---------------------#
+# Clean D-Term Filter #
+#---------------------#
+
 # master
 set dyn_notch_count = 2
 set dyn_notch_min_hz = 100

@@ -10,7 +10,10 @@
 #$ DESCRIPTION: Crash Recovery DISARM
 #$ HIDDEN: true
 
-# Crash Recovery DISARM
+#-----------------------#
+# Crash Recovery DISARM #
+#-----------------------#
+
 profile 0
 
 # profile 0

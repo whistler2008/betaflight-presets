@@ -10,7 +10,10 @@
 #$ DESCRIPTION: Custom Beeper settings
 #$ HIDDEN: true
 
-# Custom Beeper
+#---------------#
+# Custom Beeper #
+#---------------#
+
 beeper -RX_LOST
 beeper -DISARMING
 beeper -ARMING

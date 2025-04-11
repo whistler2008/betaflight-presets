@@ -8,6 +8,10 @@
 #$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true
 
+#---------------#
+# Standarde AUX #
+#---------------#
+
 # feature
 feature -AIRMODE
 

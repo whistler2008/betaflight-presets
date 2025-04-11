@@ -8,6 +8,10 @@
 #$ DESCRIPTION: Setting for RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)
 #$ HIDDEN: true
 
+#----------------------#
+# RX Serial ELRS 200Hz #
+#----------------------#
+
 feature RX_SERIAL
 feature TELEMETRY
 set serialrx_provider = CRSF

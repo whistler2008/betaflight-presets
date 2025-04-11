@@ -1,14 +1,17 @@
-#$ TITLE: BlackBox Tune
+#$ TITLE: BlackBox for Tune
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BLACKBOX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: BLACKBOX
-#$ DESCRIPTION: BlackBox Tune
+#$ DESCRIPTION: BlackBox for Tune
 #$ INCLUDE: presets/blackbox/blackbox_default.txt
 #$ HIDDEN: true
 
-# Blackbox Tune
+#-------------------#
+# Blackbox for Tune #
+#-------------------#
+
 set blackbox_sample_rate = 1/2
 set debug_mode = GYRO_SCALED
 set blackbox_disable_pids = OFF

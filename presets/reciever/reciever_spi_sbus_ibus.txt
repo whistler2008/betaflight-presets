@@ -8,6 +8,10 @@
 #$ DESCRIPTION: Setting for RX SPI SBUS / IBUS
 #$ HIDDEN: true
 
+#--------------------#
+# RX SPI SBUS / IBUS #
+#--------------------#
+
 profile 0
 
 # profile 0

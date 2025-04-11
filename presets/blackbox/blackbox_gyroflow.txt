@@ -1,14 +1,17 @@
-#$ TITLE: BlackBox GyroFlow
+#$ TITLE: BlackBox for Gyroflow
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BLACKBOX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: BLACKBOX
-#$ DESCRIPTION: BlackBox GyroFlow
+#$ DESCRIPTION: BlackBox for GyroFlow
 #$ INCLUDE: presets/blackbox/blackbox_default.txt
 #$ HIDDEN: true
 
-# Blackbox Gyroflow
+#-----------------------#
+# Blackbox for Gyroflow #
+#-----------------------#
+
 set blackbox_sample_rate = 1/16
 set debug_mode = GYRO_SCALED
 set blackbox_disable_pids = ON

@@ -10,7 +10,10 @@
 #$ DESCRIPTION: Crash Recovery ON
 #$ HIDDEN: true
 
-# Crash Recovery ON
+#-------------------#
+# Crash Recovery ON #
+#-------------------#
+
 profile 0
 
 # profile 0

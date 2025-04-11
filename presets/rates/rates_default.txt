@@ -7,11 +7,10 @@
 #$ DESCRIPTION: Default Rate
 #$ HIDDEN: true
 
+#--------------#
+# Default Rate #
+#--------------#
 
-# Motor Direction
-set yaw_motors_reversed = OFF
-
-# Default Rate
 #profile 0
 
 # profile 0
@@ -21,12 +20,6 @@ set yaw_motors_reversed = OFF
 #set level_limit = 55
 
 #profile 1
-#set angle_level_strength = 50
-#set horizon_level_strength = 50
-#set horizon_transition = 75
-#set level_limit = 55
-
-#profile 2
 #set angle_level_strength = 50
 #set horizon_level_strength = 50
 #set horizon_transition = 75

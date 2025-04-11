@@ -1,4 +1,4 @@
-#$ TITLE: Battery 3.0V settings
+#$ TITLE: Battery 2.9V settings
 #$ FIRMWARE_VERSION: 4.0
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
@@ -9,6 +9,10 @@
 #$ KEYWORDS: BATTERY
 #$ DESCRIPTION: Battery 2.9V Battery settings
 #$ HIDDEN: true
+
+#-----------------------#
+# Battery 2.9V settings #
+#-----------------------#
 
 # Battery ADC
 set current_meter = ADC

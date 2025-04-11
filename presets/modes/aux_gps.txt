@@ -8,6 +8,10 @@
 #$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true
 
+#----------------#
+# GPS Rescue AUX #
+#----------------#
+
 # feature
 feature GPS
 feature -AIRMODE

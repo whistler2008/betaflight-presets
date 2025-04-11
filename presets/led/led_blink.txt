@@ -10,7 +10,9 @@
 #$ DESCRIPTION: Custom LED settings
 #$ HIDDEN: true
 
-# Custom LED
+#-----------#
+# Blink LED #
+#-----------#
 
 # feature
 feature LED_STRIP

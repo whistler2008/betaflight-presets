@@ -9,8 +9,10 @@
 
 #$ INCLUDE: presets/rates/rates_default.txt
 
+#----------------#
+# RaceWhoop Rate #
+#----------------#
 
-# RaceWhoop Rate
 profile 0
 
 # profile 0
@@ -23,37 +25,8 @@ profile 1
 set crash_gthreshold = 1050
 set crash_setpoint_threshold = 950
 
-profile 2
-
-# profile 2
-set crash_gthreshold = 1050
-set crash_setpoint_threshold = 950
-
-
-#profile 0
-
-# profile 0
-#set angle_level_strength = 70
-#set horizon_level_strength = 70
-#set horizon_transition = 100
-#set level_limit = 85
-
-#profile 1
-#set angle_level_strength = 70
-#set horizon_level_strength = 70
-#set horizon_transition = 100
-#set level_limit = 85
-
-#profile 2
-#set angle_level_strength = 70
-#set horizon_level_strength = 70
-#set horizon_transition = 100
-#set level_limit = 85
-
 # restore original profile selection
 profile 0
-
-rateprofile 0
 
 # rateprofile 0
 rateprofile 0

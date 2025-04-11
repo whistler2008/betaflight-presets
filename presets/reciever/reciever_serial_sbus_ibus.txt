@@ -8,6 +8,10 @@
 #$ DESCRIPTION: Setting for RX Serial IBUS
 #$ HIDDEN: true
 
+#-----------------------#
+# RX Serial SBUS / IBUS #
+#-----------------------#
+
 feature RX_SERIAL
 set serialrx_provider = IBUS
 

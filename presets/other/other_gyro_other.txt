@@ -1,4 +1,4 @@
-#$ TITLE: Gyro_Other
+#$ TITLE: Gyro Other
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
@@ -7,6 +7,10 @@
 #$ DESCRIPTION: Setting for Other Gyro
 #$ HIDDEN: true
 
+
+#------------#
+# Gyro Other #
+#------------#
 
 # Gyro_Other Denom
 set pid_process_denom = 2

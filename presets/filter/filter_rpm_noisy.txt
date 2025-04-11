@@ -1,13 +1,16 @@
-#$ TITLE: NOISY MOTOR, PROP Filter - RPM Filter
+#$ TITLE: NOISY D-Term Filter
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: FILTER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: FILTER
-#$ DESCRIPTION:  Filter settings for NOISY MOTOR & NO RPM Filter
+#$ DESCRIPTION: NOISY D-Term Filter
 #$ HIDDEN: true
 
-# Gyro RPM Filter
+#---------------------#
+# Noisy D-Term Filter #
+#---------------------#
+
 # master
 set dyn_notch_count = 2
 set dyn_notch_min_hz = 120

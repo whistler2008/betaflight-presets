@@ -1,4 +1,4 @@
-#$ TITLE: Gyro_BMI270
+#$ TITLE: Gyro BMI270
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
@@ -6,6 +6,10 @@
 #$ KEYWORDS: OTHER
 #$ DESCRIPTION: Setting for BMI270 Gyro
 #$ HIDDEN: true
+
+#-------------#
+# Gyro BMI270 #
+#-------------#
 
 # Gyro_Other Denom
 set pid_process_denom = 1
