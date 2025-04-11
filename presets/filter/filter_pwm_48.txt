@@ -7,16 +7,10 @@
 #$ DESCRIPTION: Default ESC PWM 48kHz
 #$ HIDDEN: true
 
-#---------------#
 # ESC PWM 48kHz #
-#---------------#
 
 profile 0
-
-# profile 0
 set thrust_linear = 20
 
 profile 1
-
-# profile 1
 set thrust_linear = 20

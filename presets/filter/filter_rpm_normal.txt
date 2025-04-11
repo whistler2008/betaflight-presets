@@ -7,9 +7,7 @@
 #$ DESCRIPTION:  Normal D-Term Filter
 #$ HIDDEN: true
 
-#----------------------#
 # Normal D-Term Filter #
-#----------------------#
 
 # master
 set dyn_notch_count = 2

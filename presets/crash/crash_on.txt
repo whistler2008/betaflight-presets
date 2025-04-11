@@ -10,13 +10,9 @@
 #$ DESCRIPTION: Crash Recovery ON
 #$ HIDDEN: true
 
-#-------------------#
 # Crash Recovery ON #
-#-------------------#
 
 profile 0
-
-# profile 0
 set crash_recovery = ON
 set crash_delay = 500
 set crash_time = 1000
@@ -25,8 +21,6 @@ set crash_recovery_rate = 75
 set crash_limit_yaw = 175
 
 profile 1
-
-# profile 1
 set crash_recovery = ON
 set crash_delay = 500
 set crash_time = 1000

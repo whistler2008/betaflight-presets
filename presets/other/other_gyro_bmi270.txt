@@ -7,9 +7,7 @@
 #$ DESCRIPTION: Setting for BMI270 Gyro
 #$ HIDDEN: true
 
-#-------------#
 # Gyro BMI270 #
-#-------------#
 
 # Gyro_Other Denom
 set pid_process_denom = 1

@@ -24,43 +24,33 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): REVERSE Motor Direction
-#-----------------#
 # Motor Direction #
-#-----------------#
 
 set yaw_motors_reversed = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
-#---------------------------#
 # AVG Cell Telemetry Report #
-#---------------------------#
 
 set report_cell_voltage = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Enable RPM Filter
-#------------#
 # RPM Filter #
-#------------#
 
 set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Maximum PID Limit
-#--------------------------#
 # Unlock Maximum PID Limit #
-#--------------------------#
 
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Enable EzLanding 
-#-----------#
 # EzLanding #
-#-----------#
 
 set mixer_type = EZLANDING
 #$ OPTION END
@@ -130,18 +120,14 @@ set mixer_type = EZLANDING
 #$ OPTION_GROUP BEGIN: Motor Pole
 
 #$ OPTION BEGIN (UNCHECKED): 12 Pole
-#----------------#
 # 12 Poles Motor #
-#----------------#
 
 set motor_poles = 12
 set dshot_idle_value = 550
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 14 Pole
-#----------------#
 # 14 Poles Motor #
-#----------------#
 
 set motor_poles = 14
 set dshot_idle_value = 550
@@ -154,25 +140,19 @@ set dshot_idle_value = 550
 #$ OPTION_GROUP BEGIN: Propeller
 
 #$ OPTION BEGIN (UNCHECKED): 2 Blade
-#--------------------------------#
 # 2 Blade Dimmable RPM Harmonics #
-#--------------------------------#
 
 set rpm_filter_weights = 100, 80, 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 3 Blade
-#--------------------------------#
 # 3 Blade Dimmable RPM Harmonics #
-#--------------------------------#
 
 set rpm_filter_weights = 100, 0, 80
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 4-6 Blade
-#----------------------------------#
 # 4-6 Blade Dimmable RPM Harmonics #
-#----------------------------------#
 
 set rpm_filter_weights = 100, 80, 60
 #$ OPTION END

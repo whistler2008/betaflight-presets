@@ -5,12 +5,11 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: BLACKBOX
 #$ DESCRIPTION: BlackBox for Tune
-#$ INCLUDE: presets/blackbox/blackbox_default.txt
 #$ HIDDEN: true
 
-#-------------------#
+#$ INCLUDE: presets/blackbox/blackbox_default.txt
+
 # Blackbox for Tune #
-#-------------------#
 
 set blackbox_sample_rate = 1/2
 set debug_mode = GYRO_SCALED

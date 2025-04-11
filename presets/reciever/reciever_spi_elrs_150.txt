@@ -1,16 +1,14 @@
-#$ TITLE: RX SPI ELRS 150 (Betaflight 4.3-4.4)
+#$ TITLE: RX SPI ELRS 150
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RECIEVER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: RECIEVER
-#$ DESCRIPTION: Setting for RX SPI ELRS 150 (Betaflight 4.3-4.4)
+#$ DESCRIPTION: Setting for RX SPI ELRS 150
 #$ HIDDEN: true
 
-#-------------------#
 # RX SPI ELRS 150Hz #
-#-------------------#
 
 feature TELEMETRY
 
@@ -21,9 +19,6 @@ set expresslrs_uid = 67,127,47,177,211,57
 set expresslrs_rate_index = 2
 
 profile 0
-
-# profile 0
-# feedforward
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 30
 set feedforward_jitter_factor = 10
@@ -31,9 +26,6 @@ set feedforward_transition = 0
 set feedforward_boost = 15
 
 profile 1
-
-# profile 1
-# feedforward
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 30
 set feedforward_jitter_factor = 10

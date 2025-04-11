@@ -10,16 +10,10 @@
 #$ DESCRIPTION: Battery 3.0V Battery settings
 #$ HIDDEN: true
 
-#--------------------------#
 # Battery Sag Compensation #
-#--------------------------#
 
 profile 0
-
-# profile 0
 set vbat_sag_compensation = 100
 
 profile 1
-
-# profile 1
 set vbat_sag_compensation = 100

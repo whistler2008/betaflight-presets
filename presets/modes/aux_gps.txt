@@ -5,12 +5,11 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: MODES
 #$ DESCRIPTION: AUX with GPS Rescue
-#$ INCLUDE: presets/modes/aux_default.txt
 #$ HIDDEN: true
 
-#----------------#
+#$ INCLUDE: presets/modes/aux_default.txt
+
 # GPS Rescue AUX #
-#----------------#
 
 # feature
 feature GPS

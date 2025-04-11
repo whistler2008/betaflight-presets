@@ -10,9 +10,7 @@
 #$ DESCRIPTION: Default AUX settings
 #$ HIDDEN: true
 
-#-------------#
 # Default AUX #
-#-------------#
 
 # AUX
 aux 0 0 0 900 900 0 0

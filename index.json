@@ -189,7 +189,7 @@
   "presets": [
     {
       "fullPath": "presets/battery/batt_29.txt",
-      "hash": "c9724c27cf370696460692b73f0220f71635045a3a363f3d29b00c7849001f1e",
+      "hash": "3166f0339cf9d4d296dc11a07993bd1fd3057873528fc0bea146b7974adcf20a",
       "title": "Battery 2.9V settings",
       "firmware_version": [
         "4.0",
@@ -207,7 +207,7 @@
     },
     {
       "fullPath": "presets/battery/batt_32.txt",
-      "hash": "da69cde93b891c1c6d082757b6291ff460416c2f71fe802d9705954e647b916e",
+      "hash": "e4789e2a32b53aaf72ce79fcf96a9ddfe92be487a4f84efe9c6f3cc1572c5c0f",
       "title": "Battery 3.2V settings",
       "firmware_version": [
         "4.0",
@@ -225,7 +225,7 @@
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
-      "hash": "bc97d1bed3c687fdd0412bbc53a7bac51977b98bc9612e01ea992837722787d7",
+      "hash": "084aa4077fa93824c91e535294123a97a0588d74ea7d17d037b2a94673c316ec",
       "title": "Battery 3.3V settings",
       "firmware_version": [
         "4.0",
@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
-      "hash": "98e5a68746c47a21903ca80dc89482933e02fc24f331580cf67644809d23ad72",
+      "hash": "6fce4f4df2d8c69f0debfbe5e8dc91b7fc13e76e29f07af69c9f7b83b5c6e6b7",
       "title": "Battery 3.5V settings",
       "firmware_version": [
         "4.0",
@@ -261,7 +261,7 @@
     },
     {
       "fullPath": "presets/battery/batt_sag.txt",
-      "hash": "65532b65d3464a78b2807f8c27db9cac4e2202259b6a54504a6b60abf4e6fc0e",
+      "hash": "c1e61cd750f3aabffad3985531770d35a7712ae39bf15923bce85c5d9ecad5af",
       "title": "Battery 3.0V settings",
       "firmware_version": [
         "4.0",
@@ -279,7 +279,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_default.txt",
-      "hash": "784124e88f57ca9381a47203317615f1759d452f4f91b6d7d895dbc561f535cf",
+      "hash": "d076a0a4351194cac1df1c2bf8db60618d091d72acf3737142b7b234f58428ec",
       "title": "BlackBox Default",
       "firmware_version": [
         "4.4",
@@ -294,7 +294,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
-      "hash": "1a432b0da4a0d38dd65cfc58ecb9c304760dc971a08e2150a8c1ca4d8e4fee0f",
+      "hash": "e701bc907878b8910a207996a00db66322fc21545c46003db08c9e2ed776c97f",
       "title": "BlackBox for Gyroflow",
       "firmware_version": [
         "4.4",
@@ -309,7 +309,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_tune.txt",
-      "hash": "fe4150481a3e0165184ebf17eed31f7056645f8a99e1936cd5a4ed5d5fd1e91a",
+      "hash": "55ddfce52fa2d87b73421fddb337f123841fd3038fc29e50b48e9890d9d346d5",
       "title": "BlackBox for Tune",
       "firmware_version": [
         "4.4",
@@ -324,7 +324,7 @@
     },
     {
       "fullPath": "presets/crash/crash_disarm.txt",
-      "hash": "bd97cbd5c72a328b0c283c2968d203d2c0d91d274bdaf97e816ec41b5dbeec52",
+      "hash": "87ae82945f6536ca959e5eb19687e43e1e975980142958cf4115a81467e3be68",
       "title": "Crash Recovery DISARM",
       "firmware_version": [
         "4.0",
@@ -343,7 +343,7 @@
     },
     {
       "fullPath": "presets/crash/crash_off.txt",
-      "hash": "34914304968649104787ecd6c39ac48ef02238d5adde2ecea23360a5f04c4ef7",
+      "hash": "da1f37702dd9332b6cd95547db9fa83717a6bd1785e4cf9944a7fd331f35a1e4",
       "title": "Crash Recovery OFF",
       "firmware_version": [
         "4.0",
@@ -362,7 +362,7 @@
     },
     {
       "fullPath": "presets/crash/crash_on.txt",
-      "hash": "4afa85cd0168655bc6126481c68c973de4d87b0fa41fee2bbeaf5cc5326b3fb8",
+      "hash": "e5a0f1cadd70d963b8a3f50c35b987a08c08191ed7b87d6b1fabff1b7bf6f616",
       "title": "Crash Recovery ON",
       "firmware_version": [
         "4.0",
@@ -489,7 +489,7 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_24.txt",
-      "hash": "31c7e55aa3833502eb0ad483d3b45e692d9c6b8b525abee92b2936184ddea52d",
+      "hash": "c52c7bfe2f1db1f8d5bef470e8ddd8784b6fdabce3252fc6122b68a9a63a31f2",
       "title": "ESC PWM 24kHz",
       "firmware_version": [
         "4.4",
@@ -504,7 +504,7 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_48.txt",
-      "hash": "368989504616aa8e57eebccdec23f64d6274421e995e9dc57770afcc7f22430c",
+      "hash": "60c2050a757caea899d1ecdf8aacd3e743554cb3ddb7aa713a2137af5b8b8558",
       "title": "ESC PWM 48kHz",
       "firmware_version": [
         "4.4",
@@ -519,7 +519,7 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_96.txt",
-      "hash": "0ca8ee16ce0269988e8f7e56b2f2c51e1b69461a4c86044906af41bfe4504007",
+      "hash": "05a4193bd729fe41518d74884c3f1a0081da589f6444a75674d5b65197ad2cf1",
       "title": "ESC PWM 96kHz",
       "firmware_version": [
         "4.4",
@@ -534,7 +534,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
-      "hash": "fa6b36563c43047fb1ca010a815fbf4c984214b61d2004e60c7e916b44b2b894",
+      "hash": "34840f1be305a309067ee20fe33cbdc66022aee1af948547383011ef1845b709",
       "title": "CLEAN D-Term Filter",
       "firmware_version": [
         "4.4",
@@ -549,7 +549,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_noisy.txt",
-      "hash": "0ee8f32b4557c0b5bf8c7a2de4205954a35c1aa77707e7928f475bb60316f710",
+      "hash": "ad6a2a372171c4e789775b82685086756e7a383249f967761531e4213a4db4fe",
       "title": "NOISY D-Term Filter",
       "firmware_version": [
         "4.4",
@@ -564,7 +564,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_normal.txt",
-      "hash": "d72c9a38a97f9b3def5db4f90ef2713b86abc123dab86905e2f5a968670e7a9d",
+      "hash": "102cadccd99622bd183fe08673e072bd85ea57cfb894e8994dc2ce4ae2cbae31",
       "title": "Normal D-Term Filter",
       "firmware_version": [
         "4.4",
@@ -579,7 +579,7 @@
     },
     {
       "fullPath": "presets/led/led_blink.txt",
-      "hash": "39afd7d2cc3e708ba252bca7606397044adba6df7aaf6815bbc86ab897123d0a",
+      "hash": "89511ee93d821d537e5b056a6b90fd2fe26d9317780351c66fae04064f34e339",
       "title": "Custom LED settings",
       "firmware_version": [
         "4.0",
@@ -597,7 +597,7 @@
     },
     {
       "fullPath": "presets/modes/aux_default.txt",
-      "hash": "34cd9a8b5a540b94004bc470fd38e2bf920e8d234381cf4a24a16b9efc1c8906",
+      "hash": "257106e6b10a91f7f18110b1f6df2b447ccb246d3875fd6e74d637a1bf072432",
       "title": "Default AUX settings",
       "firmware_version": [
         "4.0",
@@ -615,7 +615,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "02c7263bc7eb80ff2d6c3301fae206bf2e13b403e9365f70d9d5e63bf84c10f3",
+      "hash": "3ea3699bd2a333ea17eba6c621e574f63c4a3a9ea442859695c46667eaff3106",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.4",
@@ -630,7 +630,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "551fbf229151eff292c6b22351673919b3669aae291c4411eca0237c077d2b61",
+      "hash": "535369f837705440be4d0cf6750d062d99ab4acc3c9c3e75db84eabe30f39d71",
       "title": "AUX Standard",
       "firmware_version": [
         "4.4",
@@ -975,7 +975,7 @@
     },
     {
       "fullPath": "presets/other/other_beeper.txt",
-      "hash": "6a17b95d8fc2187ed66f66f0dfc764d29e28cfa5b2559d052009fbee8caf0048",
+      "hash": "706fd2d0b0020f7d6ece3a093e60b2af4f192200b8e3e19825ae276715a22c09",
       "title": "Custom Beeper settings",
       "firmware_version": [
         "4.0",
@@ -994,7 +994,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_bmi270.txt",
-      "hash": "bccc967844f2a88b33b1239be544f68aad4d477606df27c2a5f0e213d756961a",
+      "hash": "e9ec91390ffce193972cd742277796319f65838e5b9a05c2f8d64ead740936b3",
       "title": "Gyro BMI270",
       "firmware_version": [
         "4.4",
@@ -1009,7 +1009,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_other.txt",
-      "hash": "21acaf936e8504083f8549764cc680c2273c8a4fd91173fe72a43c6c6d8b0187",
+      "hash": "55ca8fd2bf16ff0b2ce554c38b4417b62f1215569e349e8bb2b3f5f602eddddd",
       "title": "Gyro Other",
       "firmware_version": [
         "4.4",
@@ -1264,7 +1264,7 @@
     },
     {
       "fullPath": "presets/rates/rates_cinewhoop.txt",
-      "hash": "24e08126438f078ef616ef28c0d2122c58c3f15aa2513cb043dab74f2206fe5e",
+      "hash": "58b5aefbb0e4eb25fc8e9c646739619abe88fc0bc3092c2998ea73ba296df515",
       "title": "CineWhoop Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1279,7 +1279,7 @@
     },
     {
       "fullPath": "presets/rates/rates_default.txt",
-      "hash": "3572db7f1eaf2a38af56a37d4469a42ebe223b8e43cdf32fbf707de1e37521d1",
+      "hash": "04d9ac50eb976c6c8914fba21aff85b47d64571b7eef7b33466e6b5079c1f05b",
       "title": "Default Rate",
       "firmware_version": [
         "4.4",
@@ -1294,7 +1294,7 @@
     },
     {
       "fullPath": "presets/rates/rates_freestyle.txt",
-      "hash": "1049ca01a83fa93db4edf52a6aa601e53ac55b3d1c870afe3a2ebc44fed3a046",
+      "hash": "378f4c70e91225543103c8d1d35ccd415577f76d76d80c6b7440d56c03675376",
       "title": "FreeStyle Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1309,7 +1309,7 @@
     },
     {
       "fullPath": "presets/rates/rates_race.txt",
-      "hash": "76b00b8794f00e40a64a31aaa51fefb07c87a03b0f982429a629a64ff48aa3f8",
+      "hash": "0d6ad0f2cf055e5ce81bdccea334df7e76c72b6af8087cc48b2449cd13bd68c1",
       "title": "Race Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1324,7 +1324,7 @@
     },
     {
       "fullPath": "presets/rates/rates_racewhoop.txt",
-      "hash": "f1406535f8a4620c8d6bed40c8827da4c87dff7ea8d691c6dfd6c6e8c43c55ed",
+      "hash": "848edbab7790d16c654eab9a25abd84f7628105f015d32ae87d4c7f9240a96ba",
       "title": "RaceWhoop Rate Profile",
       "firmware_version": [
         "4.4",
@@ -1339,8 +1339,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_200.txt",
-      "hash": "af9736813081f4d958d2f98f8c692d264bce05ab7761b93b4789beacc66c5e31",
-      "title": "RX Serial ELRS 200Hz for CineWhoop (Betaflight 4.3-4.4)",
+      "hash": "792cc3011f85847d42ff016e6f0876435d9e694a9b8e2530bf375e53b0f806b5",
+      "title": "RX Serial ELRS 200Hz for CineWhoop",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -1355,8 +1355,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "46ee58370b41b41a1ce2591159e7111adbb981e789c08dd485fd9eb5efcb4f95",
-      "title": "RX Serial ELRS 500Hz for CineWhoop (Betaflight 4.3-4.4)",
+      "hash": "74f3958583640fb27720e9093f80eff2947d4001d8953bf30b3dfa4b7ef4281c",
+      "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -1371,8 +1371,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_200.txt",
-      "hash": "bae11c6df9ad158f69dad7d712d879eef54be02667af3382f716ffaf66bac1a8",
-      "title": "RX Serial ELRS 200Hz for FreeStyle (Betaflight 4.3-4.4)",
+      "hash": "8d85fc88ace1788d60dd0e18b7fccb8ce309e94ef797888c0f40c0b618d3ffd6",
+      "title": "RX Serial ELRS 200Hz for FreeStyle",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -1387,8 +1387,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "262600998575059b6729bff8596487a0230794f1e5ebcea694889a76b6953b92",
-      "title": "RX Serial ELRS 500Hz for FreeStyle (Betaflight 4.3-4.4)",
+      "hash": "6033aa9a473aa0a022e4eaaa8807a25a65c73aa85da76c9cef7ce181192af38b",
+      "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -1403,8 +1403,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_200.txt",
-      "hash": "43a3c871a4ae3d03f808b78e903319d996f6b3ea021357df453ccde76beac1d7",
-      "title": "RX Serial ELRS 200Hz for Race (Betaflight 4.3-4.4)",
+      "hash": "3505a5915bdacb895e22b56247c6043b5c04a0d28a935184560ba3ceda43aefe",
+      "title": "RX Serial ELRS 200Hz for Race",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -1419,8 +1419,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "ea7f865cecba641d589cdc853484d4f5acdc0e85275f3c58f2f6229e511e7cc3",
-      "title": "RX Serial ELRS 500Hz for Race (Betaflight 4.3-4.4)",
+      "hash": "d8ffde0f60d7d83821b3694472c33e29e2888a26f71c7b93eda227c69d149cfa",
+      "title": "RX Serial ELRS 500Hz for Race",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -1435,7 +1435,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_serial_sbus_ibus.txt",
-      "hash": "8640550a92403d17df76bf25b4bbd80ad5564de88abd4f4beff85db6e322da4b",
+      "hash": "84caf47fb9418fbb2e4655e206ea4c50f0de2019ccf43d45e19b6942d1d6ecf2",
       "title": "RX Serial IBUS",
       "firmware_version": [
         "4.3",
@@ -1451,8 +1451,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
-      "hash": "8632c8e21ed09b838d21f8fc8b66f8de3ab5ab62ad42ef036eeab70016e363bb",
-      "title": "RX SPI ELRS 150 (Betaflight 4.3-4.4)",
+      "hash": "87e5ead4befe0411202effb5f7b345235ef2d67308444f1e874595d01a84cd59",
+      "title": "RX SPI ELRS 150",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -1467,7 +1467,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_sbus_ibus.txt",
-      "hash": "6224acd94563f76152b4e655e70ec1b514fd74e5e28397946c63cf5547b9b1a6",
+      "hash": "fd6a3c02640887bf4be3b16d7c37b31d6992b62821e684980ffdf950ef86b1ff",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.3",
@@ -1483,7 +1483,7 @@
     },
     {
       "fullPath": "presets/tune/setting_basic.txt",
-      "hash": "341287aaca215021fc1cb7a228b140078aa36a61b7180d3e1ba9c252bf79b3e0",
+      "hash": "d4934a0909c6be85ef4a13fa799c23ddd4b10dc0b8016f3132317990eda6f0ca",
       "title": "Basic Setting",
       "firmware_version": [
         "4.4",

@@ -7,10 +7,7 @@
 #$ DESCRIPTION: Setting for Other Gyro
 #$ HIDDEN: true
 
-
-#------------#
 # Gyro Other #
-#------------#
 
 # Gyro_Other Denom
 set pid_process_denom = 2

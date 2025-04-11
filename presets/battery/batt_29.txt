@@ -10,9 +10,7 @@
 #$ DESCRIPTION: Battery 2.9V Battery settings
 #$ HIDDEN: true
 
-#-----------------------#
 # Battery 2.9V settings #
-#-----------------------#
 
 # Battery ADC
 set current_meter = ADC
