@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, default
+#$ KEYWORDS: vtx
 #$ DESCRIPTION: Default VTX settings
 #$ HIDDEN: true
 

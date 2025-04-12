@@ -1,10 +1,10 @@
-#$ TITLE: Basic Setting
+#$ TITLE: General Setting
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: Basic Setting
+#$ DESCRIPTION: General Setting
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -52,24 +52,6 @@ set pidsum_limit_yaw = 1000
 # EzLanding #
 
 set mixer_type = EZLANDING
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#---------------------------------------------------------------------------------------#
-
-#$ OPTION_GROUP BEGIN: Crash Recovery
-
-#$ OPTION BEGIN (CHECKED): Crash Recovery OFF
-#$ INCLUDE: presets/crash/crash_off.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Crash Recovery ON
-#$ INCLUDE: presets/crash/crash_on.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Crash Recovery DISARM
-#$ INCLUDE: presets/crash/crash_disarm.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

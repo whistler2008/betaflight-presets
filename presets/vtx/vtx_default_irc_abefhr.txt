@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, default_irc
+#$ KEYWORDS: vtx
 #$ DESCRIPTION: Default IRC2 VTX settings
 #$ HIDDEN: true
 

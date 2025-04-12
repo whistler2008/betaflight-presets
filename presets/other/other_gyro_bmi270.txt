@@ -15,3 +15,10 @@ set pid_process_denom = 1
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 250
 set gyro_lpf1_dyn_min_hz = 0
+set simplified_gyro_filter_multiplier = 75
+
+# master
+set dyn_notch_count = 2
+set dyn_notch_min_hz = 100
+set dyn_notch_max_hz = 650
+set acc_lpf_hz = 10

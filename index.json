@@ -153,9 +153,6 @@
       "akk",
       "betafpv",
       "caos",
-      "default",
-      "default_irc",
-      "default_tbs",
       "eachine",
       "ewrf",
       "factory",
@@ -289,51 +286,6 @@
         "setting"
       ],
       "hidden": true
-    },
-    {
-      "fullPath": "presets/crash/crash_disarm.txt",
-      "hash": "02a7031af498bc582e2c5e6f836bd1bde1af159e47055489b6534144a74e7d95",
-      "title": "Crash Recovery DISARM",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/crash/crash_off.txt",
-      "hash": "16cd914e41ad4ae2e5e2114d92b4b2677a6450cd4012f2014dac98d347f23038",
-      "title": "Crash Recovery OFF",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/crash/crash_on.txt",
-      "hash": "001922e060dcdfff03c6ede0c6782a2c153b0400fdef05f6e6f0d62a61914531",
-      "title": "Crash Recovery ON",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
     },
     {
       "fullPath": "presets/factory/crazyf4_2g4.txt",
@@ -487,7 +439,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
-      "hash": "ad2587e488765d7acdc3756b920382a0e68008206be7ca18765a46bdf21c591f",
+      "hash": "36a1a0ef565636f38434953b45912d33d027ff5f34babba11e0849857ddd5c1d",
       "title": "CLEAN D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -501,7 +453,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_noisy.txt",
-      "hash": "92e66e3ad081fa634abbf89bb73e766ab2b2964cccbbfa21ab02591bcac7e9dd",
+      "hash": "9ee5d4bcb8e7e437d3d40ead3f04adaf02b2ba97b12a3a3a7303e95711dc913a",
       "title": "NOISY D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -515,7 +467,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_normal.txt",
-      "hash": "63e63fcf151b1fa1c2fda2da0927f6f7182897d1a635729a81dee3e65aaf5083",
+      "hash": "557bb54e19c0d65a5fbc69527b51756d25fab0f86df36c3dab746a7d0d62acd5",
       "title": "Normal D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -908,7 +860,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_bmi270.txt",
-      "hash": "cac714cf061c6bc2863523add303fc86cace6576f558f25e33cdffb2c5b7879a",
+      "hash": "4f60dc17e9cc6bf763ae7855b0e8fb9490b392a92d33613d2c8b015872744b4a",
       "title": "Gyro BMI270",
       "firmware_version": [
         "4.5"
@@ -922,7 +874,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_other.txt",
-      "hash": "8c42fd2d63341371f837c1d78c561593bb7e1e228d0f4da34aacd2de84e0f443",
+      "hash": "d623d67eeb1d9f1e83a895abf35a681aa2c433ad65acd6e479ff4292c34aaf89",
       "title": "Gyro Other",
       "firmware_version": [
         "4.5"
@@ -936,7 +888,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_1s.txt",
-      "hash": "1825213897babeb54c5af11d1725b8fcfef65339941ae61b769cb405a0ee50a4",
+      "hash": "d2c6578c402249c273d58dcd667d996a29f907e84f732be16d8470af476649f6",
       "title": "Cinewhoop 1S",
       "firmware_version": [
         "4.5"
@@ -951,7 +903,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_2s.txt",
-      "hash": "2e6165308eaf25dbf002fca3ef4935d2de3ca497e10ba32e1e620dd60221a178",
+      "hash": "85c36c70c09665fae7317074dc40a50c99d5c5c541db6b25206b127a9d2a27fc",
       "title": "Cinewhoop 2S",
       "firmware_version": [
         "4.5"
@@ -966,7 +918,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_3s.txt",
-      "hash": "8faedcd1f439eabeb0056c6658bce33b9b42f90d10df9aedf41cf7f2a7eca47c",
+      "hash": "cb6eedf04243c4a9aa92cf33126184072b5191ee46ae95580ccfdfa81f66d8e3",
       "title": "Cinewhoop 3S",
       "firmware_version": [
         "4.5"
@@ -981,7 +933,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_4s.txt",
-      "hash": "c001c33b9608fd2b0969610c4927c7f341f4c999eb24c8d1a346d69e61c2ab48",
+      "hash": "ae13c39eafc4c59454a4b2c7e170eb99241aac15e6c038261b6961032ff44f1a",
       "title": "Cinewhoop 4S",
       "firmware_version": [
         "4.5"
@@ -996,7 +948,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_6s.txt",
-      "hash": "68586fb6ebce45700ed726030278ef3d115e96a6520d695a949d05df97ffb855",
+      "hash": "32bb96d6f1f8232d7a1a11fdfb305e880eae9c68985cd77c3cafe490f249101c",
       "title": "Cinewhoop 6S",
       "firmware_version": [
         "4.5"
@@ -1011,7 +963,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_1s.txt",
-      "hash": "82b2d1d80a85a846b5acecd5a395776d3eb716d490217c7674b4c81942038064",
+      "hash": "4653318c404f71ae5d9a5e20eeefe9ff8c2b486bd529b4a088b44daa15d0969d",
       "title": "Freestyle 1S",
       "firmware_version": [
         "4.5"
@@ -1026,7 +978,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_2s.txt",
-      "hash": "63156b88930228cfb9130dd77a7a137de1883744037affe8504fb4c6de19e8f8",
+      "hash": "0939c58967e17eccb4b8550ec98e42b1462aa974439043123fb49b1439c8c100",
       "title": "Freestyle 2S",
       "firmware_version": [
         "4.5"
@@ -1041,7 +993,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_3s.txt",
-      "hash": "5451355c9a386c333799b1b15f3fdff347dddfa8fed1723bc0b9263e2bd8a4e5",
+      "hash": "a61eb883d00b8b3223e99e2627085ecbf988badbb2c3959e304fb01ad6ec71f9",
       "title": "Freestyle 3S",
       "firmware_version": [
         "4.5"
@@ -1056,7 +1008,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_4s.txt",
-      "hash": "42717533b1fa1c5737d516a0526c774358a412436f2d11f8cf3dfd91e1165cce",
+      "hash": "9de241b548880825271e8fb00a415ecb5cb3748c8490af966724da5802087d9c",
       "title": "Freestyle 4S",
       "firmware_version": [
         "4.5"
@@ -1071,7 +1023,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_6s.txt",
-      "hash": "5edc5f38f2dfadb4ef213b114e8d98ee746328848cd64aa022ef9f2ec7a77314",
+      "hash": "b0b80735467b7606113a14fe31e4e7702d8ce2d90eb7104eb246cca646366999",
       "title": "Freestyle 6S",
       "firmware_version": [
         "4.5"
@@ -1086,7 +1038,7 @@
     },
     {
       "fullPath": "presets/pid/racewhoop_1s.txt",
-      "hash": "2fb1fa5706e8bc67bdab6566a3097a0f60b7b0a091b2b18107cf8c36714f05b5",
+      "hash": "2eeae18fb0125d158f80fe917623f75cac054ae48b03b0780ec585ca1dbe520d",
       "title": "RaceWhoop 1S",
       "firmware_version": [
         "4.5"
@@ -1101,7 +1053,7 @@
     },
     {
       "fullPath": "presets/pid/racewhoop_2s.txt",
-      "hash": "3bbd734515a9f0879806981d49f55332c562ba3a2dcc26b79155e8894698fc74",
+      "hash": "a4fe96d00ce3b6da4d8cdae32aacbefbdf7e98cdd1e9900edadb0fd042a3c9fb",
       "title": "RaceWhoop 2S",
       "firmware_version": [
         "4.5"
@@ -1116,7 +1068,7 @@
     },
     {
       "fullPath": "presets/pid/race_3s.txt",
-      "hash": "e60efdb673e0260abae8b5fc94c596f43fd6d79ed8a69a9f6576e2e7a5882e1a",
+      "hash": "c3d2e13dad711dec1b715f253f9758df3897e10abc230efeb7c1b14dd4334002",
       "title": "Race 3S",
       "firmware_version": [
         "4.5"
@@ -1131,7 +1083,7 @@
     },
     {
       "fullPath": "presets/pid/race_4s.txt",
-      "hash": "4ef5b92a4ddb3383e3012775128c17fcef77029fa42eb837faf095096f1c34ad",
+      "hash": "8cacd0110bbe7c7bafa2068296460f811e21f7ea6739c568e3546189c93b6e22",
       "title": "Race 4S",
       "firmware_version": [
         "4.5"
@@ -1146,7 +1098,7 @@
     },
     {
       "fullPath": "presets/pid/race_6s.txt",
-      "hash": "c10c6b9612cc64c56aa44acbcbede3f7d9dd7ab8ef0000841b4cf2da2ba919af",
+      "hash": "418cedbbef6fbc1d84702b88d1b3e31a6cc7230edc6c15ec6163ca935cde2fdf",
       "title": "Race 6S",
       "firmware_version": [
         "4.5"
@@ -1356,9 +1308,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/tune/setting_basic.txt",
-      "hash": "5365e74434230f6f7226a3da83a109591c1c41bce6ecc4a8be63176868cdea45",
-      "title": "Basic Setting",
+      "fullPath": "presets/tune/general_setting.txt",
+      "hash": "cebdbbdc3c332d7ab958775a1b60ab96ae5a78252d668a22bc99e0f8f5a90ac6",
+      "title": "General Setting",
       "firmware_version": [
         "4.5"
       ],
@@ -1489,7 +1441,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default.txt",
-      "hash": "de9ae46b1cce72bd1e6d04c1725b5621365f3d1e8e91ecbd72a24cd1124a5c12",
+      "hash": "faac361f6f068799b14d0faaec9c764a3c003004618794bb935decc31da7a521",
       "title": "Default VTX settings",
       "firmware_version": [
         "4.5"
@@ -1497,14 +1449,13 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
-        "vtx",
-        "default"
+        "vtx"
       ],
       "hidden": true
     },
     {
       "fullPath": "presets/vtx/vtx_default_irc_abefhr.txt",
-      "hash": "8738a65d9b2e6f519f6e5ec53c9a8f0b3d1638bc9af4474eaf9365e081876fce",
+      "hash": "390758ead4540739dde840ee9e49a3791790b864e5dfab5425d15356414bf0d7",
       "title": "Default IRC2 VTX",
       "firmware_version": [
         "4.5"
@@ -1512,14 +1463,13 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
-        "vtx",
-        "default_irc"
+        "vtx"
       ],
       "hidden": true
     },
     {
       "fullPath": "presets/vtx/vtx_default_irc_abefr.txt",
-      "hash": "747f90e548cd4777359d10e45a54d5bdf9f0ae98a7990f0eb3fb5c54d088b142",
+      "hash": "bfe8f35ef13485ba8fe04337113c51e68ba83c6e0b72ea26874d5b54dfa0c6a8",
       "title": "Default IRC1 VTX",
       "firmware_version": [
         "4.5"
@@ -1527,14 +1477,13 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
-        "vtx",
-        "default_irc"
+        "vtx"
       ],
       "hidden": true
     },
     {
       "fullPath": "presets/vtx/vtx_default_tbs.txt",
-      "hash": "eaed2a38c77cf5e6dbbf0e5861387dccc947d36548e55ab4acef97e17e53b5b9",
+      "hash": "e46b811b811475c67d911264429719398f3c73d3e9f481ca7069212314b8ac4b",
       "title": "Default TBS VTX",
       "firmware_version": [
         "4.5"
@@ -1542,8 +1491,7 @@
       "category": "VTX",
       "status": "COMMUNITY",
       "keywords": [
-        "vtx",
-        "default_tbs"
+        "vtx"
       ],
       "hidden": true
     },
