@@ -1,4 +1,4 @@
-#$ TITLE: Happymodel DiamondF4
+#$ TITLE: HappyModel CrazyF4 2G4
 #$ FIRMWARE_VERSION: 4.2
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
@@ -6,7 +6,7 @@
 #$ CATEGORY: FACTORY
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: factory
-#$ DESCRIPTION: Factory setting for Happymodel DiamondF4
+#$ DESCRIPTION: Factory setting for HappyModel CrazyF4 2G4
 
 # resources
 resource MOTOR 1 none
@@ -23,7 +23,7 @@ resource MOTOR 4 B10
 serial 1 2048 115200 57600 0 115200
 
 # other
-set gyro_1_sensor_align = CW270
+set gyro_1_sensor_align = CW0
 set gyro_1_align_roll = 0
 set gyro_1_align_pitch = 0
 set gyro_1_align_yaw = 0
@@ -39,7 +39,7 @@ vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
 
 # power_level
 vtxtable powerlevels 3
-vtxtable powervalues 0 1 2
+vtxtable powervalues 0
 vtxtable powerlabels 25 100 200
 
 # master
@@ -49,3 +49,5 @@ set vtx_power = 2
 set vtx_low_power_disarm = ON
 set vtx_freq = 5732
 set vtx_pit_mode_freq = 5732
+set expresslrs_uid = 116,160,121,218,231,79
+set expresslrs_rate_index = 2

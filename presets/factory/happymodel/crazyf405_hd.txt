@@ -1,0 +1,23 @@
+#$ TITLE: HappyModel CrazyF405 HD
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: FACTORY
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: factory
+#$ DESCRIPTION: HappyModel CrazyF405 HD
+
+# HappyModel CrazyF405 HD
+
+# serial
+serial 0 131073 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+
+# resource
+resource SERIAL_TX 3 none
+resource SERIAL_RX 3 none
+resource I2C_SCL 2 B10
+resource I2C_SDA 2 B11
+
+# master
+set baro_bustype = I2C
+set baro_i2c_device = 2

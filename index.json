@@ -288,41 +288,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/factory/crazyf4_2g4.txt",
-      "hash": "4340e7ce044d834ceaa5f83550fef6e268cf6695a1c8ecf73b27a295cd4fcdef",
-      "title": "Happymodel CrazyF4 2G4",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "FACTORY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "factory"
-      ]
-    },
-    {
       "fullPath": "presets/factory/darwinfpv_f405.txt",
       "hash": "5ccc2ece2f2220744e1f2a6174571c2c5dd62cd864fa34b247217d0e61ba576c",
       "title": "DarwinFPV F405",
-      "firmware_version": [
-        "4.2",
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "FACTORY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "factory"
-      ]
-    },
-    {
-      "fullPath": "presets/factory/diamondf4.txt",
-      "hash": "3b2e9de308eea01329bc506d7eed5f5d707d4d183b0a40e5cca74bb0db08b782",
-      "title": "Happymodel DiamondF4",
       "firmware_version": [
         "4.2",
         "4.3",
@@ -352,8 +320,54 @@
       ]
     },
     {
-      "fullPath": "presets/factory/happymodel_x12.txt",
-      "hash": "02274c50fd336fb5de3b7d720cb54ec852c651db8dff49c2843116dd7c8475e2",
+      "fullPath": "presets/factory/happymodel/crazyf405_hd.txt",
+      "hash": "cadb764a7085c12215e66aee5afff7fa5a0aadedeef4209fca618c582dd7838b",
+      "title": "HappyModel CrazyF405 HD",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
+      "fullPath": "presets/factory/happymodel/crazyf4_2g4.txt",
+      "hash": "fbc70ad3b3e277edd39a5b3dca3ae1015484c18357b2b99b894fc0c76cc4d211",
+      "title": "HappyModel CrazyF4 2G4",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
+      "fullPath": "presets/factory/happymodel/diamondf4.txt",
+      "hash": "30ffe4236e4734ea7c4aa06ed061832be06a10cdb5a5b8a8c5348caaf3396107",
+      "title": "HappyModel DiamondF4",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "FACTORY",
+      "status": "COMMUNITY",
+      "keywords": [
+        "factory"
+      ]
+    },
+    {
+      "fullPath": "presets/factory/happymodel/x12.txt",
+      "hash": "d5d7f3e272a4675a2eaa6c4bb22124cd7fc51a88231b44702c87121e1b34f7cc",
       "title": "HappyModel X12",
       "firmware_version": [
         "4.4",
