@@ -15,16 +15,16 @@ set serialrx_provider = CRSF
 set rx_min_usec = 900
 set rx_max_usec = 2100
 
+set rc_smoothing_auto_factor = 90
+
 profile 0
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 75
-set feedforward_jitter_factor = 11
-set feedforward_transition = 0
+set feedforward_jitter_factor = 13
 set feedforward_boost = 15
 
 profile 1
 set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 75
-set feedforward_jitter_factor = 11
-set feedforward_transition = 0
+set feedforward_jitter_factor = 13
 set feedforward_boost = 15

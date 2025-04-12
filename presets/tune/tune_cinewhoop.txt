@@ -101,7 +101,7 @@ feature RX_SPI
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
 feature RX_SERIAL
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_200.txt
+#$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz

@@ -860,7 +860,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_bmi270.txt",
-      "hash": "4f60dc17e9cc6bf763ae7855b0e8fb9490b392a92d33613d2c8b015872744b4a",
+      "hash": "76a4cc46d7816132ec716e2629aaef8bc961a1a2e5d2d5bec167c1df23c75f84",
       "title": "Gyro BMI270",
       "firmware_version": [
         "4.5"
@@ -874,7 +874,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_other.txt",
-      "hash": "d623d67eeb1d9f1e83a895abf35a681aa2c433ad65acd6e479ff4292c34aaf89",
+      "hash": "2932d2b743bc28d87ae2c49d8e5bc3fad449e4dbdcea0c547b7af5c6955e8726",
       "title": "Gyro Other",
       "firmware_version": [
         "4.5"
@@ -1182,9 +1182,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/reciever/reciever_cinewhoop_elrs_200.txt",
-      "hash": "b12aeea0c3756dfa7b98db79bcc6be7b0b6dab6c3e31aa60e724979691b2d641",
-      "title": "RX Serial ELRS 200Hz for CineWhoop",
+      "fullPath": "presets/reciever/reciever_cinewhoop_elrs_150.txt",
+      "hash": "e27c40f4dd5fb5b2e6dc0cd09d5908f0a85034776f52cba04e10db220177822a",
+      "title": "RX Serial ELRS 150Hz for CineWhoop",
       "firmware_version": [
         "4.5"
       ],
@@ -1197,7 +1197,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "f7affeb3851110353300379e40eb2b91d37818f81b9e3e931cf0295b7eafc126",
+      "hash": "ec69c61e3f88f3523275520a10245064798831a595a18e40917fe198c43ce6cc",
       "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
         "4.5"
@@ -1210,9 +1210,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/reciever/reciever_freestyle_elrs_200.txt",
-      "hash": "0035aecb961eb9f8f2eedebeec49da8008f0145509a5950b42006756031e1d2e",
-      "title": "RX Serial ELRS 200Hz for FreeStyle",
+      "fullPath": "presets/reciever/reciever_freestyle_elrs_150.txt",
+      "hash": "5d3888c28b56abf4c85f146b51fa3ed00a5c337c9195636624ee2313d8b9f33a",
+      "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
         "4.5"
       ],
@@ -1225,7 +1225,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "9c4049f726c24a28ed3401ce7492996fd69694818ad11d9b9d3dc49372b72938",
+      "hash": "7d58a444edd22f2680e7c123b40ce7c2133efdbcff556b7e0534e1e96d910e03",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -1238,9 +1238,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/reciever/reciever_race_elrs_200.txt",
-      "hash": "e0caffdb8b09fbf15ea79370d579aa835ad743328a746fc1293ac4a2a815a90d",
-      "title": "RX Serial ELRS 200Hz for Race",
+      "fullPath": "presets/reciever/reciever_race_elrs_150.txt",
+      "hash": "35929bc5fc37d72eb24c992c66722bd3b68506ce2cf7e554168c2aee32f196e7",
+      "title": "RX Serial ELRS 150Hz for Race",
       "firmware_version": [
         "4.5"
       ],
@@ -1253,7 +1253,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "dcb0c7345237244fd2595a5d5747c026227a8407077ff4f9649c1f763e85541a",
+      "hash": "9f3ffd5cd3eb619c20d4d4a774ac14f396248f560962a10a30c1ced135e0ed99",
       "title": "RX Serial ELRS 500Hz for Race",
       "firmware_version": [
         "4.5"
@@ -1267,8 +1267,8 @@
     },
     {
       "fullPath": "presets/reciever/reciever_serial_sbus_ibus.txt",
-      "hash": "98fdc59e71df4db01312db9898eae4042aeae568547a00a24b4d9a81a99d9e8b",
-      "title": "RX Serial IBUS",
+      "hash": "99a92238061e55b3ee9ecac55c59b7c951139b02d0c7672eb69a04ebb502cb78",
+      "title": "RX Serial SBUS / IBUS",
       "firmware_version": [
         "4.5"
       ],
@@ -1281,7 +1281,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
-      "hash": "7abfb3c1fa767644d386e12011fade9eee5d7987bee1eeec98a304c2843768cf",
+      "hash": "f0712fd5ea55f09978a8b1e2ad57ffc64517e54bff78099880371ded5f11c39b",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
         "4.5"
@@ -1324,7 +1324,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "fcd0c4d8bae4fb8eded998bb37204ebf106efa6a46d73b8bdff93fc89f360e18",
+      "hash": "a74af279abac5e7dc6a9b80ac4e2443cd71c4dbcabc03c05fe370bd36a8bb02f",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -1339,7 +1339,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "0535dbf88dc35e8afef2c7ca899f7964d35abece820def9136b6752ea914b3c5",
+      "hash": "de1ffc4507e4ec4f45c38e60070dfd4b0c97090e5422feea584c90240bab814f",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
@@ -1369,7 +1369,7 @@
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "8b4cee4199b5e5e61645f30d8475a79ddc33d1d69a87b82dc0a563f82fb1527f",
+      "hash": "ea74ffdf3540cba20c717642c45502d6d55cba627fec8d5362b2753c2a35280d",
       "title": "Race Tune",
       "firmware_version": [
         "4.5"
@@ -1384,7 +1384,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "ca1dcfc979103f38b40ad13a50f2958ffabcb4b625919ddd0acc61bb37d2266a",
+      "hash": "8cee74f3d4ddb680cfe65e3353a78cee5ab3c2c9755ce8251675fe11bfc0933f",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.5"
