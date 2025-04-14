@@ -1126,6 +1126,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/sbang_blackbird.txt",
+      "hash": "039800a38006f9e355138a15fb1adabaf36520eaef1f02fb4a42adc9b1cbf8cf",
+      "title": "SBANG BlackBird",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rates/rates_cinewhoop.txt",
       "hash": "8db638e1250a3cc01950a9846e7e0053ed635d2ba1cd513781a4ba6fa252e774",
       "title": "CineWhoop Rate Profile",
@@ -1280,6 +1295,34 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/reciever/reciever_sbang_elrs_150.txt",
+      "hash": "88cf151fb32f3c2b8f95d2348d568db429eec1c85fd1140873918f99fcf71bb3",
+      "title": "RX Serial ELRS 150Hz for FreeStyle",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "RECIEVER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rx"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/reciever/reciever_sbang_elrs_500.txt",
+      "hash": "fa36c845f5548f2e8af5e673d7a26ed2c42b68041161704b6b05ed98a9f7af06",
+      "title": "RX Serial ELRS 500Hz for FreeStyle",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "RECIEVER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
       "fullPath": "presets/reciever/reciever_serial_sbus_ibus.txt",
       "hash": "99a92238061e55b3ee9ecac55c59b7c951139b02d0c7672eb69a04ebb502cb78",
       "title": "RX Serial SBUS / IBUS",
@@ -1400,6 +1443,21 @@
       "fullPath": "presets/tune/tune_racewhoop.txt",
       "hash": "8cee74f3d4ddb680cfe65e3353a78cee5ab3c2c9755ce8251675fe11bfc0933f",
       "title": "RaceWhoop Tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/tune_sbang.txt",
+      "hash": "467d24e6de19cd86e67919eb0d6f159cb68703184a3ed57105d61a2cdcb5b0ba",
+      "title": "SBang Tune",
       "firmware_version": [
         "4.5"
       ],

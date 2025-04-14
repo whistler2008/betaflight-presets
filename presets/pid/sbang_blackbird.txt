@@ -1,0 +1,19 @@
+#$ TITLE: SBANG BlackBird
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: SBANG BlackBird
+#$ HIDDEN: true
+
+set iterm_relax_cutoff = 20
+
+set simplified_pids_mode = RPY
+set simplified_d_gain = 125
+set simplified_pi_gain = 150
+set simplified_dmax_gain = 0
+set simplified_pitch_d_gain = 95
+
+set anti_gravity_gain = 80
+
+simplified_tuning apply
