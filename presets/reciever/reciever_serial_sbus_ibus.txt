@@ -6,8 +6,6 @@
 #$ DESCRIPTION: Setting for RX Serial SBUS / IBUS
 #$ HIDDEN: true
 
-# RX Serial SBUS / IBUS #
-
 profile 0
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 25

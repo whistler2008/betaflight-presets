@@ -6,10 +6,6 @@
 #$ DESCRIPTION: Setting for RX SPI ELRS 150
 #$ HIDDEN: true
 
-# RX SPI ELRS 150Hz #
-
-feature TELEMETRY
-
 set rx_min_usec = 900
 set rx_max_usec = 2100
 

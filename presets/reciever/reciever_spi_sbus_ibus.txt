@@ -6,8 +6,6 @@
 #$ DESCRIPTION: Setting for RX SPI SBUS / IBUS
 #$ HIDDEN: true
 
-# RX SPI SBUS / IBUS #
-
 profile 0
 set feedforward_averaging = OFF
 set feedforward_smooth_factor = 25
