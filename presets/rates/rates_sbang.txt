@@ -8,8 +8,6 @@
 
 #$ INCLUDE: presets/rates/rates_default.txt
 
-# SBang Rate #
-
 profile 0
 set crash_gthreshold = 1050
 set crash_setpoint_threshold = 950

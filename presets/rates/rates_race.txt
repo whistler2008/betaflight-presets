@@ -8,8 +8,6 @@
 
 #$ INCLUDE: presets/rates/rates_default.txt
 
-# Race Rate #
-
 profile 0
 set crash_gthreshold = 750
 set crash_setpoint_threshold = 650

@@ -6,8 +6,6 @@
 #$ DESCRIPTION: Default Rate
 #$ HIDDEN: true
 
-# Default Rate #
-
 rateprofile 0
 set rates_type = ACTUAL
 set roll_rc_rate = 7

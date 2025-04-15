@@ -9,21 +9,21 @@
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
-#---------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (CHECKED): Rates
-# SBang Rates #
+# CineWhoop Rates #
 
-#$ INCLUDE: presets/rates/rates_sbang.txt
+#$ INCLUDE: presets/rates/rates_cinewhoop.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): CRAFT Name
 # CRAFT Name #
 
-set craft_name = FREESTYLE
-set pilot_name = FREESTYLE
+set craft_name = CINEWHOOP
+set pilot_name = CINEWHOOP
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): CAM Angle 5%
@@ -41,7 +41,7 @@ set rc_smoothing_auto_factor = 90
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
@@ -80,7 +80,7 @@ profile 1
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: RX Hardware
 
@@ -112,6 +112,15 @@ feature RX_SPI
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
+# DJI SBUS FAST #
+
+feature RX_SERIAL
+set serialrx_provider = SBUS
+set sbus_baud_fast = ON
+#$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz

@@ -9,7 +9,7 @@
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
-#---------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
@@ -41,7 +41,7 @@ set rc_smoothing_auto_factor = 15
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Preset
 
@@ -54,7 +54,7 @@ profile 0
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: RX Hardware
 
@@ -86,6 +86,15 @@ feature RX_SPI
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
+# DJI SBUS FAST #
+
+feature RX_SERIAL
+set serialrx_provider = SBUS
+set sbus_baud_fast = ON
+#$ INCLUDE: presets/reciever/reciever_sbang_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz

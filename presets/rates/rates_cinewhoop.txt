@@ -8,8 +8,6 @@
 
 #$ INCLUDE: presets/rates/rates_default.txt
 
-# CineWhoop Rate #
-
 profile 0
 set crash_gthreshold = 550
 set crash_setpoint_threshold = 450

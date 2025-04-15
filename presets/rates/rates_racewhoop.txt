@@ -8,8 +8,6 @@
 
 #$ INCLUDE: presets/rates/rates_default.txt
 
-# RaceWhoop Rate #
-
 profile 0
 set crash_gthreshold = 1050
 set crash_setpoint_threshold = 950
