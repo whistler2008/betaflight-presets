@@ -20,12 +20,5 @@ aux 2 13 2 1700 2100 0 0
 aux 3 28 1 1700 2100 0 0
 aux 4 35 3 1700 2100 0 0
 
-# stage-1 failsafe
-rxfail 3 s 1100
-rxfail 5 s 1100
-# rxfail 6 s 1700
-
 # Failsafe Setting
-set failsafe_off_delay = 75
-set failsafe_throttle = 1150
 set failsafe_procedure = AUTO-LAND

@@ -1,12 +1,10 @@
-#$ TITLE: Battery 3.0V settings
+#$ TITLE: Battery Sag Compesation
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BATTERY
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: Battery 3.0V Battery settings
+#$ DESCRIPTION: Battery Sag Compesation settings
 #$ HIDDEN: true
-
-# Battery Sag Compensation #
 
 profile 0
 set vbat_sag_compensation = 100

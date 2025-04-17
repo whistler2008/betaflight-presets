@@ -9,7 +9,7 @@
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
-#----------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
@@ -41,7 +41,7 @@ set rc_smoothing_auto_factor = 15
 
 #$ OPTION_GROUP END
 
-#----------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Preset
 
@@ -54,7 +54,7 @@ profile 0
 
 #$ OPTION_GROUP END
 
-#----------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: RX Hardware
 

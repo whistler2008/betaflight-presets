@@ -6,8 +6,6 @@
 #$ DESCRIPTION: Battery 3.5V Battery settings
 #$ HIDDEN: true
 
-# Battery 3.5V settings #
-
 # Battery ADC
 set current_meter = ADC
 set battery_meter = ADC

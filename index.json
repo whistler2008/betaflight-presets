@@ -177,7 +177,7 @@
   "presets": [
     {
       "fullPath": "presets/battery/batt_29.txt",
-      "hash": "482b81d819518552fd8b71d46453d8c70eeef483e6377389c5f0edde921f5d06",
+      "hash": "aa8f54aa4f094e10d939c46ac0697e3a6fc85b1629b7392797410f10e908e160",
       "title": "Battery 2.9V settings",
       "firmware_version": [
         "4.5"
@@ -191,7 +191,7 @@
     },
     {
       "fullPath": "presets/battery/batt_32.txt",
-      "hash": "fd1681082fd6f2beefd779d22e06acf1b936bd929b8d34b9aebca812bc6ba938",
+      "hash": "2b7eea13405ee7bccea0ce91afc00dba5fcb9c310b5e0da5cf055e9d676ecacf",
       "title": "Battery 3.2V settings",
       "firmware_version": [
         "4.5"
@@ -205,7 +205,7 @@
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
-      "hash": "547c587c6c45fb875a09912ad5894bd73c699dadbab24128f0635ff84b34278f",
+      "hash": "ef270e87d4adec0818417b65c7bdf5bd1e567d1275e3725dea04e5200f7bd2da",
       "title": "Battery 3.3V settings",
       "firmware_version": [
         "4.5"
@@ -219,7 +219,7 @@
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
-      "hash": "1df63b25f7ae99ca2f92978c34c42e50caf6686910d5d6d7be8a69067d501e13",
+      "hash": "98662770cee99706dbfe505f9c03d0e91f27273dda5a4df2e166a4999b909a0b",
       "title": "Battery 3.5V settings",
       "firmware_version": [
         "4.5"
@@ -233,8 +233,8 @@
     },
     {
       "fullPath": "presets/battery/batt_sag.txt",
-      "hash": "94ea7dc342743061dbc31cc12811ed2dd335ccb3b4b8b589d6faeaac98da8182",
-      "title": "Battery 3.0V settings",
+      "hash": "b7315636f46232bf0ba7cb63bee5036e508368a3d5454c2f9f6fc8617a677641",
+      "title": "Battery Sag Compesation",
       "firmware_version": [
         "4.5"
       ],
@@ -247,7 +247,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_default.txt",
-      "hash": "7cc013e9be66c0b732948dc2b4a635fc65d493cf7f47b307d9b39dc76c8fe1c1",
+      "hash": "bee9da367c897bbf9559f4de8122449ca0638e0c15d9a6650f003335c9f0b9a7",
       "title": "BlackBox Default",
       "firmware_version": [
         "4.5"
@@ -261,7 +261,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
-      "hash": "d1fe60df8c09d9384b762a1dd7a22e585e76dd4fd62395902102bd701e751504",
+      "hash": "32ea195e906f04c731b9d4f2d91172c8d81337132eb3978c4c6052219deb4df8",
       "title": "BlackBox for Gyroflow",
       "firmware_version": [
         "4.5"
@@ -275,7 +275,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_tune.txt",
-      "hash": "6fe7a055cb6d70f29168f0ab192b6fe41163106b37b6e7766224e13f3e283f6c",
+      "hash": "29c45a90b42f8a8de654a0ce47571e60ef2b33bcf42466ffe43b006a6a20a417",
       "title": "BlackBox for Tune",
       "firmware_version": [
         "4.5"
@@ -411,7 +411,7 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_24.txt",
-      "hash": "79d1514463b0d314b550cdf53098ec3e4b609a3e685c2898ba257df1f1aacd41",
+      "hash": "95631691fc8e7eafb4276774dd277e45a78b08760efabdb85dcd134f10efe453",
       "title": "ESC PWM 24kHz",
       "firmware_version": [
         "4.5"
@@ -425,7 +425,7 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_48.txt",
-      "hash": "4a6a5a47e24ddc7c06c40fdf801d8f1e39dcbd0b8b637ad3e9a3f250bca0c3d8",
+      "hash": "e892801dfd977c458f94252683f6b07e68ac5edf8b154bd7b8c13ea26a2db39a",
       "title": "ESC PWM 48kHz",
       "firmware_version": [
         "4.5"
@@ -439,7 +439,7 @@
     },
     {
       "fullPath": "presets/filter/filter_pwm_96.txt",
-      "hash": "42b5723dacdaa150e1fb9b16450e1425d5cf76cb1d39efbb33bc430d5d3c2489",
+      "hash": "b55902132223583fd6a3847b8ec267ad4fe4ca11b32fb399ac30bcc8a0387baf",
       "title": "ESC PWM 96kHz",
       "firmware_version": [
         "4.5"
@@ -523,7 +523,7 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "cd949093b5a2768c6773480fe63f207fb07ceb8f88c25e888f685cb9176248a1",
+      "hash": "3bde8ee80ba126c66414b9214b0542be6c735ffb2e9b668d95940698145a84b3",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
         "4.5"
@@ -537,7 +537,7 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "1149a15835ff72163d5e60ec0fde2fb60184c527e1fc55e9aa2d2768d83cf2ba",
+      "hash": "1f0e6ef87b707edeaeb0b82107b371a9508bc64892fbe42377c00c277a9c8fc7",
       "title": "AUX Standard",
       "firmware_version": [
         "4.5"
@@ -859,7 +859,7 @@
     },
     {
       "fullPath": "presets/other/other_beeper.txt",
-      "hash": "b91780c6f93912670d449f83592864479f92e1051a8b48d0b2f0c098c9e51c64",
+      "hash": "db307c13f05c1d12b746ddf5e3b273f93373c81b24b376eee456b7ae4eed74ec",
       "title": "Custom Beeper settings",
       "firmware_version": [
         "4.5"
@@ -873,9 +873,24 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/other/other_gyro_bmi270.txt",
-      "hash": "76a4cc46d7816132ec716e2629aaef8bc961a1a2e5d2d5bec167c1df23c75f84",
-      "title": "Gyro BMI270",
+      "fullPath": "presets/other/other_failsafe.txt",
+      "hash": "b66104712c35848a84280d17b6112ba8c8dcc4eabfc00b18c663b92bb15c467c",
+      "title": "Custom Failsafe settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/other_gyro_bmi.txt",
+      "hash": "5c3b01f1f37ce68b3e0e77d97fc6ccd82bb414b36a54a2afdf17e7979bdb7fa0",
+      "title": "Gyro BMI",
       "firmware_version": [
         "4.5"
       ],
@@ -887,9 +902,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/other/other_gyro_other.txt",
-      "hash": "2932d2b743bc28d87ae2c49d8e5bc3fad449e4dbdcea0c547b7af5c6955e8726",
-      "title": "Gyro Other",
+      "fullPath": "presets/other/other_gyro_mpu_icm.txt",
+      "hash": "7d3eaac648d4e7e9eb6d5ba98de2538fcc5a381e09a14c157ac2c27cf48506ff",
+      "title": "Gyro MPU & ICM",
       "firmware_version": [
         "4.5"
       ],
@@ -1380,7 +1395,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "9706f4ea1725e6b6dbefe39db7b0aecade9601263fc0311e50503e902c69d533",
+      "hash": "5e1b46ff280521dea96ddb4dbeac1f585e10b9a3b6429950c04645b599e4fe23",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
@@ -1395,7 +1410,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "f16cc3e1c12eefd45d52af19aae03e38675314f983e90a1ab055c7689f0f2f88",
+      "hash": "b24f587ec1eefec667493c4f27c680b5ab06a79ad8259cd7023a029771dadb02",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -1410,7 +1425,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "0281c2eebaac0236bfba252ecacdd1635a8b6409514251590b876a5f03550688",
+      "hash": "c746f98a5b25b7a4e243801516b3cc3f6767342d8e8a6385f6ef7953617973b9",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
@@ -1440,7 +1455,7 @@
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "ee277193a51e65cd3d824124f68b4d895ea3e22ca54aeaecc255142051d551ef",
+      "hash": "65280da612e27b28fdcd3e4e903adb449e29ea410534ddb1a520ae23182ef3ec",
       "title": "Race Tune",
       "firmware_version": [
         "4.5"
@@ -1455,7 +1470,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "c576f984244af89566f4ec9dca5c2394851fa46887f28c48c28594958ebcb8b8",
+      "hash": "e85ce81516db54756c301a8ffe8ffaa63992a8d2567ce8e9cca8d99eb1f9df51",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -1470,7 +1485,7 @@
     },
     {
       "fullPath": "presets/tune/tune_sbang.txt",
-      "hash": "90b37b4f828e9c11fb19ab3fdd99cbd6c03ba399b626a5ee68091bdc4733c038",
+      "hash": "6edc5a4fe069fca55ef14a3b596ca531b9ada3252561247bea8ecbbeb37e395f",
       "title": "SBang Tune",
       "firmware_version": [
         "4.5"

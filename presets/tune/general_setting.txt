@@ -9,32 +9,42 @@
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (UNCHECKED): Enable LED
+# LED Setting #
+
 #$ INCLUDE: presets/led/led_blink.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): BEEPER
+#$ OPTION BEGIN (CHECKED): Beeper
+# Beeper Setting #
+
 #$ INCLUDE: presets/other/other_beeper.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): Failsafe
+# Failsafe Setting #
+
+#$ INCLUDE: presets/other/other_failsafe.txt
+#$ OPTION END
+
 #$ OPTION BEGIN (CHECKED): REVERSE Motor Direction
-# Motor Direction #
+# Motor Direction Setting #
 
 set yaw_motors_reversed = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
-# AVG Cell Telemetry Report #
+# AVG Cell Telemetry Report Setting #
 
 set report_cell_voltage = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Enable RPM Filter
-# RPM Filter #
+# Enable RPM Filter #
 
 set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
@@ -48,54 +58,68 @@ set pidsum_limit_yaw = 1000
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Enable EzLanding 
-# EzLanding #
+# Enable EzLanding #
 
 set mixer_type = EZLANDING
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: BlackBox
 
 #$ OPTION BEGIN (UNCHECKED): Tune
+# Blackbox for Tune Setting #
+
 #$ INCLUDE: presets/blackbox/blackbox_tune.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GyroFlow
+# Blackbox for GyroFlow Setting #
+
 #$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Battery
 
 #$ OPTION BEGIN (CHECKED): Battery Sag Compensation
+# Enable Battery Sag Compensation #
+
 #$ INCLUDE: presets/battery/batt_sag.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Li-Ion (Minimum Cell Voltage 2.9V)
+# Minimum Cell Voltage 2.9V Setting #
+
 #$ INCLUDE: presets/battery/batt_29.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LiPo/HV 1S (Minimum Cell Voltage 3.2V)
+# Minimum Cell Voltage 3.2V Setting #
+
 #$ INCLUDE: presets/battery/batt_32.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LiPo/HV 2S++ Standard (Minimum Cell Voltage 3.3V)
+# Minimum Cell Voltage 3.3V Setting #
+
 #$ INCLUDE: presets/battery/batt_33.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ Safer (Minimum Cell Voltage 3.5V)
+# Minimum Cell Voltage 3.5V Setting #
+
 #$ INCLUDE: presets/battery/batt_35.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Motor Pole
 
@@ -115,7 +139,7 @@ set dshot_idle_value = 550
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Propeller
 
@@ -139,57 +163,73 @@ set rpm_filter_weights = 100, 80, 60
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: Gyro
 
-#$ OPTION BEGIN (UNCHECKED): BMI270
-#$ INCLUDE: presets/other/other_gyro_bmi270.txt
+#$ OPTION BEGIN (UNCHECKED): BMI
+# BMI Gyro Setting #
+
+#$ INCLUDE: presets/other/other_gyro_bmi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Other
-#$ INCLUDE: presets/other/other_gyro_other.txt
+#$ OPTION BEGIN (UNCHECKED): MPU & ICM
+# MPU & ICM Gyro Setting #
+
+#$ INCLUDE: presets/other/other_gyro_mpu_icm.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: ESC PWM
 
 #$ OPTION BEGIN (UNCHECKED): 24 kHz
+# 24 kHz ESC PWM #
+
 #$ INCLUDE: presets/filter/filter_pwm_24.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 48 kHz
+#$ OPTION BEGIN (CHECKED): 48 kHz
+# 48 kHz ESC PWM #
+
 #$ INCLUDE: presets/filter/filter_pwm_48.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 96 kHz
+# 96 kHz ESC PWM #
+
 #$ INCLUDE: presets/filter/filter_pwm_96.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: D-Term Filter
 
 #$ OPTION BEGIN (UNCHECKED): Noisy Motor
+# D-Term Filter for Noisy Motor #
+
 #$ INCLUDE: presets/filter/filter_rpm_noisy.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Normal Motor
+#$ OPTION BEGIN (CHECKED): Normal Motor
+# D-Term Filter for Normal Motor #
+
 #$ INCLUDE: presets/filter/filter_rpm_normal.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Clean Motor
+# D-Term Filter for Clean Motor #
+
 #$ INCLUDE: presets/filter/filter_rpm_clean.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: OSD General Placement
 
@@ -251,7 +291,7 @@ set rpm_filter_weights = 100, 80, 60
 
 #$ OPTION_GROUP END
 
-#---------------------------------------------------------------------------------------#
+#--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: GPS Hardware & OSD Placement
 
