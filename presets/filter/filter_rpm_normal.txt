@@ -6,8 +6,6 @@
 #$ DESCRIPTION:  Normal D-Term Filter
 #$ HIDDEN: true
 
-# Normal D-Term Filter #
-
 profile 0
 set dterm_lpf1_dyn_min_hz = 82
 set dterm_lpf1_dyn_max_hz = 165

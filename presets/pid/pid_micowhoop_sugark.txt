@@ -1,0 +1,29 @@
+#$ TITLE: MicroWhoop SugarK
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: MicroWhoop SugarK
+#$ HIDDEN: true
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Ratio 1:10
+
+#$ INCLUDE: presets/pid/pid_default.txt
+
+set simplified_pids_mode = RPY
+set simplified_d_gain = 120
+set simplified_pi_gain = 90
+set simplified_feedforward_gain = 90
+set simplified_dmax_gain = 0
+set simplified_i_gain = 95
+set simplified_pitch_d_gain = 90
+set simplified_pitch_pi_gain = 95
+set simplified_master_multiplier = 105
+
+set iterm_relax_cutoff = 30
+set anti_gravity_gain = 80
+
+set tpa_rate = 65
+set tpa_breakpoint = 1350
+
+simplified_tuning apply

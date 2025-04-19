@@ -13,7 +13,7 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (UNCHECKED): Enable LED
+#$ OPTION BEGIN (UNCHECKED): LED
 # LED Setting #
 
 #$ INCLUDE: presets/led/led_blink.txt
@@ -43,7 +43,7 @@ set yaw_motors_reversed = ON
 set report_cell_voltage = ON
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Enable RPM Filter
+#$ OPTION BEGIN (CHECKED): RPM Filter
 # Enable RPM Filter #
 
 set motor_pwm_protocol = DSHOT300
@@ -57,10 +57,11 @@ set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Enable EzLanding 
+#$ OPTION BEGIN (UNCHECKED): EzLanding 
 # Enable EzLanding #
 
 set mixer_type = EZLANDING
+set ez_landing_limit = 5
 #$ OPTION END
 
 #$ OPTION_GROUP END

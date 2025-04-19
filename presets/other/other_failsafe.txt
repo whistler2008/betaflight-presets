@@ -6,16 +6,15 @@
 #$ DESCRIPTION: Custom Failsafe settings
 #$ HIDDEN: true
 
-# stage-1 failsafe
+set rx_min_usec = 900
+set rx_max_usec = 2100
+
 rxfail 3 s 1100
 rxfail 5 s 1100
 
-# Failsafe Setting
 set failsafe_off_delay = 75
 set failsafe_throttle = 1150
-set failsafe_procedure = GPS-RESCUE
 
-# GPS Setting
 set gps_provider = UBLOX
 set gps_auto_config = ON
 set gps_ublox_use_galileo = OFF

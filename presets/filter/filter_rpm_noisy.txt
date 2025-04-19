@@ -6,8 +6,6 @@
 #$ DESCRIPTION: NOISY D-Term Filter
 #$ HIDDEN: true
 
-# Noisy D-Term Filter #
-
 profile 0
 set dterm_lpf1_dyn_min_hz = 75
 set dterm_lpf1_dyn_max_hz = 150

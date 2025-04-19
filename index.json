@@ -453,7 +453,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
-      "hash": "36a1a0ef565636f38434953b45912d33d027ff5f34babba11e0849857ddd5c1d",
+      "hash": "e7e5ec8f76e6a54048b19ddda470a9f17034ffcce3c8c7ff0de80341fca68f49",
       "title": "CLEAN D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -467,7 +467,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_noisy.txt",
-      "hash": "9ee5d4bcb8e7e437d3d40ead3f04adaf02b2ba97b12a3a3a7303e95711dc913a",
+      "hash": "d09a5dd249d9e2a97c8e8c9bf59c46c3fdb345c60b12bf5b60d52d75c478f46a",
       "title": "NOISY D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -481,7 +481,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_normal.txt",
-      "hash": "557bb54e19c0d65a5fbc69527b51756d25fab0f86df36c3dab746a7d0d62acd5",
+      "hash": "47713d37134512a9c28a05cff2a80317ff31d32d354affec9d22befa97f46ea5",
       "title": "Normal D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -495,7 +495,7 @@
     },
     {
       "fullPath": "presets/led/led_blink.txt",
-      "hash": "b1d7148a395bf7c316f29fa83b4077346b1c11de9ec5c66d5d11e6846a49e4db",
+      "hash": "7882884d49232d18beacb780e50c7fef7802e1a3f43610d7b84deb6dbab7763f",
       "title": "Custom LED settings",
       "firmware_version": [
         "4.5"
@@ -874,7 +874,7 @@
     },
     {
       "fullPath": "presets/other/other_failsafe.txt",
-      "hash": "b66104712c35848a84280d17b6112ba8c8dcc4eabfc00b18c663b92bb15c467c",
+      "hash": "805a4906f79debeeb6415b17d47c4a39b83bf664f61c45331ea1026460c03c95",
       "title": "Custom Failsafe settings",
       "firmware_version": [
         "4.5"
@@ -1066,9 +1066,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/racewhoop_1s.txt",
-      "hash": "2eeae18fb0125d158f80fe917623f75cac054ae48b03b0780ec585ca1dbe520d",
-      "title": "RaceWhoop 1S",
+      "fullPath": "presets/pid/pid_default.txt",
+      "hash": "2bedb1463dd619944e34da12c11401cd8447c75380bf8843d28abe6b660af8c8",
+      "title": "Default PID",
       "firmware_version": [
         "4.5"
       ],
@@ -1081,9 +1081,54 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/racewhoop_2s.txt",
-      "hash": "a4fe96d00ce3b6da4d8cdae32aacbefbdf7e98cdd1e9900edadb0fd042a3c9fb",
-      "title": "RaceWhoop 2S",
+      "fullPath": "presets/pid/pid_micowhoop_sugark.txt",
+      "hash": "2fb77bb70d6611db95894c0addabe2152cfba133d94cb2fabc644e68ba42bc5f",
+      "title": "MicroWhoop SugarK",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/pid_racewhoop_freshbread.txt",
+      "hash": "8ac4593e14ab6f448da0614429491b867df87edb26707d105b6fd78982cd267d",
+      "title": "RaceWhoop FreshBread",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/pid_racewhoop_sugark.txt",
+      "hash": "9056208ffc3d3fda6b2b1fa933a3df05dc3ee71758634a714b54dbbc9baaab9b",
+      "title": "RaceWhoop SugarK",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/pid_sbang_blackbird.txt",
+      "hash": "dcc7db2fd7cedced94ab82266691e47e037eb8b61f2555151ed7bd11a967168b",
+      "title": "SBANG BlackBird",
       "firmware_version": [
         "4.5"
       ],
@@ -1141,23 +1186,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/sbang_blackbird.txt",
-      "hash": "039800a38006f9e355138a15fb1adabaf36520eaef1f02fb4a42adc9b1cbf8cf",
-      "title": "SBANG BlackBird",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/rates/rates_cinewhoop.txt",
-      "hash": "6b1cab585108e70d91ff2d8569c880c9d597fd1429b6ac636a9eef4c607cc43d",
+      "hash": "8217de0203ca76d9737198b7d236c18ad64bfff15e632646f9d0d80c2058957b",
       "title": "CineWhoop Rate Profile",
       "firmware_version": [
         "4.5"
@@ -1185,7 +1215,7 @@
     },
     {
       "fullPath": "presets/rates/rates_freestyle.txt",
-      "hash": "fb980fbdf15e82a5f97aac01d0d10669f4e0cefc6c37a7038514f56e2ff07e10",
+      "hash": "12b79ca99d407539c8be84e98e30773ddffdd5d26cc8ca92d01e9cdeac8ac3ea",
       "title": "FreeStyle Rate Profile",
       "firmware_version": [
         "4.5"
@@ -1199,7 +1229,7 @@
     },
     {
       "fullPath": "presets/rates/rates_race.txt",
-      "hash": "cb8c248d0278a42701e9cc877b5bf2eb698f3e10ece72a51ad9a3a06115a89b3",
+      "hash": "57f39e66dd7b99cd632c9a1e3c0175dbc033d3ee6f1890c12ce716b5602494e4",
       "title": "Race Rate Profile",
       "firmware_version": [
         "4.5"
@@ -1213,7 +1243,7 @@
     },
     {
       "fullPath": "presets/rates/rates_racewhoop.txt",
-      "hash": "5ebdb6bd23a7a0ec700ab23a814219311b133e13d33f188bfdf60e8cb4a73754",
+      "hash": "458bddab58dd30d6f9718bfb3e6ded6b6e502d3f90510065275a3cbd35696c58",
       "title": "RaceWhoop Rate Profile",
       "firmware_version": [
         "4.5"
@@ -1227,7 +1257,7 @@
     },
     {
       "fullPath": "presets/rates/rates_sbang.txt",
-      "hash": "024af7c4220f24faccf54439ab9bdcd2c632729855894f1fc07ac8467153da8a",
+      "hash": "2b2374c883262c76f90610eece4d8a132737e22c56a2c9ad73a089de548ee2ab",
       "title": "SBang Rate Profile",
       "firmware_version": [
         "4.5"
@@ -1241,7 +1271,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_150.txt",
-      "hash": "b44880a89f78ad857a4b8cb4d2d5870b373592c94f622bb818bed966f6dff36a",
+      "hash": "6dd902fcbeaf757884c0e0e74a3df84fef2f0002fa5c470048c483cdb7813019",
       "title": "RX Serial ELRS 150Hz for CineWhoop",
       "firmware_version": [
         "4.5"
@@ -1255,7 +1285,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "c33615261b153844d05e7dd5227886d63d886cd157c094fc920191c53bfa7932",
+      "hash": "20bc7ec2ea428be70b1a02734119c04dde7e2b9cef19175dde41eb5fd2637583",
       "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
         "4.5"
@@ -1269,7 +1299,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_150.txt",
-      "hash": "3045e83216dcedc8d44a6a91695e66a82949c301252f5b9d92c8401f0dabedf7",
+      "hash": "47ba9112190b421369e611c989fe108c435f5a92502799ff3aa415ae7b84e759",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -1283,7 +1313,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "78456c3641ef4237858bb9f037b4547f9fc2003057bc27aac18bac0895430619",
+      "hash": "aeaf592f9a8bddbda52893025e6cba3fcc11bc993af20b41f321b8ac4ce56846",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -1297,7 +1327,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_150.txt",
-      "hash": "aeb95905f01dab56854ff3775fc1fba0b24c156179c50b1795be1716cc29a912",
+      "hash": "10b1eff5de93c23319915e1a9126ded59fe7a83f4108925b26ef7ff88ac2bed7",
       "title": "RX Serial ELRS 150Hz for Race",
       "firmware_version": [
         "4.5"
@@ -1311,7 +1341,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "5a61aad84af548046651be8c7718d114d4a9a8ab16099b533a0c0df0874c32b2",
+      "hash": "3abf78923c5e034a805f87156801e6f680b0b0b20ca9f1fac9284359581b7790",
       "title": "RX Serial ELRS 500Hz for Race",
       "firmware_version": [
         "4.5"
@@ -1325,7 +1355,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_sbang_elrs_150.txt",
-      "hash": "5dcb8253e687b18fb21c8989de5f35cb1bd9e2f8a6c5435540d0261d1f94cfe5",
+      "hash": "81683c4b55fa563f1f569f6a603317825a96a4af178879b8478265ae2e65771d",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -1339,7 +1369,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_sbang_elrs_500.txt",
-      "hash": "0da284e455e534058c52e4a6617b6cd4518fd19e5f575a285b6c499076682059",
+      "hash": "50cb6589cfd77c73ff1ac7922b29ee123a763bbfd59d30957e0fafcc07b3694c",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -1367,7 +1397,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
-      "hash": "58d7516a71b15e66e046f26e67e5500fcc841e3fc830c01d0c72468a39e6559e",
+      "hash": "824381d7e8bd93802727edb95f1110670b7fcc1aaf14c2571662262afa09b1f7",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
         "4.5"
@@ -1395,7 +1425,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "5e1b46ff280521dea96ddb4dbeac1f585e10b9a3b6429950c04645b599e4fe23",
+      "hash": "3ee3cdfc79c6813aa6a532780eb08363c5217029db79d43d5603194839804163",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
@@ -1470,7 +1500,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "e85ce81516db54756c301a8ffe8ffaa63992a8d2567ce8e9cca8d99eb1f9df51",
+      "hash": "98cc1f9858fa818622d19f5ed71918393eaf73548bf655600b21bfa6cc0ed96f",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -1485,7 +1515,7 @@
     },
     {
       "fullPath": "presets/tune/tune_sbang.txt",
-      "hash": "6edc5a4fe069fca55ef14a3b596ca531b9ada3252561247bea8ecbbeb37e395f",
+      "hash": "65bdd015fe2b75fc28e04537e2e760b05de4c26121e032063c2053f177fc617c",
       "title": "SBang Tune",
       "firmware_version": [
         "4.5"

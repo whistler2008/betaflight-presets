@@ -6,9 +6,6 @@
 #$ DESCRIPTION: Setting for RX Serial ELRS 150Hz for FreeStyle
 #$ HIDDEN: true
 
-set rx_min_usec = 900
-set rx_max_usec = 2100
-
 set rc_smoothing_auto_factor = 60
 
 profile 0

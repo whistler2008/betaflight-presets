@@ -8,17 +8,6 @@
 
 #$ INCLUDE: presets/rates/rates_default.txt
 
-profile 0
-set crash_gthreshold = 1050
-set crash_setpoint_threshold = 950
-
-profile 1
-set crash_gthreshold = 1050
-set crash_setpoint_threshold = 950
-
-# restore original profile selection
-profile 0
-
 rateprofile 0
 set rates_type = ACTUAL
 set roll_rc_rate = 10
