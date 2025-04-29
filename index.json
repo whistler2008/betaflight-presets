@@ -1484,6 +1484,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/tune/tune_pretune.txt",
+      "hash": "0d1836529535d9256b2d4cf671cc13a03cf68cf0d8319a02753e30c163ed8822",
+      "title": "Pre-Tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/tune/tune_race.txt",
       "hash": "65280da612e27b28fdcd3e4e903adb449e29ea410534ddb1a520ae23182ef3ec",
       "title": "Race Tune",
