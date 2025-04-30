@@ -410,48 +410,6 @@
       ]
     },
     {
-      "fullPath": "presets/filter/filter_pwm_24.txt",
-      "hash": "95631691fc8e7eafb4276774dd277e45a78b08760efabdb85dcd134f10efe453",
-      "title": "ESC PWM 24kHz",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/filter/filter_pwm_48.txt",
-      "hash": "e892801dfd977c458f94252683f6b07e68ac5edf8b154bd7b8c13ea26a2db39a",
-      "title": "ESC PWM 48kHz",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/filter/filter_pwm_96.txt",
-      "hash": "b55902132223583fd6a3847b8ec267ad4fe4ca11b32fb399ac30bcc8a0387baf",
-      "title": "ESC PWM 96kHz",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
       "hash": "e7e5ec8f76e6a54048b19ddda470a9f17034ffcce3c8c7ff0de80341fca68f49",
       "title": "CLEAN D-Term Filter",
@@ -889,7 +847,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_bmi.txt",
-      "hash": "5c3b01f1f37ce68b3e0e77d97fc6ccd82bb414b36a54a2afdf17e7979bdb7fa0",
+      "hash": "943575666cfd99a9fc079abd7541f4d7ab96fdfca16333729ade1de2948d0d56",
       "title": "Gyro BMI",
       "firmware_version": [
         "4.5"
@@ -903,7 +861,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_mpu_icm.txt",
-      "hash": "7d3eaac648d4e7e9eb6d5ba98de2538fcc5a381e09a14c157ac2c27cf48506ff",
+      "hash": "3d66f9177d33c935115373aaf2ff20c16875d90d3211d201623481569fc1bf99",
       "title": "Gyro MPU & ICM",
       "firmware_version": [
         "4.5"
@@ -1425,7 +1383,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "3ee3cdfc79c6813aa6a532780eb08363c5217029db79d43d5603194839804163",
+      "hash": "69e512874a3d65b3b468e5404ae087cb2a77639ff3d09c8eee9f8ae5d02887d5",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
