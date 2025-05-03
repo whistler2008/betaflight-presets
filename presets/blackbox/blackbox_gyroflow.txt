@@ -16,7 +16,6 @@ set blackbox_disable_setpoint = ON
 set blackbox_disable_bat = ON
 set blackbox_disable_alt = ON
 set blackbox_disable_rssi = ON
-set blackbox_disable_acc = ON
 set blackbox_disable_debug = ON
 set blackbox_disable_motors = ON
 set blackbox_disable_rpm = ON

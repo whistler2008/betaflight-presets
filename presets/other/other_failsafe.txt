@@ -6,8 +6,8 @@
 #$ DESCRIPTION: Custom Failsafe settings
 #$ HIDDEN: true
 
-set rx_min_usec = 900
-set rx_max_usec = 2100
+set rx_min_usec = 885
+set rx_max_usec = 2115
 
 rxfail 3 s 1100
 rxfail 5 s 1100

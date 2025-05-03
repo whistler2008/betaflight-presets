@@ -154,37 +154,31 @@ set rpm_filter_weights = 100, 80, 60
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: PID Loop Frequency
+#$ OPTION_GROUP BEGIN: Crash Recovery
 
-#$ OPTION BEGIN (UNCHECKED): 2 kHz
-# 2 kHz PID Loop Frequency #
+#$ OPTION BEGIN (CHECKED): OFF
+# Crash Recovery OFF #
 
-set pid_process_denom = 4
+set crash_recovery = OFF
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3.2 kHz
-# 3.2 kHz PID Loop Frequency #
+#$ OPTION BEGIN (CHECKED): ON
+# Crash Recovery ON #
 
-set pid_process_denom = 1
+set crash_recovery = ON
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 4 kHz
-# 4 kHz PID Loop Frequency #
+#$ OPTION BEGIN (CHECKED): DISARM
+# Crash Recovery DISARM #
 
-set pid_process_denom = 2
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 8 kHz
-# 8 kHz PID Loop Frequency #
-
-set pid_process_denom = 1
+set crash_recovery = DISARM
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: Gyro
+#$ OPTION_GROUP BEGIN: Gyro Filter
 
 #$ OPTION BEGIN (UNCHECKED): BMI
 # BMI Gyro Setting #
@@ -196,6 +190,36 @@ set pid_process_denom = 1
 # MPU & ICM Gyro Setting #
 
 #$ INCLUDE: presets/other/other_gyro_mpu_icm.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: PID Loop Frequency
+
+#$ OPTION BEGIN (UNCHECKED): 2 kHz (STM32F411 with MPU & ICM Gyro)
+# 2 kHz PID Loop Frequency #
+
+set pid_process_denom = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3.2 kHz (BMI Gyeo)
+# 3.2 kHz PID Loop Frequency #
+
+set pid_process_denom = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4 kHz (STM32F405 & STM32F72x with MPU & ICM Gyro)
+# 4 kHz PID Loop Frequency #
+
+set pid_process_denom = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 8 kHz (STM32F74x with MPU & ICM Gyro)
+# 8 kHz PID Loop Frequency #
+
+set pid_process_denom = 1
 #$ OPTION END
 
 #$ OPTION_GROUP END
