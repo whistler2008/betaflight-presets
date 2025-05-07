@@ -76,8 +76,8 @@ set ez_landing_limit = 5
 
 #$ OPTION_GROUP BEGIN: Battery
 
-#$ OPTION BEGIN (CHECKED): Battery Sag Compensation
-# Enable Battery Sag Compensation #
+#$ OPTION BEGIN (CHECKED): Battery Sag Compensation 100%
+# Enable Battery Sag Compensation 100% #
 
 #$ INCLUDE: presets/battery/batt_sag.txt
 #$ OPTION END
@@ -162,13 +162,13 @@ set rpm_filter_weights = 100, 80, 60
 set crash_recovery = OFF
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): ON
+#$ OPTION BEGIN (UNCHECKED): ON
 # Crash Recovery ON #
 
 set crash_recovery = ON
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): DISARM
+#$ OPTION BEGIN (UNCHECKED): DISARM
 # Crash Recovery DISARM #
 
 set crash_recovery = DISARM
