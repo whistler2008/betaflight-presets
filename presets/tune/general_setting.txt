@@ -299,8 +299,10 @@ set thrust_linear = 40
 
 rateprofile 0
 #$ INCLUDE: presets/rates/rates_slow.txt
+
 rateprofile 1
 #$ INCLUDE: presets/rates/rates_medium.txt
+
 rateprofile 2
 #$ INCLUDE: presets/rates/rates_fast.txt
 
@@ -313,8 +315,10 @@ rateprofile 0
 
 rateprofile 0
 #$ INCLUDE: presets/rates/rates_medium.txt
+
 rateprofile 1
 #$ INCLUDE: presets/rates/rates_fast.txt
+
 rateprofile 2
 #$ INCLUDE: presets/rates/rates_slow.txt
 
@@ -327,8 +331,10 @@ rateprofile 0
 
 rateprofile 0
 #$ INCLUDE: presets/rates/rates_fast.txt
+
 rateprofile 1
 #$ INCLUDE: presets/rates/rates_slow.txt
+
 rateprofile 2
 #$ INCLUDE: presets/rates/rates_medium.txt
 
