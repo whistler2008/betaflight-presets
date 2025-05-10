@@ -1,0 +1,22 @@
+#$ TITLE: CineWhoop - GEPRC Cinelog25 V2 Factory
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: CineWhoop - GEPRC Cinelog25 V2 Factory
+#$ HIDDEN: true
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Ratio 1:10
+
+#$ INCLUDE: presets/pid/pid_default.txt
+
+set simplified_pids_mode = RPY
+set simplified_d_gain = 110
+set simplified_pi_gain = 110
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 80
+set simplified_pitch_d_gain = 120
+
+set anti_gravity_gain = 40
+
+simplified_tuning apply

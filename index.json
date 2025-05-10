@@ -1024,6 +1024,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/pid_cinewhoop_geprc_cinelog25_v2.txt",
+      "hash": "7dacef4f620d7f73442a89a46de87307dac54244020631bb869e80a15e304229",
+      "title": "CineWhoop - GEPRC Cinelog25 V2 Factory",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/pid_default.txt",
       "hash": "2bedb1463dd619944e34da12c11401cd8447c75380bf8843d28abe6b660af8c8",
       "title": "Default PID",
@@ -1370,7 +1385,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "a5c36505293cad3b059cbf129871e825e6b9a0f57480cc5edc3a7b5ecebb5049",
+      "hash": "47c3b4cfe10b46ea27487c18dcc9bea6745c8da7b47bd902cd407d03ac4d0364",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"

@@ -37,6 +37,17 @@ set rc_smoothing_auto_factor = 90
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: Preset
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog25 V2
+profile 0
+#$ INCLUDE: presets/pid/pid_cinewhoop_geprc_cinelog25_v2.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
