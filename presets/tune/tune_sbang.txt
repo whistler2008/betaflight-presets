@@ -13,13 +13,7 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (CHECKED): Rates
-# SBang Rates #
-
-#$ INCLUDE: presets/rates/rates_sbang.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): CRAFT Name
+#$ OPTION BEGIN (UNCHECKED): CRAFT Name
 # CRAFT Name #
 
 set craft_name = SBANG

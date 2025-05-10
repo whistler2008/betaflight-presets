@@ -1144,22 +1144,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/rates/rates_cinewhoop.txt",
-      "hash": "8217de0203ca76d9737198b7d236c18ad64bfff15e632646f9d0d80c2058957b",
-      "title": "CineWhoop Rate Profile",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/rates/rates_default.txt",
-      "hash": "bfee6335c408e5b2b4fb948e925794200f20e843f451fa2942c6341f55f12368",
+      "hash": "d209a3e626ac1ba2caa90318b93eb45e835f45aed2bd00b428ea4f4b5225d9a4",
       "title": "Default Rate",
       "firmware_version": [
         "4.5"
@@ -1172,9 +1158,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rates/rates_freestyle.txt",
-      "hash": "12b79ca99d407539c8be84e98e30773ddffdd5d26cc8ca92d01e9cdeac8ac3ea",
-      "title": "FreeStyle Rate Profile",
+      "fullPath": "presets/rates/rates_fast.txt",
+      "hash": "2db148b7777ee14a1a8aaf983dddc1b5cf44dcc4586901b1aaf7cf06a5ca8414",
+      "title": "Fast Rate Profile",
       "firmware_version": [
         "4.5"
       ],
@@ -1186,9 +1172,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rates/rates_race.txt",
-      "hash": "57f39e66dd7b99cd632c9a1e3c0175dbc033d3ee6f1890c12ce716b5602494e4",
-      "title": "Race Rate Profile",
+      "fullPath": "presets/rates/rates_medium.txt",
+      "hash": "7592174ad47d3c596b29302bdeca368c39eb436691b8439a04bbb9c981f83e5e",
+      "title": "Medium Rate Profile",
       "firmware_version": [
         "4.5"
       ],
@@ -1200,23 +1186,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/rates/rates_racewhoop.txt",
-      "hash": "458bddab58dd30d6f9718bfb3e6ded6b6e502d3f90510065275a3cbd35696c58",
-      "title": "RaceWhoop Rate Profile",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/rates/rates_sbang.txt",
-      "hash": "2b2374c883262c76f90610eece4d8a132737e22c56a2c9ad73a089de548ee2ab",
-      "title": "SBang Rate Profile",
+      "fullPath": "presets/rates/rates_slow.txt",
+      "hash": "a54e8f18497623019ab96fe7608a4a7cb020f7b1b9cb558db7fdbac9828e5903",
+      "title": "Slow Rate Profile",
       "firmware_version": [
         "4.5"
       ],
@@ -1383,7 +1355,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "2fa68aa8e4c2b6b265a9ce48b88fbd911a4e8156b85a201905d0e15c17593f3c",
+      "hash": "7ebff3ac7220fb9b7dc9675fce198079cd5f18e5f0a21d1f3a252ae53f6f5267",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
@@ -1398,7 +1370,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "b24f587ec1eefec667493c4f27c680b5ab06a79ad8259cd7023a029771dadb02",
+      "hash": "a5c36505293cad3b059cbf129871e825e6b9a0f57480cc5edc3a7b5ecebb5049",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -1413,7 +1385,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "c746f98a5b25b7a4e243801516b3cc3f6767342d8e8a6385f6ef7953617973b9",
+      "hash": "9c0b1fee244a818bfb13dffe63324b17aa7c8f824cc56b152ae3d4414b83b07d",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
@@ -1443,7 +1415,7 @@
     },
     {
       "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "0d1836529535d9256b2d4cf671cc13a03cf68cf0d8319a02753e30c163ed8822",
+      "hash": "4535042e2828966531721323d7ca6c56c423788cad45704422719b1054b33dbc",
       "title": "Pre-Tune",
       "firmware_version": [
         "4.5"
@@ -1458,7 +1430,7 @@
     },
     {
       "fullPath": "presets/tune/tune_race.txt",
-      "hash": "65280da612e27b28fdcd3e4e903adb449e29ea410534ddb1a520ae23182ef3ec",
+      "hash": "28491dbdee14420711729759ed8b25b4964bc7b3e4e4826571dd7396ce2105ad",
       "title": "Race Tune",
       "firmware_version": [
         "4.5"
@@ -1473,7 +1445,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "98cc1f9858fa818622d19f5ed71918393eaf73548bf655600b21bfa6cc0ed96f",
+      "hash": "706067f3ea1d52f1499cc23ac2f818760fbadc5db4b4c83516bcdb9a8a034697",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -1488,7 +1460,7 @@
     },
     {
       "fullPath": "presets/tune/tune_sbang.txt",
-      "hash": "65bdd015fe2b75fc28e04537e2e760b05de4c26121e032063c2053f177fc617c",
+      "hash": "811025fad96578854b2e8c24304ab5a1f168727bccdbee27c0f194048d383038",
       "title": "SBang Tune",
       "firmware_version": [
         "4.5"
