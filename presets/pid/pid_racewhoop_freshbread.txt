@@ -8,8 +8,6 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:5
 
-#$ INCLUDE: presets/pid/pid_default.txt
-
 set simplified_pids_mode = RPY
 set simplified_d_gain = 140
 set simplified_pi_gain = 130

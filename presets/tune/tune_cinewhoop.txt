@@ -40,8 +40,33 @@ set rc_smoothing_auto_factor = 90
 #$ OPTION_GROUP BEGIN: Preset
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog25 V2
+# GEPRC Cinelog25 V2 PID #
+
 profile 0
 #$ INCLUDE: presets/pid/pid_cinewhoop_geprc_cinelog25_v2.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog30 V2
+# GEPRC Cinelog30 V2 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/pid_cinewhoop_geprc_cinelog30_v2.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog35 V2
+# GEPRC Cinelog35 V2 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/pid_cinewhoop_geprc_cinelog35_v2.txt
+
+# restore original profile selection
+profile 0
 #$ OPTION END
 
 #$ OPTION_GROUP END

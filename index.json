@@ -1025,8 +1025,38 @@
     },
     {
       "fullPath": "presets/pid/pid_cinewhoop_geprc_cinelog25_v2.txt",
-      "hash": "7dacef4f620d7f73442a89a46de87307dac54244020631bb869e80a15e304229",
+      "hash": "003f9b1e1e41d6d95ce1f381e551a2c28ae9edf8803594604db0259d256204cb",
       "title": "CineWhoop - GEPRC Cinelog25 V2 Factory",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/pid_cinewhoop_geprc_cinelog30_v2.txt",
+      "hash": "1705f40fbc67c8305735047c192dde9d7407aac284984332777adf74696f5baa",
+      "title": "CineWhoop - GEPRC Cinelog30 V2 Factory Tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/pid_cinewhoop_geprc_cinelog35_v2.txt",
+      "hash": "641c12fae95c8819ba4930f191745911f8a4f1450d8ba79064f03d008d8bf1f7",
+      "title": "CineWhoop - GEPRC Cinelog35 V2 Factory Tune",
       "firmware_version": [
         "4.5"
       ],
@@ -1055,7 +1085,7 @@
     },
     {
       "fullPath": "presets/pid/pid_micowhoop_sugark.txt",
-      "hash": "2fb77bb70d6611db95894c0addabe2152cfba133d94cb2fabc644e68ba42bc5f",
+      "hash": "6fb89f3a606c95bd4e9c476f829b537cba45a5b8cca9df06269f74ecf60d6a5e",
       "title": "MicroWhoop SugarK",
       "firmware_version": [
         "4.5"
@@ -1070,7 +1100,7 @@
     },
     {
       "fullPath": "presets/pid/pid_racewhoop_freshbread.txt",
-      "hash": "8ac4593e14ab6f448da0614429491b867df87edb26707d105b6fd78982cd267d",
+      "hash": "d22cb32b15507f157a48b07fdbb3d2cb51d0a1564d66057e86278b248a927da0",
       "title": "RaceWhoop FreshBread",
       "firmware_version": [
         "4.5"
@@ -1085,7 +1115,7 @@
     },
     {
       "fullPath": "presets/pid/pid_racewhoop_sugark.txt",
-      "hash": "9056208ffc3d3fda6b2b1fa933a3df05dc3ee71758634a714b54dbbc9baaab9b",
+      "hash": "bec9fad2cc33f7bfecca0c00c4632201e4420a4a3940715ba86ea90e6c7aae2d",
       "title": "RaceWhoop SugarK",
       "firmware_version": [
         "4.5"
@@ -1100,7 +1130,7 @@
     },
     {
       "fullPath": "presets/pid/pid_sbang_blackbird.txt",
-      "hash": "dcc7db2fd7cedced94ab82266691e47e037eb8b61f2555151ed7bd11a967168b",
+      "hash": "f5d57a801bb27315c798f8be9454b7fe9231044089edddb274af225bb6b88e66",
       "title": "SBANG BlackBird",
       "firmware_version": [
         "4.5"
@@ -1385,7 +1415,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "47c3b4cfe10b46ea27487c18dcc9bea6745c8da7b47bd902cd407d03ac4d0364",
+      "hash": "c6e06b39a672df83baeee9fdc8d6ba2b1b61ac0ae9dbb1f92a0debb0d5deff6d",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
