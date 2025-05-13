@@ -67,12 +67,12 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC CineBOT30
-# GEPRC CineBOT30 Filter #
+#$ OPTION BEGIN (UNCHECKED): GEPRC CineBot30
+# GEPRC CineBot30 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_filter.txt
 
-# GEPRC CineBOT30 PID #
+# GEPRC CineBot30 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_pid.txt
@@ -81,12 +81,12 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog20
-# GEPRC Cinelog20 Filter #
+#$ OPTION BEGIN (UNCHECKED): GEPRC CineLog20
+# GEPRC CineLog20 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_filter.txt
 
-# GEPRC Cinelog20 PID #
+# GEPRC CineLog20 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_pid.txt
@@ -95,12 +95,12 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog25
-# GEPRC Cinelog25 Filter #
+#$ OPTION BEGIN (UNCHECKED): GEPRC CineLog25
+# GEPRC CineLog25 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_filter.txt
 
-# GEPRC Cinelog25 PID #
+# GEPRC CineLog25 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_pid.txt
@@ -109,12 +109,12 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog30
-# GEPRC Cinelog30 Filter #
+#$ OPTION BEGIN (UNCHECKED): GEPRC CineLog30
+# GEPRC CineLog30 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_filter.txt
 
-# GEPRC Cinelog30 PID #
+# GEPRC CineLog30 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_pid.txt
@@ -123,15 +123,35 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog35
-# GEPRC Cinelog35 Filter #
+#$ OPTION BEGIN (UNCHECKED): GEPRC CineLog35
+# GEPRC CineLog35 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_filter.txt
 
-# GEPRC Cinelog35 PID #
+# GEPRC CineLog35 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: IFLIGHT
+
+#$ OPTION BEGIN (UNCHECKED): IFLIGHT Protek25
+# IFLIGHT Protek25 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_filter.txt
+
+# IFLIGHT Protek25 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_pid.txt
 
 # restore original profile selection
 profile 0

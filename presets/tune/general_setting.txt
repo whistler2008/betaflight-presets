@@ -9,6 +9,8 @@
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
+feature -LED_STRIP
+
 #--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: General Setting
