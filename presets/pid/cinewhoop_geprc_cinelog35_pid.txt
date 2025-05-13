@@ -1,9 +1,9 @@
-#$ TITLE: CineWhoop - GEPRC Cinelog35 V2 Factory Tune
+#$ TITLE: CineWhoop - GEPRC Cinelog35 - PID
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: CineWhoop - GEPRC Cinelog35 V2 Factory Tune
+#$ DESCRIPTION: CineWhoop - GEPRC Cinelog35 - PID
 #$ HIDDEN: true
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
@@ -18,15 +18,10 @@ set simplified_pitch_d_gain = 130
 set simplified_pitch_pi_gain = 120
 set simplified_master_multiplier = 100
 
-set iterm_relax_cutoff = 15
-set anti_gravity_gain = 80
+set iterm_relax_cutoff = 30
+set anti_gravity_gain = 40
 
 set tpa_rate = 65
 set tpa_breakpoint = 1350
 
 simplified_tuning apply
-
-set dyn_notch_count = 1
-set dyn_notch_q = 650
-set dyn_notch_min_hz = 100
-set dyn_notch_max_hz = 600

@@ -1,9 +1,9 @@
-#$ TITLE: CineWhoop - GEPRC Cinelog25 V2 Factory
+#$ TITLE: CineWhoop - GEPRC Cinelog25 - PID
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: CineWhoop - GEPRC Cinelog25 V2 Factory
+#$ DESCRIPTION: CineWhoop - GEPRC Cinelog25 - PID
 #$ HIDDEN: true
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
@@ -25,8 +25,3 @@ set tpa_rate = 65
 set tpa_breakpoint = 1350
 
 simplified_tuning apply
-
-set dyn_notch_count = 1
-set dyn_notch_q = 500
-set dyn_notch_min_hz = 100
-set dyn_notch_max_hz = 600

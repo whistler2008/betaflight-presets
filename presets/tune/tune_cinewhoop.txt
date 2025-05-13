@@ -37,33 +37,101 @@ set rc_smoothing_auto_factor = 90
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: Preset
+#$ OPTION_GROUP BEGIN: GEPRC
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog25 V2
-# GEPRC Cinelog25 V2 PID #
+#$ OPTION BEGIN (UNCHECKED): GEPRC Thinker P16
+# GEPRC Thinker P16 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_geprc_thinking_p16_filter.txt
+
+# GEPRC Thinker P16 PID #
 
 profile 0
-#$ INCLUDE: presets/pid/pid_cinewhoop_geprc_cinelog25_v2.txt
+#$ INCLUDE: presets/pid/cinewhoop_geprc_thinking_p16_pid.txt
 
 # restore original profile selection
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog30 V2
-# GEPRC Cinelog30 V2 PID #
+#$ OPTION BEGIN (UNCHECKED): GEPRC Rocket
+# GEPRC Rocket Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_geprc_rocket_filter.txt
+
+# GEPRC Rocket PID #
 
 profile 0
-#$ INCLUDE: presets/pid/pid_cinewhoop_geprc_cinelog30_v2.txt
+#$ INCLUDE: presets/pid/cinewhoop_geprc_rocket_pid.txt
 
 # restore original profile selection
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog35 V2
-# GEPRC Cinelog35 V2 PID #
+#$ OPTION BEGIN (UNCHECKED): GEPRC CineBOT30
+# GEPRC CineBOT30 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_filter.txt
+
+# GEPRC CineBOT30 PID #
 
 profile 0
-#$ INCLUDE: presets/pid/pid_cinewhoop_geprc_cinelog35_v2.txt
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog20
+# GEPRC Cinelog20 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_filter.txt
+
+# GEPRC Cinelog20 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog25
+# GEPRC Cinelog25 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_filter.txt
+
+# GEPRC Cinelog25 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog30
+# GEPRC Cinelog30 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_filter.txt
+
+# GEPRC Cinelog30 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Cinelog35
+# GEPRC Cinelog35 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_filter.txt
+
+# GEPRC Cinelog35 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_pid.txt
 
 # restore original profile selection
 profile 0

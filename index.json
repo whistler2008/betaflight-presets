@@ -949,6 +949,216 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_filter.txt",
+      "hash": "7c3513fed51f31a2a3fb79a306b0b290278fac64dc7597e2909a2e504afc2853",
+      "title": "CineWhoop - GEPRC CineBot30 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_pid.txt",
+      "hash": "182d4fa3aeb0ba9a4401ee13d9d270a257dbb38dd3b77459c2a31e3659625e36",
+      "title": "CineWhoop - GEPRC CineBot30 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog20_filter.txt",
+      "hash": "16f537fc213d8a7e996b0cff22be0ba714aac55b89dbfad4bfa7c8e245459610",
+      "title": "CineWhoop - GEPRC Cinelog20 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog20_pid.txt",
+      "hash": "d83a914d4894be95c4f7f928c5a86bfe1a0854437a391dab41edc1c749ac7327",
+      "title": "CineWhoop - GEPRC Cinelog20 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog25_filter.txt",
+      "hash": "917aedac95ee932f9b45d89c9a4c55dc54b4817c80ee40839e0e9f5b3c3e9855",
+      "title": "CineWhoop - GEPRC Cinelog25 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog25_pid.txt",
+      "hash": "84eeae10f527e68130c5fd2bb215efa51479beccd5e488030a9d74f90902ca7e",
+      "title": "CineWhoop - GEPRC Cinelog25 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog30_filter.txt",
+      "hash": "14828884fefe07df4acc225f51227409effaa2d0539b09ab56708c4b5bdc5d07",
+      "title": "CineWhoop - GEPRC Cinelog30 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog30_pid.txt",
+      "hash": "313754609540d009c0bca0813fe2568903a91f70640225b52a5c5cad528692b3",
+      "title": "CineWhoop - GEPRC Cinelog30 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog35_filter.txt",
+      "hash": "78578b98e1a05ceb2556e016c6b929c640347d91c90b1726e38a18a21c3f383f",
+      "title": "CineWhoop - GEPRC Cinelog35 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_cinelog35_pid.txt",
+      "hash": "c987319fb244e0f8f1b86c8dabd402de9deff0a812824ee38b902689247a100f",
+      "title": "CineWhoop - GEPRC Cinelog35 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_rocket_filter.txt",
+      "hash": "73595d3ff5bed9def33c45554c45115b5a77860af23c2038dc2c8ec42c3c759c",
+      "title": "CineWhoop - GEPRC Rocket - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_rocket_pid.txt",
+      "hash": "209082e99adc5c0c75e9778eefa906d22a38ddc746fe20d1c3ff11f5b31f01d9",
+      "title": "CineWhoop - GEPRC Rocket - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_thinking_p16_filter.txt",
+      "hash": "b6a0f3ce90eed3e39f2cdae02a2c232d8c069a117e6877174d2cffe4e5aa20da",
+      "title": "CineWhoop - GEPRC Thinking P16 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_geprc_thinking_p16_pid.txt",
+      "hash": "d399c7edca8746ea94d40b86aa569f3298de75104bf53619ccd881ccb393e309",
+      "title": "CineWhoop - GEPRC Thinking P16 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_1s.txt",
       "hash": "4653318c404f71ae5d9a5e20eeefe9ff8c2b486bd529b4a088b44daa15d0969d",
       "title": "Freestyle 1S",
@@ -1012,51 +1222,6 @@
       "fullPath": "presets/pid/freestyle_6s.txt",
       "hash": "b0b80735467b7606113a14fe31e4e7702d8ce2d90eb7104eb246cca646366999",
       "title": "Freestyle 6S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/pid_cinewhoop_geprc_cinelog25_v2.txt",
-      "hash": "003f9b1e1e41d6d95ce1f381e551a2c28ae9edf8803594604db0259d256204cb",
-      "title": "CineWhoop - GEPRC Cinelog25 V2 Factory",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/pid_cinewhoop_geprc_cinelog30_v2.txt",
-      "hash": "1705f40fbc67c8305735047c192dde9d7407aac284984332777adf74696f5baa",
-      "title": "CineWhoop - GEPRC Cinelog30 V2 Factory Tune",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/pid_cinewhoop_geprc_cinelog35_v2.txt",
-      "hash": "641c12fae95c8819ba4930f191745911f8a4f1450d8ba79064f03d008d8bf1f7",
-      "title": "CineWhoop - GEPRC Cinelog35 V2 Factory Tune",
       "firmware_version": [
         "4.5"
       ],
@@ -1415,7 +1580,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "c6e06b39a672df83baeee9fdc8d6ba2b1b61ac0ae9dbb1f92a0debb0d5deff6d",
+      "hash": "2682f5f88ff6763f6042c7b16b3d17542db266d2cdfd0114d09a68496d6a9838",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
