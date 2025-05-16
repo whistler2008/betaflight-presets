@@ -157,6 +157,20 @@ profile 0
 profile 0
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): IFLIGHT Protek35
+# IFLIGHT Protek35 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_filter.txt
+
+# IFLIGHT Protek35 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#

@@ -1189,6 +1189,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_iflight_protek35_filter.txt",
+      "hash": "0388b48102900409e9f4ff735c50e521b1a27c76289ddf90d04474c40032ab19",
+      "title": "CineWhoop - iFlight Protek35 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_protek35_pid.txt",
+      "hash": "690e7368c853360525a42bd9afa266d9ac7a79fa452c9801a957656113a08f39",
+      "title": "CineWhoop - iFlight Protek35 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_1s.txt",
       "hash": "4653318c404f71ae5d9a5e20eeefe9ff8c2b486bd529b4a088b44daa15d0969d",
       "title": "Freestyle 1S",
@@ -1610,7 +1640,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "0a7bc2e7bc2e09eeb08ac2c38e8591a049d7a17df92e344a6501a299e61b30e0",
+      "hash": "25ad15255d2b9940af580b15a8f4632ab421c7144f8fcd97d421672af50b94ae",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
