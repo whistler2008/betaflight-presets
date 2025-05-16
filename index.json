@@ -949,6 +949,126 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon20_filter.txt",
+      "hash": "aadbe75c21ed00dca0f360111de0e7829434d7fda0c68e5f7c1b3abd076176e0",
+      "title": "CineWhoop - AxisFlying CineON20 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon20_pid.txt",
+      "hash": "282e1d6d2db1b7969f96b0f1f5e39ec85f8f4fcb1907d3a10b8a6346b435bf53",
+      "title": "CineWhoop - AxisFlying CineON20 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon25_filter.txt",
+      "hash": "e60277412200c1416bd9de46d02cfb4ed9f232f0cef7aec34860cd31e0e4950a",
+      "title": "CineWhoop - AxisFlying CineON25 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon25_pid.txt",
+      "hash": "36cf7dd6b018692dc0df2550ccb2e615ac7313f46710c254891394c2641fe18c",
+      "title": "CineWhoop - AxisFlying CineON25 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon30_filter.txt",
+      "hash": "1c1f135bc8c946ef0ea6103dea5f5f7a612dd18144efe9c94230a345ad3a3495",
+      "title": "CineWhoop - AxisFlying CineON30 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon30_pid.txt",
+      "hash": "4ab6936595386cf004586adfeb0f0e6a56a8b43ff6ebdfd19650baaf01d2b671",
+      "title": "CineWhoop - AxisFlying CineON30 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon35_filter.txt",
+      "hash": "e23198a39b9b14aa92be5bdf78b375b58dbf4ded136b6e95142fa0ac067943d0",
+      "title": "CineWhoop - AxisFlying CineON35 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_axisflying_cineon35_pid.txt",
+      "hash": "28e578a08af7a2342bd21c842f3792ba564eff6300eeda806b978da9ee1572ce",
+      "title": "CineWhoop - AxisFlying CineON35 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_filter.txt",
       "hash": "7c3513fed51f31a2a3fb79a306b0b290278fac64dc7597e2909a2e504afc2853",
       "title": "CineWhoop - GEPRC CineBot30 - Filter",
@@ -1640,7 +1760,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "25ad15255d2b9940af580b15a8f4632ab421c7144f8fcd97d421672af50b94ae",
+      "hash": "80e22b8adeb0cfdef60cf2924ddca35c64bd9255bcc0ce89ab2f84a0f86abafa",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"

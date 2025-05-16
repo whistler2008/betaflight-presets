@@ -37,6 +37,68 @@ set rc_smoothing_auto_factor = 90
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: AXISFLYING
+
+#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON20
+# AXISFLYING CineON20 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_filter.txt
+
+# AXISFLYING CineON20 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON25
+# AXISFLYING CineON25 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_filter.txt
+
+# AXISFLYING CineON25 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON30
+# AXISFLYING CineON30 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_filter.txt
+
+# AXISFLYING CineON30 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON35
+# AXISFLYING CineON35 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_filter.txt
+
+# AXISFLYING CineON35 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: GEPRC
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC Thinker P16

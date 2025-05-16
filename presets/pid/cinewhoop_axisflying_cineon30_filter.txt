@@ -1,0 +1,14 @@
+#$ TITLE: CineWhoop - AxisFlying CineON30 - Filter
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: CineWhoop - AxisFlying CineON30 - Filter
+#$ HIDDEN: true
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Ratio 1:10
+
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 150
+set dyn_notch_max_hz = 600
