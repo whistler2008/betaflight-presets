@@ -37,14 +37,14 @@ set rc_smoothing_auto_factor = 90
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: AXISFLYING
+#$ OPTION_GROUP BEGIN: AxisFlying
 
-#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON20
-# AXISFLYING CineON20 Filter #
+#$ OPTION BEGIN (UNCHECKED): AxisFlying CineON20
+# AxisFlying CineON20 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_filter.txt
 
-# AXISFLYING CineON20 PID #
+# AxisFlying CineON20 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_pid.txt
@@ -53,12 +53,12 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON25
-# AXISFLYING CineON25 Filter #
+#$ OPTION BEGIN (UNCHECKED): AxisFlying CineON25
+# AxisFlying CineON25 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_filter.txt
 
-# AXISFLYING CineON25 PID #
+# AxisFlying CineON25 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_pid.txt
@@ -67,12 +67,12 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON30
-# AXISFLYING CineON30 Filter #
+#$ OPTION BEGIN (UNCHECKED): AxisFlying CineON30
+# AxisFlying CineON30 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_filter.txt
 
-# AXISFLYING CineON30 PID #
+# AxisFlying CineON30 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_pid.txt
@@ -81,15 +81,119 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AXISFLYING CineON35
-# AXISFLYING CineON35 Filter #
+#$ OPTION BEGIN (UNCHECKED): AxisFlying CineON35
+# AxisFlying CineON35 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_filter.txt
 
-# AXISFLYING CineON35 PID #
+# AxisFlying CineON35 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: BetaFPV
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO Femto
+# BetaFPV PAVO Femto Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_femto_filter.txt
+
+# BetaFPV PAVO Femto PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_femto_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO Pico
+# BetaFPV PAVO Pico Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_pico_filter.txt
+
+# BetaFPV PAVO Pico PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_pico_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO20
+# BetaFPV PAVO20 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_filtery.txt
+
+# BetaFPV PAVO20 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO20 Pro
+# BetaFPV PAVO20 Pro Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pro_filter.txt
+
+# BetaFPV PAVO20 Pro PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pro_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO25
+# BetaFPV PAVO25 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo25_filter.txt
+
+# BetaFPV PAVO25 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo25_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO30
+# BetaFPV PAVO30 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo30_filter.txt
+
+# BetaFPV PAVO30 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo30_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO35
+# BetaFPV PAVO35 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo35_filter.txt
+
+# BetaFPV PAVO35 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo35_pid.txt
 
 # restore original profile selection
 profile 0
@@ -203,14 +307,14 @@ profile 0
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: IFLIGHT
+#$ OPTION_GROUP BEGIN: iFlight
 
-#$ OPTION BEGIN (UNCHECKED): IFLIGHT Protek25
-# IFLIGHT Protek25 Filter #
+#$ OPTION BEGIN (UNCHECKED): iFlight Protek25
+# iFlight Protek25 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_filter.txt
 
-# IFLIGHT Protek25 PID #
+# iFlight Protek25 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_pid.txt
@@ -219,57 +323,18 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): IFLIGHT Protek35
-# IFLIGHT Protek35 Filter #
+#$ OPTION BEGIN (UNCHECKED): iFlight Protek35
+# iFlight Protek35 Filter #
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_filter.txt
 
-# IFLIGHT Protek35 PID #
+# iFlight Protek35 PID #
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_pid.txt
 
 # restore original profile selection
 profile 0
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#--------------------------------------------------#
-
-#$ OPTION_GROUP BEGIN: Max Supported Cell
-
-#$ OPTION BEGIN (UNCHECKED): 1S
-profile 0
-#$ INCLUDE: presets/pid/cinewhoop_1s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2S
-profile 0
-#$ INCLUDE: presets/pid/cinewhoop_2s.txt
-profile 1
-#$ INCLUDE: presets/pid/cinewhoop_1s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3S
-profile 0
-#$ INCLUDE: presets/pid/cinewhoop_3s.txt
-profile 1
-#$ INCLUDE: presets/pid/cinewhoop_2s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4S
-profile 0
-#$ INCLUDE: presets/pid/cinewhoop_4s.txt
-profile 1
-#$ INCLUDE: presets/pid/cinewhoop_3s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6S
-profile 0
-#$ INCLUDE: presets/pid/cinewhoop_6s.txt
-profile 1
-#$ INCLUDE: presets/pid/cinewhoop_4s.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

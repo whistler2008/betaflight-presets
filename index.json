@@ -1069,6 +1069,216 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_filtery.txt",
+      "hash": "63654f82939658da5ec1e29f25aa64fc12da829322bcae9eb8e0f65f3b34935d",
+      "title": "CineWhoop - BetaFPV PAVO20 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pid.txt",
+      "hash": "71812faaa605f8698d8122d8568b59e44b2f698badf729de005ed71631eb0137",
+      "title": "CineWhoop - BetaFPV PAVO20 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pro_filter.txt",
+      "hash": "b1cb35af50ed41780707c2018f22eee85471a5dcb6608db01fbd7b4c3d266a07",
+      "title": "CineWhoop - BetaFPV PAVO20 PRO - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pro_pid.txt",
+      "hash": "9d4d14d4d3946db5b75d61f4af0b3500a981c8a2d8f3625e4dc61c0c0eea447c",
+      "title": "CineWhoop - BetaFPV PAVO20 PRO - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo25_filter.txt",
+      "hash": "2f256179ce75218c91def0d8ce4c98a7580091f86ef7e5fc384c30b98533d2a0",
+      "title": "CineWhoop - BetaFPV PAVO25 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo25_pid.txt",
+      "hash": "fa71d18cc587106e97427fc29a1f2363844313dfdd428a95867b78a91d04f752",
+      "title": "CineWhoop - BetaFPV PAVO25 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo30_filter.txt",
+      "hash": "badb924297e2bd5e3d7dcfe9b22c58e00f90bb24426bce8b91c1c968d3750f42",
+      "title": "CineWhoop - BetaFPV PAVO30 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo30_pid.txt",
+      "hash": "617375aae193410729eabde937e6f54facf8529d48401e28f694028996bc1969",
+      "title": "CineWhoop - BetaFPV PAVO30 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo35_filter.txt",
+      "hash": "9bc2c2d4c35a6cb560930c300942a6a3f13bb48961e17268d307f7a6e36796e0",
+      "title": "CineWhoop - BetaFPV PAVO35 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo35_pid.txt",
+      "hash": "a02f8252beb974731e6217c07b29cdd3e10fbe9183dc37bc0c639a90182a8b1f",
+      "title": "CineWhoop - BetaFPV PAVO35 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo_femto_filter.txt",
+      "hash": "f3981e00160604906356b3f986d164cba1a2c69da8d179da8772f53449ab97ed",
+      "title": "CineWhoop - BetaFPV PAVO Femto - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo_femto_pid.txt",
+      "hash": "49ca0528c4839e7253dbba7cc3086f2e049aa75634e93b47569848590cfbc486",
+      "title": "CineWhoop - BetaFPV PAVO Femto - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo_pico_filter.txt",
+      "hash": "dea558c35b6ac4b56bc3859467e9ff69c44c404f26f3a67adadc4d0be879f7b6",
+      "title": "CineWhoop - BetaFPV PAVO Pico - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo_pico_pid.txt",
+      "hash": "e29e03643c29a9ee3e55ae32ae03bc93307c2fb717fbbbaf8c37cf7f33126da3",
+      "title": "CineWhoop - BetaFPV PAVO Pico - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_filter.txt",
       "hash": "7c3513fed51f31a2a3fb79a306b0b290278fac64dc7597e2909a2e504afc2853",
       "title": "CineWhoop - GEPRC CineBot30 - Filter",
@@ -1760,7 +1970,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "80e22b8adeb0cfdef60cf2924ddca35c64bd9255bcc0ce89ab2f84a0f86abafa",
+      "hash": "1d00a1a5530986c42ac62a901ff1a4a7b91e0ca8dec6a2cac975b2428770d71c",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
