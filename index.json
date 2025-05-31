@@ -874,81 +874,6 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/pid/cinewhoop_1s.txt",
-      "hash": "d2c6578c402249c273d58dcd667d996a29f907e84f732be16d8470af476649f6",
-      "title": "Cinewhoop 1S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/cinewhoop_2s.txt",
-      "hash": "85c36c70c09665fae7317074dc40a50c99d5c5c541db6b25206b127a9d2a27fc",
-      "title": "Cinewhoop 2S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/cinewhoop_3s.txt",
-      "hash": "cb6eedf04243c4a9aa92cf33126184072b5191ee46ae95580ccfdfa81f66d8e3",
-      "title": "Cinewhoop 3S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/cinewhoop_4s.txt",
-      "hash": "ae13c39eafc4c59454a4b2c7e170eb99241aac15e6c038261b6961032ff44f1a",
-      "title": "Cinewhoop 4S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/cinewhoop_6s.txt",
-      "hash": "32bb96d6f1f8232d7a1a11fdfb305e880eae9c68985cd77c3cafe490f249101c",
-      "title": "Cinewhoop 6S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon20_filter.txt",
       "hash": "aadbe75c21ed00dca0f360111de0e7829434d7fda0c68e5f7c1b3abd076176e0",
       "title": "CineWhoop - AxisFlying CineON20 - Filter",
@@ -1489,6 +1414,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_hglrc_talon2_filter.txt",
+      "hash": "b56da95b33bf6c2138403378097018717cc71573d13b141c0a1427e429c3ae95",
+      "title": "CineWhoop - HGLRC Talon2 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_hglrc_talon2_pid.txt",
+      "hash": "86852e3ef519f856ce4a7f6248cf764043e2b6deb3d1e00d80789bffc984ac2a",
+      "title": "CineWhoop - HGLRC Talon2 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/cinewhoop_iflight_protek25_filter.txt",
       "hash": "0fb33cf6a696d3a248a7ea6514cea84b81f9fb923a418ba4a07866bc9d7b92c9",
       "title": "CineWhoop - iFlight Protek25 - Filter",
@@ -1624,6 +1579,126 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_axisflying_manta36_filter.txt",
+      "hash": "8b162ac31c1dfa90dd2ae669c6037c7c3bd141c06c48fc6ff2b0cb9be0896a83",
+      "title": "FreeStyle - AxisFlying Manta36 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_axisflying_manta36_pid.txt",
+      "hash": "4f9dea888f323fc6daab4d67a4ca656e825fc667a00bdae01bc1e1dc1f1f51b1",
+      "title": "FreeStyle - AxisFlying Manta36 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_axisflying_manta5se_filter.txt",
+      "hash": "14b19da0561ca07f86fab2af840bf50b0e86dc11428a923b56742c1fad269ddc",
+      "title": "FreeStyle - AxisFlying Manta5 SE - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_axisflying_manta5se_pid.txt",
+      "hash": "0114e27cf3383502230b47b80ba697f38da2b08b9691ca12511a636586fd96ed",
+      "title": "FreeStyle - AxisFlying Manta5 SE - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_axisflying_manta5_filter.txt",
+      "hash": "e38dd3a15b2741e355c1689c587f2fb31fa51574effe05f7ea0cfb870d63c261",
+      "title": "FreeStyle - AxisFlying Manta5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_axisflying_manta5_pid.txt",
+      "hash": "b9f5d46509d9bb8c1574b0d78f3dba1f9d3de99e92719f785c9f4cc44da3b3ce",
+      "title": "FreeStyle - AxisFlying Manta5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_axisflying_manta6_filter.txt",
+      "hash": "19486142e1161bee952140ff87d0dc62eff078381f3bb085ff7aff3ba2060264",
+      "title": "FreeStyle - AxisFlying Manta6 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_axisflying_manta6_pid.txt",
+      "hash": "abc7d2eaf7033c61667df9275cdce6298e33789ba7e0d1410c787f7671837a0e",
+      "title": "FreeStyle - AxisFlying Manta6 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/pid_default.txt",
       "hash": "2bedb1463dd619944e34da12c11401cd8447c75380bf8843d28abe6b660af8c8",
       "title": "Default PID",
@@ -1732,6 +1807,81 @@
       "fullPath": "presets/pid/race_6s.txt",
       "hash": "418cedbbef6fbc1d84702b88d1b3e31a6cc7230edc6c15ec6163ca935cde2fdf",
       "title": "Race 6S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/cinewhoop_1s.txt",
+      "hash": "d2c6578c402249c273d58dcd667d996a29f907e84f732be16d8470af476649f6",
+      "title": "Cinewhoop 1S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/cinewhoop_2s.txt",
+      "hash": "85c36c70c09665fae7317074dc40a50c99d5c5c541db6b25206b127a9d2a27fc",
+      "title": "Cinewhoop 2S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/cinewhoop_3s.txt",
+      "hash": "cb6eedf04243c4a9aa92cf33126184072b5191ee46ae95580ccfdfa81f66d8e3",
+      "title": "Cinewhoop 3S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/cinewhoop_4s.txt",
+      "hash": "ae13c39eafc4c59454a4b2c7e170eb99241aac15e6c038261b6961032ff44f1a",
+      "title": "Cinewhoop 4S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/cinewhoop_6s.txt",
+      "hash": "32bb96d6f1f8232d7a1a11fdfb305e880eae9c68985cd77c3cafe490f249101c",
+      "title": "Cinewhoop 6S",
       "firmware_version": [
         "4.5"
       ],
@@ -1970,7 +2120,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "1d00a1a5530986c42ac62a901ff1a4a7b91e0ca8dec6a2cac975b2428770d71c",
+      "hash": "de59f9b60ea2b8090d9f5e3c4eb475400d9b982fe1a20cba459b57e7e2401595",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -1985,7 +2135,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "9c0b1fee244a818bfb13dffe63324b17aa7c8f824cc56b152ae3d4414b83b07d",
+      "hash": "4f378bd2c68ab6941c46e5da17c8d5fa68e5390257d3c37f74a518713365b82d",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"

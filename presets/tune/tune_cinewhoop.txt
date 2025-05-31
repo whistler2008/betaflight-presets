@@ -307,6 +307,26 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: HGLRC
+
+#$ OPTION BEGIN (UNCHECKED): HGLRC Talon2
+# HGLRC Talon2 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_hglrc_talon2_filter.txt
+
+# HGLRC Talon2 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_hglrc_talon2_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: iFlight
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Protek25

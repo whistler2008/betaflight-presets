@@ -37,6 +37,68 @@ set rc_smoothing_auto_factor = 60
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: AxisFlying
+
+#$ OPTION BEGIN (UNCHECKED): AxisFlying Manta36
+# AxisFlying Manta36 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta36_filter.txt
+
+# AxisFlying Manta36 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta36_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AxisFlying Manta5
+# AxisFlying Manta5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta5_filter.txt
+
+# AxisFlying Manta5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta5_filter.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AxisFlying Manta5 SE
+# AxisFlying Manta5 SE Filter #
+
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta5se_filter.txt
+
+# AxisFlying Manta5 SE PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta5se_filter.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AxisFlying Manta6
+# AxisFlying Manta6 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta6_filter.txt
+
+# AxisFlying Manta6 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta6_filter.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
