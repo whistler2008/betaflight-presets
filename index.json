@@ -1699,6 +1699,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_speedybee_mario5_filter.txt",
+      "hash": "bbd4e282a32d23446b81036449deb73ef784b6dd5cf7a9c1d0a727506eac19a0",
+      "title": "FreeStyle - SpeedyBee Mario5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_speedybee_mario5_pid.txt",
+      "hash": "385957157b63fbefaed57eb2cade418ae769fab98e615b47ee24d5f0b0b66259",
+      "title": "FreeStyle - SpeedyBee Mario5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/pid_default.txt",
       "hash": "2bedb1463dd619944e34da12c11401cd8447c75380bf8843d28abe6b660af8c8",
       "title": "Default PID",
@@ -2135,7 +2165,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "4f378bd2c68ab6941c46e5da17c8d5fa68e5390257d3c37f74a518713365b82d",
+      "hash": "856b474f57ef1382621e4fee2dc0e4f68da4717fabf8cc549c8bc509e97872b2",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"

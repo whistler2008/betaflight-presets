@@ -99,6 +99,26 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: SpeedyBee
+
+#$ OPTION BEGIN (UNCHECKED): SpeedyBee Mario5
+# SpeedyBee Mario5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_speedybee_mario5_filter.txt
+
+# SpeedyBee Mario5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_speedybee_mario5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: Max Supported Cell
 
 #$ OPTION BEGIN (UNCHECKED): 1S
