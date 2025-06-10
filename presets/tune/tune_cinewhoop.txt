@@ -361,6 +361,26 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: SpeedyBee
+
+#$ OPTION BEGIN (UNCHECKED): SpeedyBee Bee25
+# SpeedyBee Bee25 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_speedybee_bee25_filter.txt
+
+# SpeedyBee Bee25 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_speedybee_bee25_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS

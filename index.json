@@ -1504,6 +1504,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_speedybee_bee25_filter.txt",
+      "hash": "4be1601e57abef3fff27d200ade222737fa09a21b9162a43b9ce5d83dab21712",
+      "title": "CineWhoop - SpeedyBee Bee25 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_speedybee_bee25_pid.txt",
+      "hash": "dfb0f11d241c5b01a8e5da0875955abd473793c8d8614d8c056cefa794604963",
+      "title": "CineWhoop - SpeedyBee Bee25 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_1s.txt",
       "hash": "4653318c404f71ae5d9a5e20eeefe9ff8c2b486bd529b4a088b44daa15d0969d",
       "title": "Freestyle 1S",
@@ -2150,7 +2180,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "de59f9b60ea2b8090d9f5e3c4eb475400d9b982fe1a20cba459b57e7e2401595",
+      "hash": "a5639cf11e384dec5123f7896cd5710d3b0afd96ee476b91bc3c1bef81392701",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
