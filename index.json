@@ -649,7 +649,7 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_canvas.txt",
-      "hash": "77a041e0850162fb63bd9d6bc702f6fdce02ab0fe79ed6de20cedf52d8c7d105",
+      "hash": "23819c93b5e19d1d160c3cd7c4b1c1499e1ecedefbc239505aaff181f395fedd",
       "title": "HD DJI Canvas OSD settings",
       "firmware_version": [
         "4.5"
@@ -676,36 +676,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_canvas_lq.txt",
-      "hash": "800ee72d676a1ae502c5974e8d99bd69ff9e77197bc6833d385e06a945c382ba",
-      "title": "HD DJI Canvas LQ OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_canvas_rssi.txt",
-      "hash": "9087e0f3096e29a82d4944d519df8688778f058d8a0731e5b86aaba027cddc86",
-      "title": "HD DJI Canvas RSSI OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/osd/osd_hd_dji_fpv.txt",
-      "hash": "467c576c67dcb7ec4e84697f0e58ae62cd4b2fe6dceae03a1f79fe13792f65a1",
+      "hash": "0912ee2256c634662b6623540a418e48465e56e85125702dfe6d4901b6b6a232",
       "title": "HD DJI FPV OSD settings",
       "firmware_version": [
         "4.5"
@@ -732,36 +704,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_fpv_lq.txt",
-      "hash": "a929471452e5ebc19c2838fc6d462d89ea0693282007ea726f6dee61d120a103",
-      "title": "HD DJI FPV LQ OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_fpv_rssi.txt",
-      "hash": "acbca2d64b860cb32671e51c0ec89e1c975995c99c21bb0eeda0edd00d6014b5",
-      "title": "HD DJI FPV RSSI OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/osd/osd_hd_dji_wtfos.txt",
-      "hash": "8eea5187588af5d397834e31093fe0b00eb95224953667993a31b548888fc6dc",
+      "hash": "29ec6848b628664419626c242f2c8e951a7bfc31271e19ab6cf763bc6653f641",
       "title": "DJI WTFOS OSD settings",
       "firmware_version": [
         "4.5"
@@ -2195,7 +2139,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "bde60c045e7846cc01251b14f68b7676fbbe8df004a8e1c0723d316d31d9ccd9",
+      "hash": "15b454d8622145699d96e0bf86043deb2ade6942e610b8b39be3fcf83d8779cb",
       "title": "General Setting",
       "firmware_version": [
         "4.5"

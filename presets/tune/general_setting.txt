@@ -374,35 +374,23 @@ rateprofile 0
 #$ INCLUDE: presets/osd/osd_analog_ntsc_rssi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail & LQ
+#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
 #$ INCLUDE: presets/osd/osd_hd_avatar.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas & LQ
+#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
 #$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas_lq.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas & RSSI
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & LQ
+#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
 #$ INCLUDE: presets/osd/osd_hd_dji_fpv.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_fpv_lq.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV & RSSI
-#$ INCLUDE: presets/osd/osd_hd_dji_fpv.txt
-#$ INCLUDE: presets/osd/osd_hd_dji_fpv_rssi.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS & LQ
+#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
 #$ INCLUDE: presets/osd/osd_hd_dji_wtfos.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital HDZero & LQ
+#$ OPTION BEGIN (UNCHECKED): Digital HDZero
 #$ INCLUDE: presets/osd/osd_hd_hdzero.txt
 #$ OPTION END
 

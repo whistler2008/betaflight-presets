@@ -27,5 +27,5 @@ set osd_warnings_pos = 14761
 set osd_vtx_channel_pos = 2506
 
 set osd_throttle_pos = 2457
-
+set osd_link_quality_pos = 2487
 set osd_avg_cell_voltage_pos = 2519
