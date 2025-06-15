@@ -1759,6 +1759,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_speedybee_master5_filter.txt",
+      "hash": "8775f4dc54f194abea12498ea400935d0e66bfc7582cf789de61b2764009e344",
+      "title": "FreeStyle - SpeedyBee Master5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_speedybee_master5_pid.txt",
+      "hash": "426ff1548d01bab135fe0300fd1d69bf867c67c17d71e11ab78c0606770aa039",
+      "title": "FreeStyle - SpeedyBee Master5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/pid_default.txt",
       "hash": "2bedb1463dd619944e34da12c11401cd8447c75380bf8843d28abe6b660af8c8",
       "title": "Default PID",
@@ -2195,7 +2225,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "856b474f57ef1382621e4fee2dc0e4f68da4717fabf8cc549c8bc509e97872b2",
+      "hash": "9e5d8cbf498f66b7307aa6cffbef4a0e77b74e4abb2f6dabbc30531b2fd5ae04",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"

@@ -115,6 +115,20 @@ profile 0
 profile 0
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): SpeedyBee Master5
+# SpeedyBee Master5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_speedybee_master5_filter.txt
+
+# SpeedyBee Master5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_speedybee_master5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#
