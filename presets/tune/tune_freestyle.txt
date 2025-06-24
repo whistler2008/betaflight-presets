@@ -61,7 +61,7 @@ profile 0
 # AxisFlying Manta5 PID #
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta5_filter.txt
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta5_pid.txt
 
 # restore original profile selection
 profile 0
@@ -75,7 +75,7 @@ profile 0
 # AxisFlying Manta5 SE PID #
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta5se_filter.txt
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta5se_pid.txt
 
 # restore original profile selection
 profile 0
@@ -89,7 +89,7 @@ profile 0
 # AxisFlying Manta6 PID #
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta6_filter.txt
+#$ INCLUDE: presets/pid/freestyle_axisflying_manta6_pid.txt
 
 # restore original profile selection
 profile 0
