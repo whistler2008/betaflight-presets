@@ -1478,81 +1478,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_1s.txt",
-      "hash": "4653318c404f71ae5d9a5e20eeefe9ff8c2b486bd529b4a088b44daa15d0969d",
-      "title": "Freestyle 1S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_2s.txt",
-      "hash": "0939c58967e17eccb4b8550ec98e42b1462aa974439043123fb49b1439c8c100",
-      "title": "Freestyle 2S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_3s.txt",
-      "hash": "a61eb883d00b8b3223e99e2627085ecbf988badbb2c3959e304fb01ad6ec71f9",
-      "title": "Freestyle 3S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_4s.txt",
-      "hash": "9de241b548880825271e8fb00a415ecb5cb3748c8490af966724da5802087d9c",
-      "title": "Freestyle 4S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_6s.txt",
-      "hash": "b0b80735467b7606113a14fe31e4e7702d8ce2d90eb7104eb246cca646366999",
-      "title": "Freestyle 6S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/pid/freestyle_axisflying_manta36_filter.txt",
       "hash": "8b162ac31c1dfa90dd2ae669c6037c7c3bd141c06c48fc6ff2b0cb9be0896a83",
       "title": "FreeStyle - AxisFlying Manta36 - Filter",
@@ -1661,6 +1586,126 @@
       "fullPath": "presets/pid/freestyle_axisflying_manta6_pid.txt",
       "hash": "abc7d2eaf7033c61667df9275cdce6298e33789ba7e0d1410c787f7671837a0e",
       "title": "FreeStyle - AxisFlying Manta6 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_evoque_f5_filter.txt",
+      "hash": "33e2a22f9b3c8b899ca09a5d1ff11cb9f918bfa092eee62479bc771aa1b4eca4",
+      "title": "FreeStyle - iFlight Evoque F5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_evoque_f5_pid.txt",
+      "hash": "a6c812d27e6c4e1d14d2c59dfd149d81c9952e7bfcacca8b77bb74496a86d0c5",
+      "title": "FreeStyle - iFlight Evoque F5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_evoque_f6_filter.txt",
+      "hash": "4529e46ad513a96f1ef7a1f176df0d7f81d8879282b32dd7d921ac0cfeb70ee2",
+      "title": "FreeStyle - iFlight Evoque F6 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_evoque_f6_pid.txt",
+      "hash": "af1ef2ab15f1343808342b98de955006fd9c5844e077a3d52eae2429c152d8aa",
+      "title": "FreeStyle - iFlight Evoque F6 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_nazgul_eco5_filter.txt",
+      "hash": "02825a2d98558967bb2406c89dbdeba78117bba2079f097748ee1edf3f1e82ae",
+      "title": "FreeStyle - iFlight Nazgul ECO F5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_nazgul_eco5_pid.txt",
+      "hash": "f5f2c24359b6a8eab9b3216f178e0b794694c936e84eb508cddbe4d3a2991fb9",
+      "title": "FreeStyle - iFlight Nazgul ECO F5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_nazgul_xl5_filter.txt",
+      "hash": "c10bbf2b7bb39ea23eeafb0cd668237ef229ee31ceeae1d556c3c15f0b2c7f90",
+      "title": "FreeStyle - iFlight Nazgul XL5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_nazgul_xl5_pid.txt",
+      "hash": "9b23c5bb9b2b16dcd6863960befaf769c0f23f5599975bc6bcf4e88b99a8b63c",
+      "title": "FreeStyle - iFlight Nazgul XL5 - PID",
       "firmware_version": [
         "4.5"
       ],
@@ -1928,6 +1973,81 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/temp/freestyle_1s.txt",
+      "hash": "4653318c404f71ae5d9a5e20eeefe9ff8c2b486bd529b4a088b44daa15d0969d",
+      "title": "Freestyle 1S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/freestyle_2s.txt",
+      "hash": "0939c58967e17eccb4b8550ec98e42b1462aa974439043123fb49b1439c8c100",
+      "title": "Freestyle 2S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/freestyle_3s.txt",
+      "hash": "a61eb883d00b8b3223e99e2627085ecbf988badbb2c3959e304fb01ad6ec71f9",
+      "title": "Freestyle 3S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/freestyle_4s.txt",
+      "hash": "9de241b548880825271e8fb00a415ecb5cb3748c8490af966724da5802087d9c",
+      "title": "Freestyle 4S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/temp/freestyle_6s.txt",
+      "hash": "b0b80735467b7606113a14fe31e4e7702d8ce2d90eb7104eb246cca646366999",
+      "title": "Freestyle 6S",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rates/rates_default.txt",
       "hash": "d209a3e626ac1ba2caa90318b93eb45e835f45aed2bd00b428ea4f4b5225d9a4",
       "title": "Default Rate",
@@ -2169,7 +2289,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "0afcd2c294d8fd4d87b1cc71f0eb26055d2757137fa9fb5cf2c98a3080091c0c",
+      "hash": "4569d944f3faeceabd4243cccd75049916f074831a5ac146229388344e1c8554",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
@@ -2199,7 +2319,7 @@
     },
     {
       "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "4535042e2828966531721323d7ca6c56c423788cad45704422719b1054b33dbc",
+      "hash": "2d711407a66fbc473bda827022f5a1bec41e3575918793bfc1b750812aa11d1b",
       "title": "Pre-Tune",
       "firmware_version": [
         "4.5"

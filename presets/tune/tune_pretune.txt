@@ -33,15 +33,10 @@ set small_angle = 180
 set rc_smoothing_auto_factor = 30
 #$ OPTION END
 
-#$ OPTION_GROUP END
+#$ OPTION BEGIN (CHECKED): Crash Recovery DISARM
+# Crash Recovery DISARM #
 
-#--------------------------------------------------#
-
-#$ OPTION_GROUP BEGIN: Max Supported Cell
-
-#$ OPTION BEGIN (UNCHECKED): 1S
-profile 0
-#$ INCLUDE: presets/pid/freestyle_1s.txt
+set crash_recovery = DISARM
 #$ OPTION END
 
 #$ OPTION_GROUP END

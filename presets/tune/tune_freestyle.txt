@@ -99,6 +99,68 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: iFlight
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Evoque F5
+# iFlight Evoque F5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f5_filter.txt
+
+# iFlight Evoque F5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Evoque F6
+# iFlight Evoque F6 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f6_filter.txt
+
+# iFlight Evoque F6 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f6_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Nazgul ECO 5
+# iFlight Nazgul ECO 5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_eco5_filter.txt
+
+# iFlight Nazgul ECO 5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_eco5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Nazgul XL5
+# iFlight Nazgul XL5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_xl5_filter.txt
+
+# iFlight Nazgul XL5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_xl5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: SpeedyBee
 
 #$ OPTION BEGIN (UNCHECKED): SpeedyBee Mario5
@@ -127,45 +189,6 @@ profile 0
 
 # restore original profile selection
 profile 0
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#--------------------------------------------------#
-
-#$ OPTION_GROUP BEGIN: Max Supported Cell
-
-#$ OPTION BEGIN (UNCHECKED): 1S
-profile 0
-#$ INCLUDE: presets/pid/freestyle_1s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 2S
-profile 0
-#$ INCLUDE: presets/pid/freestyle_2s.txt
-profile 1
-#$ INCLUDE: presets/pid/freestyle_1s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3S
-profile 0
-#$ INCLUDE: presets/pid/freestyle_3s.txt
-profile 1
-#$ INCLUDE: presets/pid/freestyle_2s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4S
-profile 0
-#$ INCLUDE: presets/pid/freestyle_4s.txt
-profile 1
-#$ INCLUDE: presets/pid/freestyle_3s.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 6S
-profile 0
-#$ INCLUDE: presets/pid/freestyle_6s.txt
-profile 1
-#$ INCLUDE: presets/pid/freestyle_4s.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

@@ -1,0 +1,14 @@
+#$ TITLE: FreeStyle - iFlight Evoque F6 - Filter
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: FreeStyle - iFlight Evoque F6 - Filter
+#$ HIDDEN: true
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Ratio 1:10
+
+set dyn_notch_count = 2
+set dyn_notch_q = 550
+set dyn_notch_min_hz = 100
+set dyn_notch_max_hz = 600
