@@ -329,6 +329,62 @@ profile 0
 
 #$ OPTION_GROUP BEGIN: iFlight
 
+#$ OPTION BEGIN (UNCHECKED): iFlight Alpha A65
+# iFlight Alpha A65 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a65_filter.txt
+
+# iFlight Alpha A65 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a65_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Alpha A75
+# iFlight Alpha A75 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a75_filter.txt
+
+# iFlight Alpha A75 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a75_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Alpha A85
+# iFlight Alpha A85 Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a85_filter.txt
+
+# iFlight Alpha A85 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a85_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight BumbleBee
+# iFlight BumbleBee Filter #
+
+#$ INCLUDE: presets/pid/cinewhoop_iflight_bumblebee_filter.txt
+
+# iFlight BumbleBee PID #
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_iflight_bumblebee_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): iFlight Protek25
 # iFlight Protek25 Filter #
 

@@ -1388,6 +1388,126 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_iflight_alpha_a65_filter.txt",
+      "hash": "36abd0d75aabd48ce47f5908f5c95e5ca972367b2bc413b1541c795e13a30b0d",
+      "title": "CineWhoop - iFlight Alpha A65 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_alpha_a65_pid.txt",
+      "hash": "968d381812aa9a7e9d7987e684d2419e6d38e98c31034363e58fc828a02c124d",
+      "title": "CineWhoop - iFlight Alpha A65 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_alpha_a75_filter.txt",
+      "hash": "f3ef9418440774fa014b751be4c471f7d7a447f35de974291d09b0dfb827e271",
+      "title": "CineWhoop - iFlight Alpha A65 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_alpha_a75_pid.txt",
+      "hash": "a8db77e755a83fe60eaf4b33c46add02e7c795459c22b8d9961840378951a974",
+      "title": "CineWhoop - iFlight Alpha A65 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_alpha_a85_filter.txt",
+      "hash": "29b9f19e332c51b2f1014df434f5e75a206d621365884aa5fe54e39efa67610d",
+      "title": "CineWhoop - iFlight Alpha A85 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_alpha_a85_pid.txt",
+      "hash": "8a77beb9629fa6156270f55689c8025efff92d2f7a67c6fd01f1e39671818ca2",
+      "title": "CineWhoop - iFlight Alpha A85 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_bumblebee_filter.txt",
+      "hash": "fa1ab4407665335f69a7512a20835120bc95d37809566a8d26ce0462a67c298a",
+      "title": "CineWhoop - iFlight BumbleBee - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_iflight_bumblebee_pid.txt",
+      "hash": "903555e7f4674a88b28a26c655287c7d8ac482388fb3653456f132a294677fe5",
+      "title": "CineWhoop - iFlight BumbleBee - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/cinewhoop_iflight_protek25_filter.txt",
       "hash": "0fb33cf6a696d3a248a7ea6514cea84b81f9fb923a418ba4a07866bc9d7b92c9",
       "title": "CineWhoop - iFlight Protek25 - Filter",
@@ -2364,7 +2484,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "a5639cf11e384dec5123f7896cd5710d3b0afd96ee476b91bc3c1bef81392701",
+      "hash": "3153f0225ccd5f95f98b64d8910ac11fbf2aceaaba2739ff04f7a8e3b63dd00e",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
