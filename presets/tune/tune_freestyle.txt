@@ -115,20 +115,6 @@ profile 0
 profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): iFlight Chimera4
-# iFlight Chimera4 Filter #
-
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_filter.txt
-
-# iFlight Chimera4 PID #
-
-profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_pid.txt
-
-# restore original profile selection
-profile 0
-#$ OPTION END
-
 #$ OPTION BEGIN (UNCHECKED): iFlight Chimera5
 # iFlight Chimera5 Filter #
 
