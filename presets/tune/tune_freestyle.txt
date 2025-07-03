@@ -101,6 +101,62 @@ profile 0
 
 #$ OPTION_GROUP BEGIN: iFlight
 
+#$ OPTION BEGIN (UNCHECKED): iFlight Chimera4
+# iFlight Chimera4 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_filter.txt
+
+# iFlight Chimera4 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Chimera4
+# iFlight Chimera4 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_filter.txt
+
+# iFlight Chimera4 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Chimera5
+# iFlight Chimera5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera5_filter.txt
+
+# iFlight Chimera5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight Chimera7
+# iFlight Chimera7 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera7_filter.txt
+
+# iFlight Chimera7 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_iflight_chimera7_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): iFlight Evoque F5
 # iFlight Evoque F5 Filter #
 
