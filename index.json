@@ -834,7 +834,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon20_pid.txt",
-      "hash": "282e1d6d2db1b7969f96b0f1f5e39ec85f8f4fcb1907d3a10b8a6346b435bf53",
+      "hash": "919dae02693ef90bc96a4d93b9d7ee994b61648ae3533e543d06bdc829d4454b",
       "title": "CineWhoop - AxisFlying CineON20 - PID",
       "firmware_version": [
         "4.5"
@@ -864,7 +864,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon25_pid.txt",
-      "hash": "36cf7dd6b018692dc0df2550ccb2e615ac7313f46710c254891394c2641fe18c",
+      "hash": "d57243f1f6997e5e023127eceb5661a4b8d00d888dfaef1e65436753827b831d",
       "title": "CineWhoop - AxisFlying CineON25 - PID",
       "firmware_version": [
         "4.5"
@@ -894,7 +894,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon30_pid.txt",
-      "hash": "4ab6936595386cf004586adfeb0f0e6a56a8b43ff6ebdfd19650baaf01d2b671",
+      "hash": "73b5a5147e36bb992ff2c659397a71bbd6a1be1597cbe35049c3bfdc3df8a466",
       "title": "CineWhoop - AxisFlying CineON30 - PID",
       "firmware_version": [
         "4.5"
@@ -924,7 +924,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon35_pid.txt",
-      "hash": "28e578a08af7a2342bd21c842f3792ba564eff6300eeda806b978da9ee1572ce",
+      "hash": "3806c3f6ef141de0c10cc89f3be4f6b81aeff00068ddbcbea631527a7a3ca214",
       "title": "CineWhoop - AxisFlying CineON35 - PID",
       "firmware_version": [
         "4.5"
@@ -954,7 +954,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pid.txt",
-      "hash": "71812faaa605f8698d8122d8568b59e44b2f698badf729de005ed71631eb0137",
+      "hash": "9dd5a3ce87e0e5e3af70cd6db64013a690d84c57275b01b2dc73502a9cbb630c",
       "title": "CineWhoop - BetaFPV PAVO20 - PID",
       "firmware_version": [
         "4.5"
@@ -984,7 +984,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pro_pid.txt",
-      "hash": "9d4d14d4d3946db5b75d61f4af0b3500a981c8a2d8f3625e4dc61c0c0eea447c",
+      "hash": "037912de51191f562e21554505b60e7c2dccd6aae00499da8293ca9d1ae633a7",
       "title": "CineWhoop - BetaFPV PAVO20 PRO - PID",
       "firmware_version": [
         "4.5"
@@ -1014,7 +1014,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo25_pid.txt",
-      "hash": "fa71d18cc587106e97427fc29a1f2363844313dfdd428a95867b78a91d04f752",
+      "hash": "a20abb610c31495a65e696d9f8eec7c84b3c3fceaab908ccd1eb07b72e3535e5",
       "title": "CineWhoop - BetaFPV PAVO25 - PID",
       "firmware_version": [
         "4.5"
@@ -1044,7 +1044,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo30_pid.txt",
-      "hash": "617375aae193410729eabde937e6f54facf8529d48401e28f694028996bc1969",
+      "hash": "6b9566a4139c06786f76a0482a70b9432582a61d9421e09cf8f65d333f5f692e",
       "title": "CineWhoop - BetaFPV PAVO30 - PID",
       "firmware_version": [
         "4.5"
@@ -1074,7 +1074,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo35_pid.txt",
-      "hash": "a02f8252beb974731e6217c07b29cdd3e10fbe9183dc37bc0c639a90182a8b1f",
+      "hash": "29e1e2bb0f039d08ccf353e820b614aab0c6de94de204945c38336f883957401",
       "title": "CineWhoop - BetaFPV PAVO35 - PID",
       "firmware_version": [
         "4.5"
@@ -1104,7 +1104,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo_femto_pid.txt",
-      "hash": "49ca0528c4839e7253dbba7cc3086f2e049aa75634e93b47569848590cfbc486",
+      "hash": "48ba22353e3b83e4e8006ff44372a60e9306f6641b4ed85a824f390c9c2ce351",
       "title": "CineWhoop - BetaFPV PAVO Femto - PID",
       "firmware_version": [
         "4.5"
@@ -1134,7 +1134,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo_pico_pid.txt",
-      "hash": "e29e03643c29a9ee3e55ae32ae03bc93307c2fb717fbbbaf8c37cf7f33126da3",
+      "hash": "350f4ecf7aad2dd493aecb6a014e3f337fcc39e16521fd0f66b7150d5ae76e99",
       "title": "CineWhoop - BetaFPV PAVO Pico - PID",
       "firmware_version": [
         "4.5"
@@ -1164,7 +1164,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_pid.txt",
-      "hash": "182d4fa3aeb0ba9a4401ee13d9d270a257dbb38dd3b77459c2a31e3659625e36",
+      "hash": "5de5c7ab4d36fa24155c84aa08660fa8d387ba2693a08234fbe2a493ef0e22b4",
       "title": "CineWhoop - GEPRC CineBot30 - PID",
       "firmware_version": [
         "4.5"
@@ -1194,7 +1194,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog20_pid.txt",
-      "hash": "d83a914d4894be95c4f7f928c5a86bfe1a0854437a391dab41edc1c749ac7327",
+      "hash": "c47502d38467f47678686b76dd302e37b91a707994e1b31ad779bcd57d4a44ae",
       "title": "CineWhoop - GEPRC Cinelog20 - PID",
       "firmware_version": [
         "4.5"
@@ -1224,7 +1224,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog25_pid.txt",
-      "hash": "84eeae10f527e68130c5fd2bb215efa51479beccd5e488030a9d74f90902ca7e",
+      "hash": "9f24cb88331007f967a12f4241cd8e405e04eb72843d05b26c3107b604cca801",
       "title": "CineWhoop - GEPRC Cinelog25 - PID",
       "firmware_version": [
         "4.5"
@@ -1254,7 +1254,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog30_pid.txt",
-      "hash": "313754609540d009c0bca0813fe2568903a91f70640225b52a5c5cad528692b3",
+      "hash": "3453dc7c99e8987efa1439631da7eeb64fa1b10bf7505803265f66a3ff39eb23",
       "title": "CineWhoop - GEPRC Cinelog30 - PID",
       "firmware_version": [
         "4.5"
@@ -1284,7 +1284,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog35_pid.txt",
-      "hash": "c987319fb244e0f8f1b86c8dabd402de9deff0a812824ee38b902689247a100f",
+      "hash": "9a094087d5c78aa58d32af5ca5a181c616073582c91f4ba7521b17ad33afd23b",
       "title": "CineWhoop - GEPRC Cinelog35 - PID",
       "firmware_version": [
         "4.5"
@@ -1314,7 +1314,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_rocket_pid.txt",
-      "hash": "209082e99adc5c0c75e9778eefa906d22a38ddc746fe20d1c3ff11f5b31f01d9",
+      "hash": "ead30b371d9b53ae3d236b58f8d4d82e58a750cf27bac0d11cee3814c376a82f",
       "title": "CineWhoop - GEPRC Rocket - PID",
       "firmware_version": [
         "4.5"
@@ -1344,7 +1344,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_thinking_p16_pid.txt",
-      "hash": "d399c7edca8746ea94d40b86aa569f3298de75104bf53619ccd881ccb393e309",
+      "hash": "5c8b16294d16fe0c5734513208bc2f081ee71754efe78638fd4d992e8f0f02e6",
       "title": "CineWhoop - GEPRC Thinking P16 - PID",
       "firmware_version": [
         "4.5"
@@ -1374,7 +1374,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_hglrc_talon2_pid.txt",
-      "hash": "86852e3ef519f856ce4a7f6248cf764043e2b6deb3d1e00d80789bffc984ac2a",
+      "hash": "9b0b50bd9959b1a5bceb59491996e0c0d9e87c3b9449cf3fb4abe42736cbd53d",
       "title": "CineWhoop - HGLRC Talon2 - PID",
       "firmware_version": [
         "4.5"
@@ -1404,7 +1404,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a65_pid.txt",
-      "hash": "968d381812aa9a7e9d7987e684d2419e6d38e98c31034363e58fc828a02c124d",
+      "hash": "e9b24b0383671d14d30ca74eb0e9d5ac499a19da22d03749fc98c9866df55592",
       "title": "CineWhoop - iFlight Alpha A65 - PID",
       "firmware_version": [
         "4.5"
@@ -1434,7 +1434,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a75_pid.txt",
-      "hash": "a8db77e755a83fe60eaf4b33c46add02e7c795459c22b8d9961840378951a974",
+      "hash": "ba297c3708500f56ea086aa1df5a2ff370a218b10e3f869344afa7d4beeb114c",
       "title": "CineWhoop - iFlight Alpha A65 - PID",
       "firmware_version": [
         "4.5"
@@ -1464,7 +1464,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a85_pid.txt",
-      "hash": "8a77beb9629fa6156270f55689c8025efff92d2f7a67c6fd01f1e39671818ca2",
+      "hash": "147ac7ab6c514c1cea231a16f35841f2251dfb48dbc38b462a51210a4970f87e",
       "title": "CineWhoop - iFlight Alpha A85 - PID",
       "firmware_version": [
         "4.5"
@@ -1494,7 +1494,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_bumblebee_pid.txt",
-      "hash": "903555e7f4674a88b28a26c655287c7d8ac482388fb3653456f132a294677fe5",
+      "hash": "f6bda2063e7e2547848ffca7d56778694184f7dd14d6fc793d9da7acffd7e51d",
       "title": "CineWhoop - iFlight BumbleBee - PID",
       "firmware_version": [
         "4.5"
@@ -1524,7 +1524,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_protek25_pid.txt",
-      "hash": "15a4beb5724a739818dd22b24ead8857440c5f5849260719cdec0c756fc78183",
+      "hash": "a5c59d73033e600864d0ca90920a810c93af45ead3c83bc29cd533727bb01be6",
       "title": "CineWhoop - iFlight Protek25 - PID",
       "firmware_version": [
         "4.5"
@@ -1554,7 +1554,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_protek35_pid.txt",
-      "hash": "690e7368c853360525a42bd9afa266d9ac7a79fa452c9801a957656113a08f39",
+      "hash": "3785e0342258bd83383a123281eeabeb6d2e5e22993bf5d7bb37d1c707b8e3f8",
       "title": "CineWhoop - iFlight Protek35 - PID",
       "firmware_version": [
         "4.5"
@@ -1584,7 +1584,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_speedybee_bee25_pid.txt",
-      "hash": "dfb0f11d241c5b01a8e5da0875955abd473793c8d8614d8c056cefa794604963",
+      "hash": "06a791d5f2e29f5f4b529bdecb27e046080dae74d2434676c6e0899d4ed757a6",
       "title": "CineWhoop - SpeedyBee Bee25 - PID",
       "firmware_version": [
         "4.5"
@@ -1614,7 +1614,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta36_pid.txt",
-      "hash": "4f9dea888f323fc6daab4d67a4ca656e825fc667a00bdae01bc1e1dc1f1f51b1",
+      "hash": "892745a243e984dd3895165f19b4848eefff9dc4ee0db5a1d0ecbeed7945a64e",
       "title": "FreeStyle - AxisFlying Manta36 - PID",
       "firmware_version": [
         "4.5"
@@ -1644,7 +1644,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta5se_pid.txt",
-      "hash": "0114e27cf3383502230b47b80ba697f38da2b08b9691ca12511a636586fd96ed",
+      "hash": "379a917e452929fcc7a48b7247caa4fcab8f20b87da2fc668e6c5c1bf63e2784",
       "title": "FreeStyle - AxisFlying Manta5 SE - PID",
       "firmware_version": [
         "4.5"
@@ -1674,7 +1674,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta5_pid.txt",
-      "hash": "b9f5d46509d9bb8c1574b0d78f3dba1f9d3de99e92719f785c9f4cc44da3b3ce",
+      "hash": "0f2600096bd3f2e61aa382e4b8c5d08bf6960a6c31463737ffa5964ab68ad8e0",
       "title": "FreeStyle - AxisFlying Manta5 - PID",
       "firmware_version": [
         "4.5"
@@ -1704,7 +1704,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta6_pid.txt",
-      "hash": "abc7d2eaf7033c61667df9275cdce6298e33789ba7e0d1410c787f7671837a0e",
+      "hash": "1981d040f37f69510d003b038c17a1fd6e357f0aafb9ed3e7b27c5193fb3843e",
       "title": "FreeStyle - AxisFlying Manta6 - PID",
       "firmware_version": [
         "4.5"
@@ -1734,7 +1734,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera4_pid.txt",
-      "hash": "0a25d519af5d650dbb130ae9eea40c6130e7302b204fafe572ce7c469ac2f515",
+      "hash": "52ccd52b4194ed5b6c3b65bbd74e3df968d2f5f2c99baab08bab6e5715433e2c",
       "title": "FreeStyle - iFlight Chimera4 - PID",
       "firmware_version": [
         "4.5"
@@ -1764,7 +1764,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera5_pid.txt",
-      "hash": "8ee8a58e611802abbae8359bd4faf5f7e303df0bed5dd8174c0764514e3f7283",
+      "hash": "dbfb454aa9cb99e75a710a2e443c128f20681de1f295644e4be8d082f20c34ee",
       "title": "FreeStyle - iFlight Chimera5 - PID",
       "firmware_version": [
         "4.5"
@@ -1794,7 +1794,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera7_pid.txt",
-      "hash": "8349ad09a75a7b7eb82d2a25ff0703308c4c27fd1acf169f096f74b43f3fe30f",
+      "hash": "8bca377bb8ac35a25b516e9f84d41b1e85071ad464bdfa8cb3bf488f1a10aed7",
       "title": "FreeStyle - iFlight Chimera7 - PID",
       "firmware_version": [
         "4.5"
@@ -1824,7 +1824,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_evoque_f5_pid.txt",
-      "hash": "a6c812d27e6c4e1d14d2c59dfd149d81c9952e7bfcacca8b77bb74496a86d0c5",
+      "hash": "8dd3976309a34912870368dd1d4f69be3b6c7b135f17cd29b6ac8e4806e9f0b4",
       "title": "FreeStyle - iFlight Evoque F5 - PID",
       "firmware_version": [
         "4.5"
@@ -1854,7 +1854,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_evoque_f6_pid.txt",
-      "hash": "af1ef2ab15f1343808342b98de955006fd9c5844e077a3d52eae2429c152d8aa",
+      "hash": "b37af501b0c38705f2bfcc7706e074f09032c6ffd5cc941b07cf55ec40b26e1e",
       "title": "FreeStyle - iFlight Evoque F6 - PID",
       "firmware_version": [
         "4.5"
@@ -1884,7 +1884,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_nazgul_eco5_pid.txt",
-      "hash": "f5f2c24359b6a8eab9b3216f178e0b794694c936e84eb508cddbe4d3a2991fb9",
+      "hash": "19e6fe0d928b3ff0656a2309099f08c37ed2601b8de08dc87347b27306cbe305",
       "title": "FreeStyle - iFlight Nazgul ECO F5 - PID",
       "firmware_version": [
         "4.5"
@@ -1914,7 +1914,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_nazgul_xl5_pid.txt",
-      "hash": "9b23c5bb9b2b16dcd6863960befaf769c0f23f5599975bc6bcf4e88b99a8b63c",
+      "hash": "69086edb0981db89489b589676c1e4fe6f12c33f79a15e104baa9810b2e221d9",
       "title": "FreeStyle - iFlight Nazgul XL5 - PID",
       "firmware_version": [
         "4.5"
@@ -1944,7 +1944,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_speedybee_mario5_pid.txt",
-      "hash": "385957157b63fbefaed57eb2cade418ae769fab98e615b47ee24d5f0b0b66259",
+      "hash": "3cf87cc20eca1baf0ff94e83ff576984c38070be5e505ac2131c7bdd5f683a61",
       "title": "FreeStyle - SpeedyBee Mario5 - PID",
       "firmware_version": [
         "4.5"
@@ -1974,7 +1974,7 @@
     },
     {
       "fullPath": "presets/pid/freestyle_speedybee_master5_pid.txt",
-      "hash": "426ff1548d01bab135fe0300fd1d69bf867c67c17d71e11ab78c0606770aa039",
+      "hash": "d236468250ca0102e336b66b110742538c7a8f682f007b5742cd7d99dcd94056",
       "title": "FreeStyle - SpeedyBee Master5 - PID",
       "firmware_version": [
         "4.5"
@@ -2004,7 +2004,7 @@
     },
     {
       "fullPath": "presets/pid/pid_micowhoop_sugark.txt",
-      "hash": "6fb89f3a606c95bd4e9c476f829b537cba45a5b8cca9df06269f74ecf60d6a5e",
+      "hash": "a88affaef2c96e756b72ebe866f84ac1b79bcfc79d0d99594095fbd0bf4a551d",
       "title": "MicroWhoop SugarK",
       "firmware_version": [
         "4.5"
@@ -2019,7 +2019,7 @@
     },
     {
       "fullPath": "presets/pid/pid_racewhoop_freshbread.txt",
-      "hash": "d22cb32b15507f157a48b07fdbb3d2cb51d0a1564d66057e86278b248a927da0",
+      "hash": "7674c9a8dfd723f5c0c2090e8fe8f520a2aad05c11f86bf89dd0b92d8cf97290",
       "title": "RaceWhoop FreshBread",
       "firmware_version": [
         "4.5"
@@ -2034,7 +2034,7 @@
     },
     {
       "fullPath": "presets/pid/pid_racewhoop_sugark.txt",
-      "hash": "bec9fad2cc33f7bfecca0c00c4632201e4420a4a3940715ba86ea90e6c7aae2d",
+      "hash": "0450cd1a21ba5ef6f0b4643767f45713695849ac2a34f0b1b87abb4c677e3526",
       "title": "RaceWhoop SugarK",
       "firmware_version": [
         "4.5"

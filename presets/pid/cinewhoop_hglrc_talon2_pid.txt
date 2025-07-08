@@ -8,6 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
 
+set profile_name = Talon2
 set simplified_pids_mode = RPY
 set simplified_d_gain = 170
 set simplified_pi_gain = 185
