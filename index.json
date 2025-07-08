@@ -153,6 +153,7 @@
       "akk",
       "betafpv",
       "caos",
+      "darwinfpv",
       "eachine",
       "ewrf",
       "factory",
@@ -2627,6 +2628,20 @@
       "keywords": [
         "vtx",
         "caos"
+      ]
+    },
+    {
+      "fullPath": "presets/vtx/vtx_darwinfpv.txt",
+      "hash": "93d18c2abee9e3d2dd8b770466f990377359318c5ff0040c1e7028e04894f59d",
+      "title": "DarwinFPV",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "darwinfpv"
       ]
     },
     {

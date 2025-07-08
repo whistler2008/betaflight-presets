@@ -1,0 +1,110 @@
+#$ TITLE: DarwinFPV
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: vtx, darwinfpv
+#$ DESCRIPTION: DarwinFPV VTX settings
+
+
+#$ OPTION_GROUP BEGIN: Series
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV VT5804 400mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 0 1 2 3 4
+vtxtable powerlabels 25 50 100 200 400
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV VT5804 1000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 200 800 1K0
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV 600mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV 1200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 400 800 1K2
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV 2500mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 0 1 2 3 4
+vtxtable powerlabels 25 400 800 1K5 2K5
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV AKK 1200mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 200 400 800 1K6
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV Hulk 600mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 25 200 400 600
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV Cement 1000mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 200 800 1K0
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DarwinFPV Cement 2500mW (SA 2.0)
+#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 0 1 2 3
+vtxtable powerlabels 200 800 1K0 2K5
+
+# vtx setting
+set vtx_power = 4
+#$ OPTION END
+
+#$ OPTION_GROUP END
