@@ -8,7 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
 
-set profile_name = CineON35
+set craft_name = CineON35
 set simplified_pids_mode = RPY
 set simplified_d_gain = 105
 set simplified_pi_gain = 85

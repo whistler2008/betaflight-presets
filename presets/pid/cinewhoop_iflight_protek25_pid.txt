@@ -8,7 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
 
-set profile_name = Protek25
+set craft_name = Protek25
 set simplified_pids_mode = RPY
 set simplified_d_gain = 200
 set simplified_pi_gain = 145

@@ -8,7 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
 
-set profile_name = Alpha A65
+set craft_name = Alpha A65
 set simplified_pids_mode = RPY
 set simplified_d_gain = 160
 set simplified_pi_gain = 175

@@ -13,10 +13,9 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (UNCHECKED): CRAFT Name
-# CRAFT Name #
+#$ OPTION BEGIN (UNCHECKED): Pilot Name
+# Pilot Name #
 
-set craft_name = FREESTYLE
 set pilot_name = FREESTYLE
 #$ OPTION END
 

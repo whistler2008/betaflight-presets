@@ -8,7 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
 
-set profile_name = Manta5 SE
+set craft_name = Manta5 SE
 set simplified_pids_mode = RPY
 set simplified_d_gain = 175
 set simplified_pi_gain = 115

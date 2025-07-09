@@ -8,7 +8,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
 
-set profile_name = BumbleBee
+set craft_name = BumbleBee
 set simplified_pids_mode = RPY
 set simplified_d_gain = 130
 set simplified_pi_gain = 135
