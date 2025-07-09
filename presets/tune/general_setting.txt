@@ -15,12 +15,6 @@ feature -LED_STRIP
 
 #$ OPTION_GROUP BEGIN: General Setting
 
-#$ OPTION BEGIN (UNCHECKED): LED
-# LED Setting #
-
-#$ INCLUDE: presets/led/led_blink.txt
-#$ OPTION END
-
 #$ OPTION BEGIN (CHECKED): Beeper
 # Beeper Setting #
 
@@ -70,6 +64,24 @@ set pidsum_limit_yaw = 1000
 
 set mixer_type = EZLANDING
 set ez_landing_limit = 5
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: General Setting
+
+#$ OPTION BEGIN (UNCHECKED): LED Blink
+# LED Setting #
+
+#$ INCLUDE: presets/led/led_blink.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LED Green
+# LED Setting #
+
+#$ INCLUDE: presets/led/led_green.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

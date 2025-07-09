@@ -454,8 +454,22 @@
     },
     {
       "fullPath": "presets/led/led_blink.txt",
-      "hash": "7882884d49232d18beacb780e50c7fef7802e1a3f43610d7b84deb6dbab7763f",
-      "title": "Custom LED settings",
+      "hash": "527f72ec52cea62973d3d8e2669d2b9b904f980ed40895c0d384d69a9e9666a4",
+      "title": "Custom LED Blink",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "LED",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/led/led_green.txt",
+      "hash": "de863dd4905ac22063d5147b05baa2bd1df8c8d698a93fd3167a84e000939590",
+      "title": "Custom LED Green",
       "firmware_version": [
         "4.5"
       ],
@@ -2470,7 +2484,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "15b454d8622145699d96e0bf86043deb2ade6942e610b8b39be3fcf83d8779cb",
+      "hash": "6fd05eb64fabe638b417ac7a39074890e34265e5e7f84ea846278ede31a1a22d",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
