@@ -412,7 +412,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
-      "hash": "e7e5ec8f76e6a54048b19ddda470a9f17034ffcce3c8c7ff0de80341fca68f49",
+      "hash": "4494f14e2db9f242851c42fc0bb972b254c0593682a84e31053326b1346f3e93",
       "title": "CLEAN D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -440,7 +440,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_normal.txt",
-      "hash": "47713d37134512a9c28a05cff2a80317ff31d32d354affec9d22befa97f46ea5",
+      "hash": "d7bb4c67531dc0fe9bafb559487a9a71354b8e93dbc03726756bef62d2c3b152",
       "title": "Normal D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -806,7 +806,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_bmi.txt",
-      "hash": "943575666cfd99a9fc079abd7541f4d7ab96fdfca16333729ade1de2948d0d56",
+      "hash": "354d0885fa1cd66e24dd831636563b5b89752bdd0acf9f747eed8932048380e9",
       "title": "Gyro BMI",
       "firmware_version": [
         "4.5"
@@ -820,7 +820,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_mpu_icm.txt",
-      "hash": "3d66f9177d33c935115373aaf2ff20c16875d90d3211d201623481569fc1bf99",
+      "hash": "c04dc65e3e3a58afef34063c91988e1351579c80d04c606368f6ce0f2e5b78c2",
       "title": "Gyro MPU & ICM",
       "firmware_version": [
         "4.5"
@@ -1823,6 +1823,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_iflight_cidora_sl5_filter.txt",
+      "hash": "e5b40b3cc269fb0cdd0c1f0de8934035ce16bcbd823fd20132231cd10e5e720b",
+      "title": "FreeStyle - iFlight Cidora SL5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_cidora_sl5_pid.txt",
+      "hash": "bf0c567d1f02f3aef5b07fc34aae96d8562ba8a254ae5c141dd6ddd7813a582b",
+      "title": "FreeStyle - iFlight Cidora SL5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_iflight_evoque_f5_filter.txt",
       "hash": "33e2a22f9b3c8b899ca09a5d1ff11cb9f918bfa092eee62479bc771aa1b4eca4",
       "title": "FreeStyle - iFlight Evoque F5 - Filter",
@@ -1931,6 +1961,36 @@
       "fullPath": "presets/pid/freestyle_iflight_nazgul_xl5_pid.txt",
       "hash": "5508738117593c75c7584f23cb9fa9abad33927590b5e248f80441a4946b5907",
       "title": "FreeStyle - iFlight Nazgul XL5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_turbobee_160rs_filter.txt",
+      "hash": "f78a5b715eef56236ea5f3d4c8f5fadd168aa581bdbd60d0b4011c279b278dfd",
+      "title": "FreeStyle - iFlight TurboBee 160RS - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_turbobee_160rs_pid.txt",
+      "hash": "79636ebe4a5803bc189b186c4662d9c842650056b8b4dc7184d388f4d6325f39",
+      "title": "FreeStyle - iFlight TurboBee 160RS - PID",
       "firmware_version": [
         "4.5"
       ],
@@ -2484,7 +2544,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "6fd05eb64fabe638b417ac7a39074890e34265e5e7f84ea846278ede31a1a22d",
+      "hash": "98bc8fbfd1f2bc303690e98a32aa31f89f15734daf99c13daddbfcac5d790a8e",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
@@ -2514,7 +2574,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "93bb1b118d85b5e3fbf73f3600c98556fdb2700f5e296e3cde5aaaa9aa83dd23",
+      "hash": "f2b1ff2253b282cb37c2170c861974ee37352a4b1dd9ced59715456ec95ecd68",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
