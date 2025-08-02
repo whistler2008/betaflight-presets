@@ -806,7 +806,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_bmi.txt",
-      "hash": "354d0885fa1cd66e24dd831636563b5b89752bdd0acf9f747eed8932048380e9",
+      "hash": "9beccc3a1f8ed5cdb276d65087c687e7285db3a53500250958d74837f5bf738d",
       "title": "Gyro BMI",
       "firmware_version": [
         "4.5"
@@ -820,7 +820,7 @@
     },
     {
       "fullPath": "presets/other/other_gyro_mpu_icm.txt",
-      "hash": "c04dc65e3e3a58afef34063c91988e1351579c80d04c606368f6ce0f2e5b78c2",
+      "hash": "18f155454190dd2e41cc1f1422931f9bb8e8e14f59304bcaa9c8e06748194b50",
       "title": "Gyro MPU & ICM",
       "firmware_version": [
         "4.5"
