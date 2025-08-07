@@ -1,9 +1,9 @@
-#$ TITLE: Gyro BMI
+#$ TITLE: Gyro BMI - High Filter
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: Setting for BMI Gyro
+#$ DESCRIPTION: Setting for BMI Gyro - High Filter
 #$ HIDDEN: true
 
 # master

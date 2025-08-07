@@ -1,0 +1,13 @@
+#$ TITLE: Gyro MPU & ICM - Normal Filter
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: Setting for MPU & ICM Gyro - Normal Filter
+#$ HIDDEN: true
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 800
+set gyro_lpf1_dyn_min_hz = 0
+set simplified_gyro_filter_multiplier = 160

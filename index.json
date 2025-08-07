@@ -453,6 +453,62 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/gyro/gyro_bmi.txt",
+      "hash": "eedb4747c2d26181787db460a10f09949f02dddeb9d9ee7a2219038314165ecb",
+      "title": "Gyro BMI - Normal Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/gyro/gyro_bmi_high.txt",
+      "hash": "30e403a77dad40175d807f8a91c66bfbfbbd8c772e66947220524116c04c9af1",
+      "title": "Gyro BMI - High Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/gyro/gyro_mpu_icm.txt",
+      "hash": "e8f17727f3f24bb70e17a97b2c23d6e74a3098a74baf54ad86a4e8ead920b472",
+      "title": "Gyro MPU & ICM - Normal Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/gyro/gyro_mpu_icm_high.txt",
+      "hash": "bb0e9cf3bfb7f6d536dd5848d47b377fab867786e2926493358e64118a2bccda",
+      "title": "Gyro MPU & ICM - High Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
       "fullPath": "presets/led/led_blink.txt",
       "hash": "527f72ec52cea62973d3d8e2669d2b9b904f980ed40895c0d384d69a9e9666a4",
       "title": "Custom LED Blink",
@@ -803,34 +859,6 @@
       ],
       "hidden": true,
       "priority": 0
-    },
-    {
-      "fullPath": "presets/other/other_gyro_bmi.txt",
-      "hash": "9beccc3a1f8ed5cdb276d65087c687e7285db3a53500250958d74837f5bf738d",
-      "title": "Gyro BMI",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/other/other_gyro_mpu_icm.txt",
-      "hash": "18f155454190dd2e41cc1f1422931f9bb8e8e14f59304bcaa9c8e06748194b50",
-      "title": "Gyro MPU & ICM",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon20_filter.txt",
@@ -2544,7 +2572,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "98bc8fbfd1f2bc303690e98a32aa31f89f15734daf99c13daddbfcac5d790a8e",
+      "hash": "887f86210b5d32c30844b78069e82e9f91b22a51cce945740d4d1e63c6d19b28",
       "title": "General Setting",
       "firmware_version": [
         "4.5"

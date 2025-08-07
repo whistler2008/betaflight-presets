@@ -194,16 +194,28 @@ set crash_recovery = DISARM
 
 #$ OPTION_GROUP BEGIN: Gyro Filter
 
-#$ OPTION BEGIN (UNCHECKED): BMI
-# BMI Gyro Setting #
+#$ OPTION BEGIN (UNCHECKED): BMI - Normal Filter
+# BMI Gyro - Normal Filter Setting #
 
-#$ INCLUDE: presets/other/other_gyro_bmi.txt
+#$ INCLUDE: presets/gyro/gyro_bmi.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): MPU & ICM
-# MPU & ICM Gyro Setting #
+#$ OPTION BEGIN (UNCHECKED): BMI - High Filter
+# BMI Gyro - High Filter Setting #
 
-#$ INCLUDE: presets/other/other_gyro_mpu_icm.txt
+#$ INCLUDE: presets/gyro/gyro_bmi_high.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): MPU & ICM - Normal Filter
+# MPU & ICM Gyro - Normal Filter Setting #
+
+#$ INCLUDE: presets/gyro/gyro_mpu_icm.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): MPU & ICM - High Filter
+# MPU & ICM Gyro - High Filter Setting #
+
+#$ INCLUDE: presets/gyro/gyro_mpu_icm_high.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -419,7 +431,6 @@ rateprofile 0
 #$ OPTION BEGIN (UNCHECKED): Analog
 #$ INCLUDE: presets/osd/osd_analog_gps.txt
 #$ INCLUDE: presets/modes/aux_gps.txt
-set altitude_source = GPS_ONLY
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
@@ -449,7 +460,32 @@ set altitude_source = GPS_ONLY
 #$ OPTION BEGIN (UNCHECKED): Digital HDZero
 #$ INCLUDE: presets/osd/osd_hd_hdzero_gps.txt
 #$ INCLUDE: presets/modes/aux_gps.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: Altitude Sensor Source
+
+#$ OPTION BEGIN (UNCHECKED): BARO & GPS
+# Altitude Sensor Source - BARO & GPS #
+
+set altitude_source = DEFAULT
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Barometer Only
+# Altitude Sensor Source - Barometer Only #
+
+set altitude_source = BARO_ONLY
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): GPS Only
+# Altitude Sensor Source - GPS Only #
+
 set altitude_source = GPS_ONLY
 #$ OPTION END
 
 #$ OPTION_GROUP END
+
+#--------------------------------------------------#

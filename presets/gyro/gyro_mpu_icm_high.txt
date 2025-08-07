@@ -1,9 +1,9 @@
-#$ TITLE: Gyro MPU & ICM
+#$ TITLE: Gyro MPU & ICM - High Filter
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: Setting for MPU & ICM Gyro
+#$ DESCRIPTION: Setting for MPU & ICM Gyro - High Filter
 #$ HIDDEN: true
 
 # master
