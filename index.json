@@ -524,7 +524,7 @@
     },
     {
       "fullPath": "presets/led/led_green.txt",
-      "hash": "de863dd4905ac22063d5147b05baa2bd1df8c8d698a93fd3167a84e000939590",
+      "hash": "00011f575a460abe7a31060408979ad3c0d04bf735e249746cc45fb7bbbb3279",
       "title": "Custom LED Green",
       "firmware_version": [
         "4.5"
@@ -2572,7 +2572,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "887f86210b5d32c30844b78069e82e9f91b22a51cce945740d4d1e63c6d19b28",
+      "hash": "b0fd13f2f602f6ac3547a163fe30a2b2bb246b81be409db0fa320018cd4d588d",
       "title": "General Setting",
       "firmware_version": [
         "4.5"

@@ -468,8 +468,8 @@ set altitude_source = GPS_ONLY
 
 #$ OPTION_GROUP BEGIN: Altitude Sensor Source
 
-#$ OPTION BEGIN (UNCHECKED): BARO & GPS
-# Altitude Sensor Source - BARO & GPS #
+#$ OPTION BEGIN (CHECKED): Default
+# Altitude Sensor Source - Default #
 
 set altitude_source = DEFAULT
 #$ OPTION END
