@@ -2376,7 +2376,7 @@
     },
     {
       "fullPath": "presets/rates/rates_fast.txt",
-      "hash": "112e37145b2c88e23f4fab46322600d5b330178e5c953e8d6413410c2b1da410",
+      "hash": "9bb42be1ff9f2e4a1107201c2ceceab4bdb5f6af3a7884fbc016b962b1a47dd2",
       "title": "Fast Rate Profile",
       "firmware_version": [
         "4.5"
@@ -2390,7 +2390,7 @@
     },
     {
       "fullPath": "presets/rates/rates_medium.txt",
-      "hash": "0bf191fb8818b8386232229ce7c887ca5cdcac44b0c1596c505b35a555832237",
+      "hash": "90618092b5ef72ab8ba9c0d18d760b1ecc85ccaa9a429444f92a18fe3a74575a",
       "title": "Medium Rate Profile",
       "firmware_version": [
         "4.5"
@@ -2404,7 +2404,7 @@
     },
     {
       "fullPath": "presets/rates/rates_slow.txt",
-      "hash": "418fe657cf85feba17282bec804e97a4aab0919ab6eea5d5961a962393d6d55d",
+      "hash": "a5ed5632f8b1fe077a220dc9026d363adeadd552205c28fe384b9f439a334d28",
       "title": "Slow Rate Profile",
       "firmware_version": [
         "4.5"
