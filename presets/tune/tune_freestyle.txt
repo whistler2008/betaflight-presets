@@ -98,6 +98,26 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: GEPRC
+
+#$ OPTION BEGIN (UNCHECKED): GEPRC Mark5
+# GEPRC Mark5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_geprc_mark5_filter.txt
+
+# GEPRC Mark5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_geprc_mark5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: iFlight
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Chidora SL5

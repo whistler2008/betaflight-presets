@@ -1761,6 +1761,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_geprc_mark5_filter.txt",
+      "hash": "4524a357dca9065239d8d61c613db2f756c19934b0193d815c5d826f6c5daed3",
+      "title": "FreeStyle - iFlight Evoque F5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_geprc_mark5_pid.txt",
+      "hash": "069f84b6f9980b69c4e6b6341d9db960ed7b7510481379d6d35f6805eb7d9790",
+      "title": "FreeStyle - iFlight Evoque F5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_iflight_chimera4_filter.txt",
       "hash": "e638a273f9705ac1a95dec69e9b719bdee021dc88da093e8e9fb77fd0aead1c4",
       "title": "FreeStyle - iFlight Chimera4 - Filter",
@@ -2602,7 +2632,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "f2b1ff2253b282cb37c2170c861974ee37352a4b1dd9ced59715456ec95ecd68",
+      "hash": "894021bdab9abf554739241fe7880d93e7c49c4b5dc51a415c508a8f2fa3fb4e",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
