@@ -2091,6 +2091,126 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/microwhoop_betafpv_air65_filter.txt",
+      "hash": "28a95b3171715c945642588b0ba9a2b53d7bb8b288f9020cfe2b8235ed29427e",
+      "title": "MicroWhoop - BetaFPV Air65 1S - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/microwhoop_betafpv_air65_pid.txt",
+      "hash": "90414981d9d5852576553e8297d3c1ece0e9028f747efe274e30cd9d4517b34e",
+      "title": "MicroWhoop - BetaFPV Air65 1S - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/microwhoop_betafpv_air75_filter.txt",
+      "hash": "089687a032a1439ea4389587a482c6de69bc26b0a93e4541e344f90ff701d907",
+      "title": "MicroWhoop - BetaFPV Air75 1S - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/microwhoop_betafpv_air75_pid.txt",
+      "hash": "ae01336def7015d3197d49ec5af3019f3c9c08368561f5c288f4c26824aef9c7",
+      "title": "MicroWhoop - BetaFPV Air75 1S - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/microwhoop_betafpv_meteor65_filter.txt",
+      "hash": "69794ead38eaf8fffde8280aca514e84c9715a9a5d5924a043638f4ab0a93285",
+      "title": "MicroWhoop - BetaFPV Meteor65 1S - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/microwhoop_betafpv_meteor65_pid.txt",
+      "hash": "cd2783c7ac1d9839ce06b7291375b93d2e368fa8a14bc7fd1d69317d82afcb50",
+      "title": "MicroWhoop - BetaFPV Meteor65 1S - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/microwhoop_betafpv_meteor75_filter.txt",
+      "hash": "5cc19c500957744a5497b8f7a26d339b43855d9f764310974559a19c3f491e02",
+      "title": "MicroWhoop - BetaFPV Meteor75 1S - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/microwhoop_betafpv_meteor75_pid.txt",
+      "hash": "0a58e1261cbd8e3c503eb9e24e0a4081f579db6bfa8ec8b378dd66a579ea789a",
+      "title": "MicroWhoop - BetaFPV Meteor75 1S - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/pid_default.txt",
       "hash": "2bedb1463dd619944e34da12c11401cd8447c75380bf8843d28abe6b660af8c8",
       "title": "Default PID",
@@ -2106,22 +2226,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/pid_micowhoop_sugark.txt",
-      "hash": "0310ea9f777f12193f180012e33d5f247c701a7ea121f8c9467cd4aa5df801d3",
-      "title": "MicroWhoop SugarK",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/pid_racewhoop_freshbread.txt",
+      "fullPath": "presets/pid/racewhoop_freshbread.txt",
       "hash": "3cf0b1086b2776adc9cb6727802b2a071cc4691f4453edd0b43ecb82361e57ed",
       "title": "RaceWhoop FreshBread",
       "firmware_version": [
@@ -2136,7 +2241,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/pid_racewhoop_sugark.txt",
+      "fullPath": "presets/pid/racewhoop_sugark.txt",
       "hash": "3d1ae1f6fd6fd75680f5e03b2b8144610e9766510b51d26b1bba47bbd83c8498",
       "title": "RaceWhoop SugarK",
       "firmware_version": [
@@ -2151,204 +2256,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/pid_sbang_blackbird.txt",
+      "fullPath": "presets/pid/sbang_blackbird.txt",
       "hash": "f5d57a801bb27315c798f8be9454b7fe9231044089edddb274af225bb6b88e66",
       "title": "SBANG BlackBird",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_3s.txt",
-      "hash": "c3d2e13dad711dec1b715f253f9758df3897e10abc230efeb7c1b14dd4334002",
-      "title": "Race 3S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_4s.txt",
-      "hash": "8cacd0110bbe7c7bafa2068296460f811e21f7ea6739c568e3546189c93b6e22",
-      "title": "Race 4S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/race_6s.txt",
-      "hash": "418cedbbef6fbc1d84702b88d1b3e31a6cc7230edc6c15ec6163ca935cde2fdf",
-      "title": "Race 6S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/cinewhoop_1s.txt",
-      "hash": "d2c6578c402249c273d58dcd667d996a29f907e84f732be16d8470af476649f6",
-      "title": "Cinewhoop 1S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/cinewhoop_2s.txt",
-      "hash": "85c36c70c09665fae7317074dc40a50c99d5c5c541db6b25206b127a9d2a27fc",
-      "title": "Cinewhoop 2S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/cinewhoop_3s.txt",
-      "hash": "cb6eedf04243c4a9aa92cf33126184072b5191ee46ae95580ccfdfa81f66d8e3",
-      "title": "Cinewhoop 3S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/cinewhoop_4s.txt",
-      "hash": "ae13c39eafc4c59454a4b2c7e170eb99241aac15e6c038261b6961032ff44f1a",
-      "title": "Cinewhoop 4S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/cinewhoop_6s.txt",
-      "hash": "32bb96d6f1f8232d7a1a11fdfb305e880eae9c68985cd77c3cafe490f249101c",
-      "title": "Cinewhoop 6S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/freestyle_1s.txt",
-      "hash": "4653318c404f71ae5d9a5e20eeefe9ff8c2b486bd529b4a088b44daa15d0969d",
-      "title": "Freestyle 1S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/freestyle_2s.txt",
-      "hash": "0939c58967e17eccb4b8550ec98e42b1462aa974439043123fb49b1439c8c100",
-      "title": "Freestyle 2S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/freestyle_3s.txt",
-      "hash": "a61eb883d00b8b3223e99e2627085ecbf988badbb2c3959e304fb01ad6ec71f9",
-      "title": "Freestyle 3S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/freestyle_4s.txt",
-      "hash": "9de241b548880825271e8fb00a415ecb5cb3748c8490af966724da5802087d9c",
-      "title": "Freestyle 4S",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/temp/freestyle_6s.txt",
-      "hash": "b0b80735467b7606113a14fe31e4e7702d8ce2d90eb7104eb246cca646366999",
-      "title": "Freestyle 6S",
       "firmware_version": [
         "4.5"
       ],
@@ -2646,6 +2556,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/tune/tune_microwhoop.txt",
+      "hash": "6da84aceb135cb18597f2eb43e4314a96eab5f258de26f046464cd447e2b805c",
+      "title": "MicroWhoop Tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/tune/tune_mockingbrid_40.txt",
       "hash": "c252f7679dc4d91979782380b65f4f17a898a55d54f6702330b0d16f01ab4e0b",
       "title": "MockingBird 1-2S F3 (Betaflight 4.0)",
@@ -2676,23 +2601,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/tune/tune_race.txt",
-      "hash": "517c963c16f580c21a3587b7a4fd75b782eda632e1e02578ac2ce2358401d251",
-      "title": "Race Tune",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "7face8aa97190dc73b6e87b94d32047e3c4a79a3aad0bfe4b8278ab0db318e52",
+      "hash": "df4debdc38d6cf1d1028cc49a950f60cfe3c3937a561394dc96658caefd21388",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -2707,7 +2617,7 @@
     },
     {
       "fullPath": "presets/tune/tune_sbang.txt",
-      "hash": "c945813cc80b5e87c3e354096862308db7c7693d6858f20c3837aebcfa0e5126",
+      "hash": "1d5087f4ae875f803f5e3be225d48ace84c0ff185cdb433eb35741d04578d844",
       "title": "SBang Tune",
       "firmware_version": [
         "4.5"

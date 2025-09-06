@@ -1,10 +1,10 @@
-#$ TITLE: Race Tune
+#$ TITLE: MicroWhoop Tune
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: Race Tune
+#$ DESCRIPTION: MicroWhoop Tune
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -16,45 +16,82 @@
 #$ OPTION BEGIN (UNCHECKED): Pilot Name
 # Pilot Name #
 
-set pilot_name = RACE
+set pilot_name = MicroWhoop
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): CAM Angle 30%
-# CAM Angle 30% #
+#$ OPTION BEGIN (CHECKED): CAM Angle 10%
+# CAM Angle 10% #
 
-set fpv_mix_degrees = 30
+set fpv_mix_degrees = 10
 set small_angle = 180
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): RC Smoothing 30
-# RC Smoothing 30 #
+#$ OPTION BEGIN (CHECKED): RC Smoothing 60
+# RC Smoothing 60 #
 
-set rc_smoothing_auto_factor = 30
+set rc_smoothing_auto_factor = 60
 #$ OPTION END
 
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: Max Supported Cell
+#$ OPTION_GROUP BEGIN: BetaFPV
 
-#$ OPTION BEGIN (UNCHECKED): 3S
+#$ OPTION BEGIN (UNCHECKED): BetaFPV Air65 1S
+# BetaFPV Air65 1S Filter #
+
+#$ INCLUDE: presets/pid/microwhoop_betafpv_air65_filter.txt
+
+# BetaFPV Air65 1S PID #
+
 profile 0
-#$ INCLUDE: presets/pid/race_3s.txt
+#$ INCLUDE: presets/pid/microwhoop_betafpv_air65_pid.txt
+
+# restore original profile selection
+profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 4S
+#$ OPTION BEGIN (UNCHECKED): BetaFPV Air75 1S
+# BetaFPV Air75 1S Filter #
+
+#$ INCLUDE: presets/pid/microwhoop_betafpv_air75_filter.txt
+
+# BetaFPV Air75 1S PID #
+
 profile 0
-#$ INCLUDE: presets/pid/race_4s.txt
-profile 1
-#$ INCLUDE: presets/pid/race_3s.txt
+#$ INCLUDE: presets/pid/microwhoop_betafpv_air75_pid.txt
+
+# restore original profile selection
+profile 0
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 6S
+#$ OPTION BEGIN (UNCHECKED): BetaFPV Meteor65 1S
+# BetaFPV Meteor65 1S Filter #
+
+#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor65_filter.txt
+
+# BetaFPV Meteor65 1S PID #
+
 profile 0
-#$ INCLUDE: presets/pid/race_6s.txt
-profile 1
-#$ INCLUDE: presets/pid/race_4s.txt
+#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor65_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): BetaFPV Meteor75 1S
+# BetaFPV Meteor75 1S Filter #
+
+#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor75_filter.txt
+
+# BetaFPV Meteor75 1S PID #
+
+profile 0
+#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor75_pid.txt
+
+# restore original profile selection
+profile 0
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -99,7 +136,7 @@ feature RX_SPI
 feature RX_SERIAL
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-#$ INCLUDE: presets/reciever/reciever_race_elrs_150.txt
+#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
@@ -109,7 +146,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_race_elrs_150.txt
+#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
@@ -119,7 +156,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_race_elrs_500.txt
+#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

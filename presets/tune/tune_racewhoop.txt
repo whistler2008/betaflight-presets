@@ -42,14 +42,14 @@ set rc_smoothing_auto_factor = 45
 # RaceWhoop FreshBread Preset #
 
 profile 0
-#$ INCLUDE: presets/pid/pid_racewhoop_freshbread.txt
+#$ INCLUDE: presets/pid/racewhoop_freshbread.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): RaceWhoop SugarK
 # RaceWhoop SugarK Preset #
 
 profile 0
-#$ INCLUDE: presets/pid/pid_racewhoop_sugark.txt
+#$ INCLUDE: presets/pid/racewhoop_sugark.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

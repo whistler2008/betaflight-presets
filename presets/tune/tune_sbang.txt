@@ -42,7 +42,7 @@ set rc_smoothing_auto_factor = 15
 # SBANG BlackBird Preset #
 
 profile 0
-#$ INCLUDE: presets/pid/pid_sbang_blackbird.txt
+#$ INCLUDE: presets/pid/sbang_blackbird.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
