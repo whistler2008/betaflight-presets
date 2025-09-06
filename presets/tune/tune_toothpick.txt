@@ -1,0 +1,120 @@
+#$ TITLE: Toothpick Tune
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: tune
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: Toothpick Tune
+#$ DESCRIPTION: 
+#$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
+#$ WARNING: EXPERIMENTAL
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: Basic Setting
+
+#$ OPTION BEGIN (UNCHECKED): Pilot Name
+# Pilot Name #
+
+set pilot_name = TOOTHPICK
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): CAM Angle 10%
+# CAM Angle 10% #
+
+set fpv_mix_degrees = 10
+set small_angle = 180
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): RC Smoothing 60
+# RC Smoothing 60 #
+
+set rc_smoothing_auto_factor = 60
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: iFlight
+
+#$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 160S
+# iFlight TurboBee 160S Filter #
+
+#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_filter.txt
+
+# iFlight TurboBee 160S PID #
+
+profile 0
+#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: RX Hardware
+
+#$ OPTION BEGIN (UNCHECKED): Serial SBUS
+# Serial SBUS #
+
+feature RX_SERIAL
+set serialrx_provider = SBUS
+#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Serial IBUS
+# Serial IBUS #
+
+feature RX_SERIAL
+set serialrx_provider = IBUS
+#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+# SPI SBUS / IBUS #
+
+feature RX_SPI
+#$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+# SPI ELRS #
+
+feature RX_SPI
+#$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
+# DJI SBUS FAST #
+
+feature RX_SERIAL
+set serialrx_provider = SBUS
+set sbus_baud_fast = ON
+#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+# Serial CRSF TBS / ELRS 915MHz #
+
+feature RX_SERIAL
+feature TELEMETRY
+
+set serialrx_provider = CRSF
+#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+# Serial CRSF TBS / ELRS 2.4Ghz #
+
+feature RX_SERIAL
+feature TELEMETRY
+
+set serialrx_provider = CRSF
+#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_500.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END

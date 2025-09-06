@@ -2031,36 +2031,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/freestyle_iflight_turbobee_160rs_filter.txt",
-      "hash": "f78a5b715eef56236ea5f3d4c8f5fadd168aa581bdbd60d0b4011c279b278dfd",
-      "title": "FreeStyle - iFlight TurboBee 160RS - Filter",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/pid/freestyle_iflight_turbobee_160rs_pid.txt",
-      "hash": "79636ebe4a5803bc189b186c4662d9c842650056b8b4dc7184d388f4d6325f39",
-      "title": "FreeStyle - iFlight TurboBee 160RS - PID",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/pid/freestyle_speedybee_mario5_filter.txt",
       "hash": "bbd4e282a32d23446b81036449deb73ef784b6dd5cf7a9c1d0a727506eac19a0",
       "title": "FreeStyle - SpeedyBee Mario5 - Filter",
@@ -2391,6 +2361,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/toothpick_iflight_turbobee_160rs_filter.txt",
+      "hash": "44ff612ea94094c28a08a9f2c2306167c4f464120ad72aa5793563eca31a7a58",
+      "title": "Toothpick - iFlight TurboBee 160RS - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/toothpick_iflight_turbobee_160rs_pid.txt",
+      "hash": "53a5a356b8f3ffbd928d5e160db0bf73cbb56a0524934fdcf4a63334a43a338c",
+      "title": "Toothpick - iFlight TurboBee 160RS - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rates/rates_default.txt",
       "hash": "d209a3e626ac1ba2caa90318b93eb45e835f45aed2bd00b428ea4f4b5225d9a4",
       "title": "Default Rate",
@@ -2632,7 +2632,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "894021bdab9abf554739241fe7880d93e7c49c4b5dc51a415c508a8f2fa3fb4e",
+      "hash": "44395da4df31b657cc0ad2546ebd9a1b81b146c66d69f4bf00ce76813f85f4ed",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
@@ -2709,6 +2709,21 @@
       "fullPath": "presets/tune/tune_sbang.txt",
       "hash": "c945813cc80b5e87c3e354096862308db7c7693d6858f20c3837aebcfa0e5126",
       "title": "SBang Tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/tune_toothpick.txt",
+      "hash": "9e28b568c96aff1a2a335cf3a47e675f4d454566d227cdcb09ace4c7c8e42cef",
+      "title": "Toothpick Tune",
       "firmware_version": [
         "4.5"
       ],

@@ -1,9 +1,9 @@
-#$ TITLE: FreeStyle - iFlight TurboBee 160RS - PID
+#$ TITLE: Toothpick - iFlight TurboBee 160RS - PID
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: FreeStyle - iFlight TurboBee 160RS - PID
+#$ DESCRIPTION: Toothpick - iFlight TurboBee 160RS - PID
 #$ HIDDEN: true
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Ratio 1:10
