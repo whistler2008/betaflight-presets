@@ -436,25 +436,21 @@ rateprofile 0
 #$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
 #$ INCLUDE: presets/osd/osd_hd_avatar_gps.txt
 #$ INCLUDE: presets/modes/aux_gps.txt
-set altitude_source = GPS_ONLY
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
 #$ INCLUDE: presets/osd/osd_hd_dji_canvas_gps.txt
 #$ INCLUDE: presets/modes/aux_gps.txt
-set altitude_source = GPS_ONLY
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
 #$ INCLUDE: presets/osd/osd_hd_dji_fpv_gps.txt
 #$ INCLUDE: presets/modes/aux_gps.txt
-set altitude_source = GPS_ONLY
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
 #$ INCLUDE: presets/osd/osd_hd_dji_wtfos_gps.txt
 #$ INCLUDE: presets/modes/aux_gps.txt
-set altitude_source = GPS_ONLY
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Digital HDZero

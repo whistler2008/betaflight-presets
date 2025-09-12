@@ -11,6 +11,8 @@
 
 #--------------------------------------------------#
 
+set craft_name = TUNNING PURPOSE
+
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 #$ OPTION BEGIN (UNCHECKED): Pilot Name
@@ -36,6 +38,75 @@ set rc_smoothing_auto_factor = 30
 # Crash Recovery DISARM #
 
 set crash_recovery = DISARM
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): PreTune AUX
+# PreTune AUX #
+
+#$ INCLUDE: presets/modes/aux_tune.txt
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): PID & Rate For Filter Tune
+# PID & Rate For Filter Tune #
+
+profile 0
+
+# profile 0
+set angle_limit = 30
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 15
+set pitch_rc_rate = 15
+set yaw_rc_rate = 15
+set roll_srate = 15
+set pitch_srate = 15
+set yaw_srate = 15
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): PID & Rate For PID Tune
+# PID & Rate For PID Tune #
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 15
+set pitch_rc_rate = 15
+set yaw_rc_rate = 15
+set roll_srate = 15
+set pitch_srate = 15
+set yaw_srate = 15
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
 #$ OPTION END
 
 #$ OPTION_GROUP END
