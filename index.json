@@ -2600,6 +2600,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/tune/tune_pretune.txt",
+      "hash": "e581017089e7e5c99b8b03cd9f20b91a49edbe45737804ad6f1ba28e82e6c192",
+      "title": "Pre-Tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/tune/tune_racewhoop.txt",
       "hash": "df4debdc38d6cf1d1028cc49a950f60cfe3c3937a561394dc96658caefd21388",
       "title": "RaceWhoop Tune",
@@ -2633,21 +2648,6 @@
       "fullPath": "presets/tune/tune_toothpick.txt",
       "hash": "9e28b568c96aff1a2a335cf3a47e675f4d454566d227cdcb09ace4c7c8e42cef",
       "title": "Toothpick Tune",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/tune_tune.txt",
-      "hash": "e581017089e7e5c99b8b03cd9f20b91a49edbe45737804ad6f1ba28e82e6c192",
-      "title": "Pre-Tune",
       "firmware_version": [
         "4.5"
       ],
