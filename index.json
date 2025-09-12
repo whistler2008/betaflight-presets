@@ -579,6 +579,20 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/modes/aux_tune.txt",
+      "hash": "61e0e84a62392682d7ac9d3cb2b245c661ce7747ddf0315af80e873a72821e01",
+      "title": "AUX PreTune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
       "fullPath": "presets/osd/osd_analog_gps.txt",
       "hash": "227365f36e1d63db91d5201d1515dbb5bb5252b5c4cc59ee4ebf2824005fc183",
       "title": "Analog GPS OSD settings",
@@ -2512,7 +2526,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "b0fd13f2f602f6ac3547a163fe30a2b2bb246b81be409db0fa320018cd4d588d",
+      "hash": "edfb66a7c21a32a2a4b7ef655484e5cb88751cb2fb90045a2b2eb9894f8bcea2",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
@@ -2587,7 +2601,7 @@
     },
     {
       "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "72aefb3104a6cbcda9ff57f7bd7fd2c65379f141fc61724d47655e5df47628a8",
+      "hash": "69950cce7659ff34ee22376cdb36786d6bcd8bd278b20e15466d0805e80f61b9",
       "title": "Pre-Tune",
       "firmware_version": [
         "4.5"
