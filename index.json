@@ -2646,8 +2646,8 @@
     },
     {
       "fullPath": "presets/tune/tune_tune.txt",
-      "hash": "00f5ecac129fee4876ee6e62484af23c6b81ed0834c54e9f944047598578d6ee",
-      "title": "Tune Purpose",
+      "hash": "e581017089e7e5c99b8b03cd9f20b91a49edbe45737804ad6f1ba28e82e6c192",
+      "title": "Pre-Tune",
       "firmware_version": [
         "4.5"
       ],
