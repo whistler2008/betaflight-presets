@@ -78,10 +78,16 @@ set ez_landing_limit = 5
 #$ INCLUDE: presets/led/led_blink.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LED Green
+#$ OPTION BEGIN (UNCHECKED): LED Green (iFlight Evoque)
 # LED Setting #
 
 #$ INCLUDE: presets/led/led_green.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LED Blue (iFlight Evoque)
+# LED Setting #
+
+#$ INCLUDE: presets/led/led_blue.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

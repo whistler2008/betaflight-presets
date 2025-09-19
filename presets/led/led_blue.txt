@@ -1,18 +1,18 @@
-#$ TITLE: Custom LED Green (iFlight Evoque)
+#$ TITLE: Custom LED Blue (iFlight Evoque)
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: LED
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: Custom LED Green (iFlight Evoque) settings
+#$ DESCRIPTION: Custom LED Blue (iFlight Evoque) settings
 #$ HIDDEN: true
 
 feature LED_STRIP
 
-# Green LED (BRG) #
+# Blue LED (BRG) #
 
 # color
-color 5 90,0,255
-color 6 110,0,255
+color 5 255,50,150
+color 6 255,50,165
 
 # led
 led 0 0,0::L:5
