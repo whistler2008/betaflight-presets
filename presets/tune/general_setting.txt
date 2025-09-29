@@ -9,62 +9,57 @@
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
 
-feature -LED_STRIP
-
 #--------------------------------------------------#
 
 #$ OPTION_GROUP BEGIN: General Setting
 
-#$ OPTION BEGIN (CHECKED): Beeper
-# Beeper Setting #
+	#$ OPTION BEGIN (CHECKED): Beeper
+		# Beeper Setting
+		#$ INCLUDE: presets/other/other_beeper.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/other/other_beeper.txt
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): Disable LED Strip
+		# Disable LED Strip
+		feature -LED_STRIP
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Failsafe
-# Failsafe Setting #
+	#$ OPTION BEGIN (CHECKED): Failsafe
+		# Failsafe Setting
+		#$ INCLUDE: presets/other/other_failsafe.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/other/other_failsafe.txt
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): REVERSE Motor Direction
+		# REVERSE Motor Direction
+		set yaw_motors_reversed = ON
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): REVERSE Motor Direction
-# Motor Direction Setting #
+	#$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
+		# AVG Cell Telemetry Report
+		set report_cell_voltage = ON
+	#$ OPTION END
 
-set yaw_motors_reversed = ON
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): RPM Filter
+		# Enable RPM Filter
+		set motor_pwm_protocol = DSHOT300
+		set dshot_bidir = ON
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
-# AVG Cell Telemetry Report Setting #
+	#$ OPTION BEGIN (CHECKED): Maximum PID Limit
+		# Unlock Maximum PID Limit
+		set pidsum_limit = 1000
+		set pidsum_limit_yaw = 1000
+	#$ OPTION END
 
-set report_cell_voltage = ON
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
+		# Blackbox for GyroFlow
+		#$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): RPM Filter
-# Enable RPM Filter #
-
-set motor_pwm_protocol = DSHOT300
-set dshot_bidir = ON
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): Maximum PID Limit
-# Unlock Maximum PID Limit #
-
-set pidsum_limit = 1000
-set pidsum_limit_yaw = 1000
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
-# Blackbox for GyroFlow Setting #
-
-#$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): EzLanding 
-# Enable EzLanding #
-
-set mixer_type = EZLANDING
-set ez_landing_limit = 5
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): EzLanding 
+		# Enable EzLanding
+		set mixer_type = EZLANDING
+		set ez_landing_limit = 5
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -72,59 +67,51 @@ set ez_landing_limit = 5
 
 #$ OPTION_GROUP BEGIN: General Setting
 
-#$ OPTION BEGIN (UNCHECKED): LED Blink
-# LED Setting #
+	#$ OPTION BEGIN (UNCHECKED): LED Blink
+		# LED Blink Setting
+		#$ INCLUDE: presets/led/led_blink.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/led/led_blink.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): LED Green (iFlight Evoque)
+		# LED Green (iFlight Evoque) Setting
+		#$ INCLUDE: presets/led/led_green.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LED Green (iFlight Evoque)
-# LED Setting #
-
-#$ INCLUDE: presets/led/led_green.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): LED Blue (iFlight Evoque)
-# LED Setting #
-
-#$ INCLUDE: presets/led/led_blue.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): LED Blue (iFlight Evoque)
+		# LED Blue (iFlight Evoque) Setting
+		#$ INCLUDE: presets/led/led_blue.txt
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: Battery
+#$ OPTION_GROUP BEGIN: Battery Setting
 
-#$ OPTION BEGIN (CHECKED): Battery Sag Compensation 100%
-# Enable Battery Sag Compensation 100% #
+	#$ OPTION BEGIN (CHECKED): Battery Sag Compensation 100%
+		# Enable Battery Sag Compensation 100%
+		#$ INCLUDE: presets/battery/batt_sag.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/battery/batt_sag.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Li-Ion (Minimum Cell Voltage 2.9V)
+		# Minimum Cell Voltage 2.9V
+		#$ INCLUDE: presets/battery/batt_29.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Li-Ion (Minimum Cell Voltage 2.9V)
-# Minimum Cell Voltage 2.9V Setting #
+	#$ OPTION BEGIN (UNCHECKED): LiPo/HV 1S (Minimum Cell Voltage 3.2V)
+		# Minimum Cell Voltage 3.2V
+		#$ INCLUDE: presets/battery/batt_32.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/battery/batt_29.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): LiPo/HV 2S++ Standard (Minimum Cell Voltage 3.3V)
+		# Minimum Cell Voltage 3.3V
+		#$ INCLUDE: presets/battery/batt_33.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV 1S (Minimum Cell Voltage 3.2V)
-# Minimum Cell Voltage 3.2V Setting #
-
-#$ INCLUDE: presets/battery/batt_32.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): LiPo/HV 2S++ Standard (Minimum Cell Voltage 3.3V)
-# Minimum Cell Voltage 3.3V Setting #
-
-#$ INCLUDE: presets/battery/batt_33.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ Safer (Minimum Cell Voltage 3.5V)
-# Minimum Cell Voltage 3.5V Setting #
-
-#$ INCLUDE: presets/battery/batt_35.txt
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ Safer (Minimum Cell Voltage 3.5V)
+		# Minimum Cell Voltage 3.5V
+		#$ INCLUDE: presets/battery/batt_35.txt
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -132,43 +119,38 @@ set ez_landing_limit = 5
 
 #$ OPTION_GROUP BEGIN: Motor Pole
 
-#$ OPTION BEGIN (UNCHECKED): 12 Pole
-# 12 Poles Motor #
+	#$ OPTION BEGIN (UNCHECKED): 12 Pole
+		# 12 Poles Motor
+		set motor_poles = 12
+		set dshot_idle_value = 550
+	#$ OPTION END
 
-set motor_poles = 12
-set dshot_idle_value = 550
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 14 Pole
-# 14 Poles Motor #
-
-set motor_poles = 14
-set dshot_idle_value = 550
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 14 Pole
+		# 14 Poles Motor
+		set motor_poles = 14
+		set dshot_idle_value = 550
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: Propeller
+#$ OPTION_GROUP BEGIN: Propeller Blade Count
 
-#$ OPTION BEGIN (UNCHECKED): 2 Blade
-# 2 Blade Dimmable RPM Harmonics #
+	#$ OPTION BEGIN (UNCHECKED): 2 Blade
+		# 2 Blade Dimmable RPM Harmonics
+		set rpm_filter_weights = 100, 80, 20
+	#$ OPTION END
 
-set rpm_filter_weights = 100, 80, 0
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 3 Blade
+		# 3 Blade Dimmable RPM Harmonics
+		set rpm_filter_weights = 100, 20, 80
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3 Blade
-# 3 Blade Dimmable RPM Harmonics #
-
-set rpm_filter_weights = 100, 0, 80
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4-6 Blade
-# 4-6 Blade Dimmable RPM Harmonics #
-
-set rpm_filter_weights = 100, 80, 60
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 4-6 Blade
+		# 4-6 Blade Dimmable RPM Harmonics
+		set rpm_filter_weights = 100, 80, 60
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -176,23 +158,20 @@ set rpm_filter_weights = 100, 80, 60
 
 #$ OPTION_GROUP BEGIN: Crash Recovery
 
-#$ OPTION BEGIN (CHECKED): OFF
-# Crash Recovery OFF #
+	#$ OPTION BEGIN (CHECKED): OFF
+		# Crash Recovery OFF
+		set crash_recovery = OFF
+	#$ OPTION END
 
-set crash_recovery = OFF
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): ON
+		# Crash Recovery ON
+		set crash_recovery = ON
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): ON
-# Crash Recovery ON #
-
-set crash_recovery = ON
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DISARM
-# Crash Recovery DISARM #
-
-set crash_recovery = DISARM
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): DISARM
+		# Crash Recovery DISARM 
+		set crash_recovery = DISARM
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -200,29 +179,25 @@ set crash_recovery = DISARM
 
 #$ OPTION_GROUP BEGIN: Gyro Filter
 
-#$ OPTION BEGIN (UNCHECKED): BMI - Normal Filter
-# BMI Gyro - Normal Filter Setting #
+	#$ OPTION BEGIN (UNCHECKED): BMI - Normal Filter
+		# BMI Gyro - Normal Filter
+		#$ INCLUDE: presets/gyro/gyro_bmi.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/gyro/gyro_bmi.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): BMI - High Filter
+		# BMI Gyro - High Filter
+		#$ INCLUDE: presets/gyro/gyro_bmi_high.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BMI - High Filter
-# BMI Gyro - High Filter Setting #
+	#$ OPTION BEGIN (UNCHECKED): MPU & ICM - Normal Filter
+		# MPU & ICM Gyro - Normal Filter
+		#$ INCLUDE: presets/gyro/gyro_mpu_icm.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/gyro/gyro_bmi_high.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): MPU & ICM - Normal Filter
-# MPU & ICM Gyro - Normal Filter Setting #
-
-#$ INCLUDE: presets/gyro/gyro_mpu_icm.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): MPU & ICM - High Filter
-# MPU & ICM Gyro - High Filter Setting #
-
-#$ INCLUDE: presets/gyro/gyro_mpu_icm_high.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): MPU & ICM - High Filter
+		# MPU & ICM Gyro - High Filter
+		#$ INCLUDE: presets/gyro/gyro_mpu_icm_high.txt
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -230,29 +205,25 @@ set crash_recovery = DISARM
 
 #$ OPTION_GROUP BEGIN: PID Loop Frequency
 
-#$ OPTION BEGIN (UNCHECKED): 2 kHz (STM32F411 with MPU & ICM Gyro)
-# 2 kHz PID Loop Frequency #
+	#$ OPTION BEGIN (UNCHECKED): 2 kHz (STM32F411 with MPU & ICM Gyro)
+		# 2 kHz PID Loop Frequency
+		set pid_process_denom = 4
+	#$ OPTION END
 
-set pid_process_denom = 4
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 3.2 kHz (BMI Gyeo)
+		# 3.2 kHz PID Loop Frequency
+		set pid_process_denom = 1
+	#$ OPTION ENDkad
 
-#$ OPTION BEGIN (UNCHECKED): 3.2 kHz (BMI Gyeo)
-# 3.2 kHz PID Loop Frequency #
+	#$ OPTION BEGIN (UNCHECKED): 4 kHz (STM32F405 & STM32F72x with MPU & ICM Gyro)
+		# 4 kHz PID Loop Frequency
+		set pid_process_denom = 2
+	#$ OPTION END
 
-set pid_process_denom = 1
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 4 kHz (STM32F405 & STM32F72x with MPU & ICM Gyro)
-# 4 kHz PID Loop Frequency #
-
-set pid_process_denom = 2
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 8 kHz (STM32F74x with MPU & ICM Gyro)
-# 8 kHz PID Loop Frequency #
-
-set pid_process_denom = 1
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 8 kHz (STM32F74x with MPU & ICM Gyro)
+		# 8 kHz PID Loop Frequency
+		set pid_process_denom = 1
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -260,35 +231,23 @@ set pid_process_denom = 1
 
 #$ OPTION_GROUP BEGIN: ESC PWM
 
-#$ OPTION BEGIN (UNCHECKED): 24 kHz
-# 24 kHz ESC PWM #
+	#$ OPTION BEGIN (UNCHECKED): 24 kHz
+		# 24 kHz ESC PWM
+		profile 0
+		set thrust_linear = 0
+	#$ OPTION END
 
-profile 0
-set thrust_linear = 0
+	#$ OPTION BEGIN (CHECKED): 48 kHz
+		# 48 kHz ESC PWM
+		profile 0
+		set thrust_linear = 20
+	#$ OPTION END
 
-profile 1
-set thrust_linear = 0
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): 48 kHz
-# 48 kHz ESC PWM #
-
-profile 0
-set thrust_linear = 20
-
-profile 1
-set thrust_linear = 20
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 96 kHz
-# 96 kHz ESC PWM #
-
-profile 0
-set thrust_linear = 40
-
-profile 1
-set thrust_linear = 40
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 96 kHz
+		# 96 kHz ESC PWM
+		profile 0
+		set thrust_linear = 40
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -296,23 +255,20 @@ set thrust_linear = 40
 
 #$ OPTION_GROUP BEGIN: D-Term Filter
 
-#$ OPTION BEGIN (UNCHECKED): Noisy Motor
-# D-Term Filter for Noisy Motor #
+	#$ OPTION BEGIN (UNCHECKED): Noisy Motor
+		# D-Term Filter for Noisy Motor
+		#$ INCLUDE: presets/filter/filter_rpm_noisy.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/filter/filter_rpm_noisy.txt
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): Normal Motor
+		# D-Term Filter for Normal Motor
+		#$ INCLUDE: presets/filter/filter_rpm_normal.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Normal Motor
-# D-Term Filter for Normal Motor #
-
-#$ INCLUDE: presets/filter/filter_rpm_normal.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Clean Motor
-# D-Term Filter for Clean Motor #
-
-#$ INCLUDE: presets/filter/filter_rpm_clean.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Clean Motor
+		# D-Term Filter for Clean Motor
+		#$ INCLUDE: presets/filter/filter_rpm_clean.txt
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -320,59 +276,46 @@ set thrust_linear = 40
 
 #$ OPTION_GROUP BEGIN: Rate Profile
 
-#$ OPTION BEGIN (CHECKED): Default Rate Profile
-# Default Rate Profile #
+	#$ OPTION BEGIN (CHECKED): Default Rate Profile
+	# Default Rate Profile #
+		#$ INCLUDE: presets/rates/rates_default.txt
+	#$ OPTION END
 
-#$ INCLUDE: presets/rates/rates_default.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Slow Rate Profile
+		# Slow Rate Profile #
+		rateprofile 0
+		#$ INCLUDE: presets/rates/rates_slow.txt
+		rateprofile 1
+		#$ INCLUDE: presets/rates/rates_medium.txt
+		rateprofile 2
+		#$ INCLUDE: presets/rates/rates_fast.txt
+		# restore original rateprofile selection
+		rateprofile 0
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Slow Rate Profile
-# Slow Rate Profile #
+	#$ OPTION BEGIN (UNCHECKED): Medium Rate Profile
+	# Medium Rate Profile #
+		rateprofile 0
+		#$ INCLUDE: presets/rates/rates_medium.txt
+		rateprofile 1
+		#$ INCLUDE: presets/rates/rates_fast.txt
+		rateprofile 2
+		#$ INCLUDE: presets/rates/rates_slow.txt
+		# restore original rateprofile selection
+		rateprofile 0
+	#$ OPTION END
 
-rateprofile 0
-#$ INCLUDE: presets/rates/rates_slow.txt
-
-rateprofile 1
-#$ INCLUDE: presets/rates/rates_medium.txt
-
-rateprofile 2
-#$ INCLUDE: presets/rates/rates_fast.txt
-
-# restore original rateprofile selection
-rateprofile 0
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Medium Rate Profile
-# Medium Rate Profile #
-
-rateprofile 0
-#$ INCLUDE: presets/rates/rates_medium.txt
-
-rateprofile 1
-#$ INCLUDE: presets/rates/rates_fast.txt
-
-rateprofile 2
-#$ INCLUDE: presets/rates/rates_slow.txt
-
-# restore original rateprofile selection
-rateprofile 0
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Fast Rate Profile
-# Fast Rate Profile #
-
-rateprofile 0
-#$ INCLUDE: presets/rates/rates_fast.txt
-
-rateprofile 1
-#$ INCLUDE: presets/rates/rates_slow.txt
-
-rateprofile 2
-#$ INCLUDE: presets/rates/rates_medium.txt
-
-# restore original rateprofile selection
-rateprofile 0
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Fast Rate Profile
+	# Fast Rate Profile #
+		rateprofile 0
+		#$ INCLUDE: presets/rates/rates_fast.txt
+		rateprofile 1
+		#$ INCLUDE: presets/rates/rates_slow.txt
+		rateprofile 2
+		#$ INCLUDE: presets/rates/rates_medium.txt
+		# restore original rateprofile selection
+		rateprofile 0
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -380,49 +323,49 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: OSD General Placement
 
-#$ OPTION BEGIN (CHECKED): Default
-#$ INCLUDE: presets/osd/osd_default.txt
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): Default
+		#$ INCLUDE: presets/osd/osd_default.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
-#$ INCLUDE: presets/osd/osd_analog_pal.txt
-#$ INCLUDE: presets/osd/osd_analog_pal_lq.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
+		#$ INCLUDE: presets/osd/osd_analog_pal.txt
+		#$ INCLUDE: presets/osd/osd_analog_pal_lq.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
-#$ INCLUDE: presets/osd/osd_analog_pal.txt
-#$ INCLUDE: presets/osd/osd_analog_pal_rssi.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
+		#$ INCLUDE: presets/osd/osd_analog_pal.txt
+		#$ INCLUDE: presets/osd/osd_analog_pal_rssi.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
-#$ INCLUDE: presets/osd/osd_analog_ntsc.txt
-#$ INCLUDE: presets/osd/osd_analog_ntsc_lq.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
+		#$ INCLUDE: presets/osd/osd_analog_ntsc.txt
+		#$ INCLUDE: presets/osd/osd_analog_ntsc_lq.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
-#$ INCLUDE: presets/osd/osd_analog_ntsc.txt
-#$ INCLUDE: presets/osd/osd_analog_ntsc_rssi.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
+		#$ INCLUDE: presets/osd/osd_analog_ntsc.txt
+		#$ INCLUDE: presets/osd/osd_analog_ntsc_rssi.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
-#$ INCLUDE: presets/osd/osd_hd_avatar.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
+		#$ INCLUDE: presets/osd/osd_hd_avatar.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
+		#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
-#$ INCLUDE: presets/osd/osd_hd_dji_fpv.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
+		#$ INCLUDE: presets/osd/osd_hd_dji_fpv.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
-#$ INCLUDE: presets/osd/osd_hd_dji_wtfos.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
+		#$ INCLUDE: presets/osd/osd_hd_dji_wtfos.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital HDZero
-#$ INCLUDE: presets/osd/osd_hd_hdzero.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
+		#$ INCLUDE: presets/osd/osd_hd_hdzero.txt
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -430,39 +373,39 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: GPS Hardware & OSD Placement
 
-#$ OPTION BEGIN (CHECKED): Without GPS
-#$ INCLUDE: presets/modes/aux_std.txt
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): Without GPS
+		#$ INCLUDE: presets/modes/aux_std.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog
-#$ INCLUDE: presets/osd/osd_analog_gps.txt
-#$ INCLUDE: presets/modes/aux_gps.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Analog
+		#$ INCLUDE: presets/osd/osd_analog_gps.txt
+		#$ INCLUDE: presets/modes/aux_gps.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
-#$ INCLUDE: presets/osd/osd_hd_avatar_gps.txt
-#$ INCLUDE: presets/modes/aux_gps.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
+		#$ INCLUDE: presets/osd/osd_hd_avatar_gps.txt
+		#$ INCLUDE: presets/modes/aux_gps.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
-#$ INCLUDE: presets/osd/osd_hd_dji_canvas_gps.txt
-#$ INCLUDE: presets/modes/aux_gps.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
+		#$ INCLUDE: presets/osd/osd_hd_dji_canvas_gps.txt
+		#$ INCLUDE: presets/modes/aux_gps.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
-#$ INCLUDE: presets/osd/osd_hd_dji_fpv_gps.txt
-#$ INCLUDE: presets/modes/aux_gps.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
+		#$ INCLUDE: presets/osd/osd_hd_dji_fpv_gps.txt
+		#$ INCLUDE: presets/modes/aux_gps.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
-#$ INCLUDE: presets/osd/osd_hd_dji_wtfos_gps.txt
-#$ INCLUDE: presets/modes/aux_gps.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
+		#$ INCLUDE: presets/osd/osd_hd_dji_wtfos_gps.txt
+		#$ INCLUDE: presets/modes/aux_gps.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Digital HDZero
-#$ INCLUDE: presets/osd/osd_hd_hdzero_gps.txt
-#$ INCLUDE: presets/modes/aux_gps.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
+		#$ INCLUDE: presets/osd/osd_hd_hdzero_gps.txt
+		#$ INCLUDE: presets/modes/aux_gps.txt
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
@@ -470,23 +413,20 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: Altitude Sensor Source
 
-#$ OPTION BEGIN (CHECKED): Default
-# Altitude Sensor Source - Default #
+	#$ OPTION BEGIN (CHECKED): Default
+		# Altitude Sensor Source - Default #
+		set altitude_source = DEFAULT
+	#$ OPTION END
 
-set altitude_source = DEFAULT
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Barometer Only
+		# Altitude Sensor Source - Barometer Only #
+		set altitude_source = BARO_ONLY
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Barometer Only
-# Altitude Sensor Source - Barometer Only #
-
-set altitude_source = BARO_ONLY
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): GPS Only
-# Altitude Sensor Source - GPS Only #
-
-set altitude_source = GPS_ONLY
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): GPS Only
+		# Altitude Sensor Source - GPS Only #
+		set altitude_source = GPS_ONLY
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 

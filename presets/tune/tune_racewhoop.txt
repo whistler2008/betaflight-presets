@@ -13,24 +13,21 @@
 
 #$ OPTION_GROUP BEGIN: Basic Setting
 
-#$ OPTION BEGIN (UNCHECKED): Pilot Name
-# Pilot Name #
+	#$ OPTION BEGIN (UNCHECKED): Pilot Name
+		# Pilot Name
+		set pilot_name = RACEWHOOP
+	#$ OPTION END
 
-set pilot_name = RACEWHOOP
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): CAM Angle 20%
+		# CAM Angle 20%
+		set fpv_mix_degrees = 20
+		set small_angle = 180
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): CAM Angle 20%
-# CAM Angle 20% #
-
-set fpv_mix_degrees = 20
-set small_angle = 180
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): RC Smoothing 45
-# RC Smoothing 45 #
-
-set rc_smoothing_auto_factor = 45
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): RC Smoothing 45
+		# RC Smoothing 45
+		set rc_smoothing_auto_factor = 45
+	#$ OPTION END
 
 #$ OPTION_GROUP END
 
