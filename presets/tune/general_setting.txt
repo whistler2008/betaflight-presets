@@ -412,32 +412,32 @@
 		#$ INCLUDE: presets/modes/aux_std.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): Analog
+	#$ OPTION BEGIN (UNCHECKED): Analog GPS
 		#$ INCLUDE: presets/osd/osd_analog_gps.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
+	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail GPS
 		#$ INCLUDE: presets/osd/osd_gps_digital_avatar.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas GPS
 		#$ INCLUDE: presets/osd/osd_gps_digital_dji_canvas.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV GPS
 		#$ INCLUDE: presets/osd/osd_gps_digital_dji_fpv.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS GPS
 		#$ INCLUDE: presets/osd/osd_gps_digital_dji_wtfos.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
+	#$ OPTION BEGIN (UNCHECKED): Digital HDZero GPS
 		#$ INCLUDE: presets/osd/osd_gps_digital_hd_hdzero.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
