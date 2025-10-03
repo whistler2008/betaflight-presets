@@ -348,7 +348,7 @@
 
 #$ OPTION_GROUP BEGIN: OSD General Placement
 
-	#$ OPTION BEGIN (CHECKED): Default
+	#$ OPTION BEGIN (CHECKED): Default OSD
 		# Default OSD
 		#$ INCLUDE: presets/osd/osd_default.txt
 	#$ OPTION END
@@ -448,18 +448,21 @@
 
 #$ OPTION_GROUP BEGIN: Altitude Sensor Source
 
-	#$ OPTION BEGIN (CHECKED): Default
-		# Altitude Sensor Source - Default #
+	#$ OPTION BEGIN (CHECKED): Baromete & GPS
+		# Altitude Sensor Source - Default
+		
 		set altitude_source = DEFAULT
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Barometer Only
-		# Altitude Sensor Source - Barometer Only #
+		# Altitude Sensor Source - Barometer Only
+		
 		set altitude_source = BARO_ONLY
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): GPS Only
-		# Altitude Sensor Source - GPS Only #
+		# Altitude Sensor Source - GPS Only
+		
 		set altitude_source = GPS_ONLY
 	#$ OPTION END
 
