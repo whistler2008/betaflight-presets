@@ -379,27 +379,27 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
 		# Digital Avatar Walksnail OSD
-		#$ INCLUDE: presets/osd/osd_hd_avatar.txt
+		#$ INCLUDE: presets/osd/osd_digital_avatar.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
 		# Digital DJI Canvas OSD
-		#$ INCLUDE: presets/osd/osd_hd_dji_canvas.txt
+		#$ INCLUDE: presets/osd/osd_digital_dji_canvas.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
 		# Digital DJI FPV OSD
-		#$ INCLUDE: presets/osd/osd_hd_dji_fpv.txt
+		#$ INCLUDE: presets/osd/osd_digital_dji_fpv.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
 		# Digital DJI WTFOS OSD
-		#$ INCLUDE: presets/osd/osd_hd_dji_wtfos.txt
+		#$ INCLUDE: presets/osd/osd_digital_dji_wtfos.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
 		# Digital HDZero OSD
-		#$ INCLUDE: presets/osd/osd_hd_hdzero.txt
+		#$ INCLUDE: presets/osd/osd_digital_hd_hdzero.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -418,27 +418,27 @@
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
-		#$ INCLUDE: presets/osd/osd_hd_avatar_gps.txt
+		#$ INCLUDE: presets/osd/osd_gps_digital_avatar.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
-		#$ INCLUDE: presets/osd/osd_hd_dji_canvas_gps.txt
+		#$ INCLUDE: presets/osd/osd_gps_digital_dji_canvas.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
-		#$ INCLUDE: presets/osd/osd_hd_dji_fpv_gps.txt
+		#$ INCLUDE: presets/osd/osd_gps_digital_dji_fpv.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
-		#$ INCLUDE: presets/osd/osd_hd_dji_wtfos_gps.txt
+		#$ INCLUDE: presets/osd/osd_gps_digital_dji_wtfos.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
-		#$ INCLUDE: presets/osd/osd_hd_hdzero_gps.txt
+		#$ INCLUDE: presets/osd/osd_gps_digital_hd_hdzero.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 

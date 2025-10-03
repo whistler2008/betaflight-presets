@@ -705,7 +705,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_avatar.txt",
+      "fullPath": "presets/osd/osd_digital_avatar.txt",
       "hash": "4bc79bd970426df1d4725e1e95519c550fa1e78e30b5dffaad45938e73fdcc65",
       "title": "Digital Avatar OSD settings",
       "firmware_version": [
@@ -719,21 +719,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_avatar_gps.txt",
-      "hash": "fcbc2cf15c1abc257c4a854a1dd2d1c17f9918c6bb312e933b393f16d4dab3a5",
-      "title": "Digital Avatar GPS OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_canvas.txt",
+      "fullPath": "presets/osd/osd_digital_dji_canvas.txt",
       "hash": "2d5bd601502d04a12bfa2cb5e11ed63273d1e6714c7943ac920c1fc73dbbee24",
       "title": "Digital DJI Canvas OSD settings",
       "firmware_version": [
@@ -747,21 +733,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_canvas_gps.txt",
-      "hash": "eabdd8d899724fd5bd9c1f7b6e7c98c0cdc8203e37f881056ca90513f89b14fa",
-      "title": "Digital DJI Canvas GPS OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_fpv.txt",
+      "fullPath": "presets/osd/osd_digital_dji_fpv.txt",
       "hash": "7a2681e6b6564465bb97c0c3c6810c65fe4c5d981cf5a5e6b63355d4efc9282e",
       "title": "Digital DJI FPV OSD settings",
       "firmware_version": [
@@ -775,21 +747,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_fpv_gps.txt",
-      "hash": "a3537a5fd6b829a09ea39bb5cb7ee85cd0fd9b382786cf3e02f1a8ac637104c4",
-      "title": "Digital DJI FPV GPS OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_dji_wtfos.txt",
+      "fullPath": "presets/osd/osd_digital_dji_wtfos.txt",
       "hash": "325f0e71d491ece0576cf3c696258f975767f626d15a1a832af2a6b626276cba",
       "title": "Digital DJI WTFOS OSD settings",
       "firmware_version": [
@@ -803,21 +761,7 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_dji_wtfos_gps.txt",
-      "hash": "e9b7fa9f41e1fcef6d50aa691ff8c6fdf6eedd8d293b13e73ddde64b33a4632e",
-      "title": "Digital DJI WTFOS GPS OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/osd/osd_hd_hdzero.txt",
+      "fullPath": "presets/osd/osd_digital_hd_hdzero.txt",
       "hash": "0bc7ea3415f5e81a76a3f04e8643398f408d0665d4419c6930a244350ad3b5db",
       "title": "Digital HD Zero OSD settings",
       "firmware_version": [
@@ -831,7 +775,63 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_hd_hdzero_gps.txt",
+      "fullPath": "presets/osd/osd_gps_digital_avatar.txt",
+      "hash": "fcbc2cf15c1abc257c4a854a1dd2d1c17f9918c6bb312e933b393f16d4dab3a5",
+      "title": "Digital Avatar GPS OSD settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_gps_digital_dji_canvas.txt",
+      "hash": "eabdd8d899724fd5bd9c1f7b6e7c98c0cdc8203e37f881056ca90513f89b14fa",
+      "title": "Digital DJI Canvas GPS OSD settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_gps_digital_dji_fpv.txt",
+      "hash": "a3537a5fd6b829a09ea39bb5cb7ee85cd0fd9b382786cf3e02f1a8ac637104c4",
+      "title": "Digital DJI FPV GPS OSD settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_gps_digital_dji_wtfos.txt",
+      "hash": "e9b7fa9f41e1fcef6d50aa691ff8c6fdf6eedd8d293b13e73ddde64b33a4632e",
+      "title": "Digital DJI WTFOS GPS OSD settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_gps_digital_hd_hdzero.txt",
       "hash": "69db3317004545d86ffa7ec42a857020647503b2a3b479fa1aa99f2a40b9a9ed",
       "title": "Digital HD Zero GPS OSD settings",
       "firmware_version": [
@@ -2526,7 +2526,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "0f853a4143f89f8cf51482419734b36339f8a2488f081ac8e6656aece16da70f",
+      "hash": "672b7838c291d07f13a56273adba9889a63294f915ee37f410d2a7bbc1b8d13d",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
