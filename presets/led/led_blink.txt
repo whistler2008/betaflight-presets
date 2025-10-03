@@ -8,8 +8,7 @@
 
 feature LED_STRIP
 
-# Blink LED #
-
+# led
 led 0 0,0::COVIW:5
 led 1 1,0::COVIW:5
 led 2 2,0::COVIW:5

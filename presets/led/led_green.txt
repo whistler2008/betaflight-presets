@@ -8,8 +8,6 @@
 
 feature LED_STRIP
 
-# Green LED (BRG) #
-
 # color
 color 5 90,0,255
 color 6 110,0,255

@@ -11,13 +11,12 @@
 
 #--------------------------------------------------#
 
-set craft_name = TUNNING PURPOSE
-
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 	#$ OPTION BEGIN (UNCHECKED): Pilot Name
 		# Pilot Name
 		set pilot_name = TUNNING
+		set craft_name = TUNNING PURPOSE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): CAM Angle 5%

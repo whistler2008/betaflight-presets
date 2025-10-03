@@ -233,20 +233,6 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/battery/batt_sag.txt",
-      "hash": "b7315636f46232bf0ba7cb63bee5036e508368a3d5454c2f9f6fc8617a677641",
-      "title": "Battery Sag Compesation",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "BATTERY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/blackbox/blackbox_default.txt",
       "hash": "bee9da367c897bbf9559f4de8122449ca0638e0c15d9a6650f003335c9f0b9a7",
       "title": "BlackBox Default",
@@ -412,7 +398,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
-      "hash": "4494f14e2db9f242851c42fc0bb972b254c0593682a84e31053326b1346f3e93",
+      "hash": "e25aa6b4ffbba85a4fb0892e3ac9ccc9524e0a4e9fd93d803fd05e68766e6cad",
       "title": "CLEAN D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -426,7 +412,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_noisy.txt",
-      "hash": "d09a5dd249d9e2a97c8e8c9bf59c46c3fdb345c60b12bf5b60d52d75c478f46a",
+      "hash": "fda9afcda892c6a72c96b2ca5a8bb0a24b667022b978d828ed7cd0a5dded59ed",
       "title": "NOISY D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -440,7 +426,7 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_normal.txt",
-      "hash": "d7bb4c67531dc0fe9bafb559487a9a71354b8e93dbc03726756bef62d2c3b152",
+      "hash": "7fd74aa593ba18a7012de5a5ef945eade04cf9e3d60f5f773255920c83650de9",
       "title": "Normal D-Term Filter",
       "firmware_version": [
         "4.5"
@@ -510,7 +496,7 @@
     },
     {
       "fullPath": "presets/led/led_blink.txt",
-      "hash": "527f72ec52cea62973d3d8e2669d2b9b904f980ed40895c0d384d69a9e9666a4",
+      "hash": "87005b7ac09b041525e7d567084a60513997f2497848cd799fc51ea12e61445b",
       "title": "Custom LED Blink",
       "firmware_version": [
         "4.5"
@@ -524,7 +510,7 @@
     },
     {
       "fullPath": "presets/led/led_blue.txt",
-      "hash": "1afd4e8d545a17568827122942c4533de727983e17a9a2e8ae24293e7319a69c",
+      "hash": "a504467ccb5b9b4712c55106df550e2f76efb40108055701757c1cc5fd3fd018",
       "title": "Custom LED Blue (iFlight Evoque)",
       "firmware_version": [
         "4.5"
@@ -538,7 +524,7 @@
     },
     {
       "fullPath": "presets/led/led_green.txt",
-      "hash": "cff0b5525980e152eaaacb0c9f56a59073cc7cc75a72587e867ec1a20bd4ca51",
+      "hash": "f81d569e9b39f430fc9edc16aa11c12a68296d0ad8abe32c760b5f7c2d22385f",
       "title": "Custom LED Green (iFlight Evoque)",
       "firmware_version": [
         "4.5"
@@ -720,8 +706,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_avatar.txt",
-      "hash": "84781daee5dcc02577f298cf3f3d14d9bacfed2b005e2a9907f0bc14a7278a49",
-      "title": "HD Avatar OSD settings",
+      "hash": "4bc79bd970426df1d4725e1e95519c550fa1e78e30b5dffaad45938e73fdcc65",
+      "title": "Digital Avatar OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -734,8 +720,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_avatar_gps.txt",
-      "hash": "56d24be0c1ae4045bbab35edb4aad4467f67df0ff59d6cefa5a173566c7d6a3d",
-      "title": "HD Avatar GPS OSD settings",
+      "hash": "fcbc2cf15c1abc257c4a854a1dd2d1c17f9918c6bb312e933b393f16d4dab3a5",
+      "title": "Digital Avatar GPS OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -748,8 +734,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_canvas.txt",
-      "hash": "23819c93b5e19d1d160c3cd7c4b1c1499e1ecedefbc239505aaff181f395fedd",
-      "title": "HD DJI Canvas OSD settings",
+      "hash": "2d5bd601502d04a12bfa2cb5e11ed63273d1e6714c7943ac920c1fc73dbbee24",
+      "title": "Digital DJI Canvas OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -762,8 +748,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_canvas_gps.txt",
-      "hash": "5d8a1d4f5295e83b0ea36166b95a56ac782979e159e94a54838f000397be2a48",
-      "title": "HD DJI Canvas GPS OSD settings",
+      "hash": "eabdd8d899724fd5bd9c1f7b6e7c98c0cdc8203e37f881056ca90513f89b14fa",
+      "title": "Digital DJI Canvas GPS OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -776,8 +762,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_fpv.txt",
-      "hash": "0912ee2256c634662b6623540a418e48465e56e85125702dfe6d4901b6b6a232",
-      "title": "HD DJI FPV OSD settings",
+      "hash": "7a2681e6b6564465bb97c0c3c6810c65fe4c5d981cf5a5e6b63355d4efc9282e",
+      "title": "Digital DJI FPV OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -790,8 +776,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_fpv_gps.txt",
-      "hash": "a919e8cb0d3a2a4641c60b34eb8fc7b49da72f40956fe8752c1654bf2a8a1f3b",
-      "title": "HD DJI FPV GPS OSD settings",
+      "hash": "a3537a5fd6b829a09ea39bb5cb7ee85cd0fd9b382786cf3e02f1a8ac637104c4",
+      "title": "Digital DJI FPV GPS OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -804,8 +790,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_wtfos.txt",
-      "hash": "29ec6848b628664419626c242f2c8e951a7bfc31271e19ab6cf763bc6653f641",
-      "title": "DJI WTFOS OSD settings",
+      "hash": "325f0e71d491ece0576cf3c696258f975767f626d15a1a832af2a6b626276cba",
+      "title": "Digital DJI WTFOS OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -818,8 +804,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_dji_wtfos_gps.txt",
-      "hash": "71ad10782415428210e90151e91dcee7b84fa28838aff3c5dd53d3930af5e222",
-      "title": "HD DJI WTFOS GPS OSD settings",
+      "hash": "e9b7fa9f41e1fcef6d50aa691ff8c6fdf6eedd8d293b13e73ddde64b33a4632e",
+      "title": "Digital DJI WTFOS GPS OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -832,8 +818,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_hdzero.txt",
-      "hash": "247032cff61801db51c4a8bc136397327b846cee8ce98cf5db2b154c126b28df",
-      "title": "HD Zero OSD settings",
+      "hash": "0bc7ea3415f5e81a76a3f04e8643398f408d0665d4419c6930a244350ad3b5db",
+      "title": "Digital HD Zero OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -846,8 +832,8 @@
     },
     {
       "fullPath": "presets/osd/osd_hd_hdzero_gps.txt",
-      "hash": "4006fb5d37643a2854f1f1fcbae140402fde2f636cec53aff0955625790057e4",
-      "title": "HD Zero GPS OSD settings",
+      "hash": "69db3317004545d86ffa7ec42a857020647503b2a3b479fa1aa99f2a40b9a9ed",
+      "title": "Digital HD Zero GPS OSD settings",
       "firmware_version": [
         "4.5"
       ],
@@ -2540,7 +2526,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "e0e4b11ff91aaec681e69596825508489d860b22897195aa4bee5a0f8af3ffa1",
+      "hash": "0f853a4143f89f8cf51482419734b36339f8a2488f081ac8e6656aece16da70f",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
@@ -2615,7 +2601,7 @@
     },
     {
       "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "5043cf0b2a4d8747ea62cb65a65ff2fbde15a9874c5f835f8d50173f3235b20e",
+      "hash": "e5dc8002fde8dc9098d0f27c6023987e8847c9d5f87afed33bd591a270bc673e",
       "title": "Pre-Tune",
       "firmware_version": [
         "4.5"

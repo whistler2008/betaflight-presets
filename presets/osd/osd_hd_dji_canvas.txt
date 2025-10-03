@@ -1,9 +1,9 @@
-#$ TITLE: HD DJI Canvas OSD settings
+#$ TITLE: Digital DJI Canvas OSD settings
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: HD DJI Canvas OSD settings
+#$ DESCRIPTION: Digital DJI Canvas OSD settings
 #$ HIDDEN: true
 
 # OSD System

@@ -1,9 +1,9 @@
-#$ TITLE: HD Avatar OSD settings
+#$ TITLE: Digital Avatar OSD settings
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: HD Avatar OSD settings
+#$ DESCRIPTION: Digital Avatar OSD settings
 #$ HIDDEN: true
 
 # OSD System

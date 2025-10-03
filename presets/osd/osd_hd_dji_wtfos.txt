@@ -1,9 +1,9 @@
-#$ TITLE: DJI WTFOS OSD settings
+#$ TITLE: Digital DJI WTFOS OSD settings
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: DJI WTFOS OSD settings
+#$ DESCRIPTION: Digital DJI WTFOS OSD settings
 #$ HIDDEN: true
 
 # OSD System

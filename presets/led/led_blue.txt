@@ -8,8 +8,6 @@
 
 feature LED_STRIP
 
-# Blue LED (BRG) #
-
 # color
 color 5 255,50,150
 color 6 255,50,165

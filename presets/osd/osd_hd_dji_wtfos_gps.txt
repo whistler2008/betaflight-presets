@@ -1,9 +1,9 @@
-#$ TITLE: HD DJI WTFOS GPS OSD settings
+#$ TITLE: Digital DJI WTFOS GPS OSD settings
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: HD DJI WTFOS OSD settings
+#$ DESCRIPTION: Digital DJI WTFOS OSD settings
 #$ HIDDEN: true
 
 # OSD GPS
