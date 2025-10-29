@@ -2730,9 +2730,9 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/vtx/vtx_default_irc_abefhr.txt",
-      "hash": "390758ead4540739dde840ee9e49a3791790b864e5dfab5425d15356414bf0d7",
-      "title": "Default IRC2 VTX",
+      "fullPath": "presets/vtx/vtx_default_irc_abefr.txt",
+      "hash": "b1e3018efa59c5a074a88fb0f4fa830d81f650ba589f107214b0ac6f487b9c4c",
+      "title": "Default IRC ABEFR VTX",
       "firmware_version": [
         "4.5"
       ],
@@ -2744,9 +2744,23 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/vtx/vtx_default_irc_abefr.txt",
-      "hash": "bfe8f35ef13485ba8fe04337113c51e68ba83c6e0b72ea26874d5b54dfa0c6a8",
-      "title": "Default IRC1 VTX",
+      "fullPath": "presets/vtx/vtx_default_irc_abefrh.txt",
+      "hash": "9585172a39fdc90758394a0ab4c7428af10e3e53f9f525e31c906c8a715e3462",
+      "title": "Default IRC ABEFRH VTX",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/vtx/vtx_default_irc_abefrl.txt",
+      "hash": "a94aa975b569380e69f76c51bf64e92291c2c4976ac50010ac88ce482c93ae4c",
+      "title": "Default IRC ABEFRL VTX",
       "firmware_version": [
         "4.5"
       ],
@@ -2815,7 +2829,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_geprc.txt",
-      "hash": "69cbd3641babd1de9b52c14451c4b39ce94f67e54e3ca9206a9cbfaada5ad05f",
+      "hash": "a408cd97bc6b1c74224d9af5a5f3376f226d30776ebb40f8776e478bed5ba4cc",
       "title": "GEPRC",
       "firmware_version": [
         "4.5"
@@ -2885,7 +2899,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_ldarc.txt",
-      "hash": "5645fca4a9d031704152f4a2de36c836e342c8168131f720e4f4fa763b2d4992",
+      "hash": "fda40eb807c1acd8cc42803619c0932d465030f434d25d21f61e8727212064ad",
       "title": "LDARC",
       "firmware_version": [
         "4.5"

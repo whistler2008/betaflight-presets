@@ -9,7 +9,7 @@
 #$ OPTION_GROUP BEGIN: Series
 
 #$ OPTION BEGIN (UNCHECKED): LDARC Micro KK20 200mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefhr.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefrh.txt
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 25 100 200

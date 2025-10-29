@@ -41,7 +41,7 @@ vtxtable powerlabels 25 200 400
 set vtx_power = 3
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): GEPRC RAD MINI 5.8G 1W (1W) (IRC)
+#$ OPTION BEGIN (UNCHECKED): GEPRC RAD MINI 5.8G 1W FCC - LED Blink 2x (1W) (IRC)
 #$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
