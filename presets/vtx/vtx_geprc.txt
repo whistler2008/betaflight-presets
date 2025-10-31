@@ -42,7 +42,7 @@ set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC RAD MINI 5.8G 1W Global (1W - LED Blink 1x) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ INCLUDE: presets/vtx/vtx_default_irc_abefrl.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 200 500 1000

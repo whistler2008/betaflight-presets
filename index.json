@@ -2829,7 +2829,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_geprc.txt",
-      "hash": "d58023e6330ab6da2e7c62b98cb588eec6b698f256a2806d6a4e633c4e20bfd4",
+      "hash": "dd3f83929ace9cc5bf287138e40f759d9f09dd157241ae42a5831c999ef1f5a2",
       "title": "GEPRC",
       "firmware_version": [
         "4.5"
