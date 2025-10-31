@@ -292,7 +292,7 @@
     },
     {
       "fullPath": "presets/factory/hakrc411d.txt",
-      "hash": "e121051162df1499a9144e9cda911c47d75d52044ef36da37563fc6317df4129",
+      "hash": "5b411d859a96da754a1f38b15dd58adac7b69578abc9f5c4024344fcac476c78",
       "title": "HAKRC F4126 V2",
       "firmware_version": [
         "4.2",
@@ -2759,7 +2759,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default_irc_abefrl.txt",
-      "hash": "a94aa975b569380e69f76c51bf64e92291c2c4976ac50010ac88ce482c93ae4c",
+      "hash": "2ef2b6cf7f006f28279bc11a9662a4e4db3f72d38c6587b54e7bbb682f793953",
       "title": "Default IRC ABEFRL VTX",
       "firmware_version": [
         "4.5"
@@ -2829,7 +2829,7 @@
     },
     {
       "fullPath": "presets/vtx/vtx_geprc.txt",
-      "hash": "a408cd97bc6b1c74224d9af5a5f3376f226d30776ebb40f8776e478bed5ba4cc",
+      "hash": "d58023e6330ab6da2e7c62b98cb588eec6b698f256a2806d6a4e633c4e20bfd4",
       "title": "GEPRC",
       "firmware_version": [
         "4.5"

@@ -9,7 +9,7 @@
 #$ INCLUDE: presets/vtx/vtx_default.txt
 
 # vtx tables
-vtxtable bands 5
+vtxtable bands 6
 vtxtable channels 8
 vtxtable band 1 BAND_A A CUSTOM 5865 5845 5825 5805 5785 5765 5745 5725
 vtxtable band 2 BAND_B B CUSTOM 5733 5752 5771 5790 5809 5828 5847 5866
