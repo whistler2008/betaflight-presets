@@ -8,30 +8,34 @@
 #$ KEYWORDS: factory
 #$ DESCRIPTION: Fix RPM Filter on HAKRC F4126 V2 (HAKRCF411D)
 
-
-
-dma ADC 1 1
-# ADC 1: DMA2 Stream 4 Channel 0
-
-set system_hse_mhz = 8
-set dshot_burst = AUTO
-set dshot_bitbang = OFF
-
 #$ OPTION_GROUP BEGIN: Setting
 
-	#$ OPTION BEGIN (CHECKED): Disable PINIO
-		# Disable PINIO
+	#$ OPTION BEGIN (CHECKED): Fix RPM Filter
+		# Fix RPM Filter
 
-		resource PINIO 1 none
-		resource PINIO 2 none
-		set pinio_box = 255,255,255,255
+		dma ADC 1 1
+		# ADC 1: DMA2 Stream 4 Channel 0
+
+		set system_hse_mhz = 8
+		set dshot_burst = AUTO
+		set dshot_bitbang = OFF
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Disable Softserial
 		# Disable Softserial
 		
-		set SOFTSERIAL1_RX 1 = 0
-		set SOFTSERIAL1_TX 1 = 0
+		feature -SOFTSERIAL
+		
+		resource SOFTSERIAL_RX 1 none
+		resource SOFTSERIAL_TX 1 none
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Disable PINIO
+		# Disable PINIO
+
+		resource PINIO 1 none
+		resource PINIO 2 none
+		set pinio_box = 255,255,255,255
 	#$ OPTION END
 
 #$ OPTION_GROUP END
