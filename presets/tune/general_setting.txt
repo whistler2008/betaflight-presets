@@ -88,6 +88,11 @@
 		#$ INCLUDE: presets/led/led_blue.txt
 	#$ OPTION END
 
+	#$ OPTION BEGIN (UNCHECKED): LED Blink Single
+		# LED Blink Single Setting
+		#$ INCLUDE: presets/led/led_blink_single.txt
+	#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#

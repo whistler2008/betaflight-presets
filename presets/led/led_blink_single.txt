@@ -1,0 +1,12 @@
+#$ TITLE: Custom LED Blink Single
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: LED
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: Custom LED Blink Single settings
+#$ HIDDEN: true
+
+feature LED_STRIP
+
+# led
+led 0 0,0::COVIW:5

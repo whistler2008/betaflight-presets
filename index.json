@@ -509,6 +509,20 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/led/led_blink_single.txt",
+      "hash": "b0395b8a693f4f8228a7298aac99d2d413de5ff931a9a6277de0782854df8f80",
+      "title": "Custom LED Blink Single",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "LED",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
       "fullPath": "presets/led/led_blue.txt",
       "hash": "a504467ccb5b9b4712c55106df550e2f76efb40108055701757c1cc5fd3fd018",
       "title": "Custom LED Blue (iFlight Evoque)",
@@ -2526,7 +2540,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "cd1d834e33649771160affd47bc41e2b52f5235f4dfc824f2a42b3357d36a274",
+      "hash": "808aa94094c52076cdd7246914c1e308a94822b142c4f862e70e4661d523df53",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
