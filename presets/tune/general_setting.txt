@@ -73,6 +73,11 @@
 
 #$ OPTION_GROUP BEGIN: General Setting
 
+	#$ OPTION BEGIN (CHECKED): Default LED
+		# Default LED Setting
+		#$ INCLUDE: presets/led/led_default.txt
+	#$ OPTION END
+
 	#$ OPTION BEGIN (UNCHECKED): LED Blink
 		# LED Blink Setting
 		#$ INCLUDE: presets/led/led_blink.txt

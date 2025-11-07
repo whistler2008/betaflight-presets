@@ -537,6 +537,20 @@
       "hidden": true
     },
     {
+      "fullPath": "presets/led/led_default.txt",
+      "hash": "74a7073172c70ecaf000796da1bde7702cc7526865912b495156ad80ade28532",
+      "title": "Default LED",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "LED",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
       "fullPath": "presets/led/led_green.txt",
       "hash": "f81d569e9b39f430fc9edc16aa11c12a68296d0ad8abe32c760b5f7c2d22385f",
       "title": "Custom LED Green (iFlight Evoque)",
@@ -2540,7 +2554,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "808aa94094c52076cdd7246914c1e308a94822b142c4f862e70e4661d523df53",
+      "hash": "154867eacdee98e82ab7bd607596a4397fc86bf295eb163d0041ae4a56a31d9e",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
