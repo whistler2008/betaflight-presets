@@ -95,6 +95,26 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: FlyfishRC
+
+#$ OPTION BEGIN (UNCHECKED): FlyfishRC Volador VX35
+# FlyfishRC Volador VX35 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx35_filter.txt
+
+# FlyfishRC Volador VX35 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx35_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: GEPRC
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC Mark5

@@ -1803,6 +1803,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx35_filter.txt",
+      "hash": "b8dd89dd66216e29c4838f5a0676c22328b59ea14a1ac17c7ab911cccb5d4873",
+      "title": "FreeStyle - FlyFishRC Volador VX35 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx35_pid.txt",
+      "hash": "5e36896d6932420f85eaa0f925c0c770dd3ccefd58f344504b4cc0b18436be84",
+      "title": "FreeStyle - FlyFishRC Volador VX35 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_geprc_mark5_filter.txt",
       "hash": "4524a357dca9065239d8d61c613db2f756c19934b0193d815c5d826f6c5daed3",
       "title": "FreeStyle - iFlight Evoque F5 - Filter",
@@ -2400,7 +2430,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_150.txt",
-      "hash": "6dd902fcbeaf757884c0e0e74a3df84fef2f0002fa5c470048c483cdb7813019",
+      "hash": "454072a7988c6a496386dc1bd29674d401f4013fee6dfe4cd92d2dc3bac7b657",
       "title": "RX Serial ELRS 150Hz for CineWhoop",
       "firmware_version": [
         "4.5"
@@ -2414,7 +2444,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "20bc7ec2ea428be70b1a02734119c04dde7e2b9cef19175dde41eb5fd2637583",
+      "hash": "520b198ce506d90f9f45839be25997654c04d7e3543f4960a7b6661f31e0d781",
       "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
         "4.5"
@@ -2428,7 +2458,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_150.txt",
-      "hash": "47ba9112190b421369e611c989fe108c435f5a92502799ff3aa415ae7b84e759",
+      "hash": "4db38b70ce45d470a0cf20a6c77025c01cb800e2bb9de8936fc4ea17f384cc37",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -2442,7 +2472,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "aeaf592f9a8bddbda52893025e6cba3fcc11bc993af20b41f321b8ac4ce56846",
+      "hash": "61c0317486a8f278d22db8133c010d2d051138f2db96a1872d8d3ed5435105d2",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -2456,7 +2486,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_150.txt",
-      "hash": "10b1eff5de93c23319915e1a9126ded59fe7a83f4108925b26ef7ff88ac2bed7",
+      "hash": "4e558fbb6cc9e2526f61caa650f3fcde09b386f9cce6b8d131259251c0210fa0",
       "title": "RX Serial ELRS 150Hz for Race",
       "firmware_version": [
         "4.5"
@@ -2470,7 +2500,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "3abf78923c5e034a805f87156801e6f680b0b0b20ca9f1fac9284359581b7790",
+      "hash": "aebf0aaed0a795107e664004ce4f8e7c1f53fafb24607e16616fe63f4aaa9a36",
       "title": "RX Serial ELRS 500Hz for Race",
       "firmware_version": [
         "4.5"
@@ -2484,7 +2514,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_sbang_elrs_150.txt",
-      "hash": "81683c4b55fa563f1f569f6a603317825a96a4af178879b8478265ae2e65771d",
+      "hash": "367c8f493ca7260fd74fc72a56b0a8b2de7a8625203584edf8955a7c420fa293",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -2498,7 +2528,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_sbang_elrs_500.txt",
-      "hash": "50cb6589cfd77c73ff1ac7922b29ee123a763bbfd59d30957e0fafcc07b3694c",
+      "hash": "fe28f7c4ebf0767408ccd531e6b26b62c6f869d1369a8087e2baa2bb43d34a3a",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
         "4.5"
@@ -2512,7 +2542,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_serial_sbus_ibus.txt",
-      "hash": "75b7ff505a8e1e52200d7cc24be75255705d39a9433d59674eead03a7bb6d111",
+      "hash": "51fbf702e94b58fba40edb2209272e38b0a6a99afac0957af59e09b6c143a170",
       "title": "RX Serial SBUS / IBUS",
       "firmware_version": [
         "4.5"
@@ -2526,7 +2556,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
-      "hash": "824381d7e8bd93802727edb95f1110670b7fcc1aaf14c2571662262afa09b1f7",
+      "hash": "10a2f17b4e479dd3b798cf78ae90feddd9cc6e02856a5a6d1af5ac9aa645b80f",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
         "4.5"
@@ -2540,7 +2570,7 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_sbus_ibus.txt",
-      "hash": "f68ed09e80f4be28cfe9e24fb06afc8733711537a334bc7da4fe5145bdaed751",
+      "hash": "97b48051c9711205350c31741fbac9992d65df7aff3a60ed4494080f3d703025",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
         "4.5"
@@ -2584,7 +2614,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "5793a74b8f84e4043b11dc5f839763c48e9915efcc1e05c4d0a732e6140926dc",
+      "hash": "2bea2235bb028f82f3194f0adfa60c235f73673c2f5756fff164d8185c0930ea",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"

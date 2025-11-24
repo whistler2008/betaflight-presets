@@ -1,0 +1,28 @@
+#$ TITLE: FreeStyle - FlyFishRC Volador VX35 - PID
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: FreeStyle - FlyFishRC Volador VX35 - PID
+#$ HIDDEN: true
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Ratio 1:10
+
+set craft_name = Volador VX35
+set simplified_pids_mode = RPY
+set simplified_d_gain = 105
+set simplified_pi_gain = 135
+set simplified_feedforward_gain = 120
+set simplified_dmax_gain = 0
+set simplified_i_gain = 95
+set simplified_pitch_d_gain = 110
+set simplified_pitch_pi_gain = 95
+set simplified_master_multiplier = 100
+
+set iterm_relax_cutoff = 15
+set anti_gravity_gain = 80
+
+set tpa_rate = 65
+set tpa_breakpoint = 1350
+
+simplified_tuning apply
