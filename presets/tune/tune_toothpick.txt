@@ -33,6 +33,26 @@
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: Flywoo
+
+#$ OPTION BEGIN (UNCHECKED): Flywoo Baby Quad HD
+# iFlywoo Baby Quad HD Filter #
+
+#$ INCLUDE: presets/pid/toothpick_flywoo_baby_quad_hd_filter.txt
+
+# Flywoo Baby Quad HD PID #
+
+profile 0
+#$ INCLUDE: presets/pid/toothpick_flywoo_baby_quad_hd_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: iFlight
 
 #$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 160S

@@ -2343,6 +2343,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/toothpick_flywoo_baby_quad_hd_filter.txt",
+      "hash": "824346f22ccc0624effc9d373d1826c6a270e284cc999a39f97e903f84183400",
+      "title": "Toothpick - Flywoo Baby Quad HD - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/toothpick_flywoo_baby_quad_hd_pid.txt",
+      "hash": "51be65d3316efcea08c2a81ca0ebe11b7fd17dc4c90c34b0c046b0c0a8bf9a30",
+      "title": "Toothpick - Flywoo Baby Quad HD - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/toothpick_iflight_turbobee_160rs_filter.txt",
       "hash": "44ff612ea94094c28a08a9f2c2306167c4f464120ad72aa5793563eca31a7a58",
       "title": "Toothpick - iFlight TurboBee 160RS - Filter",
@@ -2704,7 +2734,7 @@
     },
     {
       "fullPath": "presets/tune/tune_toothpick.txt",
-      "hash": "766c9cfce8f3265abaa5ff187c0cc14a641222336a8aea042e2db40f59ecce87",
+      "hash": "f685c126618a5cf0746562d07c2d12690636ce6332855a8f45d025977e0c0336",
       "title": "Toothpick Tune",
       "firmware_version": [
         "4.5"
