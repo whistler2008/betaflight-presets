@@ -1,0 +1,14 @@
+#$ TITLE: Toothpick - iFlight TurboBee 77R - Filter
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: Toothpick - iFlight TurboBee 77R - Filter
+#$ HIDDEN: true
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Ratio 1:10
+
+set dyn_notch_count = 5
+set dyn_notch_q = 250
+set dyn_notch_min_hz = 100
+set dyn_notch_max_hz = 600

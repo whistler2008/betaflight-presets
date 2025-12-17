@@ -1,0 +1,28 @@
+#$ TITLE: Toothpick - iFlight TurboBee 99R - PID
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: Toothpick - iFlight TurboBee 99R - PID
+#$ HIDDEN: true
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Ratio 1:10
+
+set craft_name = TurboBee 99R
+set simplified_pids_mode = RPY
+set simplified_d_gain = 100
+set simplified_pi_gain = 110
+set simplified_feedforward_gain = 100
+set simplified_dmax_gain = 0
+set simplified_i_gain = 100
+set simplified_pitch_d_gain = 100
+set simplified_pitch_pi_gain = 100
+set simplified_master_multiplier = 100
+
+set iterm_relax_cutoff = 20
+set anti_gravity_gain = 80
+
+set tpa_rate = 65
+set tpa_breakpoint = 1350
+
+simplified_tuning apply

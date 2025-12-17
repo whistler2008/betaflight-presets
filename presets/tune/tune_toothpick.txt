@@ -55,12 +55,40 @@ profile 0
 
 #$ OPTION_GROUP BEGIN: iFlight
 
-#$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 160S
-# iFlight TurboBee 160S Filter #
+#$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 77R
+# iFlight TurboBee 77R Filter #
+
+#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_77r_filter.txt
+
+# iFlight TurboBee 77R PID #
+
+profile 0
+#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_77r_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 99R
+# iFlight TurboBee 99R Filter #
+
+#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_99r_filter.txt
+
+# iFlight TurboBee 99R PID #
+
+profile 0
+#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_99r_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 160RS
+# iFlight TurboBee 160RS Filter #
 
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_filter.txt
 
-# iFlight TurboBee 160S PID #
+# iFlight TurboBee 160RS PID #
 
 profile 0
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_pid.txt

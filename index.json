@@ -2403,6 +2403,66 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/toothpick_iflight_turbobee_77r_filter.txt",
+      "hash": "87332f20d5aac0170c673f4fe606b434d99110ad27c940fc6abbbe7a34902750",
+      "title": "Toothpick - iFlight TurboBee 77R - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/toothpick_iflight_turbobee_77r_pid.txt",
+      "hash": "ca197aeaaa2347fb3cfb04fdca53ff28c9bcb2b5847c40a3e23db462cc941079",
+      "title": "Toothpick - iFlight TurboBee 77R - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/toothpick_iflight_turbobee_99r_filter.txt",
+      "hash": "bb42c952ae33d5d99c5f40bb373a985cc1d2bdb667aef9518ba975e98725ecd6",
+      "title": "Toothpick - iFlight TurboBee 99R - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/toothpick_iflight_turbobee_99r_pid.txt",
+      "hash": "ab1c3ef9e670466c95589ca6b5f2561f643c4c609b14b854d114c8c9c926c75b",
+      "title": "Toothpick - iFlight TurboBee 99R - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/rates/rates_default.txt",
       "hash": "d209a3e626ac1ba2caa90318b93eb45e835f45aed2bd00b428ea4f4b5225d9a4",
       "title": "Default Rate",
@@ -2734,7 +2794,7 @@
     },
     {
       "fullPath": "presets/tune/tune_toothpick.txt",
-      "hash": "f685c126618a5cf0746562d07c2d12690636ce6332855a8f45d025977e0c0336",
+      "hash": "f9586aa9ac2d28e7116e12f2b7410b3988b15e7d8fa1561e11098e0913fc2d70",
       "title": "Toothpick Tune",
       "firmware_version": [
         "4.5"
