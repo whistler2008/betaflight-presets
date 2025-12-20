@@ -1833,6 +1833,66 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx5_filter.txt",
+      "hash": "e783ad2a46cebb7533df7cdf50985f312d553302927e69cdaa52aa961f97d363",
+      "title": "FreeStyle - FlyFishRC Volador VX5 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx5_pid.txt",
+      "hash": "0d77b6964a3bd0469d13c61a38d63bd8825b10bf0d66fb72ce1537991ccf1158",
+      "title": "FreeStyle - FlyFishRC Volador VX5 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx6_filter.txt",
+      "hash": "531a2f5b3abf4acc04e027f1b8199f0b6a313b0eba9fb0dff8d671fdb7fbdf92",
+      "title": "FreeStyle - FlyFishRC Volador VX6 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx6_pid.txt",
+      "hash": "e2cc7a74cb4913d9e5736837b1071b925b70ac28f23ab925a247723fef70f47a",
+      "title": "FreeStyle - FlyFishRC Volador VX6 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_geprc_mark5_filter.txt",
       "hash": "4524a357dca9065239d8d61c613db2f756c19934b0193d815c5d826f6c5daed3",
       "title": "FreeStyle - iFlight Evoque F5 - Filter",
@@ -2031,6 +2091,21 @@
       "fullPath": "presets/pid/freestyle_iflight_evoque_f6_pid.txt",
       "hash": "6f0582cdefa6c8d3dcf965f1b48e51f17f4f379d2b8223c1a6602bc5e47f8936",
       "title": "FreeStyle - iFlight Evoque F6 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_iflight_nazgul_eco5_filter - Copy.txt",
+      "hash": "02825a2d98558967bb2406c89dbdeba78117bba2079f097748ee1edf3f1e82ae",
+      "title": "FreeStyle - iFlight Nazgul ECO F5 - Filter",
       "firmware_version": [
         "4.5"
       ],
@@ -2704,7 +2779,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "2bea2235bb028f82f3194f0adfa60c235f73673c2f5756fff164d8185c0930ea",
+      "hash": "94285ca636b633a3f4ca51c12f6225cb94e72272ea10830db6d6f89fcadf3e96",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"

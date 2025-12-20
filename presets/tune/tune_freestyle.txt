@@ -111,6 +111,34 @@ profile 0
 profile 0
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): FlyfishRC Volador VX5
+# FlyfishRC Volador VX5 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx5_filter.txt
+
+# FlyfishRC Volador VX5 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx5_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): FlyfishRC Volador VX6
+# FlyfishRC Volador VX6 Filter #
+
+#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx6_filter.txt
+
+# FlyfishRC Volador VX6 PID #
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx6_pid.txt
+
+# restore original profile selection
+profile 0
+#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #--------------------------------------------------#
