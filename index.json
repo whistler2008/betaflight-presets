@@ -126,6 +126,7 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "2025.12",
       "4.0",
       "4.2",
       "4.3",
@@ -2734,10 +2735,11 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "87ebd6444f2e476d1c9f4e3e6e8b7d37fe8f27f5b1e6ff728dd593f73e3790b4",
+      "hash": "1aac3477c5423c5120c8c15dbbc69378b9bba7127ab4d8fb5462d9da6b38db07",
       "title": "General Setting",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2749,10 +2751,11 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "9f7e01f281e6b82b4998f995181b4a0ef114af4ecc510dbbe85175aa6b2fc248",
+      "hash": "d2fc46ee4702cec8bf687cfcc6a836b1ebffdaebcffd70510d9c1121a502e6f8",
       "title": "CineWhoop Tune",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2764,10 +2767,11 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "b31bb66ac7c6e7d356ba175d39671ac07dc1cdbb3e48f9a2e050eaa42bae274e",
+      "hash": "39be6c03b4da7958c6018725da642372952df49f1d08bd9367709a38c5fb0bf6",
       "title": "FreeStyle Tune",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2779,10 +2783,11 @@
     },
     {
       "fullPath": "presets/tune/tune_microwhoop.txt",
-      "hash": "9e87324c24388cd123e787809445736f518760d63f2faad78fab5a87fc0652b0",
+      "hash": "33ebcf546179cf45e3993e5721d1083be5c5f1b27995d498e235bbcfd454033c",
       "title": "MicroWhoop Tune",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2809,10 +2814,11 @@
     },
     {
       "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "0ab6fedf579826df7a5f896ccfd6973a1fd2ee644b3691676ed88138ef49e226",
+      "hash": "39f0aa0b74ebe70ec909b6580c1ca9647f33ab9a06540e4982fa157d27b313ec",
       "title": "Pre-Tune",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2824,10 +2830,11 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "d8dda1d0413934cf390841dd4b08a9f082a6578948194d036a36c95fcbceae5a",
+      "hash": "07ee5bdf4cc6f6e951e039d4c31b11112b97358a0f9a1d466563cee0fc1df4a1",
       "title": "RaceWhoop Tune",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2839,10 +2846,11 @@
     },
     {
       "fullPath": "presets/tune/tune_sbang.txt",
-      "hash": "82be22e6ac169be6b92d9b89c3342263c953bd5468447c06b14c095c6c259699",
+      "hash": "7344555d66776cc7c2e127ad01f9a54d8f319c849c6d878346d9de52453139e5",
       "title": "SBang Tune",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2854,10 +2862,11 @@
     },
     {
       "fullPath": "presets/tune/tune_toothpick.txt",
-      "hash": "63d22911a35b7778df61fc1c88a57ff96afbf5cbe912a7f638c3c2c86dea36ce",
+      "hash": "81a92aa43e65201ceb8a8896dd0c3c73ca1e4c605ba9a758e00c508b139616e3",
       "title": "Toothpick Tune",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
