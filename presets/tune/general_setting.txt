@@ -50,6 +50,11 @@
 		set pidsum_limit_yaw = 1000
 	#$ OPTION END
 
+	#$ OPTION BEGIN (CHECKED): Failsafe Setting
+		### Failsafe Setting ###
+		#$ INCLUDE: presets/other/other_failsafe.txt
+	#$ OPTION END
+
 	#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
 		### Blackbox for GyroFlow ###
 		#$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
@@ -136,6 +141,7 @@
 		
 		set motor_poles = 12
 		set dshot_idle_value = 550
+		set motor_idle = 550
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): 14 Pole
@@ -143,6 +149,7 @@
 		
 		set motor_poles = 14
 		set dshot_idle_value = 550
+		set motor_idle = 550
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -414,42 +421,35 @@
 #$ OPTION_GROUP BEGIN: GPS Hardware & OSD Placement
 
 	#$ OPTION BEGIN (CHECKED): Without GPS
-		#$ INCLUDE: presets/other/other_failsafe.txt
 		#$ INCLUDE: presets/modes/aux_std.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog GPS
-		#$ INCLUDE: presets/other/other_failsafe_gps.txt
 		#$ INCLUDE: presets/osd/osd_analog_gps.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail GPS
-		#$ INCLUDE: presets/other/other_failsafe_gps.txt
 		#$ INCLUDE: presets/osd/osd_gps_digital_avatar.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas GPS
-		#$ INCLUDE: presets/other/other_failsafe_gps.txt
 		#$ INCLUDE: presets/osd/osd_gps_digital_dji_canvas.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV GPS
-		#$ INCLUDE: presets/other/other_failsafe_gps.txt
 		#$ INCLUDE: presets/osd/osd_gps_digital_dji_fpv.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS GPS
-		#$ INCLUDE: presets/other/other_failsafe_gps.txt
 		#$ INCLUDE: presets/osd/osd_gps_digital_dji_wtfos.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital HDZero GPS
-		#$ INCLUDE: presets/other/other_failsafe_gps.txt
 		#$ INCLUDE: presets/osd/osd_gps_digital_hd_hdzero.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
