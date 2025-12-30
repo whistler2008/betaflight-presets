@@ -2749,7 +2749,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "693cd31bb24dcba75f18cedcf348efe42640150545ead37a3ec81ec1c969b0da",
+      "hash": "9f7e01f281e6b82b4998f995181b4a0ef114af4ecc510dbbe85175aa6b2fc248",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -2764,7 +2764,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "94285ca636b633a3f4ca51c12f6225cb94e72272ea10830db6d6f89fcadf3e96",
+      "hash": "b31bb66ac7c6e7d356ba175d39671ac07dc1cdbb3e48f9a2e050eaa42bae274e",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "4.5"
@@ -2779,7 +2779,7 @@
     },
     {
       "fullPath": "presets/tune/tune_microwhoop.txt",
-      "hash": "ad80fe74f1e94123d8a2df41e813e33de65a6447c9a42e4a2edfadc3439e8755",
+      "hash": "9e87324c24388cd123e787809445736f518760d63f2faad78fab5a87fc0652b0",
       "title": "MicroWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -2809,7 +2809,7 @@
     },
     {
       "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "e5dc8002fde8dc9098d0f27c6023987e8847c9d5f87afed33bd591a270bc673e",
+      "hash": "0ab6fedf579826df7a5f896ccfd6973a1fd2ee644b3691676ed88138ef49e226",
       "title": "Pre-Tune",
       "firmware_version": [
         "4.5"
@@ -2824,7 +2824,7 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "233f4fb6faf8155952817e173975824173f76a1defc5cbdf29f2f540d8e34360",
+      "hash": "d8dda1d0413934cf390841dd4b08a9f082a6578948194d036a36c95fcbceae5a",
       "title": "RaceWhoop Tune",
       "firmware_version": [
         "4.5"
@@ -2839,7 +2839,7 @@
     },
     {
       "fullPath": "presets/tune/tune_sbang.txt",
-      "hash": "0833bd973ef7b79fd69713019d70d4b13279216ad67086aa46c19e718c23e3b9",
+      "hash": "82be22e6ac169be6b92d9b89c3342263c953bd5468447c06b14c095c6c259699",
       "title": "SBang Tune",
       "firmware_version": [
         "4.5"
@@ -2854,7 +2854,7 @@
     },
     {
       "fullPath": "presets/tune/tune_toothpick.txt",
-      "hash": "f9586aa9ac2d28e7116e12f2b7410b3988b15e7d8fa1561e11098e0913fc2d70",
+      "hash": "63d22911a35b7778df61fc1c88a57ff96afbf5cbe912a7f638c3c2c86dea36ce",
       "title": "Toothpick Tune",
       "firmware_version": [
         "4.5"

@@ -14,29 +14,33 @@
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 	#$ OPTION BEGIN (UNCHECKED): Pilot Name
-		# Pilot Name
+		### Pilot Name ###
+		
 		set pilot_name = TUNNING
 		set craft_name = TUNNING PURPOSE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): CAM Angle 5%
-		# CAM Angle 5%
+		### CAM Angle 5% ###
+		
 		set fpv_mix_degrees = 5
 		set small_angle = 180
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): RC Smoothing 30
-		# RC Smoothing 30
+		### RC Smoothing 30 ###
+		
 		set rc_smoothing_auto_factor = 30
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Crash Recovery DISARM
-		# Crash Recovery DISARM
+		### Crash Recovery DISARM ###
+		
 		set crash_recovery = DISARM
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): PreTune AUX
-		# PreTune AUX
+		### PreTune AUX ###
 		#$ INCLUDE: presets/modes/aux_tune.txt
 	#$ OPTION END
 
@@ -47,7 +51,7 @@
 #$ OPTION_GROUP BEGIN: Tune Option
 
 #$ OPTION BEGIN (UNCHECKED): PID & Rate For Filter Tune
-# PID & Rate For Filter Tune #
+### PID & Rate For Filter Tune ###
 
 profile 0
 
@@ -79,13 +83,13 @@ rateprofile 2
 
 rateprofile 3
 
-# restore original rateprofile selection
+### restore original rateprofile selection
 rateprofile 0
 
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): PID & Rate For PID Tune
-# PID & Rate For PID Tune #
+### PID & Rate For PID Tune ###
 
 rateprofile 0
 
@@ -115,7 +119,7 @@ rateprofile 0
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
-# Serial SBUS #
+### Serial SBUS ###
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
@@ -123,7 +127,7 @@ set serialrx_provider = SBUS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
-# Serial IBUS #
+### Serial IBUS ###
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
@@ -131,21 +135,21 @@ set serialrx_provider = IBUS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-# SPI SBUS / IBUS #
+### SPI SBUS / IBUS ###
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
-# SPI ELRS #
+### SPI ELRS ###
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
-# DJI SBUS FAST #
+### DJI SBUS FAST ###
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
@@ -154,7 +158,7 @@ set sbus_baud_fast = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-# Serial CRSF TBS / ELRS 915MHz #
+### Serial CRSF TBS / ELRS 915MHz ###
 
 feature RX_SERIAL
 feature TELEMETRY
@@ -164,7 +168,7 @@ set serialrx_provider = CRSF
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-# Serial CRSF TBS / ELRS 2.4Ghz #
+### Serial CRSF TBS / ELRS 2.4Ghz ###
 
 feature RX_SERIAL
 feature TELEMETRY

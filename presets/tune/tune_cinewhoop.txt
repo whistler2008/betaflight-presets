@@ -14,18 +14,21 @@
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 	#$ OPTION BEGIN (UNCHECKED): Pilot Name
-		# Pilot Name
+		### Pilot Name ###
+		
 		set pilot_name = CINEWHOOP
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): CAM Angle 5%
-		# CAM Angle 5%
+		### CAM Angle 5% ###
+		
 		set fpv_mix_degrees = 5
 		set small_angle = 180
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): RC Smoothing 90
-		# RC Smoothing 90
+		### RC Smoothing 90 ###
+		
 		set rc_smoothing_auto_factor = 90
 	#$ OPTION END
 
@@ -36,58 +39,58 @@
 #$ OPTION_GROUP BEGIN: AxisFlying
 
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON20
-# AxisFlying CineON20 Filter #
+### AxisFlying CineON20 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_filter.txt
 
-# AxisFlying CineON20 PID #
+### AxisFlying CineON20 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON25
-# AxisFlying CineON25 Filter #
+### AxisFlying CineON25 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_filter.txt
 
-# AxisFlying CineON25 PID #
+### AxisFlying CineON25 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON30
-# AxisFlying CineON30 Filter #
+### AxisFlying CineON30 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_filter.txt
 
-# AxisFlying CineON30 PID #
+### AxisFlying CineON30 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON35
-# AxisFlying CineON35 Filter #
+### AxisFlying CineON35 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_filter.txt
 
-# AxisFlying CineON35 PID #
+### AxisFlying CineON35 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -98,100 +101,100 @@ profile 0
 #$ OPTION_GROUP BEGIN: BetaFPV
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO Femto
-# BetaFPV PAVO Femto Filter #
+### BetaFPV PAVO Femto Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_femto_filter.txt
 
-# BetaFPV PAVO Femto PID #
+### BetaFPV PAVO Femto PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_femto_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO Pico
-# BetaFPV PAVO Pico Filter #
+### BetaFPV PAVO Pico Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_pico_filter.txt
 
-# BetaFPV PAVO Pico PID #
+### BetaFPV PAVO Pico PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_pico_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO20
-# BetaFPV PAVO20 Filter #
+### BetaFPV PAVO20 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_filtery.txt
 
-# BetaFPV PAVO20 PID #
+### BetaFPV PAVO20 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO20 Pro
-# BetaFPV PAVO20 Pro Filter #
+### BetaFPV PAVO20 Pro Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pro_filter.txt
 
-# BetaFPV PAVO20 Pro PID #
+### BetaFPV PAVO20 Pro PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pro_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO25
-# BetaFPV PAVO25 Filter #
+### BetaFPV PAVO25 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo25_filter.txt
 
-# BetaFPV PAVO25 PID #
+### BetaFPV PAVO25 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo25_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO30
-# BetaFPV PAVO30 Filter #
+### BetaFPV PAVO30 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo30_filter.txt
 
-# BetaFPV PAVO30 PID #
+### BetaFPV PAVO30 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo30_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO35
-# BetaFPV PAVO35 Filter #
+### BetaFPV PAVO35 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo35_filter.txt
 
-# BetaFPV PAVO35 PID #
+### BetaFPV PAVO35 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo35_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -202,100 +205,100 @@ profile 0
 #$ OPTION_GROUP BEGIN: GEPRC
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC Thinker P16
-# GEPRC Thinker P16 Filter #
+### GEPRC Thinker P16 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_thinking_p16_filter.txt
 
-# GEPRC Thinker P16 PID #
+### GEPRC Thinker P16 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_thinking_p16_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC Rocket
-# GEPRC Rocket Filter #
+### GEPRC Rocket Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_rocket_filter.txt
 
-# GEPRC Rocket PID #
+### GEPRC Rocket PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_rocket_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineBot30
-# GEPRC CineBot30 Filter #
+### GEPRC CineBot30 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_filter.txt
 
-# GEPRC CineBot30 PID #
+### GEPRC CineBot30 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog20
-# GEPRC CineLog20 Filter #
+### GEPRC CineLog20 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_filter.txt
 
-# GEPRC CineLog20 PID #
+### GEPRC CineLog20 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog25
-# GEPRC CineLog25 Filter #
+### GEPRC CineLog25 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_filter.txt
 
-# GEPRC CineLog25 PID #
+### GEPRC CineLog25 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog30
-# GEPRC CineLog30 Filter #
+### GEPRC CineLog30 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_filter.txt
 
-# GEPRC CineLog30 PID #
+### GEPRC CineLog30 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog35
-# GEPRC CineLog35 Filter #
+### GEPRC CineLog35 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_filter.txt
 
-# GEPRC CineLog35 PID #
+### GEPRC CineLog35 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -306,16 +309,16 @@ profile 0
 #$ OPTION_GROUP BEGIN: HGLRC
 
 #$ OPTION BEGIN (UNCHECKED): HGLRC Talon2
-# HGLRC Talon2 Filter #
+### HGLRC Talon2 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_hglrc_talon2_filter.txt
 
-# HGLRC Talon2 PID #
+### HGLRC Talon2 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_hglrc_talon2_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -326,86 +329,86 @@ profile 0
 #$ OPTION_GROUP BEGIN: iFlight
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Alpha A65
-# iFlight Alpha A65 Filter #
+### iFlight Alpha A65 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a65_filter.txt
 
-# iFlight Alpha A65 PID #
+### iFlight Alpha A65 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a65_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Alpha A75
-# iFlight Alpha A75 Filter #
+### iFlight Alpha A75 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a75_filter.txt
 
-# iFlight Alpha A75 PID #
+### iFlight Alpha A75 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a75_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Alpha A85
-# iFlight Alpha A85 Filter #
+### iFlight Alpha A85 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a85_filter.txt
 
-# iFlight Alpha A85 PID #
+### iFlight Alpha A85 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a85_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight BumbleBee
-# iFlight BumbleBee Filter #
+### iFlight BumbleBee Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_bumblebee_filter.txt
 
-# iFlight BumbleBee PID #
+### iFlight BumbleBee PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_bumblebee_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Protek25
-# iFlight Protek25 Filter #
+### iFlight Protek25 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_filter.txt
 
-# iFlight Protek25 PID #
+### iFlight Protek25 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight Protek35
-# iFlight Protek35 Filter #
+### iFlight Protek35 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_filter.txt
 
-# iFlight Protek35 PID #
+### iFlight Protek35 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -416,16 +419,16 @@ profile 0
 #$ OPTION_GROUP BEGIN: SpeedyBee
 
 #$ OPTION BEGIN (UNCHECKED): SpeedyBee Bee25
-# SpeedyBee Bee25 Filter #
+### SpeedyBee Bee25 Filter ###
 
 #$ INCLUDE: presets/pid/cinewhoop_speedybee_bee25_filter.txt
 
-# SpeedyBee Bee25 PID #
+### SpeedyBee Bee25 PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/cinewhoop_speedybee_bee25_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -436,7 +439,7 @@ profile 0
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
-# Serial SBUS #
+### Serial SBUS ###
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
@@ -444,7 +447,7 @@ set serialrx_provider = SBUS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
-# Serial IBUS #
+### Serial IBUS ###
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
@@ -452,21 +455,21 @@ set serialrx_provider = IBUS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-# SPI SBUS / IBUS #
+### SPI SBUS / IBUS ###
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
-# SPI ELRS #
+### SPI ELRS ###
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
-# DJI SBUS FAST #
+### DJI SBUS FAST ###
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
@@ -475,7 +478,7 @@ set sbus_baud_fast = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-# Serial CRSF TBS / ELRS 915MHz #
+### Serial CRSF TBS / ELRS 915MHz ###
 
 feature RX_SERIAL
 feature TELEMETRY
@@ -485,7 +488,7 @@ set serialrx_provider = CRSF
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-# Serial CRSF TBS / ELRS 2.4Ghz #
+### Serial CRSF TBS / ELRS 2.4Ghz ###
 
 feature RX_SERIAL
 feature TELEMETRY

@@ -14,18 +14,21 @@
 #$ OPTION_GROUP BEGIN: Basic Setting
 
 	#$ OPTION BEGIN (UNCHECKED): Pilot Name
-		# Pilot Name
+		### Pilot Name ###
+		
 		set pilot_name = TOOTHPICK
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): CAM Angle 10%
-		# CAM Angle 10%
+		### CAM Angle 10% ###
+		
 		set fpv_mix_degrees = 10
 		set small_angle = 180
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): RC Smoothing 60
-		# RC Smoothing 60
+		### RC Smoothing 60 ###
+		
 		set rc_smoothing_auto_factor = 60
 	#$ OPTION END
 
@@ -36,16 +39,16 @@
 #$ OPTION_GROUP BEGIN: Flywoo
 
 #$ OPTION BEGIN (UNCHECKED): Flywoo Baby Quad HD
-# iFlywoo Baby Quad HD Filter #
+### iFlywoo Baby Quad HD Filter ###
 
 #$ INCLUDE: presets/pid/toothpick_flywoo_baby_quad_hd_filter.txt
 
-# Flywoo Baby Quad HD PID #
+### Flywoo Baby Quad HD PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/toothpick_flywoo_baby_quad_hd_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -56,44 +59,44 @@ profile 0
 #$ OPTION_GROUP BEGIN: iFlight
 
 #$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 77R
-# iFlight TurboBee 77R Filter #
+### iFlight TurboBee 77R Filter ###
 
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_77r_filter.txt
 
-# iFlight TurboBee 77R PID #
+### iFlight TurboBee 77R PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_77r_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 99R
-# iFlight TurboBee 99R Filter #
+### iFlight TurboBee 99R Filter ###
 
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_99r_filter.txt
 
-# iFlight TurboBee 99R PID #
+### iFlight TurboBee 99R PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_99r_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 160RS
-# iFlight TurboBee 160RS Filter #
+### iFlight TurboBee 160RS Filter ###
 
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_filter.txt
 
-# iFlight TurboBee 160RS PID #
+### iFlight TurboBee 160RS PID ###
 
 profile 0
 #$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_pid.txt
 
-# restore original profile selection
+### restore original profile selection
 profile 0
 #$ OPTION END
 
@@ -104,7 +107,7 @@ profile 0
 #$ OPTION_GROUP BEGIN: RX Hardware
 
 #$ OPTION BEGIN (UNCHECKED): Serial SBUS
-# Serial SBUS #
+### Serial SBUS ###
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
@@ -112,7 +115,7 @@ set serialrx_provider = SBUS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
-# Serial IBUS #
+### Serial IBUS ###
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
@@ -120,21 +123,21 @@ set serialrx_provider = IBUS
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-# SPI SBUS / IBUS #
+### SPI SBUS / IBUS ###
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
-# SPI ELRS #
+### SPI ELRS ###
 
 feature RX_SPI
 #$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
-# DJI SBUS FAST #
+### DJI SBUS FAST ###
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
@@ -143,7 +146,7 @@ set sbus_baud_fast = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-# Serial CRSF TBS / ELRS 915MHz #
+### Serial CRSF TBS / ELRS 915MHz ###
 
 feature RX_SERIAL
 feature TELEMETRY
@@ -153,7 +156,7 @@ set serialrx_provider = CRSF
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-# Serial CRSF TBS / ELRS 2.4Ghz #
+### Serial CRSF TBS / ELRS 2.4Ghz ###
 
 feature RX_SERIAL
 feature TELEMETRY
