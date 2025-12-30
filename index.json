@@ -889,8 +889,23 @@
     },
     {
       "fullPath": "presets/other/other_failsafe.txt",
-      "hash": "cafbe96cc4f1fcdf39a72d4bc4b3072ddb06a3faa785d54a1a23074042c8c485",
+      "hash": "48929a20215ae31f516b00d5952d2161b1fd42631fdc6e309aa86cad7d774435",
       "title": "Custom Failsafe settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/other/other_failsafe_gps.txt",
+      "hash": "4f810c3db16963f2e899a832c5dc8e9c7958d3cf6c9a8065f753b206ebcbc5b3",
+      "title": "Custom Failsafe with GPS settings",
       "firmware_version": [
         "4.5"
       ],
@@ -2749,7 +2764,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "e85310e994cedfc7a710baa0c0372170529df8b1d7b2827474be3d192875e8b4",
+      "hash": "0b2ee1dba6efbc9fcacce1b1359b53ab00a048a7f254fadd6f20228c393b4be0",
       "title": "General Setting",
       "firmware_version": [
         "4.5"
