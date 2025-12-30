@@ -12,7 +12,7 @@ set rx_max_usec = 2115
 rxfail 3 s 1100
 rxfail 5 s 1100
 
-set failsafe_off_delay = 75
+#set failsafe_off_delay = 75
 set failsafe_throttle = 1150
 
 set gps_provider = UBLOX

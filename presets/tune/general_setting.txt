@@ -14,54 +14,54 @@
 #$ OPTION_GROUP BEGIN: General Setting
 
 	#$ OPTION BEGIN (CHECKED): Beeper
-		# Beeper Setting
+		### Beeper Setting ###
 		#$ INCLUDE: presets/other/other_beeper.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Disable LED Strip
-		# Disable LED Strip
+		### Disable LED Strip ###
 		
 		feature -LED_STRIP
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Failsafe
-		# Failsafe Setting
+		### Failsafe Setting ###
 		#$ INCLUDE: presets/other/other_failsafe.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): REVERSE Motor Direction
-		# REVERSE Motor Direction
+		### REVERSE Motor Direction ###
 		
 		set yaw_motors_reversed = ON
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): AVG Cell Telemetry Report
-		# AVG Cell Telemetry Report
+		### AVG Cell Telemetry Report ###
 		
 		set report_cell_voltage = ON
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): RPM Filter
-		# Enable RPM Filter
+		### Enable RPM Filter ###
 		
 		set motor_pwm_protocol = DSHOT300
 		set dshot_bidir = ON
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Maximum PID Limit
-		# Unlock Maximum PID Limit
+		### Unlock Maximum PID Limit ###
 		
 		set pidsum_limit = 1000
 		set pidsum_limit_yaw = 1000
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
-		# Blackbox for GyroFlow
+		### Blackbox for GyroFlow ###
 		#$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): EzLanding 
-		# Enable EzLanding
+		### Enable EzLanding ###
 		
 		set mixer_type = EZLANDING
 		set ez_landing_limit = 5
