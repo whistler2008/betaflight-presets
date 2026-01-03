@@ -13,8 +13,6 @@ set rx_max_usec = 2115
 rxfail 3 s 1100
 rxfail 5 s 1100
 
-set failsafe_off_delay = 75
-set failsafe_slow_delay = 75
 set failsafe_throttle = 1200
 
 set gps_provider = UBLOX
@@ -30,10 +28,12 @@ set gps_rescue_min_sats = 6
 set gps_rescue_allow_arming_without_fix = OFF
 set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
 # Betaflight 4.5 #
+set failsafe_off_delay = 75
 set gps_rescue_throttle_min = 1200
 set gps_rescue_throttle_max = 1700
 set gps_rescue_throttle_hover = 1300
 # Betaflight 2025.12 #
+set failsafe_slow_delay = 75
 set ap_throttle_min = 1200
 set ap_throttle_max = 1700
 set ap_hover_throttle = 1300

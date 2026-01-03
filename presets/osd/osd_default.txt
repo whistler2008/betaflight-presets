@@ -119,6 +119,7 @@ set osd_menu_background = TRANSPARENT
 set osd_aux_channel = 1
 set osd_aux_scale = 200
 set osd_aux_symbol = 65
+set osd_craftname_msgs = OFF
+# Betaflight 4.5 #
 set osd_canvas_width = 30
 set osd_canvas_height = 13
-set osd_craftname_msgs = OFF

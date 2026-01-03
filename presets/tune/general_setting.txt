@@ -365,7 +365,7 @@
 
 #$ OPTION_GROUP BEGIN: OSD General Placement
 
-	#$ OPTION BEGIN (CHECKED): Default OSD
+	#$ OPTION BEGIN (UNCHECKED): Default OSD
 		### Default OSD ###
 		#$ INCLUDE: presets/osd/osd_default.txt
 	#$ OPTION END
@@ -432,7 +432,7 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Analog GPS
 		### Analog GPS ###
-		#$ INCLUDE: presets/osd/osd_analog_gps.txt
+		#$ INCLUDE: presets/osd/osd_gps_analog.txt
 		#$ INCLUDE: presets/modes/aux_gps.txt
 	#$ OPTION END
 

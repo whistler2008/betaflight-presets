@@ -632,23 +632,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/osd/osd_analog_gps.txt",
-      "hash": "257722c0627fef7b5bb43d9cd6055465f6e0e67a7cb2991355574b5b725a5b08",
-      "title": "Analog GPS OSD settings",
-      "firmware_version": [
-        "4.5",
-        "2025.12"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/osd/osd_analog_ntsc.txt",
-      "hash": "d02ba12cbb584fd36f746865e0c9fe3d9e9685ed844a4075ec958ea4d161455e",
+      "hash": "9f1b6ae95459b46ff20878c1c6dc1ae84e453a8b3f3bff442cb13a821032b2ab",
       "title": "Analog NTSC OSD settings",
       "firmware_version": [
         "4.5",
@@ -693,7 +678,7 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_pal.txt",
-      "hash": "e57496519f877b55779ef7785f811980629adf3bad58cd34358b6171a958a26f",
+      "hash": "64819fb7a67cfb4e04a9ea5bbb7c9cf3b8bdde9648dc3eb2b4c206348ec78d5a",
       "title": "Analog PAL OSD settings",
       "firmware_version": [
         "4.5",
@@ -738,7 +723,7 @@
     },
     {
       "fullPath": "presets/osd/osd_default.txt",
-      "hash": "05de943182d21f945a041d1f2ac47c82ddb7a4427bff09b96d4f5f2398b79fd1",
+      "hash": "cd636f13a0887da320ebac75d568408f292b4e561d6a54d009f333b6865003d1",
       "title": "Default OSD settings",
       "firmware_version": [
         "4.5",
@@ -753,7 +738,7 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_avatar.txt",
-      "hash": "921e0cacc7fc404573a86cf6c3b8abefb14e904eb51abf23703d9bdfd482a63c",
+      "hash": "ddac1932315ef2c44115f95dd8b355d495b39321d8367730e61d6889c2126f26",
       "title": "Digital Avatar OSD settings",
       "firmware_version": [
         "4.5",
@@ -768,7 +753,7 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_dji_canvas.txt",
-      "hash": "1df4792f792048cb2bf4bbb7f14af770d7eab662519f927a651f23f769b3903c",
+      "hash": "7c56c1fe40a673944afb69bbfed2f18bb2089d170496e7ef590b8fe907900eb1",
       "title": "Digital DJI Canvas OSD settings",
       "firmware_version": [
         "4.5",
@@ -783,7 +768,7 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_dji_fpv.txt",
-      "hash": "6dc9a160f6dcfc7b38096e11f0f8e5cc52fb7ddba216fa182dc095f80e72297a",
+      "hash": "98a9f965dfdf3d1d23da90c0179490dd82ce9b9745ea6613c5d0a8962843afba",
       "title": "Digital DJI FPV OSD settings",
       "firmware_version": [
         "4.5",
@@ -798,7 +783,7 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_dji_wtfos.txt",
-      "hash": "3034902ab2d03d8e09d362487b526c37e02774129dfdfdba0169f045076b81a4",
+      "hash": "c383bd1e4b41d33fa37c2e8015d725946172ce5f7a64f84660718e43f1ee3124",
       "title": "Digital DJI WTFOS OSD settings",
       "firmware_version": [
         "4.5",
@@ -813,8 +798,23 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_hd_hdzero.txt",
-      "hash": "9845149c60a9a03f02d4c22354458bb79a2cd6f7a275a551aa9e2d94310c02b6",
+      "hash": "dd83359e769595a68c6a587752331945af6561be219f5d1d75d29320f8729810",
       "title": "Digital HD Zero OSD settings",
+      "firmware_version": [
+        "4.5",
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true
+    },
+    {
+      "fullPath": "presets/osd/osd_gps_analog.txt",
+      "hash": "257722c0627fef7b5bb43d9cd6055465f6e0e67a7cb2991355574b5b725a5b08",
+      "title": "Analog GPS OSD settings",
       "firmware_version": [
         "4.5",
         "2025.12"
@@ -919,7 +919,7 @@
     },
     {
       "fullPath": "presets/other/other_failsafe.txt",
-      "hash": "6f4701a0491875c820793076a8bbdc80f9e0ed333263f9a4d619b48a32da2edb",
+      "hash": "23a890a6a218437dc0b6599a9063e6a5eaa93810612c4628c8908968bcc8cf19",
       "title": "Custom Failsafe settings",
       "firmware_version": [
         "4.5",
@@ -2780,7 +2780,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "dceac963fe9a66613c300f7710be0b87bf12d17e3c51a491245936a51d1df6be",
+      "hash": "7e9f3ad6e7cc40829c0f43916ea2ee3b3ad099b6a2641e62dda343d91f8ebf5f",
       "title": "General Setting",
       "firmware_version": [
         "4.5",
