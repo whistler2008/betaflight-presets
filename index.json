@@ -919,7 +919,7 @@
     },
     {
       "fullPath": "presets/other/other_failsafe.txt",
-      "hash": "78b2607405e28d94fe481e31c1e8cd88cf5f20ec4543d3aa6ac65733b915c431",
+      "hash": "6f4701a0491875c820793076a8bbdc80f9e0ed333263f9a4d619b48a32da2edb",
       "title": "Custom Failsafe settings",
       "firmware_version": [
         "4.5",
@@ -2780,7 +2780,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "1aac3477c5423c5120c8c15dbbc69378b9bba7127ab4d8fb5462d9da6b38db07",
+      "hash": "dceac963fe9a66613c300f7710be0b87bf12d17e3c51a491245936a51d1df6be",
       "title": "General Setting",
       "firmware_version": [
         "4.5",
