@@ -2780,7 +2780,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "7e9f3ad6e7cc40829c0f43916ea2ee3b3ad099b6a2641e62dda343d91f8ebf5f",
+      "hash": "adab90847f86b06ed50c6f1ab510ac1884b91d23895e595403e2c3f974ee4ada",
       "title": "General Setting",
       "firmware_version": [
         "4.5",
@@ -2859,7 +2859,7 @@
     },
     {
       "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "39f0aa0b74ebe70ec909b6580c1ca9647f33ab9a06540e4982fa157d27b313ec",
+      "hash": "fa2156ce220d13be79371189eb80575f205278b98c755849bf9d22ba32f3cfa6",
       "title": "Pre-Tune",
       "firmware_version": [
         "4.5",

@@ -19,13 +19,13 @@
 		#$ INCLUDE: presets/other/other_beeper.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (CHECKED): Disable LED Strip
-		### Disable LED Strip ###
+	#$ OPTION BEGIN (CHECKED): ARM at any angle
+		### ARM at any angle ###
 		
-		feature -LED_STRIP
+		set small_angle = 180
 	#$ OPTION END
 
-	#$ OPTION BEGIN (CHECKED): REVERSE Motor Direction
+	#$ OPTION BEGIN (CHECKED): REVERSE / PROPS OUT Motor Direction
 		### REVERSE Motor Direction ###
 		
 		set yaw_motors_reversed = ON
@@ -54,6 +54,13 @@
 	#$ OPTION BEGIN (CHECKED): Failsafe Setting
 		### Failsafe Setting ###
 		#$ INCLUDE: presets/other/other_failsafe.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): No stick deadband
+		### No stick deadband Setting ###
+		
+		set deadband = 0
+		set yaw_deadband = 0
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
@@ -109,6 +116,7 @@
 		### Enable Battery Sag Compensation 100% ###
 		
 		set vbat_sag_compensation = 100
+		set vbat_sag_lpf_period = 2
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Li-Ion (Minimum Cell Voltage 2.9V)
