@@ -149,8 +149,10 @@
 		### 12 Poles Motor ###
 		
 		set motor_poles = 12
+		
 		# Betaflight 4.5 #
 		set dshot_idle_value = 550
+		
 		# Betaflight 2025.12 #
 		set motor_idle = 550
 	#$ OPTION END
@@ -159,8 +161,10 @@
 		### 14 Poles Motor ###
 		
 		set motor_poles = 14
+		
 		# Betaflight 4.5 #
 		set dshot_idle_value = 550
+		
 		# Betaflight 2025.12 #
 		set motor_idle = 550
 	#$ OPTION END
