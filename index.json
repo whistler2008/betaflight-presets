@@ -1264,6 +1264,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/cinewhoop_caddx_gofilm20_filter.txt",
+      "hash": "2809f0a97de0067586864e251ba776cd98ca7e4c9c574ba0f1cfd53c9bee3948",
+      "title": "CineWhoop - CaddxFPV GoFilm 20 - Filter",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/cinewhoop_caddx_gofilm20_pid.txt",
+      "hash": "d236538248e0fda3492b0ecb87c965fe20a088bae5231ffb0a34da55fc4c7b89",
+      "title": "CineWhoop - CaddxFPV GoFilm 20 - PID",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_filter.txt",
       "hash": "7c3513fed51f31a2a3fb79a306b0b290278fac64dc7597e2909a2e504afc2853",
       "title": "CineWhoop - GEPRC CineBot30 - Filter",
@@ -2796,7 +2826,7 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "d2fc46ee4702cec8bf687cfcc6a836b1ebffdaebcffd70510d9c1121a502e6f8",
+      "hash": "782234ff5107403f454db2571ba7e3301b2512c8d5c74cf588eed86806e30cd2",
       "title": "CineWhoop Tune",
       "firmware_version": [
         "4.5",

@@ -203,6 +203,26 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: CaddxFPV
+
+#$ OPTION BEGIN (UNCHECKED): CaddxFPV GoFilm 20
+### CaddxFPV GoFilm 20 Filter ###
+
+#$ INCLUDE: presets/pid/cinewhoop_caddx_gofilm20_filter.txt
+
+### CaddxFPV GoFilm 20 PID ###
+
+profile 0
+#$ INCLUDE: presets/pid/cinewhoop_caddx_gofilm20_pid.txt
+
+### restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: GEPRC
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC Thinker P16
