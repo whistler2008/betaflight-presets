@@ -1,5 +1,4 @@
 #$ TITLE: General Setting
-#$ FIRMWARE_VERSION: 4.5
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
@@ -327,20 +326,19 @@
 
 #$ OPTION_GROUP BEGIN: Rate Profile
 
-	#$ OPTION BEGIN (CHECKED): Default Rate Profile
-		### Default Rate Profile ###
-		#$ INCLUDE: presets/rates/rates_default.txt
-	#$ OPTION END
-
 	#$ OPTION BEGIN (UNCHECKED): Slow Rate Profile
 		### Slow Rate Profile ###
 		
 		rateprofile 0
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_slow.txt
 		rateprofile 1
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_medium.txt
 		rateprofile 2
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_fast.txt
+
 		# restore original rateprofile selection
 		rateprofile 0
 	#$ OPTION END
@@ -349,11 +347,15 @@
 		### Medium Rate Profile ###
 	
 		rateprofile 0
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_medium.txt
 		rateprofile 1
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_fast.txt
 		rateprofile 2
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_slow.txt
+
 		# restore original rateprofile selection
 		rateprofile 0
 	#$ OPTION END
@@ -362,11 +364,15 @@
 		### Fast Rate Profile ###
 	
 		rateprofile 0
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_fast.txt
 		rateprofile 1
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_slow.txt
 		rateprofile 2
+		#$ INCLUDE: presets/rates/rates_default.txt
 		#$ INCLUDE: presets/rates/rates_medium.txt
+
 		# restore original rateprofile selection
 		rateprofile 0
 	#$ OPTION END

@@ -127,8 +127,7 @@
   "uniqueValues": {
     "firmware_version": [
       "2025.12",
-      "4.0",
-      "4.5"
+      "4.0"
     ],
     "category": [
       "BATTERY",
@@ -176,10 +175,9 @@
   "presets": [
     {
       "fullPath": "presets/battery/batt_29.txt",
-      "hash": "8a00c8acebaa8246e125cbe4713b5fad8fcd72fc8590a78632aec65ed36a673f",
+      "hash": "773faf70550410cdb3284c415c328f4f80b538b2a78573163e9ce463bc8105d5",
       "title": "Battery 2.9V settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "BATTERY",
@@ -191,10 +189,9 @@
     },
     {
       "fullPath": "presets/battery/batt_32.txt",
-      "hash": "fced956825d408672f8535f0acb2b0a853d3f62c88883c6a1a8158a960143126",
+      "hash": "70017344366b10592395506a04d665d5cc990afdd92a34c2a346622a9168f61e",
       "title": "Battery 3.2V settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "BATTERY",
@@ -206,10 +203,9 @@
     },
     {
       "fullPath": "presets/battery/batt_33.txt",
-      "hash": "2763487465a017e9ee1bd9541429fc63579fe8cb45ac38960ba92d5a4b811219",
+      "hash": "13e6061b31d17b1756d444a6ba207f26d31622c2bfc9ba3cf8f10ccfcb96d56c",
       "title": "Battery 3.3V settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "BATTERY",
@@ -221,10 +217,9 @@
     },
     {
       "fullPath": "presets/battery/batt_35.txt",
-      "hash": "990d6d9d370fbdc660769e686484865f845e490c73555b2e7a846adfe9d9f23a",
+      "hash": "35447a96de56b78101d8490f137d2537523fedf1dd1ba334ec44dbdf0a87371d",
       "title": "Battery 3.5V settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "BATTERY",
@@ -236,10 +231,9 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
-      "hash": "b362dce6c7b654c1e0dd46a00493a6c5b96aa0c2d33a219f3f459c4fb292af49",
+      "hash": "459e777a33dfccc91928d2b3c6bcbb143ab5a4a0b42c62bc33e5a3510e97e776",
       "title": "BlackBox for Gyroflow",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "BLACKBOX",
@@ -251,10 +245,9 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_tune.txt",
-      "hash": "8bd1f8595cabea10938de7a2efb8be688f2f4e3877e67090c7a90af5d9df36a3",
+      "hash": "c8d311b1b052a8641ede7e3e18eb171cad60e03203f688da316fbc0acb69215a",
       "title": "BlackBox for Tune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "BLACKBOX",
@@ -266,10 +259,9 @@
     },
     {
       "fullPath": "presets/factory/darwinfpv_f405.txt",
-      "hash": "5d82b666244aff282c0a096dd13e34f8f07858440e87900fa717ba42501d2891",
+      "hash": "f0c64fb885e9752bfe6c49e556e4df3127fc8748cc1816bfcc2af19edca6e650",
       "title": "DarwinFPV F405",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -280,10 +272,9 @@
     },
     {
       "fullPath": "presets/factory/hakrc411d.txt",
-      "hash": "027b9ce3a49a454d6af86eb698c650845980816495fa9aea631865d16b4b4bb4",
+      "hash": "78fc46bcef62918ec2cc4ca6aef4c1cdde9cc7d5aeeb442279f5e6fcf06bb8ff",
       "title": "HAKRC F4126 V2",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -294,10 +285,9 @@
     },
     {
       "fullPath": "presets/factory/happymodel/crazyf405_hd.txt",
-      "hash": "b5f5e75449426ffa64287b3523879fb4b8237ee023948c9717d7ef1e2e454958",
+      "hash": "0e2d558c5a40720ccb3a25d6d2fe5b3625ef57eb417468fcb1d6c3f210bab18e",
       "title": "HappyModel CrazyF405 HD",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -308,10 +298,9 @@
     },
     {
       "fullPath": "presets/factory/happymodel/crazyf4_2g4.txt",
-      "hash": "7efd51997e8cb23a912ddfb175c2ab7fbdd442bac90f89fc547728ecb19a2aa3",
+      "hash": "80ed283aa726818ec76db818540f29238914739205f983954483a31b3a653849",
       "title": "HappyModel CrazyF4 2G4",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -322,10 +311,9 @@
     },
     {
       "fullPath": "presets/factory/happymodel/diamondf4.txt",
-      "hash": "fa6ef05d32a1aff2a5e703375582c69b95b3c1b08fa01b585d554e83711e481b",
+      "hash": "1959b0284e9224d6bf957affbd968b0aa4ce6f9681f8fd896df1402d38409d54",
       "title": "HappyModel DiamondF4",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -336,10 +324,9 @@
     },
     {
       "fullPath": "presets/factory/happymodel/x12.txt",
-      "hash": "2c5faf74ac74bd44017fec87c9006283c75e58215fcf15abcf7167e7d02e8556",
+      "hash": "02cb0fc9a109e194bd87af6d0fcb231c573e98787109d369418896ac7e51aba7",
       "title": "HappyModel X12",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -350,10 +337,9 @@
     },
     {
       "fullPath": "presets/factory/iflight/evoque.txt",
-      "hash": "77c1d34d14079e36467e81378fd8f759bdb9c4568aedda64c5e3998694cf9040",
+      "hash": "d2a9ed2ae6277309fb6f85ecd2df02f032de2b19d668194c5e9950b50436030f",
       "title": "iFlight Nazgul Evoque F5",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -364,10 +350,9 @@
     },
     {
       "fullPath": "presets/factory/matekf405.txt",
-      "hash": "8d607be47a245ce651710853e415b636b7424bb6b638e9975dbe0e985038f60a",
+      "hash": "28eddfe509e4c08e34cec5cf5cbe3818db22df56ddb1776b2865ad3d86481044",
       "title": "MATEK F405 / OSD",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FACTORY",
@@ -378,10 +363,9 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_clean.txt",
-      "hash": "37af85fc0d9232aa480161f851f1b9ddbe83cb5789f6dd67a4613b944c0d2ad5",
+      "hash": "7a7e1da70458c9952bff6c58f4e96e97422c28ebf6f56d1208ff843b2a949078",
       "title": "CLEAN D-Term Filter",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FILTER",
@@ -393,10 +377,9 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_noisy.txt",
-      "hash": "ce2db0a1813703680fa3dc5efe10b5ed5ad6eae333f432844da6209d4896330d",
+      "hash": "939c9d8e1262fe55b6aa06fce795cf26c8cbb7ef9477e9ca6bc13d5e59cfd909",
       "title": "NOISY D-Term Filter",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FILTER",
@@ -408,10 +391,9 @@
     },
     {
       "fullPath": "presets/filter/filter_rpm_normal.txt",
-      "hash": "9ce9791187fee505a9de02df705f08cebd34c5875144d096a919d9695c38e188",
+      "hash": "54190cc7c8baf7d1ba2103075a0163ee67b4e746af6817ba91f4aa0ab0821dee",
       "title": "Normal D-Term Filter",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "FILTER",
@@ -423,10 +405,9 @@
     },
     {
       "fullPath": "presets/gyro/gyro_bmi.txt",
-      "hash": "45e837084c5fcb3932bf61a63f4c6409f39feeb5582d067f1897f387b03bd4a7",
+      "hash": "5057bd7f6707310232087699f7b6086f301ab6ec8b0874865a83501606f1cd56",
       "title": "Gyro BMI - Normal Filter",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OTHER",
@@ -438,10 +419,9 @@
     },
     {
       "fullPath": "presets/gyro/gyro_bmi_high.txt",
-      "hash": "c199f6b801a503ab4cc0f29c379047dca3077a659678f52fa03fb3ae85ff7cca",
+      "hash": "149c6f0bba03e5c22e932c6d9455d42a951fe41c0fd045fe3ac05625d60e8ea4",
       "title": "Gyro BMI - High Filter",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OTHER",
@@ -453,10 +433,9 @@
     },
     {
       "fullPath": "presets/gyro/gyro_mpu_icm.txt",
-      "hash": "4744fcd451f392ae5cb561c522a5464df3f2e717d7b4c208c11a59099a5418db",
+      "hash": "a9df57a8857ac9385c6eabd48d24599e6f478e79ae07e106a2743136056fe3ee",
       "title": "Gyro MPU & ICM - Normal Filter",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OTHER",
@@ -468,10 +447,9 @@
     },
     {
       "fullPath": "presets/gyro/gyro_mpu_icm_high.txt",
-      "hash": "9caf978788e494e6bb502300a76a2acffd1ac63be8f0c5fb628d01173d171539",
+      "hash": "dfcda10f9fb1167eea21e4ae158ee244d8dbf708ee9696b8f20bf57198626668",
       "title": "Gyro MPU & ICM - High Filter",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OTHER",
@@ -483,10 +461,9 @@
     },
     {
       "fullPath": "presets/led/led_blink.txt",
-      "hash": "086d3f55fb3776250ca276933e7ad8d16fe813981da1cea7c3edd40163ae8793",
+      "hash": "20cce5a1bfcb6c1e69fa6b3c4385903bb860ec58503710aa832dadeb75a0cf04",
       "title": "Custom LED Blink",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "LED",
@@ -498,10 +475,9 @@
     },
     {
       "fullPath": "presets/led/led_blink_single.txt",
-      "hash": "653e77ad5181b330e8ee094aa1de722e7a6dc36191598e7b6fbe6515809f6084",
+      "hash": "fd3a85bcf6eb83df9d20bf82a36ad4a4c61c226fe313b93bdbea05ba5c7d6c5c",
       "title": "Custom LED Blink Single",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "LED",
@@ -513,10 +489,9 @@
     },
     {
       "fullPath": "presets/led/led_blue.txt",
-      "hash": "4c1281a34977497c10a5862d631884a14b59235f970bf2142913c1a805ba0942",
+      "hash": "b4d9cbd6d2cc0d512fde21d1015a1c4bf0b27630f00972263cd898b6d8dce337",
       "title": "Custom LED Blue (iFlight Evoque)",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "LED",
@@ -528,10 +503,9 @@
     },
     {
       "fullPath": "presets/led/led_default.txt",
-      "hash": "c50a3e5035de9810c92c9236e24e1c41f7d0c195df16e87172bbde3ba3077ecf",
+      "hash": "b086c4050bc9b47db862300285aa9b1df6cbd5d321f7a40ea63c774ade52d89b",
       "title": "Default LED",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "LED",
@@ -543,10 +517,9 @@
     },
     {
       "fullPath": "presets/led/led_green.txt",
-      "hash": "ceb648be996c104677e4b22ea65ffdb2260d8ee699fad959b9d426aa1e829b48",
+      "hash": "d927563ab8efdd184fd4fd8b66a8104e10ad14c01326b1001c8ef4839bf698af",
       "title": "Custom LED Green (iFlight Evoque)",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "LED",
@@ -558,10 +531,9 @@
     },
     {
       "fullPath": "presets/modes/aux_default.txt",
-      "hash": "1d908c42b635bdff5702a50b318b10fbbcab57cba25d0df9ac90dba1d75980ec",
+      "hash": "b53dba023c3d1f1ed9d64b75bc8729a3caf421adfc3890b00f3e90784854f703",
       "title": "Default AUX settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "MODES",
@@ -573,10 +545,9 @@
     },
     {
       "fullPath": "presets/modes/aux_gps.txt",
-      "hash": "10afc555e54987c9b1e179388841d4f17d930ee24f692f1868bedd72f3311b73",
+      "hash": "ceb8f90e131a13fc651b54194d16e1ff9cb90f4b793d0dacc84b4a630d74357d",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "MODES",
@@ -588,10 +559,9 @@
     },
     {
       "fullPath": "presets/modes/aux_std.txt",
-      "hash": "ba80ecb0659d6593c29d8bdadd6da5979a9530fe302a07f437877dc5fb4d30f7",
+      "hash": "e6a0ffa872236680c96bcb1c60028f0fd8c25bc3fefa49159696fa4995d94466",
       "title": "AUX Standard",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "MODES",
@@ -603,10 +573,9 @@
     },
     {
       "fullPath": "presets/modes/aux_tune.txt",
-      "hash": "7a15755e5cf58072a8589264837d8342d9b9f6183fdda62c93a33dc39ddcd895",
+      "hash": "f44f5785ba2c45b16c86bb43910dcfc0d9eab05cebaa0c09e0f442ef194f9545",
       "title": "AUX PreTune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "MODES",
@@ -618,10 +587,9 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_ntsc.txt",
-      "hash": "befb7505b56c6abe9837e62663ebc459f874270fcb07617e13eafadeed6f39e4",
+      "hash": "192723ca70abc8a95c241fad17c7b2b53e396143a146c204048772ecf176e397",
       "title": "Analog NTSC OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -633,10 +601,9 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_ntsc_lq.txt",
-      "hash": "8508baf0564ec18feb31ccf096cd1172a8f8476ec1d720614de16209d781b8a5",
+      "hash": "587c16a5c4602b85502f43b0e2bddc30882926ba35fd198696ebcb311d51206e",
       "title": "Analog NTSC LQ OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -648,10 +615,9 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_ntsc_rssi.txt",
-      "hash": "020f5ddbc9faf3ca65af93922a27c26d0f71144518655dc4e35423e1b07bbe06",
+      "hash": "b07681519ef2543b23a5f06e5e5016d423cd5796a9941c5bd2499e885a6d43e3",
       "title": "Analog NTSC RSSI OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -663,10 +629,9 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_pal.txt",
-      "hash": "ff09097d1e5aa3c0f16564d4f07d2015ce027bab7cfe57c65eb0dd2dc1040922",
+      "hash": "86ae48ab06dbfc46fe345dce86aaf3c6ee9ad87179c48098e366e5f97a9ffa82",
       "title": "Analog PAL OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -678,10 +643,9 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_pal_lq.txt",
-      "hash": "0bc31831f5d0b47657bae667d9564c3d8d2dd33bd26895b191eb6a11b6b4cf9b",
+      "hash": "5e6005145a28cbc6f7b5c03b774b44af178ca7faa2d1e2e45efecd770445959f",
       "title": "Analog PAL LQ OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -693,10 +657,9 @@
     },
     {
       "fullPath": "presets/osd/osd_analog_pal_rssi.txt",
-      "hash": "383a1687ac24fc368f119da795104b4cadeb4e4ac9b19edd697522f317aa6cb9",
+      "hash": "ab644181423c9bb9c366bb73de306c9fa937047c9383458adf508d24a973e639",
       "title": "Analog PAL RSSI OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -708,10 +671,9 @@
     },
     {
       "fullPath": "presets/osd/osd_default.txt",
-      "hash": "b249dba3fe593c82860caf8f988c1b26809b49c2d77995d8edb674818bba6a09",
+      "hash": "da1f73623dfdfd51474ae1560d5b9ec48a2ae1f1b3b1601a04bde1b4af0b922a",
       "title": "Default OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -723,10 +685,9 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_avatar.txt",
-      "hash": "bbddd706b998ad3195cb1eb9bc6c89dd95fdd0c852352b751564b2730f7ce831",
+      "hash": "31b63516b58688a4444d8d64b54486eb4bfb8ab2ec548121be74faeebb041338",
       "title": "Digital Avatar OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -738,10 +699,9 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_dji_canvas.txt",
-      "hash": "e3ab8564568d3d48b88a55c8210dc088fb23b5aa5e2e83a7b85e94fb5144a22c",
+      "hash": "bbc683e2b9dad39d69fdb6e19561d9369b3a9852a0488f931887b2043f42b27c",
       "title": "Digital DJI Canvas OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -753,10 +713,9 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_dji_fpv.txt",
-      "hash": "f5e39d3c6bfee4d1e74180aa6985dbb0b72c28b49d2bd0df6d846b6b7b91e3ee",
+      "hash": "71f853ad422c43cedcf5c3b868a2cfeefcaadb101719ac73a5aa1762a88f255e",
       "title": "Digital DJI FPV OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -768,10 +727,9 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_dji_wtfos.txt",
-      "hash": "50b7beb8de66c327c8b360bb8219144a80bd70675e692dd7392fe505e3fec19c",
+      "hash": "c880765c842b56508f635d78844616d416158f3ba8f44feeaead7b5b01aa26b6",
       "title": "Digital DJI WTFOS OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -783,10 +741,9 @@
     },
     {
       "fullPath": "presets/osd/osd_digital_hd_hdzero.txt",
-      "hash": "5bda4b5dfab4ccc06f85d463d5f55ab58f7117b452d5afcdd702883fef272e00",
+      "hash": "08c58bdbdd98fd46d524350728b342c32a90b730ba468fd0b9df801bbe199d23",
       "title": "Digital HD Zero OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -798,10 +755,9 @@
     },
     {
       "fullPath": "presets/osd/osd_gps_analog.txt",
-      "hash": "1db64cd7e2ae6b387bc428b0d0b05db57da5bdbce54021a22617cc0fc20027f1",
+      "hash": "93707a051e214bd27acef19bed1a3f546a8cc8fa86f5f2c0dc8ed9270621a8dc",
       "title": "Analog GPS OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -813,10 +769,9 @@
     },
     {
       "fullPath": "presets/osd/osd_gps_digital_avatar.txt",
-      "hash": "808adeb9ed86799ef31a6d4fcf506418d4827bfd0720372020deebfea4301514",
+      "hash": "86b47a93b8b1721afa668205cd8c17043d61d72afa6764567da0bca19009ee8f",
       "title": "Digital Avatar GPS OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -828,10 +783,9 @@
     },
     {
       "fullPath": "presets/osd/osd_gps_digital_dji_canvas.txt",
-      "hash": "87068afa18bc8627bcb816fc480206ecfce1f63bc7c1568a1ba665a2f8cbd0e5",
+      "hash": "9457f20895edc9589513935bfbe9357ddaf5ebc113834f76095593bf429aeb25",
       "title": "Digital DJI Canvas GPS OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -843,10 +797,9 @@
     },
     {
       "fullPath": "presets/osd/osd_gps_digital_dji_fpv.txt",
-      "hash": "ddc2168f119db97adc0a9042da7bf9a0eafecc9ff20dfe823d5aaf3e82eb7c7c",
+      "hash": "139a437412d8b119660a2df070cb645d729379a6b05884ed5e492998d098f1fd",
       "title": "Digital DJI FPV GPS OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -858,10 +811,9 @@
     },
     {
       "fullPath": "presets/osd/osd_gps_digital_dji_wtfos.txt",
-      "hash": "cb6d44ef34ade5feb678429bc431ca7106b918dca79dfeb139358a5250cbd669",
+      "hash": "78f6cbd9355731b90eaf7302d7a23b8ae42b8ce1f9468ea07aef57294cad4b95",
       "title": "Digital DJI WTFOS GPS OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -873,10 +825,9 @@
     },
     {
       "fullPath": "presets/osd/osd_gps_digital_hd_hdzero.txt",
-      "hash": "8f31e477cc9fa7fe9d2481ee557f95b86836ddd01e162ad8d23daece90775a51",
+      "hash": "00efbbe46eb944700acbea662b2ed46e78e6632330e458017a223b0fd80c9f97",
       "title": "Digital HD Zero GPS OSD settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "OSD",
@@ -888,10 +839,9 @@
     },
     {
       "fullPath": "presets/other/other_beeper.txt",
-      "hash": "77fc15f0c2fac8af0c5ef364790899764a1c9538fbfb8bb8340fb35fb0f4528d",
+      "hash": "5c85a6dec078c15b84640d357b63452857426ccca2dbb02379e2eb7165a617aa",
       "title": "Custom Beeper settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -904,10 +854,9 @@
     },
     {
       "fullPath": "presets/other/other_failsafe.txt",
-      "hash": "6354fb26d605a238623131dc782651fea72e829abb804ba16022b512058901a0",
+      "hash": "2b05bffd03ad822eff7c7c3bd6c2fe85a71eaa1d2d7215eb19af7405cff10a45",
       "title": "Custom Failsafe settings",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -920,10 +869,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon20_filter.txt",
-      "hash": "672a280a793f2242d5dc177dd378f4c45b1ecae9a4ce1d938a69faeb1b5d0b76",
+      "hash": "c5e896c65679a56cc9c7c6c8f078209d849d6853c354700a4eb0b085e141cf8c",
       "title": "CineWhoop - AxisFlying CineON20 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -935,10 +884,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon20_pid.txt",
-      "hash": "042712cf798fa52d3691ea4a7d2c63b90702ba7df209c1605101519f6d55b36f",
+      "hash": "41f7c0e993baa7edc9efe7f4b134b257ed41b4a76fc58215f2cf9140f5ac079f",
       "title": "CineWhoop - AxisFlying CineON20 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -950,10 +899,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon25_filter.txt",
-      "hash": "e04e639403457ea1102666fbddc239f544f420e751a42f5c80e1a9f7956e65fc",
+      "hash": "db1b8b7842a6dae3be41f39f10d0e44789d68d0928206147b35cecde1edfb577",
       "title": "CineWhoop - AxisFlying CineON25 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -965,10 +914,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon25_pid.txt",
-      "hash": "7a44c4f62ebfb4a5864f363595b7e8ae1568620ad894677d673fd7b34eb37ab2",
+      "hash": "b239072c0619cabab44ff7103ea041111c5b355306ff80e738b37a8dc55f21bb",
       "title": "CineWhoop - AxisFlying CineON25 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -980,10 +929,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon30_filter.txt",
-      "hash": "32398869bed0def7af803191ac6ccad85bb81093c292a80892e24b2adce7d281",
+      "hash": "945e60085616c70c784b3951e684941ec03ba01c162f4a13c1dc28dbfceed743",
       "title": "CineWhoop - AxisFlying CineON30 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -995,10 +944,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon30_pid.txt",
-      "hash": "7a894b666138d1d711aff3743e84286a300ba8bc34a43956646725371e3069c5",
+      "hash": "d614108f28828265507a009716cf1c928d523b46ae9b6368dee1166c52fc7d52",
       "title": "CineWhoop - AxisFlying CineON30 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1010,10 +959,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon35_filter.txt",
-      "hash": "dfa2779d52fe228e4b53c4cd50dc693f44946975e4ae7155b415f14059633c07",
+      "hash": "ef20e8d74ab92d4f2ff776c6892b6fb549e2f1c587e07fc6176bbdd6e228d8e4",
       "title": "CineWhoop - AxisFlying CineON35 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1025,10 +974,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_axisflying_cineon35_pid.txt",
-      "hash": "63c7c29af3fcbfeecdcaa02a048bf6d58251f11be9d55d6b3ac7b2cadbc97829",
+      "hash": "f4309123359153a333419372528946e7d40ef9b0fbd1f413bc0d1e2dd30937fe",
       "title": "CineWhoop - AxisFlying CineON35 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1039,11 +988,11 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_filtery.txt",
-      "hash": "93736c355e556b05517df87cbf75b1749d916df0a29309dc5b574f3aa54d2551",
+      "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_filter.txt",
+      "hash": "b3b7aa7b52629ab2c154ca31978bb82b529c5698be2485694a623422ffad32ba",
       "title": "CineWhoop - BetaFPV PAVO20 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1055,10 +1004,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pid.txt",
-      "hash": "844f88c5136a6fe3b1cb421ef48d10626a5d2ded437d0c602ebafb902081de01",
+      "hash": "6d89d1fe913b841c6b9108264572f3e8b20c259fc9cc3fc6c5b082ee022f12bf",
       "title": "CineWhoop - BetaFPV PAVO20 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1070,10 +1019,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pro_filter.txt",
-      "hash": "fec055035c04f2410e332efe763358982e49373c193aed64e26bc133ab85ba5e",
+      "hash": "e6bf85ffeb2acdf7439eed5583e79bb0a4be19674be7fe77ccb8d120f0020837",
       "title": "CineWhoop - BetaFPV PAVO20 PRO - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1085,10 +1034,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo20_pro_pid.txt",
-      "hash": "acb6dd94beb85b6c130255ec02b7af3b795e2e6baa34a35c2f7d21e151783e25",
+      "hash": "4b17cbbab0d4bfbc43cc91ad29f639063a96f454c5201111a29f67eeac5e4804",
       "title": "CineWhoop - BetaFPV PAVO20 PRO - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1100,10 +1049,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo25_filter.txt",
-      "hash": "68e87a6c8424f0f40b91e3403d754d9273fa1a7af0944aadb3b47663a53c6953",
+      "hash": "6dba6682bdcc52bbd1a44224344d09575e0afef1e9450ea06f1a48311e20c217",
       "title": "CineWhoop - BetaFPV PAVO25 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1115,10 +1064,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo25_pid.txt",
-      "hash": "ee0700c85e650aa0fafef4faa861b775afe5f105f4db83a23fdb966e2cd9c246",
+      "hash": "0c8e4f1c0337d4aabf399d85fe223df2b518676a5c2c607aaefc7da1841ba694",
       "title": "CineWhoop - BetaFPV PAVO25 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1130,10 +1079,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo30_filter.txt",
-      "hash": "8043226811272eb3be9a3bb43218d2a8d6769c32dfbb2c0ce168e3e677f5c7f9",
+      "hash": "ee339f8ff905efde801eef00e375e66cca0a260c49ead32cc112ac1d479fac60",
       "title": "CineWhoop - BetaFPV PAVO30 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1145,10 +1094,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo30_pid.txt",
-      "hash": "274ac6d2d6b258f5e9469948f5b7032ff54979e1f4d40984877b0347eb98c65e",
+      "hash": "1e45c711cbe1449864f893538da2c53cd5fdaaa16db28c2c28d634f4eee3b0f3",
       "title": "CineWhoop - BetaFPV PAVO30 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1160,10 +1109,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo35_filter.txt",
-      "hash": "1b39068f67c16456daf878e7cac41f7f887a4cd0005dd49af393b67ac50dc553",
+      "hash": "0649bfd3620932b169657000df1619b8c6ea6a4c8343e83ad6b14998f50daee7",
       "title": "CineWhoop - BetaFPV PAVO35 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1175,10 +1124,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo35_pid.txt",
-      "hash": "c16bc7c96307c4155ec31105fd72fec5f845350ed68f8e9e820c4574c80a578d",
+      "hash": "f5458f4a66b751dacc55fbd152c56a8174c6dec574e69d8d70811d19889a8628",
       "title": "CineWhoop - BetaFPV PAVO35 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1190,10 +1139,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo_femto_filter.txt",
-      "hash": "21fbc688ae40e9f47750cebe14b32743a154d3523dcdc0b1285eedfbaec33e58",
+      "hash": "304788b11ad74b2138a25c9c122a69dda856b8427534a06df7f794b38913241b",
       "title": "CineWhoop - BetaFPV PAVO Femto - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1205,10 +1154,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo_femto_pid.txt",
-      "hash": "ac3fd734de71d4d1e6be8033d9aca496209585885a45e761049d222e6db41cda",
+      "hash": "8ed1eb8170d887e0d5b35628c09cebcdb110efb3af5a2571d36be3b767dbf0db",
       "title": "CineWhoop - BetaFPV PAVO Femto - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1220,10 +1169,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo_pico_filter.txt",
-      "hash": "7dc9bae820bc6a0d07cef8fd3033b0edcce9f360a65a9c2e0486aa607ff44c37",
+      "hash": "f83a1fff7c94e4635de8e125b017bbdb06f54c27222e818c9f2d2a9735404fd5",
       "title": "CineWhoop - BetaFPV PAVO Pico - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1235,10 +1184,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_betafpv_pavo_pico_pid.txt",
-      "hash": "77849da8b57ecef83df129f6b46f129f6446f48a80c68e25315ed72c6aeee920",
+      "hash": "9c1e25db6895e422900819d3ca89fd40149a9e7305f7d3cb271695ea43ca7a55",
       "title": "CineWhoop - BetaFPV PAVO Pico - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1250,10 +1199,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_caddx_gofilm20_filter.txt",
-      "hash": "ee285d4de688387a98cb6d0d1d8f9516b2a82a969c41418689802b7dfdf2a140",
+      "hash": "6d9cb9321d43c5da96f5841df86c4e50b423ae49607a12a1407a268c1a4f7ccc",
       "title": "CineWhoop - CaddxFPV GoFilm 20 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1265,10 +1214,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_caddx_gofilm20_pid.txt",
-      "hash": "1492725f329aa4fabf1f5e88c500dbf0e6bf9a0a3998e5fe87d051172893c154",
+      "hash": "0a81a5b8328cf4e861cd1f3e422b1b39a24c0fcd4591c54843fb9cbe2acb7850",
       "title": "CineWhoop - CaddxFPV GoFilm 20 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1280,10 +1229,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_filter.txt",
-      "hash": "f6e9c27402392d1b9da4c41d1f7487c01727f073e81dc59305db46efe814cf47",
+      "hash": "8a37cd37ca77365512c8ed22f5a5e14dc8fbf0c09f2293d803d7eebc4b9633f0",
       "title": "CineWhoop - GEPRC CineBot30 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1295,10 +1244,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinebot30_pid.txt",
-      "hash": "63c09486f4e7e534f191b0c3d6d1cd63cae6a891676e9149c7741bb509589ba8",
+      "hash": "3c2b691ccef444e9f0c6dcf066ba83e063201bd94960439e025f5785843232fd",
       "title": "CineWhoop - GEPRC CineBot30 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1310,10 +1259,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog20_filter.txt",
-      "hash": "8536f0960b9dfe525634855358889b67ac86cfa1eed22232708788ef7ea0d1a6",
+      "hash": "12baf58018ac0f79d3bd4facc249c69c8ff7129ac11f80bf30306e84a26e7337",
       "title": "CineWhoop - GEPRC Cinelog20 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1325,10 +1274,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog20_pid.txt",
-      "hash": "1c33a00a30a605b6d05d6fbab8c8716ded61b5ddb2bc4f756be4b92d415496d4",
+      "hash": "8ec9d81c1cb66ab27048edf89dc7aa47f730e558fc130426999067ada09d90eb",
       "title": "CineWhoop - GEPRC Cinelog20 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1340,10 +1289,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog25_filter.txt",
-      "hash": "3b1c66b2b65c7c7f73b24a353b41ee932833e7d3b2ccc85de28c4af0151ac1ef",
+      "hash": "a87b8315c5e018a823b8a5ff265df06fffc119784bf27dafdbcf83554ba245a2",
       "title": "CineWhoop - GEPRC Cinelog25 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1355,10 +1304,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog25_pid.txt",
-      "hash": "f28141625dfe5ec0ac3b350ff14c1a2deb5e45dabd008088fb8c85f3b86d8d5e",
+      "hash": "a8d1b672133d0b32848a591dbaaf4ebbc5a393bdae800230a594208171daf092",
       "title": "CineWhoop - GEPRC Cinelog25 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1370,10 +1319,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog30_filter.txt",
-      "hash": "518778a1f0696a90e0379bfc3381e83108b2ad068dba0feebc7194c15095eb08",
+      "hash": "5a1dcd05f18478c31876a65ac76b832fcb72244521984dd10fa109a9075a92e3",
       "title": "CineWhoop - GEPRC Cinelog30 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1385,10 +1334,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog30_pid.txt",
-      "hash": "1bccc384914011289093ff20338a63ee6193df125e13d8f916f5d23ab0d6cf34",
+      "hash": "1eea8c7491999dc0e5a881bf50ae3e97f5b3ec715ab08094c1c647e404fc205a",
       "title": "CineWhoop - GEPRC Cinelog30 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1400,10 +1349,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog35_filter.txt",
-      "hash": "806231ba005650a93d893fb7260eb6e37c3a1e1fceb8825211ba309401bd1fcf",
+      "hash": "1dd57e195ca7778fefbeb31609a41993245bc49819cc62c101f3b5ef2faefcb9",
       "title": "CineWhoop - GEPRC Cinelog35 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1415,10 +1364,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_cinelog35_pid.txt",
-      "hash": "ce3ef991a29151daa9c26d5aed05cab9f164dd12b11f1cd4292d04a30d383559",
+      "hash": "75dd6d884587a1bc149130234ade4e8e019205b624aeaf9b1743394f828f57cd",
       "title": "CineWhoop - GEPRC Cinelog35 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1430,10 +1379,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_rocket_filter.txt",
-      "hash": "07aeba1939281bcff9ca6d283da681837285fa88315c80da1b1eae9feab636e5",
+      "hash": "4411fa2d48837a8347a578ddb8e1b65f67ec552b9346e393210c0fb2717b1a73",
       "title": "CineWhoop - GEPRC Rocket - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1445,10 +1394,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_rocket_pid.txt",
-      "hash": "aab70e33fe6b209cebb9a5febe9f9eaa400765735d964b7f31d62af2e4e0f920",
+      "hash": "6d1427ed70c7634e1bea260a9a0aa10839f871a39a480502a6033714207a148e",
       "title": "CineWhoop - GEPRC Rocket - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1460,10 +1409,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_thinking_p16_filter.txt",
-      "hash": "e5301c4d591102d1e8c1a3bfb6166e7efdd44d4d318ccf9e90fa88b23800aae4",
+      "hash": "95a2f54c6949e1c97b702b6eedd878d98877e20e034f18328b0291737eece4a0",
       "title": "CineWhoop - GEPRC Thinking P16 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1475,10 +1424,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_geprc_thinking_p16_pid.txt",
-      "hash": "6ac0075ebd87e1109165be047218770477a1100dfc4bc7d31300edc39ba104a9",
+      "hash": "f65a8e4403c36ed681916853b5c0156c420c8d41ef948dd2fa7808d55315147f",
       "title": "CineWhoop - GEPRC Thinking P16 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1490,10 +1439,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_hglrc_talon2_filter.txt",
-      "hash": "f1cd905b056dc037e0fbc2992f31b2edde385f9518d3d6e03f642a3ad8977209",
+      "hash": "68a8fa7f20372d8603041a61cbb88afdf07801a773085d460775ffcb59dad6ed",
       "title": "CineWhoop - HGLRC Talon2 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1505,10 +1454,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_hglrc_talon2_pid.txt",
-      "hash": "6cff80cec6df9f0535a9ee2eae58434a0be59f5e2e4280e00291b0d6055ec428",
+      "hash": "99880f530a6647b325e803c38c1f14efbd1c04a945d6e9d5f6c84874c86a5a68",
       "title": "CineWhoop - HGLRC Talon2 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1520,10 +1469,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a65_filter.txt",
-      "hash": "b8603192a5dc07f8293bf935244e573a39b7f9be2b5a3646e33de4bed3002501",
+      "hash": "fefa3dac7773079db76ae23ac076ce86c74dce4c0278b297ae9b143a460ffb68",
       "title": "CineWhoop - iFlight Alpha A65 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1535,10 +1484,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a65_pid.txt",
-      "hash": "1ca56aeaf2a8ea9018fad2f4d7d5ef9908886e7f8ad62d894a3ee1cbc4ddc7e9",
+      "hash": "d5e8a718764e5ce3304c5954328cac265f1b147ef5d462cb96c7d01a5b075aa5",
       "title": "CineWhoop - iFlight Alpha A65 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1550,10 +1499,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a75_filter.txt",
-      "hash": "d8fabfcc9f29109dd7e25b1a54a8ff070ab108e787d172aad4e39f727498df4d",
+      "hash": "f813bab86c154aab27e1be8443724da18fba706bafc3868b9c64eda2368bdb68",
       "title": "CineWhoop - iFlight Alpha A65 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1565,10 +1514,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a75_pid.txt",
-      "hash": "314be6dd4e842b86d3f66da1e3f56454af0f36afbbb384152a5d482ad73e65f1",
+      "hash": "d2a42beae0ee1a4024aa2dd1f564e30f18991bb5c7eef1ceb70e278886d000d2",
       "title": "CineWhoop - iFlight Alpha A65 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1580,10 +1529,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a85_filter.txt",
-      "hash": "2af3d139bdd2b689ca637cdeaa96767e04ee96b41fa5229b23502b816bf46228",
+      "hash": "32bf24b2da201bae715372a893bfedec4c3c13fa9e09f7b7cd641db94dd24310",
       "title": "CineWhoop - iFlight Alpha A85 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1595,10 +1544,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_alpha_a85_pid.txt",
-      "hash": "b1d4e751a8acbc25398819667db5d18d20f1f8e323188e2956aeb98b800349ac",
+      "hash": "6a91e10f0236dceaa7a24b0f171474feb81ccb6ba35d1db1765b7fd641de5dfa",
       "title": "CineWhoop - iFlight Alpha A85 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1610,10 +1559,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_bumblebee_filter.txt",
-      "hash": "cf67da14bdc9d89dc08cc90be29a7d7b5e5a157f7423c6cfb10ee9da8a42150e",
+      "hash": "2875295b4e70ab78c78c7e95fe9f07a7402b0fed89d198665f2992e8f37f51e8",
       "title": "CineWhoop - iFlight BumbleBee - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1625,10 +1574,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_bumblebee_pid.txt",
-      "hash": "057b0c1d39d2865930a79f9d43e2c0eda2c2f0bd0b86c49041162a70c1288423",
+      "hash": "3c56edc69395c4663f81f3a8d72f2085f21506da4d77bde47d12af5141439633",
       "title": "CineWhoop - iFlight BumbleBee - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1640,10 +1589,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_protek25_filter.txt",
-      "hash": "53b6f699fe1d3ca4816003c657f2c17bffe976fec87185fceb9824764694188a",
+      "hash": "e1a73d2f9b6c2fa67380ea5c256cad4401527523e14d3eacc1480059ba039b07",
       "title": "CineWhoop - iFlight Protek25 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1655,10 +1604,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_protek25_pid.txt",
-      "hash": "1deb2e42e25a149302836bb8ab308d27b7f684278fdca6964686dac7b2c4e930",
+      "hash": "7ee104985e73cdf8bbb656f1ab6b3652e11b64b1772d00124ac136bd6fa5e6b7",
       "title": "CineWhoop - iFlight Protek25 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1670,10 +1619,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_protek35_filter.txt",
-      "hash": "0470376f47a88d49d4d349d0c70250d03da8097bfc87c7e28eeb7620df2e6718",
+      "hash": "16eb866bbcae98abdb4150c241ade3541d61b2040f82cf2fda102da95f959e96",
       "title": "CineWhoop - iFlight Protek35 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1685,10 +1634,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_iflight_protek35_pid.txt",
-      "hash": "5f57609cedbc77955589b2036e89db25f47af2ca4b69fd165dd48a84edb95509",
+      "hash": "c46a8591ac9756c42842f4f16e956420765fe7940c775a26493c4f16a5f193e2",
       "title": "CineWhoop - iFlight Protek35 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1700,10 +1649,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_speedybee_bee25_filter.txt",
-      "hash": "5a0be922612d10f81f4cc4a5b3ef446f2789b7b3a3e77a6e1ad4505ae838d7b0",
+      "hash": "cd34e990d49968bbf3c9a6d7b983ba26b9d82be69368901a13561ed2858ba0e8",
       "title": "CineWhoop - SpeedyBee Bee25 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1715,10 +1664,10 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_speedybee_bee25_pid.txt",
-      "hash": "8a2499269ad3ca37ea91ae56452bf21eb37e5c4f415248ed1ae7ec700fcf16ab",
+      "hash": "bd982fdff7e6481b04217271c022f539d185625eaddcc6c87523a577cc5f0beb",
       "title": "CineWhoop - SpeedyBee Bee25 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1730,10 +1679,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta36_filter.txt",
-      "hash": "2a4f4bc67910aae99731ae4150b712db149434bc8b515b634b49d65f5523248f",
+      "hash": "24da0c1986880966ee3f988da97e7fc44635550788600e603fb394137dd38baa",
       "title": "FreeStyle - AxisFlying Manta36 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1745,10 +1694,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta36_pid.txt",
-      "hash": "bdba19ae99778b5797a0ce3388853cc36652e2a17e78a7b3e03e4dad0460bef6",
+      "hash": "571fb12b0dc379298b6406e0d47e5321de4e09e95d57833bca96988e57e23f3a",
       "title": "FreeStyle - AxisFlying Manta36 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1760,10 +1709,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta5_filter.txt",
-      "hash": "33fd35c0a19c79b3d75149b2f57a77eb1823df85eb96edb68a071aa867278b72",
+      "hash": "66a9f889f218c90ea33dd42fa586e330c6be2356e8fad92e3068b6a0f09e5a88",
       "title": "FreeStyle - AxisFlying Manta5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1775,10 +1724,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta5_pid.txt",
-      "hash": "ca3e1351e46980106df7778ec81bafbf1a9ee11a33bfeee734fc2fadbd213a65",
+      "hash": "eb3be4fe358ec71ffdbe5103362b2abd8248af7f7b2abbdcc1ba6f170e25f2d5",
       "title": "FreeStyle - AxisFlying Manta5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1790,10 +1739,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta5se_filter.txt",
-      "hash": "383cc4169b4c045b7d53407027d1b83afa2293703ca999061f1484eab79756b3",
+      "hash": "8e3e5dc41972689fad1ae77b4747e50e3fa465c49eb67929724b4e35386f1b17",
       "title": "FreeStyle - AxisFlying Manta5 SE - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1805,10 +1754,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta5se_pid.txt",
-      "hash": "acc867c6aea45fee21643bbc0be3355f58334513bb45382232c8229195884c12",
+      "hash": "409e2d014478193f353253849ea63528f7c5b5684d351207b9076f5205b80668",
       "title": "FreeStyle - AxisFlying Manta5 SE - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1820,10 +1769,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta6_filter.txt",
-      "hash": "9ab4d3e263482ee764f3006e2bd5a2eab2b9ee14e8f8f6828a69c903f72eccf0",
+      "hash": "e8ddd107f6dc5628764fde05aa5380a1f5df9b181683738da5f044bacae502bc",
       "title": "FreeStyle - AxisFlying Manta6 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1835,10 +1784,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_axisflying_manta6_pid.txt",
-      "hash": "876a28c2d2eef1e687556aaa23c56ad2724b69c52f579db40bd434043035eef1",
+      "hash": "05d26fbf93ee2261e8375f5e37c1a78e7b42e0312d862d0b5e60b288ed3a27ec",
       "title": "FreeStyle - AxisFlying Manta6 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1850,10 +1799,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx35_filter.txt",
-      "hash": "6300c24b3b6df0be0899876c3b1a1b73ea15472b327b7d29d112eb47dd0fedc8",
+      "hash": "c0e10404d234637751a280398d4ef6d85ba647a045f45b59ec772a566e33797c",
       "title": "FreeStyle - FlyFishRC Volador VX35 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1865,10 +1814,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx35_pid.txt",
-      "hash": "32f0d67b6dc4055dfd04346a4c62afa46cb131c1920fe40d0914410eaa846ddf",
+      "hash": "4f5f234f44c17d22e68e3206e5508415ef4ca5bffec3f31d071ceb255b9ea902",
       "title": "FreeStyle - FlyFishRC Volador VX35 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1880,10 +1829,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx5_filter.txt",
-      "hash": "550d79e516d13a9ec9fc645c1c5c7e2de4befe0276427607b8535ad01acaadbb",
+      "hash": "38da3a0a65b6026ebad3d950fbda82cfda6f02d6515c92aaf5280bed626cf0fc",
       "title": "FreeStyle - FlyFishRC Volador VX5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1895,10 +1844,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx5_pid.txt",
-      "hash": "a233caa91c84b7fdfd2c5f64fe5ca2bf3bbe115a0c73aad8e79916ee7a4dd435",
+      "hash": "c76b4001ab811addc23f5b6a0fc4c8ae7f760cbc3f1b1b78507139fbd6ed3e60",
       "title": "FreeStyle - FlyFishRC Volador VX5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1910,10 +1859,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx6_filter.txt",
-      "hash": "86919c13392bacdc8ce133bac135c162c5189dbcd30ed5b7ac5e4c005413ea41",
+      "hash": "58d09e6ce725e134c60b858cb5dbc7804d7a484a7cf9ce3c46c49a5e3c87af67",
       "title": "FreeStyle - FlyFishRC Volador VX6 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1925,10 +1874,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_flyfishrc_volador_vx6_pid.txt",
-      "hash": "a526f5853d63745f2e02aaa109987d6e6493ac2ee262bc84b2b5c6cbe1e8b451",
+      "hash": "12b430c3cb4e0c57eeaacb651505b539a5821ecf6bc5d46edb884f1e19829b82",
       "title": "FreeStyle - FlyFishRC Volador VX6 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1940,10 +1889,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_geprc_mark5_filter.txt",
-      "hash": "970d06fa4efb24c185d174226fb033f28677148bc9301684ab5d01570fc7a4a4",
+      "hash": "178110eafeb4cf0590dd8710bccac87a1e563ebdba0ba138ef38565599b11aa8",
       "title": "FreeStyle - iFlight Evoque F5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1955,10 +1904,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_geprc_mark5_pid.txt",
-      "hash": "f5b35f52a877ebd972f60baf4d5626c852b3206070782798610b584b786a88f4",
+      "hash": "8e500c5561244f4aa368034e06f8b02c550f79a9a2e14449bdb100dbdbbc00dd",
       "title": "FreeStyle - iFlight Evoque F5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1970,10 +1919,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera4_filter.txt",
-      "hash": "6ae3522548203989b4978814a76c733d9d5ca12a9b30c3b50e6ec3b8531bfbef",
+      "hash": "74c364ce1a51e6b32d84898b9e9e86e8ca1a7edbb329691e4753b9633334a64b",
       "title": "FreeStyle - iFlight Chimera4 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -1985,10 +1934,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera4_pid.txt",
-      "hash": "18d9761d96bc1a579e21ba1f8a049600bc2fbf9e5783b35b8bbb516890bccacb",
+      "hash": "2761f3d0cc05225c9472307ec68efa880544702471922fd1c191ff0530ce118e",
       "title": "FreeStyle - iFlight Chimera4 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2000,10 +1949,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera5_filter.txt",
-      "hash": "97c5310f529fe91d0c9d4375a7aee7b6f9b1a75719d69cd8f3173852b82d85c0",
+      "hash": "ab146cb66d9585968b17c84784e99f75494cd83e65583a77092f1fdaa99c5466",
       "title": "FreeStyle - iFlight Chimera5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2015,10 +1964,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera5_pid.txt",
-      "hash": "2241371665311dfc43f83584a54a9a23c340021dd1cc036f10dbd5e1e5d685cc",
+      "hash": "59532ca1c8c49e7c3209501a44a87bbd9c1577731ff29ef8da0ed40dea94e68a",
       "title": "FreeStyle - iFlight Chimera5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2030,10 +1979,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera7_filter.txt",
-      "hash": "e9bbdf2e563a770d60524380af1431c694b025d9db1c88c8c21d3c08eb324e4b",
+      "hash": "f428d25fe16a9d8e9ff234811ce30dc02684ced76de5ffe537f628d8ad926b3d",
       "title": "FreeStyle - iFlight Chimera7 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2045,10 +1994,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_chimera7_pid.txt",
-      "hash": "01eec95a264799ebc474783ddbc79df2b247c76d95fb38e959184a6983d4b208",
+      "hash": "9bc692dfe20aa1cc5386cfecbef98a9d55cdcb4f1e38a9aaf0f7f6c28613064d",
       "title": "FreeStyle - iFlight Chimera7 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2060,10 +2009,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_cidora_sl5_filter.txt",
-      "hash": "b12fbb0e9c3a1d0d68c4c36f1ffb3051f3c06c61e2c2fa2b079d264c5e012661",
+      "hash": "7a8f9820eb968157dcaabc90229b2f1dbd59c359656b7689b7bebcf1711a151d",
       "title": "FreeStyle - iFlight Cidora SL5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2075,10 +2024,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_cidora_sl5_pid.txt",
-      "hash": "d76a34f6588cbebcad0a92eb2e32b38f3861d7990779d4af5dda240352d578dd",
+      "hash": "33395ff966842631e504025ad04b44c5064671153de8f1e68d6fa277f09c43e0",
       "title": "FreeStyle - iFlight Cidora SL5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2090,10 +2039,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_evoque_f5_filter.txt",
-      "hash": "f5fbeaffe90e13df6ca734ec90f028045987067013d947b3da3a3f0e4299d3ab",
+      "hash": "1889a5de5a225e7d7c76442ec9fb39ea00cd7b04cc8005579ef0ddd6388ec0ca",
       "title": "FreeStyle - iFlight Evoque F5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2105,10 +2054,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_evoque_f5_pid.txt",
-      "hash": "5c0bf22c6b9ea53c9a3737bd1cdec8a6b5a091222cf85b36ae40d8d1f48211e5",
+      "hash": "f12ef74612dc1fdd302670cb5087a3773c6e7a090e23fa236f0a8a229b8ffb3f",
       "title": "FreeStyle - iFlight Evoque F5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2120,10 +2069,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_evoque_f6_filter.txt",
-      "hash": "6b9927fe044c99e22071b500408277acb796a7316318751ddd22a6d85b638d4f",
+      "hash": "628545f8788303a21f304acd6c0d267ac9be8bb6ef022e15fa669b49b6abd10e",
       "title": "FreeStyle - iFlight Evoque F6 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2135,10 +2084,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_evoque_f6_pid.txt",
-      "hash": "ef7606a2b5324759891a4184bf127b576e3187ada85ba9cb78b12ccfbe315816",
+      "hash": "aa02ed549988496e2c78b63bc8d60e8bffcddf8ca28c619f48cc7378d26e6e3b",
       "title": "FreeStyle - iFlight Evoque F6 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2150,10 +2099,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_nazgul_eco5_filter.txt",
-      "hash": "d5ed871b0c9ac8502e79f664a891f80e6fd46a271b055e8b6d4559fee67624a7",
+      "hash": "0c712618dbb6897bb2ca5b493c255adbb8397791befc37d55171d49213f90154",
       "title": "FreeStyle - iFlight Nazgul ECO F5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2165,10 +2114,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_nazgul_eco5_pid.txt",
-      "hash": "451d0479a99099d1344bca360a3b66eb74a947526a337de42c3d5e63f2102281",
+      "hash": "cceef6264ce60071bec4c617d75c87b0eb250e62492faf3288fc0324f9ae8949",
       "title": "FreeStyle - iFlight Nazgul ECO F5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2180,10 +2129,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_nazgul_xl5_filter.txt",
-      "hash": "30cfd2d22e2a1a74de44c5c3fdd585124ef281427237a52456c87b9e79b8e598",
+      "hash": "280abe44a206b09f0098d9e92873a2fd1275ee217be8b0f9ce068fe806abb58b",
       "title": "FreeStyle - iFlight Nazgul XL5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2195,10 +2144,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_iflight_nazgul_xl5_pid.txt",
-      "hash": "e9ae49164e4d0bf88c95a550d9fcd57e5199c8cfa31041df3bc200299e7a2875",
+      "hash": "69e5778fcc8e376f9a5b7e47cbc2ea4a0f2b5619c2e56bbd4b3e83809d0efefe",
       "title": "FreeStyle - iFlight Nazgul XL5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2210,10 +2159,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_speedybee_mario5_filter.txt",
-      "hash": "e91bf1c44971731e94aa8be89575fb801360be4d6a211cc9e742d10b9108aa0e",
+      "hash": "e1665570e9b4369439b2a1133d22780660ffb87547ac0843b6e0c2e03c7a09b5",
       "title": "FreeStyle - SpeedyBee Mario5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2225,10 +2174,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_speedybee_mario5_pid.txt",
-      "hash": "cad80babac0d75825b0fe2e8aa25a607556a012eb1cfdc40d2784102894667ac",
+      "hash": "752470a882f4270c1a86dd3a1da4436f993a0fa8e82d6b0231baf867a1466551",
       "title": "FreeStyle - SpeedyBee Mario5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2240,10 +2189,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_speedybee_master5_filter.txt",
-      "hash": "cacb0b02888b66f99c123073ec54fc70381793bca3fd2429b5b9b58f90eed7d3",
+      "hash": "62e47b4e2305588e68613fb4d601f3cece30eaf7d21d5b126622d6ff6fddf496",
       "title": "FreeStyle - SpeedyBee Master5 - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2255,10 +2204,10 @@
     },
     {
       "fullPath": "presets/pid/freestyle_speedybee_master5_pid.txt",
-      "hash": "8bed9771ca0a1683aaca9d6baaf616024cd328d6210c3171dc6fb0b82e23ec98",
+      "hash": "4cb16ad5b81b1b95e70c1008f1d49c37ce42b2c2fe9cb732f53954e554c59d0f",
       "title": "FreeStyle - SpeedyBee Master5 - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2270,10 +2219,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_air65_filter.txt",
-      "hash": "5e4404ff68699c09fcf0a65f8d46935b6bb6545132479cfcaf79ef5a1f611134",
+      "hash": "751d7f7ebd1f577e0866d77d43addbe38e5dcb4526dedb819054d7442bce29b8",
       "title": "MicroWhoop - BetaFPV Air65 1S - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2285,10 +2234,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_air65_pid.txt",
-      "hash": "efc70b416598b1f168f8ebd8a9d870967e32c75dc713e70edbb4db7c2052454b",
+      "hash": "5d03d437c200a26207f2381cf6c4c9f322bb281a949c0155f971e88eb6e4c96c",
       "title": "MicroWhoop - BetaFPV Air65 1S - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2300,10 +2249,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_air75_filter.txt",
-      "hash": "72dd6f007dfc03f885d1c4604ea144d01372c73d8288ec3e3670e697e23d1846",
+      "hash": "2b0640073150203d57b39b714368388e1619fec1d3a1413c516ea1cd4ee0d8ff",
       "title": "MicroWhoop - BetaFPV Air75 1S - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2315,10 +2264,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_air75_pid.txt",
-      "hash": "b197766d672ea09000875523b20e3f775d96542e764f5afe8c2c35fc766b930f",
+      "hash": "542f9a691fef4ae4e722956bcc934997ba8d4d4631662d59fab5152f71b80bf8",
       "title": "MicroWhoop - BetaFPV Air75 1S - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2330,10 +2279,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_meteor65_filter.txt",
-      "hash": "61fe029d8c0845d532285fe7ad536a211ea0c707b173df5106b7f3ea043e4736",
+      "hash": "9d6df6c481b5ee279da69dfd0fc71c253e634fd082f9881ab70fa8b0eda288d3",
       "title": "MicroWhoop - BetaFPV Meteor65 1S - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2345,10 +2294,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_meteor65_pid.txt",
-      "hash": "0b7fe8298da26f8bb0cc724146d8fa8f0559dcc1c42978aaece055782fe5975b",
+      "hash": "d47e273c241ceece0743f8c9611926915063f2c4c2a4ceaa40d3c534608f349e",
       "title": "MicroWhoop - BetaFPV Meteor65 1S - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2360,10 +2309,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_meteor75_filter.txt",
-      "hash": "46c3368c38db45fcdd7b7a074a318489caf4916196cce0327a869f7c4cf67320",
+      "hash": "8a3aaab78c92e22905e022aee2f400d42574d878f5cd8353af1d7024ed016d89",
       "title": "MicroWhoop - BetaFPV Meteor75 1S - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2375,10 +2324,10 @@
     },
     {
       "fullPath": "presets/pid/microwhoop_betafpv_meteor75_pid.txt",
-      "hash": "197215c5b01473d0b13f665b8703bcd5dfcddca2b43710981f845b246fe21cb9",
+      "hash": "1c935302959136fcd4723bc4c6f1125109e681be4a8e0e5f5f88afb0fbae7232",
       "title": "MicroWhoop - BetaFPV Meteor75 1S - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2390,10 +2339,10 @@
     },
     {
       "fullPath": "presets/pid/pid_default.txt",
-      "hash": "727adcc904f31618fe49a4622ced8eac34daedf097c7235c5dcd6c9adcf2a8d8",
+      "hash": "0b34ce015557ff0693edad57ca3c6f6e911b72fc32709881bac935a50b6ebcad",
       "title": "Default PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2405,10 +2354,10 @@
     },
     {
       "fullPath": "presets/pid/racewhoop_freshbread.txt",
-      "hash": "5dcbf2910d9f51f685bd14e799e7d48edf19ab100d92f1120d773ce1335d58b3",
+      "hash": "069fb7a1033afe12f9607b09f05210330a123d92b911f9dcc66e61b149a525bc",
       "title": "RaceWhoop FreshBread",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2420,10 +2369,10 @@
     },
     {
       "fullPath": "presets/pid/racewhoop_sugark.txt",
-      "hash": "bf096421c2d987e3f69c937ccde858614068b07b10b9648d2954174a632baa57",
+      "hash": "51061a7d552c96555a3946e44b50fa2fdbdc43afd44a13295e006c13199db42e",
       "title": "RaceWhoop SugarK",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2435,10 +2384,10 @@
     },
     {
       "fullPath": "presets/pid/sbang_blackbird.txt",
-      "hash": "edb822109504fd02ad018e2df4063f5047e46f3737e0521fc1ba2161df1f6b78",
+      "hash": "6ead7955833ed8592c8eb1546744f050f80ed7b5ce4f4f36c422c7813a9a4766",
       "title": "SBANG BlackBird",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2450,10 +2399,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_flywoo_baby_quad_hd_filter.txt",
-      "hash": "2190ee645d65b5ce4eb5da0f67681931f6933b503af18eec007ba06f033ffb87",
+      "hash": "d52b37fdb7988ea7cc3f0f2b67189fdf7b8c14ae82d0f8230eb4bb9b8d8fa26f",
       "title": "Toothpick - Flywoo Baby Quad HD - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2465,10 +2414,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_flywoo_baby_quad_hd_pid.txt",
-      "hash": "1d3b4b7344c1b5a8ce6e20cb9dcf498a9bcae02f75daedd9415fb1e977fc1e08",
+      "hash": "12345a5f084f4f15160516d893ced1fa4f2bcc57a3b1eaf35de98622d7cad143",
       "title": "Toothpick - Flywoo Baby Quad HD - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2480,10 +2429,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_iflight_turbobee_160rs_filter.txt",
-      "hash": "5c53f09c82bd8106d2e5e742d98af71374efe876f6fcec3035162b3062f626f8",
+      "hash": "d5e4bb09cbf237c940ed26a09c714bff1915893ddf787895795699c873c299ee",
       "title": "Toothpick - iFlight TurboBee 160RS - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2495,10 +2444,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_iflight_turbobee_160rs_pid.txt",
-      "hash": "5b47fa5deab8388b78f138bf17ce3e47ebcc85dbcbf7f3ef029fe30513807145",
+      "hash": "47bf1ff5585d6148847ea976e764deaea8fd6dd372dbfd7bd438fc9712854270",
       "title": "Toothpick - iFlight TurboBee 160RS - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2510,10 +2459,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_iflight_turbobee_77r_filter.txt",
-      "hash": "0899f5157d1fb3f1fd9c346b485adff34410b251fd3a03e07faa2f159c36c461",
+      "hash": "3616276e030685eaff881855eb3c19784a2e180d9f6a15dbcf6588ceb441ab90",
       "title": "Toothpick - iFlight TurboBee 77R - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2525,10 +2474,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_iflight_turbobee_77r_pid.txt",
-      "hash": "f0a80984e9c1c0ffae010873d6f4f11fb5fda8bce843873d3c4af935505eeb31",
+      "hash": "25592a0d91584a2c9675b4b14c88e32f473ae110c5ebfbf0fd12150474a16ae8",
       "title": "Toothpick - iFlight TurboBee 77R - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2540,10 +2489,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_iflight_turbobee_99r_filter.txt",
-      "hash": "ca7b0827164e2ea574899e1c10d215e3214e8072a23d525d3516d8fc9b4d6a38",
+      "hash": "93df96cf9b57dba6cc929ef016f1610cf79713a4a72a759e831bd10f1c547801",
       "title": "Toothpick - iFlight TurboBee 99R - Filter",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2555,10 +2504,10 @@
     },
     {
       "fullPath": "presets/pid/toothpick_iflight_turbobee_99r_pid.txt",
-      "hash": "a1e82a42e0923801172e8e31a50abb9b78692124f00857338affddf95f2045f9",
+      "hash": "cce03c778eba027cc65efe76f9f8ef68909ea5196281348a127648e240cebfc4",
       "title": "Toothpick - iFlight TurboBee 99R - PID",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2570,10 +2519,9 @@
     },
     {
       "fullPath": "presets/rates/rates_default.txt",
-      "hash": "8f9a46d4f615fac1bd22c1878f7a7d522a6da7070ae2947c1a2bfee2f5220755",
+      "hash": "6438c60aa731ae0e24cf8e6aee66f9f1bbd4857752fa1ed7bea4dda035e514de",
       "title": "Default Rate",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RATES",
@@ -2585,10 +2533,9 @@
     },
     {
       "fullPath": "presets/rates/rates_fast.txt",
-      "hash": "0fa03862ffc661084ebfff6788a4c5480577a6db9e82cef226c582ec1f03db87",
+      "hash": "ba049b5ac6e64a759ec725db7e6dcd69c7bdb3120d62b1224916cde26cbf6322",
       "title": "Fast Rate Profile",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RATES",
@@ -2600,10 +2547,9 @@
     },
     {
       "fullPath": "presets/rates/rates_medium.txt",
-      "hash": "70a4c4b90b3de74351691aef20afdebb9b17560acbf31fbd04f85cf85031e641",
+      "hash": "15031f61666267f304c2cd754d04b52a887635c2bb79edf0aa130fb78db654f0",
       "title": "Medium Rate Profile",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RATES",
@@ -2615,10 +2561,9 @@
     },
     {
       "fullPath": "presets/rates/rates_slow.txt",
-      "hash": "e33e9c95dfe8c85e1bbdf68762dc88a333effc2845831dd96a33a4056003d004",
+      "hash": "3dd033a623c972482a815ef242edffc4806ea15f0dd3884ad565e519e93faa82",
       "title": "Slow Rate Profile",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RATES",
@@ -2630,10 +2575,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_150.txt",
-      "hash": "e1a3a1219d367f67e7684bea06f2537274e42c53b35f4e18849d4acf2770a9c8",
+      "hash": "e4c0951834755980c6c1f5b96d9b25d35c17a1c7ba0dd29f3b48cb754ab98a17",
       "title": "RX Serial ELRS 150Hz for CineWhoop",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2645,10 +2589,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "0377b134a3838566c550620d02be66fc62ec3ae4a2cab12363dbbe1e42493251",
+      "hash": "07db439fb46ddd3f6830e1f252aacf5729f8358522606bd5aec2d6115527b9f6",
       "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2660,10 +2603,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_150.txt",
-      "hash": "1bab8fffc32639af249ab3d8f6aa960240399629baa8e4f79cffac86e191daf6",
+      "hash": "a9041f3c03ed7ed8f3eba527891b954330cbd3c952b9fc786a7952475ab8bc1d",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2675,10 +2617,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "acf2b73f3281d8fe934d4902a5859f3b674b0d8a12ea44d5dd593c6531a5dafe",
+      "hash": "91e7faf266f559974e4eb8b4ad4d4549778525291c1af99c1dd27f03dd891fe1",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2690,10 +2631,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_150.txt",
-      "hash": "f8a5b05840a2f6357fdf6ed681209b0fbe613e0aff287f14cb2ee83acc66606d",
+      "hash": "a7ebedeefc283cdc327640abcb48c59dee0d7941d104e9997b0515d91a1a9b5c",
       "title": "RX Serial ELRS 150Hz for Race",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2705,10 +2645,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_race_elrs_500.txt",
-      "hash": "adbaff1b286f1feceda7b3f516383514f7d3fe14ea43918ad57fddad99f5d5bb",
+      "hash": "71f32b54c39b7fcdfcd93d43384cc3a55c4f65682f8c36222bd76d37b9d2c8af",
       "title": "RX Serial ELRS 500Hz for Race",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2720,10 +2659,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_sbang_elrs_150.txt",
-      "hash": "0634f049d9f1906bf52e230e96e957464d6adc74cfe3275cdf1b0bd8068c082b",
+      "hash": "6c55ae7cec5e8703c981e785e886891a5dac750fc2508924302e21115942e2ac",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2735,10 +2673,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_sbang_elrs_500.txt",
-      "hash": "be6c96a67d5149c982da2e9114b1041d42e616e88bb85772853d7f21a7c978a2",
+      "hash": "ddc12b96300cd46d504a27b9ab19b47e6c60906651ac13a427986f110697fc9d",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2750,10 +2687,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_serial_sbus_ibus.txt",
-      "hash": "5d88efa2c2d4afc5a929b2f3691c862ddcf2651308205be4530fcf4070e6bc8a",
+      "hash": "e3fbc9e0ad26e72f8d599d09a8507359c8231592d7e5f039073eaecffb488efc",
       "title": "RX Serial SBUS / IBUS",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2765,10 +2701,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_elrs_150.txt",
-      "hash": "10cc670fd0e3de26583d11e247e6338c548b5540786517ab6d762cdb366198c1",
+      "hash": "2d845d5cd36ff69f28dc9bacd828cb5fa81932d214d8603df9cd02357ad2cbec",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2780,10 +2715,9 @@
     },
     {
       "fullPath": "presets/reciever/reciever_spi_sbus_ibus.txt",
-      "hash": "a6e82eadf594d60de35a69eb957945585d3d569220b6679f99c6a7eae7468f6c",
+      "hash": "eba90522fe51256ecf09e28ff996f9813c1a6920e5f624b8ed19ff1f80ae2158",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "RECIEVER",
@@ -2795,10 +2729,9 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "b2a3120604c63bca34c6525f60ee9c73303f4634b2faf589bc45ea830889b33f",
+      "hash": "5b53ab03ac61fa0b5075939ca21f97578768dedcee884a1fde9dda8bc9a60205",
       "title": "General Setting",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2811,10 +2744,9 @@
     },
     {
       "fullPath": "presets/tune/pretune_setting.txt",
-      "hash": "1c397dd1363adb0020af2a83ffca2cb1495c1b5d7bf960dc560bf09ae5ca8d17",
+      "hash": "903d84bb72dc836980d7594effceb24a9c23f1f4c44b5b8f6e1b6633103ffffd",
       "title": "Pre-Tune Setting",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2827,10 +2759,9 @@
     },
     {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
-      "hash": "590878be309e1f56f86add3ae65d4e799985ac8f24fdeae593bcfb4490a70b79",
+      "hash": "a44ccc7ba4ab351424536158c9dea136153a1e7e231382f9b6d422485ee9973a",
       "title": "CineWhoop Tune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2843,10 +2774,9 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "2df3f380a47e2cd6bcf4e350acc05f5ef8bd6c5b230c2b23eb3c96e732fd9672",
+      "hash": "d11ebd35de2a479194a168be4b5908b2e6cdbb6d8ece2aa5eed10dad2c1f8e96",
       "title": "FreeStyle Tune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2859,10 +2789,9 @@
     },
     {
       "fullPath": "presets/tune/tune_microwhoop.txt",
-      "hash": "b31529ee73e98e9d33056dd4afefaa43717b0255df99328c5d242bec3fef4212",
+      "hash": "a61dd30f7466d92cc850df68c1b09a663f452bcbf14562b0760a437b7db16a25",
       "title": "MicroWhoop Tune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2890,10 +2819,9 @@
     },
     {
       "fullPath": "presets/tune/tune_racewhoop.txt",
-      "hash": "5959f617e4896d6b450d9af126b48e6bc716991876c103d7d362dc4be184f3fd",
+      "hash": "be43e6227da1b452e2be911ebf2db05c4e05ee1a8becedde3cdb23f8d181e727",
       "title": "RaceWhoop Tune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2906,10 +2834,9 @@
     },
     {
       "fullPath": "presets/tune/tune_sbang.txt",
-      "hash": "b312190b81364adc92e321d41f2064057004544071e36b1d511746c35d069cd5",
+      "hash": "f02ec541c146e585e1f211374a3ca95da2f40be3252e2af28e94a34d26dc708e",
       "title": "SBang Tune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2922,10 +2849,9 @@
     },
     {
       "fullPath": "presets/tune/tune_toothpick.txt",
-      "hash": "1eab3fbd7f6fb697d48407ea67cfa684253d3a4e9cc7d7fa6d65c30280142e7a",
+      "hash": "b15d6d4e68ea28cc101bc33ab79e583464cc1c8db4937c9265409174a7e57d71",
       "title": "Toothpick Tune",
       "firmware_version": [
-        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
@@ -2938,10 +2864,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_akk.txt",
-      "hash": "dc527868caa154ab2b497bdef30d67996eaedf440bc90fac4ef8370e688295d2",
+      "hash": "4297bc197a15e05d7e0106a225cccb29eab9f164c8fbc9eaa017649ef9ab2029",
       "title": "AKK",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -2952,10 +2878,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_betafpv.txt",
-      "hash": "ccec66a0aa6e7fd348eb81bb03df1b2905d459ce4c644c3d2cfab6b4864e1e03",
+      "hash": "7e88cacc47a758d90cb04868835fe7cb3d8e8d412726276320b3f1942455930b",
       "title": "BetaFPV",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -2966,10 +2892,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_caos.txt",
-      "hash": "c7cd27e8397af0aac2c0f4f897fd27245aadbc0cc485ccc2d770a45870ba3ff3",
+      "hash": "85a9412dea563aca63e8d2d88404ecdd7b9af50bf2a386fcd721d4e7b2126d8c",
       "title": "CAOS",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -2980,10 +2906,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_darwinfpv.txt",
-      "hash": "daaae6d157557fefa6a2ced8bb7938b4ad96a5e42e9612e882b31211512f1564",
+      "hash": "08dcfcc029075d2edd7b0ce7b2410ad5dbc5e261b659551602d849dd30467b03",
       "title": "DarwinFPV",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -2994,10 +2920,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default.txt",
-      "hash": "07a908097be6dcc405161325b4d7eaf8b8b4583007d5045438c34b27955ff89e",
+      "hash": "29250204dfe487aa1366c189dfd88aba2222674a2fc0ed6dd9fd37a96324cc0f",
       "title": "Default VTX settings",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3008,10 +2934,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default_irc_abefr.txt",
-      "hash": "501b1fefed408229382e07d8d3c24c1695ae8160ac2ec468052b0a7a57c6f203",
+      "hash": "dc2d73ec9bc4f8a5983f7034616fb8cc326b8e0a4ba82e5f09612ecbaa0f407d",
       "title": "Default IRC ABEFR VTX",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3022,10 +2948,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default_irc_abefrh.txt",
-      "hash": "5116a9d55c56cf1833f64f8b270311f180150742a77285d492f31bdfe085ddb4",
+      "hash": "c9bb4a511c5ee5ce3a0b0afc29ebf7955ab856047c5db51b32397449c10761b2",
       "title": "Default IRC ABEFRH VTX",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3036,10 +2962,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default_irc_abefrl.txt",
-      "hash": "1fdf505024caf7ba988f4e97b318e55ae61347f6343571f6fb762edb58498f11",
+      "hash": "448cb3b1f77f3a2e72515c53880e1143631f25443f2e32e62a971fb0245469a2",
       "title": "Default IRC ABEFRL VTX",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3050,10 +2976,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_default_tbs.txt",
-      "hash": "67416f10f73e0e8f47cdcceee7aad0d1f6be4dc1846bea6c791afb83a984b6c8",
+      "hash": "93d9c26c1d015a898b1b8184c86adf8baabd94c28b867f6becc05734645f6215",
       "title": "Default TBS VTX",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3064,10 +2990,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_eachine.txt",
-      "hash": "7b6f53b6ca7c538f3d42eb8f78fd672b116e140f93f8b8916ca0b133e5f0966a",
+      "hash": "d4dbb30e9a72fc2afb574b78670e04b9f7cf7d27c18d2f203e022f2bd3f07320",
       "title": "Eachine",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3078,10 +3004,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_ewrf.txt",
-      "hash": "40585d6ddcb46d80e3469ea989e9f6f14bd6509bce82d11dd348bf3d5f6900f5",
+      "hash": "6f3e6cb18837057d9bbfed50d59430fe3dd52288321c5181486c3031df8d5b20",
       "title": "EWRF",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3092,10 +3018,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_fullspeed.txt",
-      "hash": "700082d7ff07e130760287bb36bd746854cea8bf8b5f42912070f1e11df453f5",
+      "hash": "81fc4718b1a12a270a3c861b606e47be041bb9d84ccd838f29fd6d44de94382e",
       "title": "FullSpeed",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3106,10 +3032,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_geprc.txt",
-      "hash": "6b7a27a7d538f4ce40838f5cea990506b725fc321fc83796d5b5e6e5f7757462",
+      "hash": "bdc6fe68f2577a8fdeaf1fc4c4157f6d11169cf1f4f6f1f6727c7c8c88a851f4",
       "title": "GEPRC",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3120,10 +3046,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_happymodel.txt",
-      "hash": "cdee8d7039e7a06c7c3261304a1a220a3a94fcc2b6123f5324edcf2e1ffee7f8",
+      "hash": "077b56a7703b53f3f54a62c1758d4e27a3d34838d32279b207dede6aa7c688aa",
       "title": "HappyModel",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3134,10 +3060,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_hglrc.txt",
-      "hash": "3c635bf8398fcfe4d02959cfb181153364f931a22fe8949b57e88dc7481295a5",
+      "hash": "7aaf915f221dc80085414923b38b06e8982aea399ba10a577e94e34f63bcf170",
       "title": "HGLRC",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3148,10 +3074,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_iflight.txt",
-      "hash": "79f4928d96a8338420eb5df565889f2c4b6eafefe46d04ae29a3647cd1bf349b",
+      "hash": "347f96423606622d10621fcb31bb9d986698d66da39df92d49b305eac77ed5b7",
       "title": "iFlight",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3162,10 +3088,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_jhemcu.txt",
-      "hash": "b72d97e096bfec0e0366afbceda46118307e8d0507dcd618dcf215342d992583",
+      "hash": "92cc5422f6bebae94909884db91515869923c65c09178d9ff39e6092df005cdb",
       "title": "JHEMCU",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3176,10 +3102,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_ldarc.txt",
-      "hash": "8f43b7b297b4342ff5cb83b667492b3e96a90340b0fffc22959ca1dcfc2c63c8",
+      "hash": "dccc1b2b3b337a03947b11e95e9b3444515c45b10e357497faa77b3277a23a40",
       "title": "LDARC",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3190,10 +3116,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_nameless.txt",
-      "hash": "67a2fba04bb1a898577e0c7e29b90862f5ab35c02f49bbd5ca7bb753de3c7d90",
+      "hash": "0cb46f879b690994ea110eb8ba723fca94d81947805ef50b13b14f0d3bf39259",
       "title": "NamelessRC",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3204,10 +3130,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_openvtx.txt",
-      "hash": "c4e74f13315cc88555f4c01e58f52d9b69ff6aea33cc3add3fd1b39dc78fb0b5",
+      "hash": "4a288d7621187767518651f5c8ab461056b5d712abe1708637705a5f91bdf4b6",
       "title": "OpenVTX",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3218,10 +3144,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_rush.txt",
-      "hash": "0c9f6ffa903169b537b84561022fcd9894d50ad0a1fbcb6c1945e305e12472bf",
+      "hash": "ddc6b6abe63f7d0ff7fe0c542ea804c8841f1d7bb17e26c45d0779211e4c28e4",
       "title": "Rush",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3232,10 +3158,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_tbs.txt",
-      "hash": "0a0bd18ec013eb034111bed65bf55fd94efe1ffaaa806af784dc2904ad552118",
+      "hash": "02ab42bb9f9b17c456d458c873ebfb429ea62da936dd0ba07f84d423a837c7f2",
       "title": "TBS",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3246,10 +3172,10 @@
     },
     {
       "fullPath": "presets/vtx/vtx_xf.txt",
-      "hash": "3f9d5b3610a498a4fbc4eb67a85395d086a03400bdf40284b7707df3f04bcae6",
+      "hash": "812bb6a61d85d8af4defccfc7b6c3778bb22680243c79172c24ec8aa70b073aa",
       "title": "XF",
       "firmware_version": [
-        "4.5"
+        "2025.12"
       ],
       "category": "VTX",
       "status": "COMMUNITY",

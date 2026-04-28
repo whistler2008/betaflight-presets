@@ -1,5 +1,4 @@
 #$ TITLE: CineWhoop Tune
-#$ FIRMWARE_VERSION: 4.5
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
@@ -132,7 +131,7 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO20
 ### BetaFPV PAVO20 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_filtery.txt
+#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_filter.txt
 
 ### BetaFPV PAVO20 PID ###
 
