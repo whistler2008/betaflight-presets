@@ -235,23 +235,8 @@
       "hidden": true
     },
     {
-      "fullPath": "presets/blackbox/blackbox_default.txt",
-      "hash": "c2a46258bd5c666a1ec1b0858cd7d0e6763df426d66adc684f65a5fb176a7912",
-      "title": "BlackBox Default",
-      "firmware_version": [
-        "4.5",
-        "2025.12"
-      ],
-      "category": "BLACKBOX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/blackbox/blackbox_gyroflow.txt",
-      "hash": "4ff69f66508e7339563dc8fc675701bcc309bccea7ea799dda7e311cfc475c05",
+      "hash": "b362dce6c7b654c1e0dd46a00493a6c5b96aa0c2d33a219f3f459c4fb292af49",
       "title": "BlackBox for Gyroflow",
       "firmware_version": [
         "4.5",
@@ -266,7 +251,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_tune.txt",
-      "hash": "6240511187fa371e33118664b74f9cbeb2ea9d8e3aa84efb5e74c1b269a5b7fd",
+      "hash": "8bd1f8595cabea10938de7a2efb8be688f2f4e3877e67090c7a90af5d9df36a3",
       "title": "BlackBox for Tune",
       "firmware_version": [
         "4.5",
@@ -2825,6 +2810,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/tune/pretune_setting.txt",
+      "hash": "1c397dd1363adb0020af2a83ffca2cb1495c1b5d7bf960dc560bf09ae5ca8d17",
+      "title": "Pre-Tune Setting",
+      "firmware_version": [
+        "4.5",
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/tune/tune_cinewhoop.txt",
       "hash": "590878be309e1f56f86add3ae65d4e799985ac8f24fdeae593bcfb4490a70b79",
       "title": "CineWhoop Tune",
@@ -2881,22 +2882,6 @@
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/tune_pretune.txt",
-      "hash": "c49bd057295c73a9cefbbae689960c2a569b7e06788eef38e3b9212b7135b7da",
-      "title": "Pre-Tune",
-      "firmware_version": [
-        "4.5",
-        "2025.12"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
       "keywords": [
         "tune"
       ],
