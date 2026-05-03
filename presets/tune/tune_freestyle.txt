@@ -298,6 +298,26 @@ profile 0
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: ONCOM
+
+#$ OPTION BEGIN (UNCHECKED): ONCOM Bunker5
+### ONCOM Bunker5 Filter ###
+
+#$ INCLUDE: presets/pid/freestyle_oncom_bunker5_filter.txt
+
+### ONCOM Bunker5 PID ###
+
+profile 0
+#$ INCLUDE: presets/pid/freestyle_oncom_bunker5_pid.txt
+
+### restore original profile selection
+profile 0
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: SpeedyBee
 
 #$ OPTION BEGIN (UNCHECKED): SpeedyBee Mario5

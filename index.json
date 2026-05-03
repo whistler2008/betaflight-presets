@@ -1199,7 +1199,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_caddx_gofilm20_filter.txt",
-      "hash": "6d9cb9321d43c5da96f5841df86c4e50b423ae49607a12a1407a268c1a4f7ccc",
+      "hash": "37905558dbd3a92f9ec8f35a1ac6534297072422a6101d014cd0ef54f5a4b388",
       "title": "CineWhoop - CaddxFPV GoFilm 20 - Filter",
       "firmware_version": [
         "2025.12"
@@ -1214,7 +1214,7 @@
     },
     {
       "fullPath": "presets/pid/cinewhoop_caddx_gofilm20_pid.txt",
-      "hash": "0a81a5b8328cf4e861cd1f3e422b1b39a24c0fcd4591c54843fb9cbe2acb7850",
+      "hash": "5b143ea27337c44efcb73210e69c13f3407935620177675b506663d988dc14d8",
       "title": "CineWhoop - CaddxFPV GoFilm 20 - PID",
       "firmware_version": [
         "2025.12"
@@ -2158,6 +2158,36 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/pid/freestyle_oncom_bunker5_filter.txt",
+      "hash": "9263247d66fb6ed74ea1934ea443e0c15d9e81df30e3aff7675a6136b6d82af4",
+      "title": "FreeStyle - ONCOM Bunker5 - Filter",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/pid/freestyle_oncom_bunker5_pid.txt",
+      "hash": "158e4996d7260bd8a9ac0e7bdc88b636338fefd446b6d3c81e4676d43d8d45d5",
+      "title": "FreeStyle - ONCOM Bunker5 - PID",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/pid/freestyle_speedybee_mario5_filter.txt",
       "hash": "e1665570e9b4369439b2a1133d22780660ffb87547ac0843b6e0c2e03c7a09b5",
       "title": "FreeStyle - SpeedyBee Mario5 - Filter",
@@ -2729,7 +2759,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "5b53ab03ac61fa0b5075939ca21f97578768dedcee884a1fde9dda8bc9a60205",
+      "hash": "290a47ed66ac0a34361d9f7f15f6dd9d41458d1e280c87ba452b66398726897e",
       "title": "General Setting",
       "firmware_version": [
         "2025.12"
@@ -2774,7 +2804,7 @@
     },
     {
       "fullPath": "presets/tune/tune_freestyle.txt",
-      "hash": "d11ebd35de2a479194a168be4b5908b2e6cdbb6d8ece2aa5eed10dad2c1f8e96",
+      "hash": "fd7d4c36569db41f4f76f08b6957d6d4a8e3fe6b190144194cd4be2f2bfd31d6",
       "title": "FreeStyle Tune",
       "firmware_version": [
         "2025.12"
