@@ -245,7 +245,7 @@
     },
     {
       "fullPath": "presets/blackbox/blackbox_tune.txt",
-      "hash": "c8d311b1b052a8641ede7e3e18eb171cad60e03203f688da316fbc0acb69215a",
+      "hash": "f93c23ffff708f9a87350d8de123dca38c62192b88c19745c1b3ab9d070cddcb",
       "title": "BlackBox for Tune",
       "firmware_version": [
         "2025.12"

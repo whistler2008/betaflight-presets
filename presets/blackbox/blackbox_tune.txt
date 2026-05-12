@@ -7,11 +7,11 @@
 #$ HIDDEN: true
 
 set blackbox_sample_rate = 1/2
-set debug_mode = FFT_FREQ
+set debug_mode = FFT_FRQ
 set blackbox_disable_pids = OFF
 set blackbox_disable_rc = OFF
 set blackbox_disable_setpoint = OFF
-set blackbox_disable_bat = ON
+set blackbox_disable_bat = OFF
 set blackbox_disable_alt = ON
 set blackbox_disable_rssi = ON
 set blackbox_disable_gyro = OFF
@@ -23,4 +23,4 @@ set blackbox_disable_motors = OFF
 set blackbox_disable_rpm = OFF
 set blackbox_disable_gps = ON
 set blackbox_mode = NORMAL
-set blackbox_high_resolution = OFF
+set blackbox_high_resolution = ON
