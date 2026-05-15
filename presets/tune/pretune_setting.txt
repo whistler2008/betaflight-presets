@@ -20,11 +20,6 @@
 		set craft_name = TUNNING PURPOSE
 	#$ OPTION END
 
-	#$ OPTION BEGIN (CHECKED): Beeper
-		### Beeper Setting ###
-		#$ INCLUDE: presets/other/other_beeper.txt
-	#$ OPTION END
-
 	#$ OPTION BEGIN (CHECKED): CAM Angle 5%
 		### CAM Angle 5% ###
 		

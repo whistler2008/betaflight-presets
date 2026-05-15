@@ -55,7 +55,7 @@
 		#$ INCLUDE: presets/other/other_failsafe.txt
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): No stick deadband
+	#$ OPTION BEGIN (CHECKED): No stick deadband
 		### No stick deadband Setting ###
 		
 		set deadband = 0

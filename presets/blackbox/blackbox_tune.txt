@@ -7,7 +7,7 @@
 #$ HIDDEN: true
 
 set blackbox_sample_rate = 1/2
-set debug_mode = FFT_FRQ
+set debug_mode = FFT_FREQ
 set blackbox_disable_pids = OFF
 set blackbox_disable_rc = OFF
 set blackbox_disable_setpoint = OFF
