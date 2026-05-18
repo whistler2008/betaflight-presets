@@ -1,0 +1,36 @@
+#$ TITLE: Default Battery settings
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: BATTERY
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: setting
+#$ DESCRIPTION: Default Battery settings
+#$ HIDDEN: true
+
+# Default Battery settings
+
+set bat_capacity = 0
+set vbat_max_cell_voltage = 430
+set vbat_full_cell_voltage = 410
+set vbat_min_cell_voltage = 330
+set vbat_warning_cell_voltage = 350
+set vbat_hysteresis = 1
+set current_meter = ADC
+set battery_meter = ADC
+set vbat_detect_cell_voltage = 300
+set use_vbat_alerts = ON
+set use_cbat_alerts = OFF
+set cbat_alert_percent = 10
+set vbat_cutoff_percent = 100
+set force_battery_cell_count = 0
+set vbat_display_lpf_period = 30
+set vbat_sag_lpf_period = 2
+set ibat_lpf_period = 10
+set vbat_duration_for_warning = 0
+set vbat_duration_for_critical = 0
+set vbat_scale = 110
+set vbat_divider = 10
+set vbat_multiplier = 1
+set ibata_scale = 400
+set ibata_offset = 0
+set ibatv_scale = 0
+set ibatv_offset = 0

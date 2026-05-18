@@ -297,17 +297,23 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Noisy Motor
 		### D-Term Filter for Noisy Motor ###
-		#$ INCLUDE: presets/filter/filter_rpm_noisy.txt
+
+		profile 0
+		#$ INCLUDE: presets/filter/dterm_filter_rpm_noisy.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Normal Motor
 		### D-Term Filter for Normal Motor ###
-		#$ INCLUDE: presets/filter/filter_rpm_normal.txt
+		
+		profile 0
+		#$ INCLUDE: presets/filter/dterm_filter_rpm_normal.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Clean Motor
 		### D-Term Filter for Clean Motor ###
-		#$ INCLUDE: presets/filter/filter_rpm_clean.txt
+		
+		profile 0
+		#$ INCLUDE: presets/filter/dterm_filter_rpm_clean.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END

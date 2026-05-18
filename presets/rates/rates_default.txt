@@ -1,9 +1,9 @@
-#$ TITLE: Default Rate
+#$ TITLE: Default Rate Setting
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: Default Rate
+#$ DESCRIPTION: Default Rate Setting
 #$ HIDDEN: true
 
 set rateprofile_name = -
