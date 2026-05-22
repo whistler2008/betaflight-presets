@@ -14,7 +14,6 @@
 #$ OPTION_GROUP BEGIN: General Setting
 
 	#$ OPTION BEGIN (CHECKED): Beeper
-		### Beeper Setting ###
 		#$ INCLUDE: presets/other/other_beeper.txt
 	#$ OPTION END
 
@@ -51,7 +50,6 @@
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Failsafe Setting
-		### Failsafe Setting ###
 		#$ INCLUDE: presets/other/other_failsafe.txt
 	#$ OPTION END
 

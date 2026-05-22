@@ -6,13 +6,28 @@
 #$ DESCRIPTION: Custom Beeper settings
 #$ HIDDEN: true
 
-beeper -RX_LOST
-beeper -DISARMING
-beeper -ARMING
-beeper -BAT_CRIT_LOW
-beeper -DISARM_REPEAT
+### Custom Beeper Setting ###
+
+beeper ACC_CALIBRATION
+beeper ACC_CALIBRATION_FAIL
 beeper -ARMED
-beeper -ON_USB
-beeper -BLACKBOX_ERASE
-beeper -CAM_CONNECTION_OPEN
+beeper ARMING
+beeper ARMING_GPS_FIX
+beeper ARMING_GPS_NO_FIX
+beeper BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper BLACKBOX_ERASE
 beeper -CAM_CONNECTION_CLOSE
+beeper -CAM_CONNECTION_OPEN
+beeper CRASHFLIP
+beeper DISARMING
+beeper -DISARM_REPEAT
+beeper GPS_STATUS
+beeper GYRO_CALIBRATED
+beeper MULTI_BEEPS
+beeper -ON_USB
+beeper READY_BEEP
+beeper -RX_LOST
+beeper RX_LOST_LANDING
+beeper RX_SET
+beeper SYSTEM_INIT
