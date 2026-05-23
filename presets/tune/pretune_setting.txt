@@ -41,7 +41,18 @@
 
 	#$ OPTION BEGIN (CHECKED): PreTune AUX
 		### PreTune AUX ###
-		#$ INCLUDE: presets/modes/aux_tune.txt
+
+        # Disable AIR Mode
+        feature -AIRMODE
+
+        # AUX
+        aux 0 0 0 1550 2100 0 0
+        aux 1 1 1 900 1300 0 0
+        aux 3 28 1 1700 2100 0 0
+        aux 4 35 3 1700 2100 0 0
+
+        # Failsafe Setting
+        set failsafe_procedure = AUTO-LAND
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Tune BlackBox Setting
@@ -125,71 +136,6 @@ rateprofile 3
 # restore original rateprofile selection
 rateprofile 0
 
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#--------------------------------------------------#
-
-#$ OPTION_GROUP BEGIN: RX Hardware
-
-#$ OPTION BEGIN (UNCHECKED): Serial SBUS
-### Serial SBUS ###
-
-feature RX_SERIAL
-set serialrx_provider = SBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Serial IBUS
-### Serial IBUS ###
-
-feature RX_SERIAL
-set serialrx_provider = IBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
-### SPI SBUS / IBUS ###
-
-feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): SPI ELRS
-### SPI ELRS ###
-
-feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
-### DJI SBUS FAST ###
-
-feature RX_SERIAL
-set serialrx_provider = SBUS
-set sbus_baud_fast = ON
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
-### Serial CRSF TBS / ELRS 915MHz ###
-
-feature RX_SERIAL
-feature TELEMETRY
-
-set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
-### Serial CRSF TBS / ELRS 2.4Ghz ###
-
-feature RX_SERIAL
-feature TELEMETRY
-
-set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
