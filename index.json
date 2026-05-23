@@ -2861,11 +2861,10 @@
     },
     {
       "fullPath": "presets/tune/pretune_setting.txt",
-      "hash": "8cd7adaebf92884f425843b8072b93f068cdef3eb799343ed5849b3e6ebf95f7",
+      "hash": "8ecb6ada1dedddad0576bb6841296ad2fc6b0bb9fe7a43cef433044bec995f6f",
       "title": "Pre-Tune Setting",
       "firmware_version": [
-        "4.5",
-        "2025.12"
+        "4.5"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
