@@ -127,7 +127,8 @@
   "uniqueValues": {
     "firmware_version": [
       "2025.12",
-      "4.0"
+      "4.0",
+      "4.5"
     ],
     "category": [
       "BATTERY",
@@ -895,7 +896,7 @@
     },
     {
       "fullPath": "presets/other/other_beeper.txt",
-      "hash": "5c85a6dec078c15b84640d357b63452857426ccca2dbb02379e2eb7165a617aa",
+      "hash": "d08eceb2f8603fc4e8940d23f4b88061b508d87aa54b45421a44e95b088456a1",
       "title": "Custom Beeper settings",
       "firmware_version": [
         "2025.12"
@@ -910,7 +911,7 @@
     },
     {
       "fullPath": "presets/other/other_beeper_default..txt",
-      "hash": "cc2419affb8c84f42c9a4ff6f8270a567c0ae7dacaea75b593b2d6cf6e8dd353",
+      "hash": "5e4b89b574cdcbc2ac151bcea0ccf6fb84a7bb16a27518d6d700017aeb1cfd13",
       "title": "Default Beeper settings",
       "firmware_version": [
         "2025.12"
@@ -925,7 +926,7 @@
     },
     {
       "fullPath": "presets/other/other_failsafe.txt",
-      "hash": "2b05bffd03ad822eff7c7c3bd6c2fe85a71eaa1d2d7215eb19af7405cff10a45",
+      "hash": "78c3ef92402f319d0d7c84c9a2a60c5f2121d1eed6a7fe54c489acb69361d6d2",
       "title": "Custom Failsafe settings",
       "firmware_version": [
         "2025.12"
@@ -940,7 +941,7 @@
     },
     {
       "fullPath": "presets/other/other_failsafe_default.txt",
-      "hash": "e0b92e09568fac62b7b95e9bd162ab8574ccf9066f45e56583956b763c5eb99e",
+      "hash": "4761bbfc750af09226d9f08f5684acec8706a080244cc74c50e45df1f493ee17",
       "title": "Default Failsafe settings",
       "firmware_version": [
         "2025.12"
@@ -2845,7 +2846,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting.txt",
-      "hash": "c3bb09c0a097329e8a9b74ad83c77f8ba063fae5f64a1d8123ee1a496b981026",
+      "hash": "f6b39027b092d1c27723be84d3daeb8a7d68ee7302ec2bea01fce153aa0f72a6",
       "title": "General Setting",
       "firmware_version": [
         "2025.12"
@@ -2860,9 +2861,10 @@
     },
     {
       "fullPath": "presets/tune/pretune_setting.txt",
-      "hash": "493a80fe99d1f2d09ec05ee2395c9a97d10c6b52935a3b08b92f48cab10ca4b0",
+      "hash": "8cd7adaebf92884f425843b8072b93f068cdef3eb799343ed5849b3e6ebf95f7",
       "title": "Pre-Tune Setting",
       "firmware_version": [
+        "4.5",
         "2025.12"
       ],
       "category": "TUNE",
