@@ -2656,7 +2656,7 @@
     },
     {
       "fullPath": "presets/global/other/other_failsafe.txt",
-      "hash": "f54d5bd8cf30f26bbfe12121e8cae252e04cfd84362ef083b1c5ab0c016f1d40",
+      "hash": "eb97d1bcb2230afd477ac1ea2b6aea500870a02d358c876f8ca6b88b0c4d33ac",
       "title": "Custom Failsafe settings",
       "firmware_version": [
         "2025.12",
@@ -2688,7 +2688,7 @@
     },
     {
       "fullPath": "presets/global/rates/rates_default.txt",
-      "hash": "559851f6943a4e97338611a902057a0562dee2ad680b8dedc9c6ebb4b785b3ed",
+      "hash": "f402e6f7c3f52797dd5878ca3751d15998b606bc24d5cadb0f08a83aa3d60d5d",
       "title": "Default Rate Setting",
       "firmware_version": [
         "2025.12",
@@ -3258,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_2025.txt",
-      "hash": "3f43f30ecfa9b69088445e198c94feeeba219ae53b0d94e80468f17f6cb925bd",
+      "hash": "cd95bcaa5159a2b4a32825e138a84a69ed78033dca708521850e0a32a6330850",
       "title": "General Setting (2025.12)",
       "firmware_version": [
         "2025.12"

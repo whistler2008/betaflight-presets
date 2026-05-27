@@ -53,6 +53,20 @@
 
 	#$ OPTION BEGIN (CHECKED): Failsafe Setting
 		#$ INCLUDE: presets/global/other/other_failsafe.txt
+		set ap_altitude_d = 15
+		set ap_altitude_f = 15
+		set ap_altitude_i = 15
+		set ap_altitude_p = 15
+		set ap_hover_throttle = 1275
+		set ap_landing_altitude_m = 4
+		set ap_max_angle = 50
+		set ap_position_a = 30
+		set ap_position_cutoff = 80
+		set ap_position_d = 30
+		set ap_position_i = 30
+		set ap_position_p = 30
+		set ap_throttle_max = 1700
+		set ap_throttle_min = 1100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): No stick deadband
@@ -325,12 +339,15 @@
 		
 		rateprofile 0
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_slow.txt
 		rateprofile 1
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_medium.txt
 		rateprofile 2
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_fast.txt
 
 		# restore original rateprofile selection
@@ -342,12 +359,15 @@
 	
 		rateprofile 0
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_medium.txt
 		rateprofile 1
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_fast.txt
 		rateprofile 2
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_slow.txt
 
 		# restore original rateprofile selection
@@ -359,12 +379,15 @@
 	
 		rateprofile 0
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_fast.txt
 		rateprofile 1
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_slow.txt
 		rateprofile 2
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_medium.txt
 
 		# restore original rateprofile selection

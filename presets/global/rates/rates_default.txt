@@ -10,7 +10,6 @@
 set rateprofile_name = -
 set thr_mid = 50
 set thr_expo = 0
-set thr_hover = 50
 set rates_type = ACTUAL
 set quickrates_rc_expo = OFF
 set roll_rc_rate = 7
