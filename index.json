@@ -1856,10 +1856,11 @@
     },
     {
       "fullPath": "presets/global/battery/batt_29.txt",
-      "hash": "ba32d311c320fb47850775d1a5bae2acde94921d21848bc9ee5e10844faccfd2",
+      "hash": "c0ca72066a3b974453dca8cf849f1f13b0559faf6c6e0426cf8387a97129c90f",
       "title": "Battery 2.9V settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "BATTERY",
       "status": "COMMUNITY",
@@ -1870,10 +1871,11 @@
     },
     {
       "fullPath": "presets/global/battery/batt_32.txt",
-      "hash": "8e1525a9bb128045c645484bb4ea44454be800f4128d83364bedea8862df941c",
+      "hash": "1907f44eb6a979d9b2d3f5e7ed65240c6f4e4e2627885611c3410465d161acb0",
       "title": "Battery 3.2V settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "BATTERY",
       "status": "COMMUNITY",
@@ -1884,10 +1886,11 @@
     },
     {
       "fullPath": "presets/global/battery/batt_33.txt",
-      "hash": "2558977adfbe8f6a0b69f7af500c0209c9f44c97bbb33e8b214636c5a7a7b353",
+      "hash": "754e8819cd6207d74361f3e56680ce1e95c0d9ed267755deecaf69e9fd2a516f",
       "title": "Battery 3.3V settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "BATTERY",
       "status": "COMMUNITY",
@@ -1898,10 +1901,11 @@
     },
     {
       "fullPath": "presets/global/battery/batt_35.txt",
-      "hash": "a939da99274a3df85d3f6a3e2ac34158481cfb3b571fe9de1cc6faee2835024b",
+      "hash": "b269e0508bbb67fc98c7d4d70c9ad7a661fd1f00115cb90029e07b854d3219c1",
       "title": "Battery 3.5V settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "BATTERY",
       "status": "COMMUNITY",
@@ -1968,10 +1972,11 @@
     },
     {
       "fullPath": "presets/global/factory/darwinfpv_f405.txt",
-      "hash": "f0c64fb885e9752bfe6c49e556e4df3127fc8748cc1816bfcc2af19edca6e650",
+      "hash": "69914db67128cda86237975a322f584e3ea011e674662993dfaa478af6b42933",
       "title": "DarwinFPV F405",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -1981,10 +1986,11 @@
     },
     {
       "fullPath": "presets/global/factory/hakrc411d.txt",
-      "hash": "78fc46bcef62918ec2cc4ca6aef4c1cdde9cc7d5aeeb442279f5e6fcf06bb8ff",
+      "hash": "92f98a83708fd8c9233a15c2aa83769b3ad832895adbf131241aa7fdabf2d473",
       "title": "HAKRC F4126 V2",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -1994,10 +2000,11 @@
     },
     {
       "fullPath": "presets/global/factory/happymodel/crazyf405_hd.txt",
-      "hash": "0e2d558c5a40720ccb3a25d6d2fe5b3625ef57eb417468fcb1d6c3f210bab18e",
+      "hash": "39f7b1c89d0c39b580083a9bfb722fbf743f75369c81441f717bb2e6416d9774",
       "title": "HappyModel CrazyF405 HD",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -2007,10 +2014,11 @@
     },
     {
       "fullPath": "presets/global/factory/happymodel/crazyf4_2g4.txt",
-      "hash": "80ed283aa726818ec76db818540f29238914739205f983954483a31b3a653849",
+      "hash": "5997bc973358b3801cd46c07791308e2dc761e97f86006910843bf15e4f322f9",
       "title": "HappyModel CrazyF4 2G4",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -2020,10 +2028,11 @@
     },
     {
       "fullPath": "presets/global/factory/happymodel/diamondf4.txt",
-      "hash": "1959b0284e9224d6bf957affbd968b0aa4ce6f9681f8fd896df1402d38409d54",
+      "hash": "ab7df53db456b6a11a37c08a71f0b8c7b90cd46652c350843facd7da314ee35c",
       "title": "HappyModel DiamondF4",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -2033,10 +2042,11 @@
     },
     {
       "fullPath": "presets/global/factory/happymodel/x12.txt",
-      "hash": "02cb0fc9a109e194bd87af6d0fcb231c573e98787109d369418896ac7e51aba7",
+      "hash": "a179cc18319b344806e54dc8d76335a65940f6468d8b425d0d2294f258a5040d",
       "title": "HappyModel X12",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -2046,10 +2056,11 @@
     },
     {
       "fullPath": "presets/global/factory/iflight/evoque.txt",
-      "hash": "d2a9ed2ae6277309fb6f85ecd2df02f032de2b19d668194c5e9950b50436030f",
+      "hash": "5b1979a54b0ecc5d082eaa634461bec9c6b4bd5a007b37e645f9c038019fa153",
       "title": "iFlight Nazgul Evoque F5",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -2059,10 +2070,11 @@
     },
     {
       "fullPath": "presets/global/factory/matekf405.txt",
-      "hash": "28eddfe509e4c08e34cec5cf5cbe3818db22df56ddb1776b2865ad3d86481044",
+      "hash": "15e8f180f2ce505f784dbd0fb1d8facad491e3e183fca1a1e8bda66087708b8d",
       "title": "MATEK F405 / OSD",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FACTORY",
       "status": "COMMUNITY",
@@ -2072,10 +2084,11 @@
     },
     {
       "fullPath": "presets/global/filter/dterm_filter_rpm_clean.txt",
-      "hash": "7a7e1da70458c9952bff6c58f4e96e97422c28ebf6f56d1208ff843b2a949078",
+      "hash": "1c61d0ab96a19f240eb808c468859f820d4a2565919655f6d25afa5304690441",
       "title": "CLEAN D-Term Filter",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FILTER",
       "status": "COMMUNITY",
@@ -2086,10 +2099,11 @@
     },
     {
       "fullPath": "presets/global/filter/dterm_filter_rpm_default.txt",
-      "hash": "26056a1cbe4c522d7a11f095b6129fa6f7074ae33e057da32f518b6c1f5bc112",
+      "hash": "dee0bc249e4e20722d4c421a7aab8459058bf94c93941a480bfc617ae721574c",
       "title": "Default D-Term Filter settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FILTER",
       "status": "COMMUNITY",
@@ -2100,10 +2114,11 @@
     },
     {
       "fullPath": "presets/global/filter/dterm_filter_rpm_noisy.txt",
-      "hash": "939c9d8e1262fe55b6aa06fce795cf26c8cbb7ef9477e9ca6bc13d5e59cfd909",
+      "hash": "cd179639dd8596c29f6b9c3fce25d91057ea5fa3aa44eef2ced9efbc02c8984e",
       "title": "NOISY D-Term Filter",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FILTER",
       "status": "COMMUNITY",
@@ -2114,10 +2129,11 @@
     },
     {
       "fullPath": "presets/global/filter/dterm_filter_rpm_normal.txt",
-      "hash": "54190cc7c8baf7d1ba2103075a0163ee67b4e746af6817ba91f4aa0ab0821dee",
+      "hash": "bab406319b6ff95b2022103a03c74d443198b492d103ab8f0ceb56b17d89d528",
       "title": "Normal D-Term Filter",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "FILTER",
       "status": "COMMUNITY",
@@ -2128,10 +2144,11 @@
     },
     {
       "fullPath": "presets/global/gyro/gyro_bmi.txt",
-      "hash": "5057bd7f6707310232087699f7b6086f301ab6ec8b0874865a83501606f1cd56",
+      "hash": "4939e5183983de2a6d3e6dafe1f9c118f0305a6712024f2f2aa10d58aabc2f50",
       "title": "Gyro BMI - Normal Filter",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
@@ -2142,10 +2159,11 @@
     },
     {
       "fullPath": "presets/global/gyro/gyro_bmi_high.txt",
-      "hash": "149c6f0bba03e5c22e932c6d9455d42a951fe41c0fd045fe3ac05625d60e8ea4",
+      "hash": "eeb2fddfaee89007d165db7e669e6adc61638dd141ab36250a6b61671b24643b",
       "title": "Gyro BMI - High Filter",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
@@ -2156,10 +2174,11 @@
     },
     {
       "fullPath": "presets/global/gyro/gyro_default.txt",
-      "hash": "2cd8e341b656a998e4fa9535f252ff10c389a19dbe7a6a2f62a74f5fc0907bfa",
+      "hash": "0e416ac36203ed9c3e5d0186fb96a5f3f9a41720e1a74ecc49d76b26dfc99fb9",
       "title": "Default Gyro Filter Setting",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
@@ -2170,10 +2189,11 @@
     },
     {
       "fullPath": "presets/global/gyro/gyro_mpu_icm.txt",
-      "hash": "a9df57a8857ac9385c6eabd48d24599e6f478e79ae07e106a2743136056fe3ee",
+      "hash": "ba78d31f523eb95f3d0577985c9c5c7fb18644211645b5f857892d94a4d02228",
       "title": "Gyro MPU & ICM - Normal Filter",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
@@ -2184,10 +2204,11 @@
     },
     {
       "fullPath": "presets/global/gyro/gyro_mpu_icm_high.txt",
-      "hash": "dfcda10f9fb1167eea21e4ae158ee244d8dbf708ee9696b8f20bf57198626668",
+      "hash": "537ccbb2dda4e8aefc6babcc50490dea6167b99bea2ec73fa89d27ac70ec727d",
       "title": "Gyro MPU & ICM - High Filter",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
@@ -2198,10 +2219,11 @@
     },
     {
       "fullPath": "presets/global/led/led_blink.txt",
-      "hash": "20cce5a1bfcb6c1e69fa6b3c4385903bb860ec58503710aa832dadeb75a0cf04",
+      "hash": "550db8022872d716e18aab32201e1f1caf6222feb208ca3d65aecb976e18d1ac",
       "title": "Custom LED Blink",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "LED",
       "status": "COMMUNITY",
@@ -2212,10 +2234,11 @@
     },
     {
       "fullPath": "presets/global/led/led_blink_single.txt",
-      "hash": "fd3a85bcf6eb83df9d20bf82a36ad4a4c61c226fe313b93bdbea05ba5c7d6c5c",
+      "hash": "54a00e2053bca11e0027c07382c3275c2d1035d156b41a49c81e0abe6a2d1d34",
       "title": "Custom LED Blink Single",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "LED",
       "status": "COMMUNITY",
@@ -2226,10 +2249,11 @@
     },
     {
       "fullPath": "presets/global/led/led_blue.txt",
-      "hash": "b4d9cbd6d2cc0d512fde21d1015a1c4bf0b27630f00972263cd898b6d8dce337",
+      "hash": "db751a77f1cf3b440a3dbffd9dda4e84ddc1e8795af0fcb9a18442ccd51419e1",
       "title": "Custom LED Blue (iFlight Evoque)",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "LED",
       "status": "COMMUNITY",
@@ -2240,10 +2264,11 @@
     },
     {
       "fullPath": "presets/global/led/led_default.txt",
-      "hash": "c9f2a9c110f2efe7d037c25fab18c0724d7a40a93019f14f8dbb62389bb5737c",
+      "hash": "dd31222f3aeb4dc83b4a7c965575e7cae44d2a826eeeb05e81ac8db0cdd2fd60",
       "title": "Default LED settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "LED",
       "status": "COMMUNITY",
@@ -2254,10 +2279,11 @@
     },
     {
       "fullPath": "presets/global/led/led_green.txt",
-      "hash": "d927563ab8efdd184fd4fd8b66a8104e10ad14c01326b1001c8ef4839bf698af",
+      "hash": "b41d29709c0bc485a2412c3bc9001d1b420f008ab259125fa9e81c0ae469f421",
       "title": "Custom LED Green (iFlight Evoque)",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "LED",
       "status": "COMMUNITY",
@@ -2268,10 +2294,11 @@
     },
     {
       "fullPath": "presets/global/modes/aux_default.txt",
-      "hash": "b53dba023c3d1f1ed9d64b75bc8729a3caf421adfc3890b00f3e90784854f703",
+      "hash": "e48139349a60bf4cb44b4021bc11eb034c65f123458e6a079030c268e4a5d6b0",
       "title": "Default AUX settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
@@ -2282,10 +2309,11 @@
     },
     {
       "fullPath": "presets/global/modes/aux_gps.txt",
-      "hash": "d96489b852a91041e0463c51f40a3dd7c2e45ba4a04f721560ea6c8a98960295",
+      "hash": "8ef1b8e68ac00cd97c75e7b07e9413b5f586c2efe2af1439e5f4098d786cfb65",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
@@ -2296,10 +2324,11 @@
     },
     {
       "fullPath": "presets/global/modes/aux_std.txt",
-      "hash": "b072b489668919dc07dfd445e6c02e22bb17a56d4a0ed2505f309fcdf5e9c78a",
+      "hash": "923efdfde68c2174b0397dbd2a84d2015cecf8a7554f6bcc75b0bce15f0b2de4",
       "title": "AUX Standard",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
@@ -2310,10 +2339,11 @@
     },
     {
       "fullPath": "presets/global/modes/aux_tune.txt",
-      "hash": "ba4b6e1af2a2b8ed3e6636ab2529dadca97e2d91d9c7c415c33b2788ccec5876",
+      "hash": "d21e388fa9429865228e1313b55e16ed38aad55de54b623535a7e22adf595189",
       "title": "AUX PreTune",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
@@ -2324,10 +2354,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_analog_ntsc.txt",
-      "hash": "192723ca70abc8a95c241fad17c7b2b53e396143a146c204048772ecf176e397",
+      "hash": "03196704dff807725ac68c94ef02d38e78cb013083160d5ec373f8cd7aa5bc34",
       "title": "Analog NTSC OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2338,10 +2369,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_analog_ntsc_lq.txt",
-      "hash": "587c16a5c4602b85502f43b0e2bddc30882926ba35fd198696ebcb311d51206e",
+      "hash": "d9a34e8a67c3417c33b336d913d931987c4c4d1d5d0c1d3f4f0c3dca9863b173",
       "title": "Analog NTSC LQ OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2352,10 +2384,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_analog_ntsc_rssi.txt",
-      "hash": "b07681519ef2543b23a5f06e5e5016d423cd5796a9941c5bd2499e885a6d43e3",
+      "hash": "09eccd3531296e2f8cdd4cc4126e610fed45792e9d05985cda4d74119fbf53bc",
       "title": "Analog NTSC RSSI OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2366,10 +2399,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_analog_pal.txt",
-      "hash": "86ae48ab06dbfc46fe345dce86aaf3c6ee9ad87179c48098e366e5f97a9ffa82",
+      "hash": "45bcd0d68adfef79256c92cefa92be81e0ffe5e50b0f904adfaa963934d18958",
       "title": "Analog PAL OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2380,10 +2414,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_analog_pal_lq.txt",
-      "hash": "5e6005145a28cbc6f7b5c03b774b44af178ca7faa2d1e2e45efecd770445959f",
+      "hash": "c491df31cc03f5d949568bd6c6bf2c39b009d801e35435368d871c5aab61875f",
       "title": "Analog PAL LQ OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2394,10 +2429,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_analog_pal_rssi.txt",
-      "hash": "ab644181423c9bb9c366bb73de306c9fa937047c9383458adf508d24a973e639",
+      "hash": "2267b82235a67c5ff2c1c8d39b13d7d0913cceea160b73479b571d3240c15d16",
       "title": "Analog PAL RSSI OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2408,10 +2444,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_default.txt",
-      "hash": "da1f73623dfdfd51474ae1560d5b9ec48a2ae1f1b3b1601a04bde1b4af0b922a",
+      "hash": "419bfb51c24539168e9075fee5e52c8f47d183b312e659444c53533d67f11b34",
       "title": "Default OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2422,10 +2459,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_digital_avatar.txt",
-      "hash": "31b63516b58688a4444d8d64b54486eb4bfb8ab2ec548121be74faeebb041338",
+      "hash": "4073cdd45633592fa78303de4d8c06b73d9f92fc3c7a8dd58857a43937c06b3b",
       "title": "Digital Avatar OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2436,10 +2474,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_digital_dji_canvas.txt",
-      "hash": "bbc683e2b9dad39d69fdb6e19561d9369b3a9852a0488f931887b2043f42b27c",
+      "hash": "856e4dbdd28f727cf76290bee4d37e748bbfd951822f1210a140a9ad376ae92e",
       "title": "Digital DJI Canvas OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2450,10 +2489,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_digital_dji_fpv.txt",
-      "hash": "71f853ad422c43cedcf5c3b868a2cfeefcaadb101719ac73a5aa1762a88f255e",
+      "hash": "063f0459f67a7c99c83a4350e52a2b7cbe41d73d9d22e134e7d74a0e257d509b",
       "title": "Digital DJI FPV OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2464,10 +2504,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_digital_dji_wtfos.txt",
-      "hash": "c880765c842b56508f635d78844616d416158f3ba8f44feeaead7b5b01aa26b6",
+      "hash": "d931b8a035f4d14cd9595e1a3db86cd28e1b40f625d84f0753547a61acddf169",
       "title": "Digital DJI WTFOS OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2478,10 +2519,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_digital_hd_hdzero.txt",
-      "hash": "08c58bdbdd98fd46d524350728b342c32a90b730ba468fd0b9df801bbe199d23",
+      "hash": "f09160b1538501cc844af04fe1f639a67dec5dae4817cf72be3a7820cfbd5e74",
       "title": "Digital HD Zero OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2492,10 +2534,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_gps_analog.txt",
-      "hash": "93707a051e214bd27acef19bed1a3f546a8cc8fa86f5f2c0dc8ed9270621a8dc",
+      "hash": "af94155e740d262c4ecf1217ea297f25ddcc7ae80af47a78526ef684c8401334",
       "title": "Analog GPS OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2506,10 +2549,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_gps_digital_avatar.txt",
-      "hash": "86b47a93b8b1721afa668205cd8c17043d61d72afa6764567da0bca19009ee8f",
+      "hash": "8b22e06e88ecf0fcdce1bf4962e090260b80243eceadd9f65088110f7838d4c7",
       "title": "Digital Avatar GPS OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2520,10 +2564,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_gps_digital_dji_canvas.txt",
-      "hash": "9457f20895edc9589513935bfbe9357ddaf5ebc113834f76095593bf429aeb25",
+      "hash": "bc688185f485623666b3fe4b0a5c463324e0f13111bf83f1bbd0ae3f4e203908",
       "title": "Digital DJI Canvas GPS OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2534,10 +2579,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_gps_digital_dji_fpv.txt",
-      "hash": "139a437412d8b119660a2df070cb645d729379a6b05884ed5e492998d098f1fd",
+      "hash": "14cb1b6fe26cb3321f6c60302812f7cab9548ee72d437662156eaa5e0558f65b",
       "title": "Digital DJI FPV GPS OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2548,10 +2594,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_gps_digital_dji_wtfos.txt",
-      "hash": "78f6cbd9355731b90eaf7302d7a23b8ae42b8ce1f9468ea07aef57294cad4b95",
+      "hash": "18f53be2fcf300bc4a20e4facf4edc0fc1d61b4081f752761ddb5050e1705a2b",
       "title": "Digital DJI WTFOS GPS OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2562,10 +2609,11 @@
     },
     {
       "fullPath": "presets/global/osd/osd_gps_digital_hd_hdzero.txt",
-      "hash": "00efbbe46eb944700acbea662b2ed46e78e6632330e458017a223b0fd80c9f97",
+      "hash": "9849722dc63cbb671dfabc60d39eb1871430dc24731bd71d47130af52c099373",
       "title": "Digital HD Zero GPS OSD settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
@@ -2576,10 +2624,11 @@
     },
     {
       "fullPath": "presets/global/other/other_beeper.txt",
-      "hash": "d08eceb2f8603fc4e8940d23f4b88061b508d87aa54b45421a44e95b088456a1",
+      "hash": "aeadc869c08dcfbf0fb175c6dd4833c9070758e8e310453fffc0a819af9fe105",
       "title": "Custom Beeper settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2591,10 +2640,11 @@
     },
     {
       "fullPath": "presets/global/other/other_beeper_default..txt",
-      "hash": "5e4b89b574cdcbc2ac151bcea0ccf6fb84a7bb16a27518d6d700017aeb1cfd13",
+      "hash": "25cd2fdbacc3758753f582be930d1a8c1094154bf27e9e9a95d11f019eb150f1",
       "title": "Default Beeper settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2606,10 +2656,11 @@
     },
     {
       "fullPath": "presets/global/other/other_failsafe.txt",
-      "hash": "78c3ef92402f319d0d7c84c9a2a60c5f2121d1eed6a7fe54c489acb69361d6d2",
+      "hash": "f54d5bd8cf30f26bbfe12121e8cae252e04cfd84362ef083b1c5ab0c016f1d40",
       "title": "Custom Failsafe settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2621,10 +2672,11 @@
     },
     {
       "fullPath": "presets/global/other/other_failsafe_default.txt",
-      "hash": "4761bbfc750af09226d9f08f5684acec8706a080244cc74c50e45df1f493ee17",
+      "hash": "7873093ef951856252b4d26fc82b39c576ef77bc78875bb08d21e29a93cee6ac",
       "title": "Default Failsafe settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2636,10 +2688,11 @@
     },
     {
       "fullPath": "presets/global/rates/rates_default.txt",
-      "hash": "f4a3fe3dd9b264c4c582c98b87db1c55d8635a53f225253f283ca351ebc2e1e3",
+      "hash": "559851f6943a4e97338611a902057a0562dee2ad680b8dedc9c6ebb4b785b3ed",
       "title": "Default Rate Setting",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
@@ -2650,10 +2703,11 @@
     },
     {
       "fullPath": "presets/global/rates/rates_fast.txt",
-      "hash": "ba049b5ac6e64a759ec725db7e6dcd69c7bdb3120d62b1224916cde26cbf6322",
+      "hash": "9e1d035078cc4dff3eaeabb352e2281ec706d62d24c08580e9f235906ce167d3",
       "title": "Fast Rate Profile",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
@@ -2664,10 +2718,11 @@
     },
     {
       "fullPath": "presets/global/rates/rates_medium.txt",
-      "hash": "15031f61666267f304c2cd754d04b52a887635c2bb79edf0aa130fb78db654f0",
+      "hash": "698b47468f787e352ea7b7ce0aba3862ff163cfcfd96254c704c959fbb5fc351",
       "title": "Medium Rate Profile",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
@@ -2678,10 +2733,11 @@
     },
     {
       "fullPath": "presets/global/rates/rates_slow.txt",
-      "hash": "3dd033a623c972482a815ef242edffc4806ea15f0dd3884ad565e519e93faa82",
+      "hash": "c4d3efd4f819a403745ad1c5a8eb78eacbd205d2b0307e1906ac979d5629feba",
       "title": "Slow Rate Profile",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
@@ -2692,10 +2748,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_cinewhoop_elrs_150.txt",
-      "hash": "e4c0951834755980c6c1f5b96d9b25d35c17a1c7ba0dd29f3b48cb754ab98a17",
+      "hash": "8f3783c464dde386ac839c2e36ae67d2f83a15c8c6ececc4f0150732898706d5",
       "title": "RX Serial ELRS 150Hz for CineWhoop",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2706,10 +2763,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_cinewhoop_elrs_500.txt",
-      "hash": "07db439fb46ddd3f6830e1f252aacf5729f8358522606bd5aec2d6115527b9f6",
+      "hash": "0d13bc1fc3a4894ffdf496622d850bf1160145eb624a51ca81ff4eb0ce37ee82",
       "title": "RX Serial ELRS 500Hz for CineWhoop",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2720,10 +2778,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_freestyle_elrs_150.txt",
-      "hash": "a9041f3c03ed7ed8f3eba527891b954330cbd3c952b9fc786a7952475ab8bc1d",
+      "hash": "e5b2e533a57f882930a4355e6bba6fec6d9bdb11e84c4aa2957de63c51fed579",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2734,10 +2793,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_freestyle_elrs_500.txt",
-      "hash": "91e7faf266f559974e4eb8b4ad4d4549778525291c1af99c1dd27f03dd891fe1",
+      "hash": "fd491e11261a50e3b5f7a58666a627869d1c9e9723323487b740d82e11e64317",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2748,10 +2808,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_race_elrs_150.txt",
-      "hash": "a7ebedeefc283cdc327640abcb48c59dee0d7941d104e9997b0515d91a1a9b5c",
+      "hash": "c0fae06f7b84920695a2ff46d70c0a3011df816f87b1bc8529527b4c8a960c62",
       "title": "RX Serial ELRS 150Hz for Race",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2762,10 +2823,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_race_elrs_500.txt",
-      "hash": "71f32b54c39b7fcdfcd93d43384cc3a55c4f65682f8c36222bd76d37b9d2c8af",
+      "hash": "8a8a7519cc54fc08f0ecece2f03ecc0a12b72ec36e7fddc18983db834df2ddeb",
       "title": "RX Serial ELRS 500Hz for Race",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2776,10 +2838,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_sbang_elrs_150.txt",
-      "hash": "6c55ae7cec5e8703c981e785e886891a5dac750fc2508924302e21115942e2ac",
+      "hash": "4f2494a62b3f4c8ab0cabcf19b751defb6c9fc6d31e2da7ded4e2147f9653bc3",
       "title": "RX Serial ELRS 150Hz for FreeStyle",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2790,10 +2853,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_sbang_elrs_500.txt",
-      "hash": "ddc12b96300cd46d504a27b9ab19b47e6c60906651ac13a427986f110697fc9d",
+      "hash": "d0c7dd74825a2c1f3ad4a925caae074af2e63f90e6711e413b17e20aef83a2e6",
       "title": "RX Serial ELRS 500Hz for FreeStyle",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2804,10 +2868,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_serial_sbus_ibus.txt",
-      "hash": "e3fbc9e0ad26e72f8d599d09a8507359c8231592d7e5f039073eaecffb488efc",
+      "hash": "5a426323746222bdcc7d945f19921518709da447f3c2dc05dd6c510545e46a03",
       "title": "RX Serial SBUS / IBUS",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2818,10 +2883,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_spi_elrs_150.txt",
-      "hash": "2d845d5cd36ff69f28dc9bacd828cb5fa81932d214d8603df9cd02357ad2cbec",
+      "hash": "592d3f5ca93c690ec62b4c7c5cafe072316c30868bbab0fc8812125efce7e3a1",
       "title": "RX SPI ELRS 150",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -2832,10 +2898,11 @@
     },
     {
       "fullPath": "presets/global/reciever/reciever_spi_sbus_ibus.txt",
-      "hash": "eba90522fe51256ecf09e28ff996f9813c1a6920e5f624b8ed19ff1f80ae2158",
+      "hash": "f7656f12654452e4552f7d1e98b2266456ca15e9ffd67a563df7f9e862923473",
       "title": "RX SPI SBUS / IBUS",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "4.5"
       ],
       "category": "RECIEVER",
       "status": "COMMUNITY",
@@ -3190,11 +3257,25 @@
       ]
     },
     {
-      "fullPath": "presets/tune/general_setting.txt",
-      "hash": "c4dfbde4550f12f5f62d80ff09caa4f528c030bca3df81cf871d8b1bcab9f97e",
+      "fullPath": "presets/tune/general_setting_2025.txt",
+      "hash": "3f43f30ecfa9b69088445e198c94feeeba219ae53b0d94e80468f17f6cb925bd",
       "title": "General Setting (2025.12)",
       "firmware_version": [
-        "2025.12",
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/general_setting_45.txt",
+      "hash": "0d60c6b4e8457e0457b3e079ceac3cc08e27264efcb0334ba02b466005298ab3",
+      "title": "General Setting (4.5)",
+      "firmware_version": [
         "4.5"
       ],
       "category": "TUNE",

@@ -1,6 +1,5 @@
 #$ TITLE: General Setting (2025.12)
 #$ FIRMWARE_VERSION: 2025.12
-#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
@@ -16,6 +15,7 @@
 
 	#$ OPTION BEGIN (CHECKED): Beeper
 		#$ INCLUDE: presets/global/other/other_beeper.txt
+		beeper CRASHFLIP
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): ARM at any angle
@@ -41,6 +41,7 @@
 		
 		set motor_pwm_protocol = DSHOT300
 		set dshot_bidir = ON
+		set motor_idle = 550
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Maximum PID Limit
@@ -147,14 +148,12 @@
 		### 12 Poles Motor ###
 		
 		set motor_poles = 12
-		set motor_idle = 550
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): 14 Pole
 		### 14 Poles Motor ###
 		
 		set motor_poles = 14
-		set motor_idle = 550
 	#$ OPTION END
 
 #$ OPTION_GROUP END
