@@ -1,19 +1,42 @@
-#$ TITLE: LDARC
+#$ TITLE: OpenVTX
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, ldarc
-#$ DESCRIPTION: LDARC VTX settings
+#$ KEYWORDS: vtx, openvtx
+#$ DESCRIPTION: OpenVTX settings
 
 
 #$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): LDARC Micro KK20 200mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefrh.txt
+#$ OPTION BEGIN (UNCHECKED): Flash (SA 2.1)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 6
+vtxtable powervalues 1 2 10 14 20 26
+vtxtable powerlabels 0 RCE 1 25 100 400
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Internal (SA 2.1)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 4
+vtxtable powervalues 10 14 20 25
+vtxtable powerlabels 10 25 100 300
+
+# vtx setting
+set vtx_power = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): External (SA 2.1)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 3
-vtxtable powervalues 25 100 200
-vtxtable powerlabels 25 100 200
+vtxtable powervalues 14 20 26
+vtxtable powerlabels 25 100 400
 
 # vtx setting
 set vtx_power = 3

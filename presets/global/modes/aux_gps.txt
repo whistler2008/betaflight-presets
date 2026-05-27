@@ -6,7 +6,7 @@
 #$ DESCRIPTION: AUX with GPS Rescue
 #$ HIDDEN: true
 
-#$ INCLUDE: presets/modes/aux_default.txt
+#$ INCLUDE: presets/global/modes/aux_default.txt
 
 # GPS Rescue AUX #
 

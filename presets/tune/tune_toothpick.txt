@@ -41,12 +41,12 @@
 #$ OPTION BEGIN (UNCHECKED): Flywoo Baby Quad HD
 ### iFlywoo Baby Quad HD Filter ###
 
-#$ INCLUDE: presets/pid/toothpick_flywoo_baby_quad_hd_filter.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_flywoo_baby_quad_hd_filter.txt
 
 ### Flywoo Baby Quad HD PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/toothpick_flywoo_baby_quad_hd_pid.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_flywoo_baby_quad_hd_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -61,12 +61,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 77R
 ### iFlight TurboBee 77R Filter ###
 
-#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_77r_filter.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_iflight_turbobee_77r_filter.txt
 
 ### iFlight TurboBee 77R PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_77r_pid.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_iflight_turbobee_77r_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -75,12 +75,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 99R
 ### iFlight TurboBee 99R Filter ###
 
-#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_99r_filter.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_iflight_turbobee_99r_filter.txt
 
 ### iFlight TurboBee 99R PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_99r_pid.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_iflight_turbobee_99r_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -89,12 +89,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight TurboBee 160RS
 ### iFlight TurboBee 160RS Filter ###
 
-#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_filter.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_iflight_turbobee_160rs_filter.txt
 
 ### iFlight TurboBee 160RS PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/toothpick_iflight_turbobee_160rs_pid.txt
+#$ INCLUDE: presets/2025.12/pid/toothpick_iflight_turbobee_160rs_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -111,7 +111,7 @@ profile 0
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
@@ -119,21 +119,21 @@ set serialrx_provider = SBUS
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
 ### SPI SBUS / IBUS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
 ### SPI ELRS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
@@ -142,7 +142,7 @@ feature RX_SPI
 feature RX_SERIAL
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
@@ -152,7 +152,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
@@ -162,7 +162,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_500.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

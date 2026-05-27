@@ -116,7 +116,7 @@ set pidsum_limit_yaw = 1000
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Battery
-#$ INCLUDE: presets/battery/batt_32.txt
+#$ INCLUDE: presets/global/battery/batt_32.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

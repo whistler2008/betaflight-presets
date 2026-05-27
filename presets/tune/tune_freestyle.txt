@@ -41,12 +41,12 @@
 #$ OPTION BEGIN (UNCHECKED): AxisFlying Manta36
 ### AxisFlying Manta36 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta36_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta36_filter.txt
 
 ### AxisFlying Manta36 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta36_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta36_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -55,12 +55,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): AxisFlying Manta5
 ### AxisFlying Manta5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta5_filter.txt
 
 ### AxisFlying Manta5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -69,12 +69,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): AxisFlying Manta5 SE
 ### AxisFlying Manta5 SE Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta5se_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta5se_filter.txt
 
 ### AxisFlying Manta5 SE PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta5se_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta5se_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -83,12 +83,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): AxisFlying Manta6
 ### AxisFlying Manta6 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta6_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta6_filter.txt
 
 ### AxisFlying Manta6 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_axisflying_manta6_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_axisflying_manta6_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -103,12 +103,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): FlyfishRC Volador VX35
 ### FlyfishRC Volador VX35 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx35_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_flyfishrc_volador_vx35_filter.txt
 
 ### FlyfishRC Volador VX35 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx35_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_flyfishrc_volador_vx35_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -117,12 +117,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): FlyfishRC Volador VX5
 ### FlyfishRC Volador VX5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_flyfishrc_volador_vx5_filter.txt
 
 ### FlyfishRC Volador VX5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_flyfishrc_volador_vx5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -131,12 +131,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): FlyfishRC Volador VX6
 ### FlyfishRC Volador VX6 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx6_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_flyfishrc_volador_vx6_filter.txt
 
 ### FlyfishRC Volador VX6 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_flyfishrc_volador_vx6_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_flyfishrc_volador_vx6_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -151,12 +151,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC Mark5
 ### GEPRC Mark5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_geprc_mark5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_geprc_mark5_filter.txt
 
 ### GEPRC Mark5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_geprc_mark5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_geprc_mark5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -171,12 +171,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Chidora SL5
 ### iFlight Chidora SL5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_cidora_sl5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_cidora_sl5_filter.txt
 
 ### iFlight Chidora SL5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_cidora_sl5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_cidora_sl5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -185,12 +185,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Chimera4
 ### iFlight Chimera4 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_chimera4_filter.txt
 
 ### iFlight Chimera4 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera4_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_chimera4_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -199,12 +199,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Chimera5
 ### iFlight Chimera5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_chimera5_filter.txt
 
 ### iFlight Chimera5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_chimera5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -213,12 +213,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Chimera7
 ### iFlight Chimera7 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera7_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_chimera7_filter.txt
 
 ### iFlight Chimera7 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_chimera7_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_chimera7_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -227,12 +227,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Cidora SL5
 ### iFlight Cidora SL5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_cidora_sl5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_cidora_sl5_filter.txt
 
 ### iFlight Cidora SL5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_cidora_sl5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_cidora_sl5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -241,12 +241,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Evoque F5
 ### iFlight Evoque F5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_evoque_f5_filter.txt
 
 ### iFlight Evoque F5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_evoque_f5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -255,12 +255,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Evoque F6
 ### iFlight Evoque F6 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f6_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_evoque_f6_filter.txt
 
 ### iFlight Evoque F6 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_evoque_f6_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_evoque_f6_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -269,12 +269,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Nazgul ECO 5
 ### iFlight Nazgul ECO 5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_eco5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_nazgul_eco5_filter.txt
 
 ### iFlight Nazgul ECO 5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_eco5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_nazgul_eco5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -283,12 +283,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Nazgul XL5
 ### iFlight Nazgul XL5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_xl5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_nazgul_xl5_filter.txt
 
 ### iFlight Nazgul XL5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_iflight_nazgul_xl5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_iflight_nazgul_xl5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -303,12 +303,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): ONCOM Bunker5
 ### ONCOM Bunker5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_oncom_bunker5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_oncom_bunker5_filter.txt
 
 ### ONCOM Bunker5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_oncom_bunker5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_oncom_bunker5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -323,12 +323,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): SpeedyBee Mario5
 ### SpeedyBee Mario5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_speedybee_mario5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_speedybee_mario5_filter.txt
 
 ### SpeedyBee Mario5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_speedybee_mario5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_speedybee_mario5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -337,12 +337,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): SpeedyBee Master5
 ### SpeedyBee Master5 Filter ###
 
-#$ INCLUDE: presets/pid/freestyle_speedybee_master5_filter.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_speedybee_master5_filter.txt
 
 ### SpeedyBee Master5 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/freestyle_speedybee_master5_pid.txt
+#$ INCLUDE: presets/2025.12/pid/freestyle_speedybee_master5_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -359,7 +359,7 @@ profile 0
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
@@ -367,21 +367,21 @@ set serialrx_provider = SBUS
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
 ### SPI SBUS / IBUS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
 ### SPI ELRS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
@@ -390,7 +390,7 @@ feature RX_SPI
 feature RX_SERIAL
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
@@ -400,7 +400,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
@@ -410,7 +410,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_500.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

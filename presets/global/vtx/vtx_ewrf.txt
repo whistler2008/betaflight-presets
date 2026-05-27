@@ -1,43 +1,45 @@
-#$ TITLE: XF
+#$ TITLE: EWRF
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, xf
-#$ DESCRIPTION: XF VTX settings
+#$ KEYWORDS: vtx, ewrf
+#$ DESCRIPTION: EWRF VTX settings
+
 
 #$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): XF5804 Pro 600mW (SA 2.1)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 14 23 26 28
-vtxtable powerlabels 25 200 400 600
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): XF5805 300mW (SA 2.1)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 14 20 23 25
-vtxtable powerlabels 25 100 200 300
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): XF5806 400mW (SA 2.1)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+#$ OPTION BEGIN (UNCHECKED): EWRF 7082VM 200mW (SA 2.0)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 3
-vtxtable powervalues 14 20 23 26
-vtxtable powerlabels 25 100 200 400
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
 
 # vtx setting
-set vtx_power = 4
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): EWRF 7092TM Pro 500mW (SA 2.1)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 27
+vtxtable powerlabels 25 200 500
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): EWRF W8092 V1 400mW (SA 2.1)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 26
+vtxtable powerlabels 25 200 400
+
+# vtx setting
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION_GROUP END

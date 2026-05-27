@@ -41,12 +41,12 @@
 #$ OPTION BEGIN (UNCHECKED): BetaFPV Air65 1S
 ### BetaFPV Air65 1S Filter ###
 
-#$ INCLUDE: presets/pid/microwhoop_betafpv_air65_filter.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_air65_filter.txt
 
 ### BetaFPV Air65 1S PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/microwhoop_betafpv_air65_pid.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_air65_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -55,12 +55,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV Air75 1S
 ### BetaFPV Air75 1S Filter ###
 
-#$ INCLUDE: presets/pid/microwhoop_betafpv_air75_filter.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_air75_filter.txt
 
 ### BetaFPV Air75 1S PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/microwhoop_betafpv_air75_pid.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_air75_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -69,12 +69,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV Meteor65 1S
 ### BetaFPV Meteor65 1S Filter ###
 
-#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor65_filter.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_meteor65_filter.txt
 
 ### BetaFPV Meteor65 1S PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor65_pid.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_meteor65_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -83,12 +83,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV Meteor75 1S
 ### BetaFPV Meteor75 1S Filter ###
 
-#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor75_filter.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_meteor75_filter.txt
 
 ### BetaFPV Meteor75 1S PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/microwhoop_betafpv_meteor75_pid.txt
+#$ INCLUDE: presets/2025.12/pid/microwhoop_betafpv_meteor75_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -105,7 +105,7 @@ profile 0
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
@@ -113,21 +113,21 @@ set serialrx_provider = SBUS
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
 ### SPI SBUS / IBUS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
 ### SPI ELRS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
@@ -136,7 +136,7 @@ feature RX_SPI
 feature RX_SERIAL
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
@@ -146,7 +146,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
@@ -156,7 +156,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_freestyle_elrs_500.txt
+#$ INCLUDE: presets/global/reciever/reciever_freestyle_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

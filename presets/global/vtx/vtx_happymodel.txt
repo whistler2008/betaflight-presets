@@ -1,48 +1,38 @@
-#$ TITLE: BetaFPV
+#$ TITLE: HappyModel
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, betafpv
-#$ DESCRIPTION: BetaFPV VTX settings
+#$ KEYWORDS: vtx, happymodel
+#$ DESCRIPTION: HappyModel VTX settings
 
 
 #$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV A01 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 2
-vtxtable powervalues 0 1
-vtxtable powerlabels 25 200
-
-# vtx setting
-set vtx_power = 2
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): BetaFPV A02 800mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 200 500 800
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): BetaFPV A03 400mW (SA 2.1)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond 200mW (SA 2.0)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 3
-vtxtable powervalues 14 20 26
-vtxtable powerlabels 25 100 400
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
 
 # vtx setting
 set vtx_power = 3
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV M01 25mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond DVR 200mW (SA 2.0)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
+# power_level
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
+
+# vtx setting
+set vtx_power = 3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 25mW (SA 2.0)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
 # power_level
 vtxtable powerlevels 1
 vtxtable powervalues 0
@@ -52,37 +42,15 @@ vtxtable powerlabels 25
 set vtx_power = 1
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BetaFPV M02 350mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 200mW (SA 2.0)
+#$ INCLUDE: presets/global/vtx/vtx_default_tbs.txt
 # power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 100 200 350
+vtxtable powerlevels 3
+vtxtable powervalues 0 1 2
+vtxtable powerlabels 25 100 200
 
 # vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): BetaFPV M03 350mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 100 200 350
-
-# vtx setting
-set vtx_power = 4
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): BetaFPV Z02 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 2
-vtxtable powervalues 0 1
-vtxtable powerlabels 25 200
-
-# vtx setting
-set vtx_power = 2
+set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION_GROUP END

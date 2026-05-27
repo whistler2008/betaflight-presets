@@ -1,12 +1,13 @@
 #$ TITLE: Default TBS VTX
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx
 #$ DESCRIPTION: Default TBS VTX settings
 #$ HIDDEN: true
 
-#$ INCLUDE: presets/vtx/vtx_default.txt
+#$ INCLUDE: presets/global/vtx/vtx_default.txt
 
 # vtx tables
 vtxtable bands 5

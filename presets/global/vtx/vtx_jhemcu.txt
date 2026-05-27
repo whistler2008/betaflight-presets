@@ -1,19 +1,53 @@
-#$ TITLE: FullSpeed
+#$ TITLE: JHEMCU
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, fullspeed
-#$ DESCRIPTION: FullSpeed VTX settings
+#$ KEYWORDS: vtx, jhemcu
+#$ DESCRIPTION: JHEMCU settings
 
 
 #$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): FullSpeed 600mW (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ OPTION BEGIN (UNCHECKED): JHEMCU VTX20-600 600mW (IRC)
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 100 200 400 600
 vtxtable powerlabels 25 100 200 400 600
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): JHEMCU VTX30-800 800mW (IRC)
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 100 200 400 800
+vtxtable powerlabels 25 100 200 400 800
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): JHEMCU RuiBet Tran-3016W 1.6W (IRC)
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 200 400 800 1600
+vtxtable powerlabels 25 200 400 800 1K6
+
+# vtx setting
+set vtx_power = 5
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): JHEMCU VTX2W5 2.5W (IRC)
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
+# power_level
+vtxtable powerlevels 5
+vtxtable powervalues 25 400 800 1500 2500
+vtxtable powerlabels 25 400 800 1K5 2K5
 
 # vtx setting
 set vtx_power = 5

@@ -1,51 +1,19 @@
-#$ TITLE: HappyModel
+#$ TITLE: LDARC
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: vtx, happymodel
-#$ DESCRIPTION: HappyModel VTX settings
+#$ KEYWORDS: vtx, ldarc
+#$ DESCRIPTION: LDARC VTX settings
 
 
 #$ OPTION_GROUP BEGIN: Series
 
-#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
+#$ OPTION BEGIN (UNCHECKED): LDARC Micro KK20 200mW (IRC)
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefrh.txt
 # power_level
 vtxtable powerlevels 3
-vtxtable powervalues 0 1 2
-vtxtable powerlabels 25 100 200
-
-# vtx setting
-set vtx_power = 3
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HappyModel Diamond DVR 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 3
-vtxtable powervalues 0 1 2
-vtxtable powerlabels 25 100 200
-
-# vtx setting
-set vtx_power = 3
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 25mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 1
-vtxtable powervalues 0
-vtxtable powerlabels 25
-
-# vtx setting
-set vtx_power = 1
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): HappyModel Internal 200mW (SA 2.0)
-#$ INCLUDE: presets/vtx/vtx_default_tbs.txt
-# power_level
-vtxtable powerlevels 3
-vtxtable powervalues 0 1 2
+vtxtable powervalues 25 100 200
 vtxtable powerlabels 25 100 200
 
 # vtx setting

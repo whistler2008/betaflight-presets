@@ -1,5 +1,6 @@
-#$ TITLE: General Setting
+#$ TITLE: General Setting (2025.12)
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
@@ -14,7 +15,7 @@
 #$ OPTION_GROUP BEGIN: General Setting
 
 	#$ OPTION BEGIN (CHECKED): Beeper
-		#$ INCLUDE: presets/other/other_beeper.txt
+		#$ INCLUDE: presets/global/other/other_beeper.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): ARM at any angle
@@ -50,7 +51,7 @@
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Failsafe Setting
-		#$ INCLUDE: presets/other/other_failsafe.txt
+		#$ INCLUDE: presets/global/other/other_failsafe.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): No stick deadband
@@ -62,7 +63,7 @@
 
 	#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
 		### Blackbox for GyroFlow ###
-		#$ INCLUDE: presets/blackbox/blackbox_gyroflow.txt
+		#$ INCLUDE: presets/global/blackbox/blackbox_gyroflow.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): EzLanding 
@@ -80,27 +81,27 @@
 
 	#$ OPTION BEGIN (CHECKED): Default LED
 		### Default LED Setting ###
-		#$ INCLUDE: presets/led/led_default.txt
+		#$ INCLUDE: presets/global/led/led_default.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Blink
 		### LED Blink Setting ###
-		#$ INCLUDE: presets/led/led_blink.txt
+		#$ INCLUDE: presets/global/led/led_blink.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Green (iFlight Evoque)
 		### LED Green (iFlight Evoque) Setting ###
-		#$ INCLUDE: presets/led/led_green.txt
+		#$ INCLUDE: presets/global/led/led_green.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Blue (iFlight Evoque)
 		### LED Blue (iFlight Evoque) Setting ###
-		#$ INCLUDE: presets/led/led_blue.txt
+		#$ INCLUDE: presets/global/led/led_blue.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Blink Single
 		### LED Blink Single Setting ###
-		#$ INCLUDE: presets/led/led_blink_single.txt
+		#$ INCLUDE: presets/global/led/led_blink_single.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -118,22 +119,22 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Li-Ion (Minimum Cell Voltage 2.9V)
 		### Minimum Cell Voltage 2.9V ###
-		#$ INCLUDE: presets/battery/batt_29.txt
+		#$ INCLUDE: presets/global/battery/batt_29.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LiPo/HV 1S (Minimum Cell Voltage 3.2V)
 		### Minimum Cell Voltage 3.2V ###
-		#$ INCLUDE: presets/battery/batt_32.txt
+		#$ INCLUDE: presets/global/battery/batt_32.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LiPo/HV 2S++ Standard (Minimum Cell Voltage 3.3V)
 		### Minimum Cell Voltage 3.3V ###
-		#$ INCLUDE: presets/battery/batt_33.txt
+		#$ INCLUDE: presets/global/battery/batt_33.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ Safer (Minimum Cell Voltage 3.5V)
 		### Minimum Cell Voltage 3.5V ###
-		#$ INCLUDE: presets/battery/batt_35.txt
+		#$ INCLUDE: presets/global/battery/batt_35.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -212,22 +213,22 @@
 
 	#$ OPTION BEGIN (UNCHECKED): BMI - Normal Filter
 		### BMI Gyro - Normal Filter ###
-		#$ INCLUDE: presets/gyro/gyro_bmi.txt
+		#$ INCLUDE: presets/global/gyro/gyro_bmi.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): BMI - High Filter
 		### BMI Gyro - High Filter ###
-		#$ INCLUDE: presets/gyro/gyro_bmi_high.txt
+		#$ INCLUDE: presets/global/gyro/gyro_bmi_high.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): MPU & ICM - Normal Filter
 		### MPU & ICM Gyro - Normal Filter ###
-		#$ INCLUDE: presets/gyro/gyro_mpu_icm.txt
+		#$ INCLUDE: presets/global/gyro/gyro_mpu_icm.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): MPU & ICM - High Filter
 		### MPU & ICM Gyro - High Filter ###
-		#$ INCLUDE: presets/gyro/gyro_mpu_icm_high.txt
+		#$ INCLUDE: presets/global/gyro/gyro_mpu_icm_high.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -297,21 +298,21 @@
 		### D-Term Filter for Noisy Motor ###
 
 		profile 0
-		#$ INCLUDE: presets/filter/dterm_filter_rpm_noisy.txt
+		#$ INCLUDE: presets/global/filter/dterm_filter_rpm_noisy.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Normal Motor
 		### D-Term Filter for Normal Motor ###
 		
 		profile 0
-		#$ INCLUDE: presets/filter/dterm_filter_rpm_normal.txt
+		#$ INCLUDE: presets/global/filter/dterm_filter_rpm_normal.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Clean Motor
 		### D-Term Filter for Clean Motor ###
 		
 		profile 0
-		#$ INCLUDE: presets/filter/dterm_filter_rpm_clean.txt
+		#$ INCLUDE: presets/global/filter/dterm_filter_rpm_clean.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -324,14 +325,14 @@
 		### Slow Rate Profile ###
 		
 		rateprofile 0
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_slow.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_slow.txt
 		rateprofile 1
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_medium.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_medium.txt
 		rateprofile 2
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_fast.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_fast.txt
 
 		# restore original rateprofile selection
 		rateprofile 0
@@ -341,14 +342,14 @@
 		### Medium Rate Profile ###
 	
 		rateprofile 0
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_medium.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_medium.txt
 		rateprofile 1
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_fast.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_fast.txt
 		rateprofile 2
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_slow.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_slow.txt
 
 		# restore original rateprofile selection
 		rateprofile 0
@@ -358,14 +359,14 @@
 		### Fast Rate Profile ###
 	
 		rateprofile 0
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_fast.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_fast.txt
 		rateprofile 1
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_slow.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_slow.txt
 		rateprofile 2
-		#$ INCLUDE: presets/rates/rates_default.txt
-		#$ INCLUDE: presets/rates/rates_medium.txt
+		#$ INCLUDE: presets/global/rates/rates_default.txt
+		#$ INCLUDE: presets/global/rates/rates_medium.txt
 
 		# restore original rateprofile selection
 		rateprofile 0
@@ -379,56 +380,56 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Default OSD
 		### Default OSD ###
-		#$ INCLUDE: presets/osd/osd_default.txt
+		#$ INCLUDE: presets/global/osd/osd_default.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
 		### Analog PAL & LQ OSD ###
-		#$ INCLUDE: presets/osd/osd_analog_pal.txt
-		#$ INCLUDE: presets/osd/osd_analog_pal_lq.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_pal.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_pal_lq.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
 		### Analog PAL & RSSI OSD ###
-		#$ INCLUDE: presets/osd/osd_analog_pal.txt
-		#$ INCLUDE: presets/osd/osd_analog_pal_rssi.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_pal.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_pal_rssi.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
 		### Analog NTSC & LQ OSD ###
-		#$ INCLUDE: presets/osd/osd_analog_ntsc.txt
-		#$ INCLUDE: presets/osd/osd_analog_ntsc_lq.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc_lq.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
 		### Analog NTSC & RSSI OSD ###
-		#$ INCLUDE: presets/osd/osd_analog_ntsc.txt
-		#$ INCLUDE: presets/osd/osd_analog_ntsc_rssi.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc_rssi.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
 		### Digital Avatar Walksnail OSD ###
-		#$ INCLUDE: presets/osd/osd_digital_avatar.txt
+		#$ INCLUDE: presets/global/osd/osd_digital_avatar.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
 		### Digital DJI Canvas OSD ###
-		#$ INCLUDE: presets/osd/osd_digital_dji_canvas.txt
+		#$ INCLUDE: presets/global/osd/osd_digital_dji_canvas.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
 		### Digital DJI FPV OSD ###
-		#$ INCLUDE: presets/osd/osd_digital_dji_fpv.txt
+		#$ INCLUDE: presets/global/osd/osd_digital_dji_fpv.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
 		### Digital DJI WTFOS OSD ###
-		#$ INCLUDE: presets/osd/osd_digital_dji_wtfos.txt
+		#$ INCLUDE: presets/global/osd/osd_digital_dji_wtfos.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
 		### Digital HDZero OSD ###
-		#$ INCLUDE: presets/osd/osd_digital_hd_hdzero.txt
+		#$ INCLUDE: presets/global/osd/osd_digital_hd_hdzero.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -439,43 +440,43 @@
 
 	#$ OPTION BEGIN (CHECKED): Without GPS
 		### Without GPS ###
-		#$ INCLUDE: presets/modes/aux_std.txt
+		#$ INCLUDE: presets/global/modes/aux_std.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog GPS
 		### Analog GPS ###
-		#$ INCLUDE: presets/osd/osd_gps_analog.txt
-		#$ INCLUDE: presets/modes/aux_gps.txt
+		#$ INCLUDE: presets/global/osd/osd_gps_analog.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail GPS
 		### Avatar Walksnail GPS ###
-		#$ INCLUDE: presets/osd/osd_gps_digital_avatar.txt
-		#$ INCLUDE: presets/modes/aux_gps.txt
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_avatar.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas GPS
 		### DJI Canvas GPS ###
-		#$ INCLUDE: presets/osd/osd_gps_digital_dji_canvas.txt
-		#$ INCLUDE: presets/modes/aux_gps.txt
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_canvas.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV GPS
 		### DJI FPV GPS ###
-		#$ INCLUDE: presets/osd/osd_gps_digital_dji_fpv.txt
-		#$ INCLUDE: presets/modes/aux_gps.txt
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_fpv.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS GPS
 		### DJI WTFOS GPS ###
-		#$ INCLUDE: presets/osd/osd_gps_digital_dji_wtfos.txt
-		#$ INCLUDE: presets/modes/aux_gps.txt
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_wtfos.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital HDZero GPS
 		### HDZero GPS ###
-		#$ INCLUDE: presets/osd/osd_gps_digital_hd_hdzero.txt
-		#$ INCLUDE: presets/modes/aux_gps.txt
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_hd_hdzero.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
 	#$ OPTION END
 
 #$ OPTION_GROUP END

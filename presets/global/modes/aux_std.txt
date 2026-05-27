@@ -1,14 +1,14 @@
-#$ TITLE: AUX PreTune
+#$ TITLE: AUX Standard
 #$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: setting
-#$ DESCRIPTION: AUX PreTune
+#$ DESCRIPTION: AUX Standard
 #$ HIDDEN: true
 
-#$ INCLUDE: presets/modes/aux_default.txt
+#$ INCLUDE: presets/global/modes/aux_default.txt
 
-# PreTune AUX #
+# Standard AUX #
 
 # feature
 feature -AIRMODE
@@ -16,6 +16,7 @@ feature -AIRMODE
 # AUX
 aux 0 0 0 1550 2100 0 0
 aux 1 1 1 900 1300 0 0
+aux 2 13 2 1700 2100 0 0
 aux 3 28 1 1700 2100 0 0
 aux 4 35 3 1700 2100 0 0
 

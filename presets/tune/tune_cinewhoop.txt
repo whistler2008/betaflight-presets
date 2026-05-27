@@ -41,12 +41,12 @@
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON20
 ### AxisFlying CineON20 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon20_filter.txt
 
 ### AxisFlying CineON20 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon20_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon20_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -55,12 +55,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON25
 ### AxisFlying CineON25 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon25_filter.txt
 
 ### AxisFlying CineON25 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon25_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon25_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -69,12 +69,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON30
 ### AxisFlying CineON30 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon30_filter.txt
 
 ### AxisFlying CineON30 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon30_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon30_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -83,12 +83,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): AxisFlying CineON35
 ### AxisFlying CineON35 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon35_filter.txt
 
 ### AxisFlying CineON35 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_axisflying_cineon35_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_axisflying_cineon35_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -103,12 +103,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO Femto
 ### BetaFPV PAVO Femto Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_femto_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo_femto_filter.txt
 
 ### BetaFPV PAVO Femto PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_femto_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo_femto_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -117,12 +117,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO Pico
 ### BetaFPV PAVO Pico Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_pico_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo_pico_filter.txt
 
 ### BetaFPV PAVO Pico PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo_pico_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo_pico_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -131,12 +131,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO20
 ### BetaFPV PAVO20 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo20_filter.txt
 
 ### BetaFPV PAVO20 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo20_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -145,12 +145,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO20 Pro
 ### BetaFPV PAVO20 Pro Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pro_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo20_pro_filter.txt
 
 ### BetaFPV PAVO20 Pro PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo20_pro_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo20_pro_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -159,12 +159,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO25
 ### BetaFPV PAVO25 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo25_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo25_filter.txt
 
 ### BetaFPV PAVO25 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo25_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo25_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -173,12 +173,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO30
 ### BetaFPV PAVO30 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo30_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo30_filter.txt
 
 ### BetaFPV PAVO30 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo30_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo30_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -187,12 +187,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): BetaFPV PAVO35
 ### BetaFPV PAVO35 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo35_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo35_filter.txt
 
 ### BetaFPV PAVO35 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_betafpv_pavo35_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_betafpv_pavo35_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -207,12 +207,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): CaddxFPV GoFilm 20
 ### CaddxFPV GoFilm 20 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_caddx_gofilm20_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_caddx_gofilm20_filter.txt
 
 ### CaddxFPV GoFilm 20 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_caddx_gofilm20_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_caddx_gofilm20_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -227,12 +227,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC Thinker P16
 ### GEPRC Thinker P16 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_geprc_thinking_p16_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_thinking_p16_filter.txt
 
 ### GEPRC Thinker P16 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_geprc_thinking_p16_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_thinking_p16_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -241,12 +241,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC Rocket
 ### GEPRC Rocket Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_geprc_rocket_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_rocket_filter.txt
 
 ### GEPRC Rocket PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_geprc_rocket_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_rocket_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -255,12 +255,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineBot30
 ### GEPRC CineBot30 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinebot30_filter.txt
 
 ### GEPRC CineBot30 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinebot30_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinebot30_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -269,12 +269,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog20
 ### GEPRC CineLog20 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog20_filter.txt
 
 ### GEPRC CineLog20 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog20_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog20_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -283,12 +283,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog25
 ### GEPRC CineLog25 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog25_filter.txt
 
 ### GEPRC CineLog25 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog25_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog25_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -297,12 +297,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog30
 ### GEPRC CineLog30 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog30_filter.txt
 
 ### GEPRC CineLog30 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog30_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog30_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -311,12 +311,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): GEPRC CineLog35
 ### GEPRC CineLog35 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog35_filter.txt
 
 ### GEPRC CineLog35 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_geprc_cinelog35_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_geprc_cinelog35_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -331,12 +331,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): HGLRC Talon2
 ### HGLRC Talon2 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_hglrc_talon2_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_hglrc_talon2_filter.txt
 
 ### HGLRC Talon2 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_hglrc_talon2_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_hglrc_talon2_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -351,12 +351,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Alpha A65
 ### iFlight Alpha A65 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a65_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_alpha_a65_filter.txt
 
 ### iFlight Alpha A65 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a65_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_alpha_a65_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -365,12 +365,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Alpha A75
 ### iFlight Alpha A75 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a75_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_alpha_a75_filter.txt
 
 ### iFlight Alpha A75 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a75_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_alpha_a75_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -379,12 +379,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Alpha A85
 ### iFlight Alpha A85 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a85_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_alpha_a85_filter.txt
 
 ### iFlight Alpha A85 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_iflight_alpha_a85_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_alpha_a85_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -393,12 +393,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight BumbleBee
 ### iFlight BumbleBee Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_iflight_bumblebee_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_bumblebee_filter.txt
 
 ### iFlight BumbleBee PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_iflight_bumblebee_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_bumblebee_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -407,12 +407,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Protek25
 ### iFlight Protek25 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_protek25_filter.txt
 
 ### iFlight Protek25 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_iflight_protek25_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_protek25_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -421,12 +421,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): iFlight Protek35
 ### iFlight Protek35 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_protek35_filter.txt
 
 ### iFlight Protek35 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_iflight_protek35_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_iflight_protek35_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -441,12 +441,12 @@ profile 0
 #$ OPTION BEGIN (UNCHECKED): SpeedyBee Bee25
 ### SpeedyBee Bee25 Filter ###
 
-#$ INCLUDE: presets/pid/cinewhoop_speedybee_bee25_filter.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_speedybee_bee25_filter.txt
 
 ### SpeedyBee Bee25 PID ###
 
 profile 0
-#$ INCLUDE: presets/pid/cinewhoop_speedybee_bee25_pid.txt
+#$ INCLUDE: presets/2025.12/pid/cinewhoop_speedybee_bee25_pid.txt
 
 ### restore original profile selection
 profile 0
@@ -463,7 +463,7 @@ profile 0
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
@@ -471,21 +471,21 @@ set serialrx_provider = SBUS
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
 ### SPI SBUS / IBUS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
 ### SPI ELRS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
@@ -494,7 +494,7 @@ feature RX_SPI
 feature RX_SERIAL
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-#$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_cinewhoop_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
@@ -504,7 +504,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_cinewhoop_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
@@ -514,7 +514,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_cinewhoop_elrs_500.txt
+#$ INCLUDE: presets/global/reciever/reciever_cinewhoop_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END

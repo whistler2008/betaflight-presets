@@ -1,5 +1,6 @@
 #$ TITLE: GEPRC
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: vtx, geprc
@@ -9,7 +10,7 @@
 #$ OPTION_GROUP BEGIN: Series
 
 #$ OPTION BEGIN (UNCHECKED): GEP-VTX200-Whoop (200mW) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 25 100 200
@@ -20,7 +21,7 @@ set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC RAD Whoop 5.8G (400mW) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 25 200 400
@@ -31,7 +32,7 @@ set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC RAD Tiny 5.8G 400mW (400mW) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 3
 vtxtable powervalues 25 200 400
@@ -42,7 +43,7 @@ set vtx_power = 3
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC RAD MINI 5.8G 1W Global (1W - LED Blink 1x) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefrl.txt
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefrl.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 200 500 1000
@@ -53,7 +54,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC RAD VTX 5.8G 1.6W (1.6W) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 4
 vtxtable powervalues 25 200 600 1600
@@ -64,7 +65,7 @@ set vtx_power = 4
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC RAD VTX 5.8G 2.5W (2.5W) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 200 600 1600 2500
@@ -75,7 +76,7 @@ set vtx_power = 5
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): GEPRC MATEN 5.8G 2.5W PRO (2.5W) (IRC)
-#$ INCLUDE: presets/vtx/vtx_default_irc_abefr.txt
+#$ INCLUDE: presets/global/vtx/vtx_default_irc_abefr.txt
 # power_level
 vtxtable powerlevels 5
 vtxtable powervalues 25 200 600 1600 2500

@@ -42,14 +42,14 @@
 ### RaceWhoop FreshBread Preset ###
 
 profile 0
-#$ INCLUDE: presets/pid/racewhoop_freshbread.txt
+#$ INCLUDE: presets/2025.12/pid/racewhoop_freshbread.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): RaceWhoop SugarK
 ### RaceWhoop SugarK Preset ###
 
 profile 0
-#$ INCLUDE: presets/pid/racewhoop_sugark.txt
+#$ INCLUDE: presets/2025.12/pid/racewhoop_sugark.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -63,7 +63,7 @@ profile 0
 
 feature RX_SERIAL
 set serialrx_provider = SBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Serial IBUS
@@ -71,21 +71,21 @@ set serialrx_provider = SBUS
 
 feature RX_SERIAL
 set serialrx_provider = IBUS
-#$ INCLUDE: presets/reciever/reciever_serial_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
 ### SPI SBUS / IBUS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_sbus_ibus.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_sbus_ibus.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): SPI ELRS
 ### SPI ELRS ###
 
 feature RX_SPI
-#$ INCLUDE: presets/reciever/reciever_spi_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_spi_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
@@ -94,7 +94,7 @@ feature RX_SPI
 feature RX_SERIAL
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-#$ INCLUDE: presets/reciever/reciever_race_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_race_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
@@ -104,7 +104,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_race_elrs_150.txt
+#$ INCLUDE: presets/global/reciever/reciever_race_elrs_150.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
@@ -114,7 +114,7 @@ feature RX_SERIAL
 feature TELEMETRY
 
 set serialrx_provider = CRSF
-#$ INCLUDE: presets/reciever/reciever_race_elrs_500.txt
+#$ INCLUDE: presets/global/reciever/reciever_race_elrs_500.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
