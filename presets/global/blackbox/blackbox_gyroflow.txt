@@ -6,18 +6,14 @@
 #$ DESCRIPTION: BlackBox for GyroFlow
 #$ HIDDEN: true
 
-set blackbox_sample_rate = 1/16
-set debug_mode = FFT_FREQ
 set blackbox_disable_pids = ON
 set blackbox_disable_rc = ON
 set blackbox_disable_setpoint = ON
 set blackbox_disable_bat = ON
-set blackbox_disable_alt = ON
 set blackbox_disable_rssi = ON
 set blackbox_disable_gyro = OFF
 set blackbox_disable_gyrounfilt = OFF
 set blackbox_disable_acc = OFF
-set blackbox_disable_attitude = ON
 set blackbox_disable_debug = ON
 set blackbox_disable_motors = ON
 set blackbox_disable_rpm = ON

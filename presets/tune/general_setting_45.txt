@@ -65,6 +65,7 @@
 	#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
 		### Blackbox for GyroFlow ###
 		#$ INCLUDE: presets/global/blackbox/blackbox_gyroflow.txt
+		set debug_mode = GYRO_SCALED
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): EzLanding 

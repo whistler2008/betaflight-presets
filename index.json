@@ -1944,7 +1944,7 @@
     },
     {
       "fullPath": "presets/global/blackbox/blackbox_gyroflow.txt",
-      "hash": "459e777a33dfccc91928d2b3c6bcbb143ab5a4a0b42c62bc33e5a3510e97e776",
+      "hash": "4ea855ade9de7e43c1f12772b819d2ecfc46f96dc1b8e89a43141b1b1c40db46",
       "title": "BlackBox for Gyroflow",
       "firmware_version": [
         "2025.12"
@@ -3258,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_2025.txt",
-      "hash": "cd95bcaa5159a2b4a32825e138a84a69ed78033dca708521850e0a32a6330850",
+      "hash": "0965168f6057216940d36dac9e6a9e1b2703439da38b7a15bc7fc4b2b73184da",
       "title": "General Setting (2025.12)",
       "firmware_version": [
         "2025.12"
@@ -3273,7 +3273,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_45.txt",
-      "hash": "0d60c6b4e8457e0457b3e079ceac3cc08e27264efcb0334ba02b466005298ab3",
+      "hash": "96f6545d439cbd1ad7e16f6b8a89c0f0f8beff4cf9f229c4cf337b3040ecb90b",
       "title": "General Setting (4.5)",
       "firmware_version": [
         "4.5"
