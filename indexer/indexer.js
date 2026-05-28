@@ -23,21 +23,23 @@ PresetsFolder.checkForIncludeLoops(presetFilesArray, errors);
 
 //console.log(getUniqueValues(presetFilesArray, "firmwareVersion"));
 
-if (0 === errors.length) {
-    console.log("OK");
+if (0 === errors.length && process.argv[2] === "nosave") {
+	writeIndexFile = false;
+    console.log("Indexer checked");
 
-    if (writeIndexFile) {
-        const indexContent = new IndexContent(presetFilesArray, settings);
-        const jsonIndexContent = JSON.stringify(indexContent, null, 2);
-        fs.writeFileSync("index.json", jsonIndexContent);
-        console.log("index.json created");
+} else if (0 === errors.length && writeIndexFile === true) {
+    console.log("Indexer validated\n");
 
-        const sum = crypto.createHash('sha256');
-        sum.update(jsonIndexContent);
-        const indexHash = sum.digest('hex');
-        fs.writeFileSync("index_hash.txt", indexHash);
-        console.log("index_hash.txt created");
-    }
+	const indexContent = new IndexContent(presetFilesArray, settings);
+	const jsonIndexContent = JSON.stringify(indexContent, null, 2);
+	fs.writeFileSync("index.json", jsonIndexContent);
+	console.log("index.json created");
+
+	const sum = crypto.createHash('sha256');
+	sum.update(jsonIndexContent);
+	const indexHash = sum.digest('hex');
+	fs.writeFileSync("index_hash.txt", indexHash);
+	console.log("index_hash.txt created");
 
     process.exitCode = 0;
 } else {

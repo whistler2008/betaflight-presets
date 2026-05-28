@@ -2309,7 +2309,7 @@
     },
     {
       "fullPath": "presets/global/modes/aux_gps.txt",
-      "hash": "8ef1b8e68ac00cd97c75e7b07e9413b5f586c2efe2af1439e5f4098d786cfb65",
+      "hash": "33550bdfa51a4c98393b3d4cfbb3bf4a3300ba78d5adc7e7c382b571b007d4e7",
       "title": "AUX with GPS Rescue",
       "firmware_version": [
         "2025.12",
@@ -2324,7 +2324,7 @@
     },
     {
       "fullPath": "presets/global/modes/aux_std.txt",
-      "hash": "923efdfde68c2174b0397dbd2a84d2015cecf8a7554f6bcc75b0bce15f0b2de4",
+      "hash": "e07d952633d0dd26a7d2762a8882934b37712f785ea7c1ec57758b5fff4acfad",
       "title": "AUX Standard",
       "firmware_version": [
         "2025.12",
@@ -2339,7 +2339,7 @@
     },
     {
       "fullPath": "presets/global/modes/aux_tune.txt",
-      "hash": "287a316164d8133fb7f715190c9c12e9101f768a01475250df5f9201b69421cf",
+      "hash": "cbbd3cd0d3dd94858fb74aa15ee2e7c7c439c54785620f8f537e7d927521b17c",
       "title": "AUX PreTune",
       "firmware_version": [
         "2025.12",
