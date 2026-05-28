@@ -2339,7 +2339,7 @@
     },
     {
       "fullPath": "presets/global/modes/aux_tune.txt",
-      "hash": "d21e388fa9429865228e1313b55e16ed38aad55de54b623535a7e22adf595189",
+      "hash": "287a316164d8133fb7f715190c9c12e9101f768a01475250df5f9201b69421cf",
       "title": "AUX PreTune",
       "firmware_version": [
         "2025.12",
@@ -3288,7 +3288,7 @@
     },
     {
       "fullPath": "presets/tune/pretune_setting_45.txt",
-      "hash": "1a9b0b4ea1ef3b9ef7b6ce27010f8922da67923f05fd4c25f19d461f2ba06b60",
+      "hash": "da270e1d767bb6a7228e087451b271d33d1a5d9b96f55feab242e727113afd69",
       "title": "Tune Setting (4.5)",
       "firmware_version": [
         "4.5"
