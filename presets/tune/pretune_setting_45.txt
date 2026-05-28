@@ -38,30 +38,8 @@
 
 	#$ OPTION BEGIN (CHECKED): Beeper
 		### Custom Beeper Setting ###
-
-		beeper ACC_CALIBRATION
-		beeper ACC_CALIBRATION_FAIL
-		beeper -ARMED
-		beeper ARMING
-		beeper ARMING_GPS_FIX
-		beeper ARMING_GPS_NO_FIX
-		beeper BAT_CRIT_LOW
-		beeper -BAT_LOW
-		beeper BLACKBOX_ERASE
-		beeper -CAM_CONNECTION_CLOSE
-		beeper -CAM_CONNECTION_OPEN
+		#$ INCLUDE: presets/global/other/other_beeper.txt
 		beeper CRASH_FLIP
-		beeper DISARMING
-		beeper -DISARM_REPEAT
-		beeper GPS_STATUS
-		beeper GYRO_CALIBRATED
-		beeper MULTI_BEEPS
-		beeper -ON_USB
-		beeper READY_BEEP
-		beeper -RX_LOST
-		beeper RX_LOST_LANDING
-		beeper RX_SET
-		beeper SYSTEM_INIT
 		
 	#$ OPTION END
 
@@ -98,25 +76,11 @@
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Tune BlackBox Setting
+		### Blackbox for Tune ###
 		### Blackbox for GyroFlow ###
-		
-		set blackbox_sample_rate = 1/2
+		#$ INCLUDE: presets/global/blackbox/blackbox_tune.txt
 		set debug_mode = GYRO_SCALED
-		set blackbox_disable_pids = OFF
-		set blackbox_disable_rc = OFF
-		set blackbox_disable_setpoint = OFF
-		set blackbox_disable_bat = OFF
-		set blackbox_disable_rssi = ON
-		set blackbox_disable_gyro = OFF
-		set blackbox_disable_gyrounfilt = OFF
-		set blackbox_disable_acc = OFF
-		set blackbox_disable_debug = OFF
-		set blackbox_disable_motors = OFF
-		set blackbox_disable_rpm = OFF
-		set blackbox_disable_gps = ON
-		set blackbox_mode = NORMAL
-		set blackbox_high_resolution = ON
-		
+
 	#$ OPTION END
 
 #$ OPTION_GROUP END

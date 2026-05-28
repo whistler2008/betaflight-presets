@@ -1958,7 +1958,7 @@
     },
     {
       "fullPath": "presets/global/blackbox/blackbox_tune.txt",
-      "hash": "fa045cb51e6e73c97cf5c1c4d6bfb0b1ccc8a6b13860b7408ec3bd693b38011a",
+      "hash": "cd60c5510dad542674c953eed5fcb6f809709e876ed2411e2497b30c2b47997f",
       "title": "BlackBox for Tune",
       "firmware_version": [
         "2025.12"
@@ -3273,7 +3273,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_45.txt",
-      "hash": "96f6545d439cbd1ad7e16f6b8a89c0f0f8beff4cf9f229c4cf337b3040ecb90b",
+      "hash": "f723a0737d5ca9e78df8a89fcbdb681b50d60a64da0c94a25b4a2a814e55441e",
       "title": "General Setting (4.5)",
       "firmware_version": [
         "4.5"
@@ -3287,8 +3287,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/tune/pretune_setting.txt",
-      "hash": "1496f7562142a4825658ce4742d0ef6cdf5dcf61ee30fce9e711c7c9690d6234",
+      "fullPath": "presets/tune/pretune_setting_45.txt",
+      "hash": "1a9b0b4ea1ef3b9ef7b6ce27010f8922da67923f05fd4c25f19d461f2ba06b60",
       "title": "Tune Setting (4.5)",
       "firmware_version": [
         "4.5"
