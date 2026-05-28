@@ -1,10 +1,10 @@
-#$ TITLE: Pre-Tune Setting (4.5)
+#$ TITLE: Tune Setting (4.5)
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: tune
 #$ AUTHOR: Whistler2008
-#$ DESCRIPTION: Pre-Tune Setting
+#$ DESCRIPTION: Tune Setting
 #$ DESCRIPTION: 
 #$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
 #$ WARNING: EXPERIMENTAL
@@ -18,6 +18,7 @@
 		
 		set pilot_name = TUNNING
 		set craft_name = TUNNING PURPOSE
+		
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): CAM Angle 5%
@@ -25,12 +26,14 @@
 		
 		set fpv_mix_degrees = 5
 		set small_angle = 180
+		
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): RC Smoothing 30
 		### RC Smoothing 30 ###
 		
 		set rc_smoothing_auto_factor = 30
+		
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Beeper
@@ -59,6 +62,7 @@
 		beeper RX_LOST_LANDING
 		beeper RX_SET
 		beeper SYSTEM_INIT
+		
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): REVERSE / PROPS OUT Motor Direction
@@ -78,6 +82,7 @@
 		
 		set motor_pwm_protocol = DSHOT300
 		set dshot_bidir = ON
+		
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): PreTune AUX
@@ -89,6 +94,7 @@
 
         # Failsafe Setting
         set failsafe_procedure = AUTO-LAND
+		
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Tune BlackBox Setting
@@ -100,7 +106,6 @@
 		set blackbox_disable_rc = OFF
 		set blackbox_disable_setpoint = OFF
 		set blackbox_disable_bat = OFF
-		set blackbox_disable_alt = ON
 		set blackbox_disable_rssi = ON
 		set blackbox_disable_gyro = OFF
 		set blackbox_disable_gyrounfilt = OFF
@@ -110,7 +115,8 @@
 		set blackbox_disable_rpm = OFF
 		set blackbox_disable_gps = ON
 		set blackbox_mode = NORMAL
-		set blackbox_high_resolution = ON	
+		set blackbox_high_resolution = ON
+		
 	#$ OPTION END
 
 #$ OPTION_GROUP END

@@ -3258,7 +3258,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_2025.txt",
-      "hash": "0965168f6057216940d36dac9e6a9e1b2703439da38b7a15bc7fc4b2b73184da",
+      "hash": "fc6b3a06a2373e5f0832a2b7dad46987972e57a04ab147c9f7d4c279ef0549e2",
       "title": "General Setting (2025.12)",
       "firmware_version": [
         "2025.12"
@@ -3288,8 +3288,8 @@
     },
     {
       "fullPath": "presets/tune/pretune_setting.txt",
-      "hash": "c754fc2d75f76b24471055fe7e7c42b4d260f5cabe851017386e7ad0c0e8586e",
-      "title": "Pre-Tune Setting (4.5)",
+      "hash": "1496f7562142a4825658ce4742d0ef6cdf5dcf61ee30fce9e711c7c9690d6234",
+      "title": "Tune Setting (4.5)",
       "firmware_version": [
         "4.5"
       ],

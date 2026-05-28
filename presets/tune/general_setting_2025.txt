@@ -80,7 +80,6 @@
 		### Blackbox for GyroFlow ###
 		#$ INCLUDE: presets/global/blackbox/blackbox_gyroflow.txt
 		set debug_mode = FFT_FREQ
-		set blackbox_disable_alt = ON
 		set blackbox_disable_attitude = ON
 	#$ OPTION END
 
