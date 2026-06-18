@@ -2687,6 +2687,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/global/other/other_tune.txt",
+      "hash": "0d97c24e162efba2b949963d7838380c9a50e453c036011a0049ff2513fc1e09",
+      "title": "Default Filter settings",
+      "firmware_version": [
+        "2025.12",
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "setting"
+      ],
+      "hidden": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/global/rates/rates_default.txt",
       "hash": "f402e6f7c3f52797dd5878ca3751d15998b606bc24d5cadb0f08a83aa3d60d5d",
       "title": "Default Rate Setting",
@@ -3258,7 +3274,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_2025.txt",
-      "hash": "fc6b3a06a2373e5f0832a2b7dad46987972e57a04ab147c9f7d4c279ef0549e2",
+      "hash": "606a62333e6a18301d1a9adf943ede4ef51379d8ef677d322c2ad5c95a10536c",
       "title": "General Setting (2025.12)",
       "firmware_version": [
         "2025.12"
@@ -3273,7 +3289,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_45.txt",
-      "hash": "f723a0737d5ca9e78df8a89fcbdb681b50d60a64da0c94a25b4a2a814e55441e",
+      "hash": "d68e36b0d592d27bb899f31f23e78df490eedd65344f269de3b6b9bb732e15da",
       "title": "General Setting (4.5)",
       "firmware_version": [
         "4.5"
