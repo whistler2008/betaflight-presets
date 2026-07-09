@@ -200,30 +200,6 @@
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: Crash Recovery
-
-	#$ OPTION BEGIN (CHECKED): OFF
-		### Crash Recovery OFF ###
-		
-		set crash_recovery = OFF
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): ON
-		### Crash Recovery ON ###
-		
-		set crash_recovery = ON
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): DISARM
-		### Crash Recovery DISARM ###
-		
-		set crash_recovery = DISARM
-	#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#--------------------------------------------------#
-
 #$ OPTION_GROUP BEGIN: Gyro Filter
 
 	#$ OPTION BEGIN (UNCHECKED): BMI - Normal Filter
@@ -400,6 +376,31 @@
 
 #--------------------------------------------------#
 
+#$ OPTION_GROUP BEGIN: Tuning Setting
+
+	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning BlackBox Setting
+		### Blackbox for Pre-Tuning ###
+		#$ INCLUDE: presets/global/blackbox/blackbox_tune.txt
+		set debug_mode = FFT_FREQ
+		set blackbox_disable_attitude = ON
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning Filter Setting
+		### Filter for Pre-Tuning ###
+		#$ INCLUDE: presets/global/other/other_tune.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning Failsafe Setting
+		### Failsafe for Pre-Tuning ###
+
+        set failsafe_switch_mode = STAGE1
+        set failsafe_procedure = AUTO-LAND
+	#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
 #$ OPTION_GROUP BEGIN: OSD General Placement
 
 	#$ OPTION BEGIN (UNCHECKED): Default OSD
@@ -528,30 +529,3 @@
 	#$ OPTION END
 
 #$ OPTION_GROUP END
-
-#--------------------------------------------------#
-
-#$ OPTION_GROUP BEGIN: Tuning Setting
-
-	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning BlackBox Setting
-		### Blackbox for Pre-Tuning ###
-		#$ INCLUDE: presets/global/blackbox/blackbox_tune.txt
-		set debug_mode = FFT_FREQ
-		set blackbox_disable_attitude = ON
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning Filter Setting
-		### Filter for Pre-Tuning ###
-		#$ INCLUDE: presets/global/other/other_tune.txt
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning Failsafe Setting
-		### Failsafe for Pre-Tuning ###
-
-        set failsafe_switch_mode = STAGE1
-        set failsafe_procedure = AUTO-LAND
-	#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#--------------------------------------------------#

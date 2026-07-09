@@ -1,0 +1,113 @@
+#$ TITLE: SBang Tune
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: tune
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: SBang Tune
+#$ DESCRIPTION: 
+#$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
+#$ WARNING: EXPERIMENTAL
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: Basic Setting
+
+	#$ OPTION BEGIN (UNCHECKED): Pilot Name
+		### Pilot Name ###
+		
+		set pilot_name = SBANG
+	#$ OPTION END
+
+	#$ OPTION BEGIN (CHECKED): CAM Angle 10%
+		### CAM Angle 10% ###
+		
+		set fpv_mix_degrees = 10
+		set small_angle = 180
+	#$ OPTION END
+
+	#$ OPTION BEGIN (CHECKED): RC Smoothing 15
+		### RC Smoothing 15 ###
+		
+		set rc_smoothing_auto_factor = 15
+	#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: Preset
+
+#$ OPTION BEGIN (UNCHECKED): SBANG BlackBird
+### SBANG BlackBird Preset ###
+
+profile 0
+#$ INCLUDE: presets/2025.12/pid/sbang_blackbird.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: RX Hardware
+
+#$ OPTION BEGIN (UNCHECKED): Serial SBUS
+### Serial SBUS ###
+
+feature RX_SERIAL
+set serialrx_provider = SBUS
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Serial IBUS
+### Serial IBUS ###
+
+feature RX_SERIAL
+set serialrx_provider = IBUS
+#$ INCLUDE: presets/global/reciever/reciever_serial_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI SBUS / IBUS
+### SPI SBUS / IBUS ###
+
+feature RX_SPI
+#$ INCLUDE: presets/global/reciever/reciever_spi_sbus_ibus.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SPI ELRS
+### SPI ELRS ###
+
+feature RX_SPI
+#$ INCLUDE: presets/global/reciever/reciever_spi_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI SBUS FAST
+### DJI SBUS FAST ###
+
+feature RX_SERIAL
+set serialrx_provider = SBUS
+set sbus_baud_fast = ON
+#$ INCLUDE: presets/global/reciever/reciever_sbang_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 915MHz
+### Serial CRSF TBS / ELRS 915MHz ###
+
+feature RX_SERIAL
+feature TELEMETRY
+
+set serialrx_provider = CRSF
+#$ INCLUDE: presets/global/reciever/reciever_sbang_elrs_150.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): CRSF TBS / ELRS 2.4Ghz
+### Serial CRSF TBS / ELRS 2.4Ghz ###
+
+feature RX_SERIAL
+feature TELEMETRY
+
+set serialrx_provider = CRSF
+#$ INCLUDE: presets/global/reciever/reciever_sbang_elrs_500.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
