@@ -1,0 +1,141 @@
+#$ TITLE: OSD & GPS Setting (2025.12)
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: TUNE
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: tune
+#$ AUTHOR: Whistler2008
+#$ DESCRIPTION: OSD & GPS Setting
+#$ DESCRIPTION: 
+#$ DESCRIPTION: WARNING! For RPM Filter, you must flash ESC firmware with RPM Filter support
+#$ WARNING: EXPERIMENTAL
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: OSD General Placement
+
+	#$ OPTION BEGIN (UNCHECKED): Default OSD
+		### Default OSD ###
+		#$ INCLUDE: presets/global/osd/osd_default.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
+		### Analog PAL & LQ OSD ###
+		#$ INCLUDE: presets/global/osd/osd_analog_pal.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_pal_lq.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
+		### Analog PAL & RSSI OSD ###
+		#$ INCLUDE: presets/global/osd/osd_analog_pal.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_pal_rssi.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
+		### Analog NTSC & LQ OSD ###
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc_lq.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
+		### Analog NTSC & RSSI OSD ###
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc.txt
+		#$ INCLUDE: presets/global/osd/osd_analog_ntsc_rssi.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
+		### Digital Avatar Walksnail OSD ###
+		#$ INCLUDE: presets/global/osd/osd_digital_avatar.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
+		### Digital DJI Canvas OSD ###
+		#$ INCLUDE: presets/global/osd/osd_digital_dji_canvas.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
+		### Digital DJI FPV OSD ###
+		#$ INCLUDE: presets/global/osd/osd_digital_dji_fpv.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
+		### Digital DJI WTFOS OSD ###
+		#$ INCLUDE: presets/global/osd/osd_digital_dji_wtfos.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
+		### Digital HDZero OSD ###
+		#$ INCLUDE: presets/global/osd/osd_digital_hd_hdzero.txt
+	#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: GPS Hardware & OSD Placement
+
+	#$ OPTION BEGIN (CHECKED): Without GPS
+		### Without GPS ###
+		#$ INCLUDE: presets/global/modes/aux_std.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Analog GPS
+		### Analog GPS ###
+		#$ INCLUDE: presets/global/osd/osd_gps_analog.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail GPS
+		### Avatar Walksnail GPS ###
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_avatar.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas GPS
+		### DJI Canvas GPS ###
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_canvas.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV GPS
+		### DJI FPV GPS ###
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_fpv.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS GPS
+		### DJI WTFOS GPS ###
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_wtfos.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Digital HDZero GPS
+		### HDZero GPS ###
+		#$ INCLUDE: presets/global/osd/osd_gps_digital_hd_hdzero.txt
+		#$ INCLUDE: presets/global/modes/aux_gps.txt
+	#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#--------------------------------------------------#
+
+#$ OPTION_GROUP BEGIN: Altitude Sensor Source
+
+	#$ OPTION BEGIN (CHECKED): Baromete & GPS
+		### Altitude Sensor Source - Default ###
+		
+		set altitude_source = DEFAULT
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Barometer Only
+		### Altitude Sensor Source - Barometer Only ###
+		
+		set altitude_source = BARO_ONLY
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): GPS Only
+		### Altitude Sensor Source - GPS Only ###
+		
+		set altitude_source = GPS_ONLY
+	#$ OPTION END
+
+#$ OPTION_GROUP END

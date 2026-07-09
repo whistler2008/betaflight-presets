@@ -3274,7 +3274,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_2025.txt",
-      "hash": "606a62333e6a18301d1a9adf943ede4ef51379d8ef677d322c2ad5c95a10536c",
+      "hash": "07bf2b643101c6d673c7e037ddb6cc20f5be911ec37b2d069f9c40e8b9983c80",
       "title": "General Setting (2025.12)",
       "firmware_version": [
         "2025.12"
@@ -3293,6 +3293,21 @@
       "title": "General Setting (4.5)",
       "firmware_version": [
         "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "tune"
+      ],
+      "author": "Whistler2008",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/tune/osd_gps_setting_2025.txt",
+      "hash": "f05c1ae730dac40e88f8bc4a08ca49a9be891ad74d689ac422cbc1144347eb10",
+      "title": "OSD & GPS Setting (2025.12)",
+      "firmware_version": [
+        "2025.12"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
