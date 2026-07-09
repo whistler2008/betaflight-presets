@@ -14,7 +14,30 @@
 #$ OPTION_GROUP BEGIN: General Setting
 
 	#$ OPTION BEGIN (CHECKED): Beeper
-		#$ INCLUDE: presets/global/other/other_beeper.txt
+		### Custom Beeper Setting ###
+
+		beeper ACC_CALIBRATION
+		beeper ACC_CALIBRATION_FAIL
+		beeper -ARMED
+		beeper ARMING
+		beeper ARMING_GPS_FIX
+		beeper ARMING_GPS_NO_FIX
+		beeper BAT_CRIT_LOW
+		beeper -BAT_LOW
+		beeper BLACKBOX_ERASE
+		beeper -CAM_CONNECTION_CLOSE
+		beeper -CAM_CONNECTION_OPEN
+		beeper DISARMING
+		beeper -DISARM_REPEAT
+		beeper GPS_STATUS
+		beeper GYRO_CALIBRATED
+		beeper MULTI_BEEPS
+		beeper -ON_USB
+		beeper READY_BEEP
+		beeper -RX_LOST
+		beeper RX_LOST_LANDING
+		beeper RX_SET
+		beeper SYSTEM_INIT
 		beeper CRASH_FLIP
 	#$ OPTION END
 
@@ -41,7 +64,7 @@
 		
 		set motor_pwm_protocol = DSHOT300
 		set dshot_bidir = ON
-		set dshot_idle_value = 550
+		set motor_idle = 550
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Maximum PID Limit
@@ -52,7 +75,63 @@
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Failsafe Setting
-		#$ INCLUDE: presets/global/other/other_failsafe.txt
+		### Custom Failsafe Setting ###
+
+		rxfail 3 s 1100
+		rxfail 5 s 1100
+
+		set rx_min_usec = 885
+		set rx_max_usec = 2115
+
+		### Custom GPS Failsafe Setting ###
+
+		set gps_auto_baud = ON
+		set gps_auto_config = ON
+		set gps_nmea_custom_commands = -
+		set gps_provider = UBLOX
+		set gps_rescue_allow_arming_without_fix = OFF
+		set gps_rescue_alt_mode = MAX_ALT
+		set gps_rescue_ascend_rate = 750
+		set gps_rescue_descend_rate = 150
+		set gps_rescue_descent_dist = 20
+		set gps_rescue_disarm_threshold = 30
+		set gps_rescue_ground_speed = 750
+		set gps_rescue_imu_yaw_gain = 10
+		set gps_rescue_initial_climb = 10
+		set gps_rescue_max_angle = 45
+		set gps_rescue_min_sats = 8
+		set gps_rescue_min_start_dist = 15
+		set gps_rescue_pitch_cutoff = 75
+		set gps_rescue_return_alt = 30
+		set gps_rescue_roll_mix = 150
+		set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+		set gps_rescue_velocity_d = 12
+		set gps_rescue_velocity_i = 40
+		set gps_rescue_velocity_p = 8
+		set gps_rescue_yaw_p = 20
+		set gps_sbas_integrity = OFF
+		set gps_sbas_mode = NONE
+		set gps_set_home_point_once = ON
+		set gps_ublox_acquire_model = STATIONARY
+		set gps_ublox_flight_model = AIRBORNE_4G
+		set gps_ublox_use_galileo = ON
+		set gps_ublox_utc_standard = AUTO
+		set gps_update_rate_hz = 10
+		set gps_use_3d_speed = OFF
+		set ap_altitude_d = 15
+		set ap_altitude_f = 15
+		set ap_altitude_i = 15
+		set ap_altitude_p = 15
+		set ap_hover_throttle = 1275
+		set ap_landing_altitude_m = 4
+		set ap_max_angle = 50
+		set ap_position_a = 30
+		set ap_position_cutoff = 80
+		set ap_position_d = 30
+		set ap_position_i = 30
+		set ap_position_p = 30
+		set ap_throttle_max = 1700
+		set ap_throttle_min = 1100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): No stick deadband
@@ -64,9 +143,22 @@
 
 	#$ OPTION BEGIN (UNCHECKED): GyroFlow BlackBox Setting
 		### Blackbox for GyroFlow ###
-		#$ INCLUDE: presets/global/blackbox/blackbox_gyroflow.txt
+
+		set blackbox_disable_pids = ON
+		set blackbox_disable_rc = ON
+		set blackbox_disable_setpoint = ON
+		set blackbox_disable_bat = ON
+		set blackbox_disable_rssi = ON
+		set blackbox_disable_gyro = OFF
+		set blackbox_disable_gyrounfilt = OFF
+		set blackbox_disable_acc = OFF
+		set blackbox_disable_debug = ON
+		set blackbox_disable_motors = ON
+		set blackbox_disable_rpm = ON
+		set blackbox_disable_gps = ON
+		set blackbox_mode = NORMAL
+		set blackbox_high_resolution = ON
 		set debug_mode = GYRO_SCALED
-		
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): EzLanding 
@@ -84,27 +176,167 @@
 
 	#$ OPTION BEGIN (CHECKED): Default LED
 		### Default LED Setting ###
-		#$ INCLUDE: presets/global/led/led_default.txt
+
+		# led
+		led 0 0,0::C:0
+		led 1 0,0::C:0
+		led 2 0,0::C:0
+		led 3 0,0::C:0
+		led 4 0,0::C:0
+		led 5 0,0::C:0
+		led 6 0,0::C:0
+		led 7 0,0::C:0
+		led 8 0,0::C:0
+		led 9 0,0::C:0
+		led 10 0,0::C:0
+		led 11 0,0::C:0
+		led 12 0,0::C:0
+		led 13 0,0::C:0
+		led 14 0,0::C:0
+		led 15 0,0::C:0
+		led 16 0,0::C:0
+		led 17 0,0::C:0
+		led 18 0,0::C:0
+		led 19 0,0::C:0
+		led 20 0,0::C:0
+		led 21 0,0::C:0
+		led 22 0,0::C:0
+		led 23 0,0::C:0
+		led 24 0,0::C:0
+		led 25 0,0::C:0
+		led 26 0,0::C:0
+		led 27 0,0::C:0
+		led 28 0,0::C:0
+		led 29 0,0::C:0
+		led 30 0,0::C:0
+		led 31 0,0::C:0
+
+		# color
+		color 0 0,0,0
+		color 1 0,255,255
+		color 2 0,0,255
+		color 3 30,0,255
+		color 4 60,0,255
+		color 5 90,0,255
+		color 6 120,0,255
+		color 7 150,0,255
+		color 8 180,0,255
+		color 9 210,0,255
+		color 10 240,0,255
+		color 11 270,0,255
+		color 12 300,0,255
+		color 13 330,0,255
+		color 14 0,0,0
+		color 15 0,0,0
+
+		# mode_color
+		mode_color 0 0 1
+		mode_color 0 1 11
+		mode_color 0 2 2
+		mode_color 0 3 13
+		mode_color 0 4 10
+		mode_color 0 5 3
+		mode_color 1 0 5
+		mode_color 1 1 11
+		mode_color 1 2 3
+		mode_color 1 3 13
+		mode_color 1 4 10
+		mode_color 1 5 3
+		mode_color 2 0 10
+		mode_color 2 1 11
+		mode_color 2 2 4
+		mode_color 2 3 13
+		mode_color 2 4 10
+		mode_color 2 5 3
+		mode_color 3 0 8
+		mode_color 3 1 11
+		mode_color 3 2 4
+		mode_color 3 3 13
+		mode_color 3 4 10
+		mode_color 3 5 3
+		mode_color 4 0 7
+		mode_color 4 1 11
+		mode_color 4 2 3
+		mode_color 4 3 13
+		mode_color 4 4 10
+		mode_color 4 5 3
+		mode_color 5 0 0
+		mode_color 5 1 0
+		mode_color 5 2 0
+		mode_color 5 3 0
+		mode_color 5 4 0
+		mode_color 5 5 0
+		mode_color 6 0 6
+		mode_color 6 1 10
+		mode_color 6 2 1
+		mode_color 6 3 0
+		mode_color 6 4 0
+		mode_color 6 5 2
+		mode_color 6 6 3
+		mode_color 6 7 6
+		mode_color 6 8 0
+		mode_color 6 9 0
+		mode_color 6 10 0
+		mode_color 7 0 3
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Blink
 		### LED Blink Setting ###
-		#$ INCLUDE: presets/global/led/led_blink.txt
+
+		# led
+		led 0 0,0::COVIW:5
+		led 1 1,0::COVIW:5
+		led 2 2,0::COVIW:5
+		led 3 3,0::COVIW:5
+		led 4 4,0::COVIW:5
+		led 5 5,0::COVIW:5
+		led 6 6,0::COVIW:5
+		led 7 7,0::COVIW:5
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Green (iFlight Evoque)
 		### LED Green (iFlight Evoque) Setting ###
-		#$ INCLUDE: presets/global/led/led_green.txt
+
+		# color
+		color 5 90,0,255
+		color 6 110,0,255
+
+		# led
+		led 0 0,0::L:5
+		led 1 1,0::CO:5
+		led 2 2,0::CO:5
+		led 3 3,0::CO:5
+		led 4 4,0::CO:5
+		led 5 5,0::CO:5
+		led 6 6,0::CO:5
+		led 7 7,0::CO:5
+		led 8 8,0::CO:5
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Blue (iFlight Evoque)
 		### LED Blue (iFlight Evoque) Setting ###
-		#$ INCLUDE: presets/global/led/led_blue.txt
+
+		# color
+		color 5 255,50,150
+		color 6 255,50,165
+
+		# led
+		led 0 0,0::L:5
+		led 1 1,0::CO:5
+		led 2 2,0::CO:5
+		led 3 3,0::CO:5
+		led 4 4,0::CO:5
+		led 5 5,0::CO:5
+		led 6 6,0::CO:5
+		led 7 7,0::CO:5
+		led 8 8,0::CO:5
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Blink Single
 		### LED Blink Single Setting ###
-		#$ INCLUDE: presets/global/led/led_blink_single.txt
+
+		# led
+		led 0 0,0::COVIW:5
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -122,22 +354,54 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Li-Ion (Minimum Cell Voltage 2.9V)
 		### Minimum Cell Voltage 2.9V ###
-		#$ INCLUDE: presets/global/battery/batt_29.txt
+
+		# Battery ADC
+		set current_meter = ADC
+		set battery_meter = ADC
+
+		# Battery Min, Max and Warning
+		set vbat_max_cell_voltage = 425
+		set vbat_min_cell_voltage = 290
+		set vbat_warning_cell_voltage = 310
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LiPo/HV 1S (Minimum Cell Voltage 3.2V)
 		### Minimum Cell Voltage 3.2V ###
-		#$ INCLUDE: presets/global/battery/batt_32.txt
+
+		# Battery ADC
+		set current_meter = ADC
+		set battery_meter = ADC
+
+		# Battery Min, Max and Warning
+		set vbat_max_cell_voltage = 440
+		set vbat_min_cell_voltage = 320
+		set vbat_warning_cell_voltage = 340
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LiPo/HV 2S++ Standard (Minimum Cell Voltage 3.3V)
 		### Minimum Cell Voltage 3.3V ###
-		#$ INCLUDE: presets/global/battery/batt_33.txt
+
+		# Battery ADC
+		set current_meter = ADC
+		set battery_meter = ADC
+
+		# Battery Min, Max and Warning
+		set vbat_max_cell_voltage = 440
+		set vbat_min_cell_voltage = 330
+		set vbat_warning_cell_voltage = 350
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): LiPo/HV 2S++ Safer (Minimum Cell Voltage 3.5V)
 		### Minimum Cell Voltage 3.5V ###
-		#$ INCLUDE: presets/global/battery/batt_35.txt
+
+		# Battery ADC
+		set current_meter = ADC
+		set battery_meter = ADC
+
+		# Battery Min, Max and Warning
+		set vbat_max_cell_voltage = 440
+		set vbat_min_cell_voltage = 350
+		set vbat_warning_cell_voltage = 370
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -186,50 +450,42 @@
 
 #--------------------------------------------------#
 
-#$ OPTION_GROUP BEGIN: Crash Recovery
-
-	#$ OPTION BEGIN (CHECKED): OFF
-		### Crash Recovery OFF ###
-		
-		set crash_recovery = OFF
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): ON
-		### Crash Recovery ON ###
-		
-		set crash_recovery = ON
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): DISARM
-		### Crash Recovery DISARM ###
-		
-		set crash_recovery = DISARM
-	#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#--------------------------------------------------#
-
 #$ OPTION_GROUP BEGIN: Gyro Filter
 
 	#$ OPTION BEGIN (UNCHECKED): BMI - Normal Filter
 		### BMI Gyro - Normal Filter ###
-		#$ INCLUDE: presets/global/gyro/gyro_bmi.txt
+
+		set gyro_lpf1_static_hz = 0
+		set gyro_lpf2_static_hz = 400
+		set gyro_lpf1_dyn_min_hz = 0
+		set simplified_gyro_filter_multiplier = 80
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): BMI - High Filter
 		### BMI Gyro - High Filter ###
-		#$ INCLUDE: presets/global/gyro/gyro_bmi_high.txt
+
+		set gyro_lpf1_static_hz = 0
+		set gyro_lpf2_static_hz = 500
+		set gyro_lpf1_dyn_min_hz = 0
+		set simplified_gyro_filter_multiplier = 100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): MPU & ICM - Normal Filter
 		### MPU & ICM Gyro - Normal Filter ###
-		#$ INCLUDE: presets/global/gyro/gyro_mpu_icm.txt
+
+		set gyro_lpf1_static_hz = 0
+		set gyro_lpf2_static_hz = 800
+		set gyro_lpf1_dyn_min_hz = 0
+		set simplified_gyro_filter_multiplier = 160
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): MPU & ICM - High Filter
 		### MPU & ICM Gyro - High Filter ###
-		#$ INCLUDE: presets/global/gyro/gyro_mpu_icm_high.txt
+
+		set gyro_lpf1_static_hz = 0
+		set gyro_lpf2_static_hz = 1000
+		set gyro_lpf1_dyn_min_hz = 0
+		set simplified_gyro_filter_multiplier = 200
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -299,21 +555,36 @@
 		### D-Term Filter for Noisy Motor ###
 
 		profile 0
-		#$ INCLUDE: presets/global/filter/dterm_filter_rpm_noisy.txt
+		set dterm_lpf1_dyn_min_hz = 75
+		set dterm_lpf1_dyn_max_hz = 150
+		set dterm_lpf1_static_hz = 75
+		set dterm_lpf2_static_hz = 150
+		set simplified_dterm_filter_multiplier = 100
+		set yaw_lowpass_hz = 100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Normal Motor
 		### D-Term Filter for Normal Motor ###
 		
 		profile 0
-		#$ INCLUDE: presets/global/filter/dterm_filter_rpm_normal.txt
+		set dterm_lpf1_dyn_min_hz = 90
+		set dterm_lpf1_dyn_max_hz = 180
+		set dterm_lpf1_static_hz = 90
+		set dterm_lpf2_static_hz = 180
+		set simplified_dterm_filter_multiplier = 120
+		set yaw_lowpass_hz = 100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Clean Motor
 		### D-Term Filter for Clean Motor ###
 		
 		profile 0
-		#$ INCLUDE: presets/global/filter/dterm_filter_rpm_clean.txt
+		set dterm_lpf1_dyn_min_hz = 105
+		set dterm_lpf1_dyn_max_hz = 210
+		set dterm_lpf1_static_hz = 105
+		set dterm_lpf2_static_hz = 210
+		set simplified_dterm_filter_multiplier = 140
+		set yaw_lowpass_hz = 100
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -327,12 +598,15 @@
 		
 		rateprofile 0
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_slow.txt
 		rateprofile 1
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_medium.txt
 		rateprofile 2
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_fast.txt
 
 		# restore original rateprofile selection
@@ -344,12 +618,15 @@
 	
 		rateprofile 0
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_medium.txt
 		rateprofile 1
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_fast.txt
 		rateprofile 2
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_slow.txt
 
 		# restore original rateprofile selection
@@ -361,12 +638,15 @@
 	
 		rateprofile 0
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_fast.txt
 		rateprofile 1
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_slow.txt
 		rateprofile 2
 		#$ INCLUDE: presets/global/rates/rates_default.txt
+		set thr_hover = 50
 		#$ INCLUDE: presets/global/rates/rates_medium.txt
 
 		# restore original rateprofile selection
@@ -512,13 +792,40 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning BlackBox Setting
 		### Blackbox for Pre-Tuning ###
-		#$ INCLUDE: presets/global/blackbox/blackbox_tune.txt
+
+		set blackbox_disable_pids = OFF
+		set blackbox_disable_rc = OFF
+		set blackbox_disable_setpoint = OFF
+		set blackbox_disable_bat = OFF
+		set blackbox_disable_rssi = ON
+		set blackbox_disable_gyro = OFF
+		set blackbox_disable_gyrounfilt = OFF
+		set blackbox_disable_acc = OFF
+		set blackbox_disable_debug = OFF
+		set blackbox_disable_motors = OFF
+		set blackbox_disable_rpm = OFF
+		set blackbox_disable_gps = ON
+		set blackbox_mode = NORMAL
+		set blackbox_high_resolution = ON
 		set debug_mode = GYRO_SCALED
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning Filter Setting
 		### Filter for Pre-Tuning ###
-		#$ INCLUDE: presets/global/other/other_tune.txt
+		
+		set simplified_gyro_filter = ON
+		set simplified_dterm_filter = ON
+		set simplified_gyro_filter_multiplier = 100
+		set simplified_dterm_filter_multiplier = 100
+
+		simplified_tuning apply
+
+		set dyn_notch_count = 1
+		set dyn_notch_q = 500
+		set dyn_notch_min_hz = 100
+		set dyn_notch_max_hz = 600
+		set rpm_filter_harmonics = 3
+		set rpm_filter_min_hz = 100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Pre-Tuning Failsafe Setting
@@ -529,5 +836,3 @@
 	#$ OPTION END
 
 #$ OPTION_GROUP END
-
-#--------------------------------------------------#

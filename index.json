@@ -131,14 +131,9 @@
       "4.5"
     ],
     "category": [
-      "BATTERY",
-      "BLACKBOX",
       "FACTORY",
-      "FILTER",
-      "LED",
       "MODES",
       "OSD",
-      "OTHER",
       "RATES",
       "RECIEVER",
       "TUNE",
@@ -1855,122 +1850,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/global/battery/batt_29.txt",
-      "hash": "c0ca72066a3b974453dca8cf849f1f13b0559faf6c6e0426cf8387a97129c90f",
-      "title": "Battery 2.9V settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "BATTERY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/battery/batt_32.txt",
-      "hash": "1907f44eb6a979d9b2d3f5e7ed65240c6f4e4e2627885611c3410465d161acb0",
-      "title": "Battery 3.2V settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "BATTERY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/battery/batt_33.txt",
-      "hash": "754e8819cd6207d74361f3e56680ce1e95c0d9ed267755deecaf69e9fd2a516f",
-      "title": "Battery 3.3V settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "BATTERY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/battery/batt_35.txt",
-      "hash": "b269e0508bbb67fc98c7d4d70c9ad7a661fd1f00115cb90029e07b854d3219c1",
-      "title": "Battery 3.5V settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "BATTERY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/battery/batt_default.txt",
-      "hash": "7bf695faafa2791753f7c17425f0abfad288bbb0fd379d38994807cf28cdd8cb",
-      "title": "Default Battery settings",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "BATTERY",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/blackbox/blackbox_default.txt",
-      "hash": "fc9a21734fca60b88233a73815348c0fe8f735b155ed16b3e80dfbf9b3b7c3e8",
-      "title": "Default BlackBox settings",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "BLACKBOX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/blackbox/blackbox_gyroflow.txt",
-      "hash": "4ea855ade9de7e43c1f12772b819d2ecfc46f96dc1b8e89a43141b1b1c40db46",
-      "title": "BlackBox for Gyroflow",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "BLACKBOX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/blackbox/blackbox_tune.txt",
-      "hash": "cd60c5510dad542674c953eed5fcb6f809709e876ed2411e2497b30c2b47997f",
-      "title": "BlackBox for Tune",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "BLACKBOX",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
       "fullPath": "presets/global/factory/darwinfpv_f405.txt",
       "hash": "69914db67128cda86237975a322f584e3ea011e674662993dfaa478af6b42933",
       "title": "DarwinFPV F405",
@@ -2081,216 +1960,6 @@
       "keywords": [
         "factory"
       ]
-    },
-    {
-      "fullPath": "presets/global/filter/dterm_filter_rpm_clean.txt",
-      "hash": "1c61d0ab96a19f240eb808c468859f820d4a2565919655f6d25afa5304690441",
-      "title": "CLEAN D-Term Filter",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/filter/dterm_filter_rpm_default.txt",
-      "hash": "dee0bc249e4e20722d4c421a7aab8459058bf94c93941a480bfc617ae721574c",
-      "title": "Default D-Term Filter settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/filter/dterm_filter_rpm_noisy.txt",
-      "hash": "cd179639dd8596c29f6b9c3fce25d91057ea5fa3aa44eef2ced9efbc02c8984e",
-      "title": "NOISY D-Term Filter",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/filter/dterm_filter_rpm_normal.txt",
-      "hash": "bab406319b6ff95b2022103a03c74d443198b492d103ab8f0ceb56b17d89d528",
-      "title": "Normal D-Term Filter",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "FILTER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/gyro/gyro_bmi.txt",
-      "hash": "4939e5183983de2a6d3e6dafe1f9c118f0305a6712024f2f2aa10d58aabc2f50",
-      "title": "Gyro BMI - Normal Filter",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/gyro/gyro_bmi_high.txt",
-      "hash": "eeb2fddfaee89007d165db7e669e6adc61638dd141ab36250a6b61671b24643b",
-      "title": "Gyro BMI - High Filter",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/gyro/gyro_default.txt",
-      "hash": "0e416ac36203ed9c3e5d0186fb96a5f3f9a41720e1a74ecc49d76b26dfc99fb9",
-      "title": "Default Gyro Filter Setting",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/gyro/gyro_mpu_icm.txt",
-      "hash": "ba78d31f523eb95f3d0577985c9c5c7fb18644211645b5f857892d94a4d02228",
-      "title": "Gyro MPU & ICM - Normal Filter",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/gyro/gyro_mpu_icm_high.txt",
-      "hash": "537ccbb2dda4e8aefc6babcc50490dea6167b99bea2ec73fa89d27ac70ec727d",
-      "title": "Gyro MPU & ICM - High Filter",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/led/led_blink.txt",
-      "hash": "550db8022872d716e18aab32201e1f1caf6222feb208ca3d65aecb976e18d1ac",
-      "title": "Custom LED Blink",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "LED",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/led/led_blink_single.txt",
-      "hash": "54a00e2053bca11e0027c07382c3275c2d1035d156b41a49c81e0abe6a2d1d34",
-      "title": "Custom LED Blink Single",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "LED",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/led/led_blue.txt",
-      "hash": "db751a77f1cf3b440a3dbffd9dda4e84ddc1e8795af0fcb9a18442ccd51419e1",
-      "title": "Custom LED Blue (iFlight Evoque)",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "LED",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/led/led_default.txt",
-      "hash": "dd31222f3aeb4dc83b4a7c965575e7cae44d2a826eeeb05e81ac8db0cdd2fd60",
-      "title": "Default LED settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "LED",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
-    },
-    {
-      "fullPath": "presets/global/led/led_green.txt",
-      "hash": "b41d29709c0bc485a2412c3bc9001d1b420f008ab259125fa9e81c0ae469f421",
-      "title": "Custom LED Green (iFlight Evoque)",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "LED",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true
     },
     {
       "fullPath": "presets/global/modes/aux_default.txt",
@@ -2621,86 +2290,6 @@
         "setting"
       ],
       "hidden": true
-    },
-    {
-      "fullPath": "presets/global/other/other_beeper.txt",
-      "hash": "aeadc869c08dcfbf0fb175c6dd4833c9070758e8e310453fffc0a819af9fe105",
-      "title": "Custom Beeper settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/global/other/other_beeper_default..txt",
-      "hash": "25cd2fdbacc3758753f582be930d1a8c1094154bf27e9e9a95d11f019eb150f1",
-      "title": "Default Beeper settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/global/other/other_failsafe.txt",
-      "hash": "eb97d1bcb2230afd477ac1ea2b6aea500870a02d358c876f8ca6b88b0c4d33ac",
-      "title": "Custom Failsafe settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/global/other/other_failsafe_default.txt",
-      "hash": "7873093ef951856252b4d26fc82b39c576ef77bc78875bb08d21e29a93cee6ac",
-      "title": "Default Failsafe settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/global/other/other_tune.txt",
-      "hash": "0d97c24e162efba2b949963d7838380c9a50e453c036011a0049ff2513fc1e09",
-      "title": "Default Filter settings",
-      "firmware_version": [
-        "2025.12",
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "setting"
-      ],
-      "hidden": true,
-      "priority": 0
     },
     {
       "fullPath": "presets/global/rates/rates_default.txt",
@@ -3274,7 +2863,7 @@
     },
     {
       "fullPath": "presets/tune/general_setting_2025.txt",
-      "hash": "0e9316be905fe09f4c1461668cd5aaaefb31552d54004b6e30f9cc7be2a76d92",
+      "hash": "3054daee5b8648c4f91b1c919ac2b87bc02370128a4203d55149ab592ec280a4",
       "title": "General Setting (2025.12)",
       "firmware_version": [
         "2025.12"
@@ -3289,23 +2878,8 @@
     },
     {
       "fullPath": "presets/tune/general_setting_45.txt",
-      "hash": "d68e36b0d592d27bb899f31f23e78df490eedd65344f269de3b6b9bb732e15da",
+      "hash": "6ad8801cc96837a89359daf2b15bd0a7e93a4e1bc756d1988558ec0c244d3c1d",
       "title": "General Setting (4.5)",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "tune"
-      ],
-      "author": "Whistler2008",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/tune/pretune_setting_45.txt",
-      "hash": "da270e1d767bb6a7228e087451b271d33d1a5d9b96f55feab242e727113afd69",
-      "title": "Tune Setting (4.5)",
       "firmware_version": [
         "4.5"
       ],
@@ -3364,7 +2938,7 @@
     },
     {
       "fullPath": "presets/tune/tune_mockingbrid_40.txt",
-      "hash": "98f4e68efe4605eff3c438a7f7809fcef6c00261dec66cc0e6f0c10914bf887f",
+      "hash": "97a8c0ccd6617a11d17ce7f71979e7511971733de7bb64987c7c19be80a8a599",
       "title": "MockingBird 1-2S F3 (Betaflight 4.0)",
       "firmware_version": [
         "4.0"

@@ -116,7 +116,16 @@ set pidsum_limit_yaw = 1000
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Battery
-#$ INCLUDE: presets/global/battery/batt_32.txt
+    ### Minimum Cell Voltage 3.2V ###
+
+    # Battery ADC
+    set current_meter = ADC
+    set battery_meter = ADC
+
+    # Battery Min, Max and Warning
+    set vbat_max_cell_voltage = 440
+    set vbat_min_cell_voltage = 320
+    set vbat_warning_cell_voltage = 340
 #$ OPTION END
 
 #$ OPTION_GROUP END
