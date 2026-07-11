@@ -175,110 +175,9 @@
 
 #$ OPTION_GROUP BEGIN: General Setting
 
-	#$ OPTION BEGIN (CHECKED): Default LED
-		### Default LED Setting ###
+	#$ OPTION BEGIN (CHECKED): Disable LED
+		### Disable LED Function ###
 
-		# led
-		led 0 0,0::C:0
-		led 1 0,0::C:0
-		led 2 0,0::C:0
-		led 3 0,0::C:0
-		led 4 0,0::C:0
-		led 5 0,0::C:0
-		led 6 0,0::C:0
-		led 7 0,0::C:0
-		led 8 0,0::C:0
-		led 9 0,0::C:0
-		led 10 0,0::C:0
-		led 11 0,0::C:0
-		led 12 0,0::C:0
-		led 13 0,0::C:0
-		led 14 0,0::C:0
-		led 15 0,0::C:0
-		led 16 0,0::C:0
-		led 17 0,0::C:0
-		led 18 0,0::C:0
-		led 19 0,0::C:0
-		led 20 0,0::C:0
-		led 21 0,0::C:0
-		led 22 0,0::C:0
-		led 23 0,0::C:0
-		led 24 0,0::C:0
-		led 25 0,0::C:0
-		led 26 0,0::C:0
-		led 27 0,0::C:0
-		led 28 0,0::C:0
-		led 29 0,0::C:0
-		led 30 0,0::C:0
-		led 31 0,0::C:0
-
-		# color
-		color 0 0,0,0
-		color 1 0,255,255
-		color 2 0,0,255
-		color 3 30,0,255
-		color 4 60,0,255
-		color 5 90,0,255
-		color 6 120,0,255
-		color 7 150,0,255
-		color 8 180,0,255
-		color 9 210,0,255
-		color 10 240,0,255
-		color 11 270,0,255
-		color 12 300,0,255
-		color 13 330,0,255
-		color 14 0,0,0
-		color 15 0,0,0
-
-		# mode_color
-		mode_color 0 0 1
-		mode_color 0 1 11
-		mode_color 0 2 2
-		mode_color 0 3 13
-		mode_color 0 4 10
-		mode_color 0 5 3
-		mode_color 1 0 5
-		mode_color 1 1 11
-		mode_color 1 2 3
-		mode_color 1 3 13
-		mode_color 1 4 10
-		mode_color 1 5 3
-		mode_color 2 0 10
-		mode_color 2 1 11
-		mode_color 2 2 4
-		mode_color 2 3 13
-		mode_color 2 4 10
-		mode_color 2 5 3
-		mode_color 3 0 8
-		mode_color 3 1 11
-		mode_color 3 2 4
-		mode_color 3 3 13
-		mode_color 3 4 10
-		mode_color 3 5 3
-		mode_color 4 0 7
-		mode_color 4 1 11
-		mode_color 4 2 3
-		mode_color 4 3 13
-		mode_color 4 4 10
-		mode_color 4 5 3
-		mode_color 5 0 0
-		mode_color 5 1 0
-		mode_color 5 2 0
-		mode_color 5 3 0
-		mode_color 5 4 0
-		mode_color 5 5 0
-		mode_color 6 0 6
-		mode_color 6 1 10
-		mode_color 6 2 1
-		mode_color 6 3 0
-		mode_color 6 4 0
-		mode_color 6 5 2
-		mode_color 6 6 3
-		mode_color 6 7 6
-		mode_color 6 8 0
-		mode_color 6 9 0
-		mode_color 6 10 0
-		mode_color 7 0 3
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): LED Blink
@@ -662,56 +561,394 @@
 
 	#$ OPTION BEGIN (UNCHECKED): Default OSD
 		### Default OSD ###
-		#$ INCLUDE: presets/global/osd/osd_default.txt
+
+		# OSD Default
+		set osd_units = METRIC
+		set osd_warn_bitmask = 8191
+		set osd_rssi_alarm = 20
+		set osd_link_quality_alarm = 80
+		set osd_rssi_dbm_alarm = -60
+		set osd_rsnr_alarm = 4
+		set osd_cap_alarm = 2200
+		set osd_alt_alarm = 100
+		set osd_distance_alarm = 0
+		set osd_esc_temp_alarm = 0
+		set osd_esc_rpm_alarm = -1
+		set osd_esc_current_alarm = -1
+		set osd_core_temp_alarm = 70
+		set osd_ah_max_pit = 20
+		set osd_ah_max_rol = 40
+		set osd_ah_invert = OFF
+		set osd_logo_on_arming = OFF
+		set osd_logo_on_arming_duration = 5
+		set osd_tim1 = 2560
+		set osd_tim2 = 2561
+		set osd_vbat_pos = 234
+		set osd_rssi_pos = 234
+		set osd_link_quality_pos = 234
+		set osd_link_tx_power_pos = 234
+		set osd_rssi_dbm_pos = 234
+		set osd_rsnr_pos = 234
+		set osd_tim_1_pos = 234
+		set osd_tim_2_pos = 234
+		set osd_remaining_time_estimate_pos = 234
+		set osd_flymode_pos = 234
+		set osd_anti_gravity_pos = 234
+		set osd_g_force_pos = 234
+		set osd_throttle_pos = 234
+		set osd_vtx_channel_pos = 234
+		set osd_crosshairs_pos = 205
+		set osd_ah_sbar_pos = 206
+		set osd_ah_pos = 78
+		set osd_current_pos = 234
+		set osd_mah_drawn_pos = 234
+		set osd_wh_drawn_pos = 234
+		set osd_motor_diag_pos = 234
+		set osd_craft_name_pos = 234
+		set osd_pilot_name_pos = 234
+		set osd_gps_speed_pos = 234
+		set osd_gps_lon_pos = 234
+		set osd_gps_lat_pos = 234
+		set osd_gps_sats_pos = 234
+		set osd_home_dir_pos = 234
+		set osd_home_dist_pos = 234
+		set osd_flight_dist_pos = 234
+		set osd_compass_bar_pos = 234
+		set osd_altitude_pos = 234
+		set osd_pid_roll_pos = 234
+		set osd_pid_pitch_pos = 234
+		set osd_pid_yaw_pos = 234
+		set osd_debug_pos = 234
+		set osd_power_pos = 234
+		set osd_pidrate_profile_pos = 234
+		set osd_warnings_pos = 14665
+		set osd_avg_cell_voltage_pos = 234
+		set osd_pit_ang_pos = 234
+		set osd_rol_ang_pos = 234
+		set osd_battery_usage_pos = 234
+		set osd_disarmed_pos = 234
+		set osd_nheading_pos = 234
+		set osd_up_down_reference_pos = 205
+		set osd_ready_mode_pos = 234
+		set osd_esc_tmp_pos = 234
+		set osd_esc_rpm_pos = 234
+		set osd_esc_rpm_freq_pos = 234
+		set osd_rtc_date_time_pos = 234
+		set osd_adjustment_range_pos = 234
+		set osd_flip_arrow_pos = 234
+		set osd_core_temp_pos = 234
+		set osd_stick_overlay_left_pos = 234
+		set osd_stick_overlay_right_pos = 234
+		set osd_stick_overlay_radio_mode = 2
+		set osd_rate_profile_name_pos = 234
+		set osd_pid_profile_name_pos = 234
+		set osd_profile_name_pos = 234
+		set osd_rcchannels_pos = 234
+		set osd_camera_frame_pos = 35
+		set osd_efficiency_pos = 234
+		set osd_total_flights_pos = 234
+		set osd_aux_pos = 234
+		set osd_sys_goggle_voltage_pos = 234
+		set osd_sys_vtx_voltage_pos = 234
+		set osd_sys_bitrate_pos = 234
+		set osd_sys_delay_pos = 234
+		set osd_sys_distance_pos = 234
+		set osd_sys_lq_pos = 234
+		set osd_sys_goggle_dvr_pos = 234
+		set osd_sys_vtx_dvr_pos = 234
+		set osd_sys_warnings_pos = 234
+		set osd_sys_vtx_temp_pos = 234
+		set osd_sys_fan_speed_pos = 234
+		set osd_stat_bitmask = 14124
+		set osd_profile = 1
+		set osd_profile_1_name = -
+		set osd_profile_2_name = -
+		set osd_profile_3_name = -
+		set osd_displayport_device = AUTO
+		set osd_rcchannels = -1,-1,-1,-1
+		set osd_camera_frame_width = 24
+		set osd_camera_frame_height = 11
+		set osd_stat_avg_cell_value = OFF
+		set osd_framerate_hz = 12
+		set osd_menu_background = TRANSPARENT
+		set osd_aux_channel = 1
+		set osd_aux_scale = 200
+		set osd_aux_symbol = 65
+		set osd_craftname_msgs = OFF
+		# Betaflight 4.5 #
+		set osd_canvas_width = 30
+		set osd_canvas_height = 13
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog PAL & LQ
 		### Analog PAL & LQ OSD ###
-		#$ INCLUDE: presets/global/osd/osd_analog_pal.txt
-		#$ INCLUDE: presets/global/osd/osd_analog_pal_lq.txt
+
+		# OSD System
+		set vcd_video_system = PAL
+		set osd_displayport_device = MAX7456
+		# Betaflight 4.5 #
+		set osd_canvas_width = 30
+		set osd_canvas_height = 16
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2090
+		set osd_flip_arrow_pos = 2127
+
+		set osd_disarmed_pos = 2283
+
+		set osd_flymode_pos = 2433
+		set osd_core_temp_pos = 2465
+		set osd_tim_2_pos = 2497
+
+		set osd_warnings_pos = 14761
+		set osd_vtx_channel_pos = 2506
+
+		set osd_throttle_pos = 2457
+
+		set osd_avg_cell_voltage_pos = 2519
+
+		# OSD LQ
+		set osd_link_quality_pos = 2487
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog PAL & RSSI
 		### Analog PAL & RSSI OSD ###
-		#$ INCLUDE: presets/global/osd/osd_analog_pal.txt
-		#$ INCLUDE: presets/global/osd/osd_analog_pal_rssi.txt
+
+		# OSD System
+		set vcd_video_system = PAL
+		set osd_displayport_device = MAX7456
+		# Betaflight 4.5 #
+		set osd_canvas_width = 30
+		set osd_canvas_height = 16
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2090
+		set osd_flip_arrow_pos = 2127
+
+		set osd_disarmed_pos = 2283
+
+		set osd_flymode_pos = 2433
+		set osd_core_temp_pos = 2465
+		set osd_tim_2_pos = 2497
+
+		set osd_warnings_pos = 14761
+		set osd_vtx_channel_pos = 2506
+
+		set osd_throttle_pos = 2457
+
+		set osd_avg_cell_voltage_pos = 2519
+
+		# OSD RSSI
+		set osd_rssi_pos = 2458
+		set osd_throttle_pos = 2489
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & LQ
 		### Analog NTSC & LQ OSD ###
-		#$ INCLUDE: presets/global/osd/osd_analog_ntsc.txt
-		#$ INCLUDE: presets/global/osd/osd_analog_ntsc_lq.txt
+
+		# OSD System
+		set vcd_video_system = NTSC
+		set osd_displayport_device = MAX7456
+		# Betaflight 4.5 #
+		set osd_canvas_width = 30
+		set osd_canvas_height = 13
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2090
+		set osd_flip_arrow_pos = 2127
+
+		set osd_disarmed_pos = 2251
+
+		set osd_flymode_pos = 2337
+		set osd_core_temp_pos = 2369
+		set osd_tim_2_pos = 2401
+
+		set osd_warnings_pos = 14665
+		set osd_vtx_channel_pos = 2410
+
+		set osd_throttle_pos = 2361
+
+		set osd_avg_cell_voltage_pos = 2423
+
+		# OSD LQ
+		set osd_link_quality_pos = 2391
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog NTSC & RSSI
 		### Analog NTSC & RSSI OSD ###
-		#$ INCLUDE: presets/global/osd/osd_analog_ntsc.txt
-		#$ INCLUDE: presets/global/osd/osd_analog_ntsc_rssi.txt
+
+		# OSD System
+		set vcd_video_system = NTSC
+		set osd_displayport_device = MAX7456
+		# Betaflight 4.5 #
+		set osd_canvas_width = 30
+		set osd_canvas_height = 13
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2090
+		set osd_flip_arrow_pos = 2127
+
+		set osd_disarmed_pos = 2251
+
+		set osd_flymode_pos = 2337
+		set osd_core_temp_pos = 2369
+		set osd_tim_2_pos = 2401
+
+		set osd_warnings_pos = 14665
+		set osd_vtx_channel_pos = 2410
+
+		set osd_throttle_pos = 2361
+
+		set osd_avg_cell_voltage_pos = 2423
+
+		# OSD RSSI
+		set osd_rssi_pos = 2362
+		set osd_throttle_pos = 2393
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail
 		### Digital Avatar Walksnail OSD ###
-		#$ INCLUDE: presets/global/osd/osd_digital_avatar.txt
+
+		# OSD System
+		set vcd_video_system = HD
+		set osd_displayport_device = MSP
+		# Betaflight 4.5 #
+		set osd_canvas_width = 53
+		set osd_canvas_height = 20
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2101
+		set osd_flip_arrow_pos = 2138
+
+		set osd_disarmed_pos = 2358
+
+		set osd_flymode_pos = 2561
+		set osd_core_temp_pos = 2593
+		set osd_tim_2_pos = 2625
+
+		set osd_warnings_pos = 14933
+
+		set osd_throttle_pos = 3600
+		set osd_link_quality_pos = 3662
+		set osd_avg_cell_voltage_pos = 3630
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas
 		### Digital DJI Canvas OSD ###
-		#$ INCLUDE: presets/global/osd/osd_digital_dji_canvas.txt
+
+		# OSD System
+		set vcd_video_system = HD
+		set osd_displayport_device = MSP
+		# Betaflight 4.5 #
+		set osd_canvas_width = 53
+		set osd_canvas_height = 20
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2101
+		set osd_flip_arrow_pos = 2138
+
+		set osd_disarmed_pos = 2358
+
+		set osd_flymode_pos = 2529
+		set osd_core_temp_pos = 2561
+		set osd_tim_2_pos = 2593
+
+		set osd_warnings_pos = 14965
+
+		set osd_throttle_pos = 3439
+		set osd_link_quality_pos = 3469
+		set osd_avg_cell_voltage_pos = 3502
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV
 		### Digital DJI FPV OSD ###
-		#$ INCLUDE: presets/global/osd/osd_digital_dji_fpv.txt
+
+		# OSD System
+		set vcd_video_system = HD
+		set osd_displayport_device = MSP
+		# Betaflight 4.5 #
+		set osd_canvas_width = 30
+		set osd_canvas_height = 16
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2090
+		set osd_flip_arrow_pos = 2127
+
+		set osd_disarmed_pos = 2283
+
+		set osd_flymode_pos = 2433
+		set osd_core_temp_pos = 2465
+		set osd_tim_2_pos = 2497
+
+		set osd_warnings_pos = 14761
+		set osd_vtx_channel_pos = 2506
+
+		set osd_throttle_pos = 2457
+		set osd_link_quality_pos = 2487
+		set osd_avg_cell_voltage_pos = 2519
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS
 		### Digital DJI WTFOS OSD ###
-		#$ INCLUDE: presets/global/osd/osd_digital_dji_wtfos.txt
+
+		# OSD System
+		set vcd_video_system = HD
+		set osd_displayport_device = MSP
+		# Betaflight 4.5 #
+		set osd_canvas_width = 60
+		set osd_canvas_height = 22
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2105
+		set osd_flip_arrow_pos = 2142
+
+		set osd_disarmed_pos = 2394
+
+		set osd_flymode_pos = 2593
+		set osd_core_temp_pos = 2625
+		set osd_tim_2_pos = 2657
+
+		set osd_warnings_pos = 15032
+
+		set osd_throttle_pos = 3510
+		set osd_link_quality_pos = 3540
+		set osd_avg_cell_voltage_pos = 3573
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital HDZero
 		### Digital HDZero OSD ###
-		#$ INCLUDE: presets/global/osd/osd_digital_hd_hdzero.txt
+
+		# OSD System
+		set vcd_video_system = HD
+		set osd_displayport_device = MSP
+		# Betaflight 4.5 #
+		set osd_canvas_width = 50
+		set osd_canvas_height = 18
+
+
+		# OSD Placement
+		set osd_craft_name_pos = 2100
+		set osd_flip_arrow_pos = 2137
+
+		set osd_disarmed_pos = 2325
+
+		set osd_flymode_pos = 2497
+		set osd_core_temp_pos = 2529
+		set osd_tim_2_pos = 2561
+
+		set osd_warnings_pos = 14868
+
+		set osd_throttle_pos = 3533
+		set osd_link_quality_pos = 3563
+		set osd_avg_cell_voltage_pos = 3595
 	#$ OPTION END
 
 #$ OPTION_GROUP END
@@ -722,43 +959,216 @@
 
 	#$ OPTION BEGIN (CHECKED): Without GPS
 		### Without GPS ###
-		#$ INCLUDE: presets/global/modes/aux_std.txt
+
+		# Standard AUX #
+
+		# feature
+		feature -AIRMODE
+
+		# AUX
+		aux 0 0 0 1550 2100 0 0
+		aux 1 1 1 900 1300 0 0
+		aux 2 13 2 1700 2100 0 0
+		aux 3 28 1 1700 2100 0 0
+		aux 4 35 3 1700 2100 0 0
+
+		# Failsafe Setting
+		set failsafe_switch_mode = STAGE1
+		set failsafe_procedure = AUTO-LAND
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog GPS
 		### Analog GPS ###
-		#$ INCLUDE: presets/global/osd/osd_gps_analog.txt
-		#$ INCLUDE: presets/global/modes/aux_gps.txt
+
+		# OSD GPS
+		set osd_craft_name_pos = 2099
+
+		set osd_gps_lat_pos = 18497
+		set osd_gps_lon_pos = 18465
+
+		set osd_home_dir_pos = 2094
+		set osd_flip_arrow_pos = 2095
+
+		set osd_altitude_pos = 2177
+		set osd_home_dist_pos = 2209
+		set osd_gps_sats_pos = 2273
+
+		# GPS Rescue AUX #
+
+		# feature
+		feature GPS
+		feature -AIRMODE
+
+		# AUX
+		aux 0 0 0 1550 2100 0 0
+		aux 1 1 1 900 1300 0 0
+		aux 2 46 3 1700 2100 0 0
+		aux 3 13 2 1700 2100 0 0
+		aux 4 28 1 1700 2100 0 0
+
+		# Failsafe Setting
+		set failsafe_switch_mode = STAGE2
+		set failsafe_procedure = GPS-RESCUE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital Avatar Walksnail GPS
 		### Avatar Walksnail GPS ###
-		#$ INCLUDE: presets/global/osd/osd_gps_digital_avatar.txt
-		#$ INCLUDE: presets/global/modes/aux_gps.txt
+
+		# OSD GPS
+		set osd_gps_lat_pos = 18497
+		set osd_gps_lon_pos = 18465
+
+		set osd_home_dir_pos = 2137
+		set osd_flip_arrow_pos = 2139
+
+		set osd_altitude_pos = 2177
+		set osd_home_dist_pos = 2209
+		set osd_gps_sats_pos = 2273
+
+		# GPS Rescue AUX #
+
+		# feature
+		feature GPS
+		feature -AIRMODE
+
+		# AUX
+		aux 0 0 0 1550 2100 0 0
+		aux 1 1 1 900 1300 0 0
+		aux 2 46 3 1700 2100 0 0
+		aux 3 13 2 1700 2100 0 0
+		aux 4 28 1 1700 2100 0 0
+
+		# Failsafe Setting
+		set failsafe_switch_mode = STAGE2
+		set failsafe_procedure = GPS-RESCUE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI Canvas GPS
 		### DJI Canvas GPS ###
-		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_canvas.txt
-		#$ INCLUDE: presets/global/modes/aux_gps.txt
+
+		# OSD GPS
+		set osd_gps_lat_pos = 18497
+		set osd_gps_lon_pos = 18465
+
+		set osd_home_dir_pos = 2137
+		set osd_flip_arrow_pos = 2139
+
+		set osd_altitude_pos = 2177
+		set osd_home_dist_pos = 2209
+		set osd_gps_sats_pos = 2273
+		
+		# GPS Rescue AUX #
+
+		# feature
+		feature GPS
+		feature -AIRMODE
+
+		# AUX
+		aux 0 0 0 1550 2100 0 0
+		aux 1 1 1 900 1300 0 0
+		aux 2 46 3 1700 2100 0 0
+		aux 3 13 2 1700 2100 0 0
+		aux 4 28 1 1700 2100 0 0
+
+		# Failsafe Setting
+		set failsafe_switch_mode = STAGE2
+		set failsafe_procedure = GPS-RESCUE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI FPV GPS
 		### DJI FPV GPS ###
-		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_fpv.txt
-		#$ INCLUDE: presets/global/modes/aux_gps.txt
+
+		# OSD GPS
+		set osd_gps_lat_pos = 18497
+		set osd_gps_lon_pos = 18465
+
+		set osd_home_dir_pos = 2137
+		set osd_flip_arrow_pos = 2139
+
+		set osd_altitude_pos = 2177
+		set osd_home_dist_pos = 2209
+		set osd_gps_sats_pos = 2273
+		
+		# GPS Rescue AUX #
+
+		# feature
+		feature GPS
+		feature -AIRMODE
+
+		# AUX
+		aux 0 0 0 1550 2100 0 0
+		aux 1 1 1 900 1300 0 0
+		aux 2 46 3 1700 2100 0 0
+		aux 3 13 2 1700 2100 0 0
+		aux 4 28 1 1700 2100 0 0
+
+		# Failsafe Setting
+		set failsafe_switch_mode = STAGE2
+		set failsafe_procedure = GPS-RESCUE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital DJI WTFOS GPS
 		### DJI WTFOS GPS ###
-		#$ INCLUDE: presets/global/osd/osd_gps_digital_dji_wtfos.txt
-		#$ INCLUDE: presets/global/modes/aux_gps.txt
+
+		# OSD GPS
+		set osd_gps_lat_pos = 18497
+		set osd_gps_lon_pos = 18465
+
+		set osd_home_dir_pos = 2141
+		set osd_flip_arrow_pos = 2142
+
+		set osd_altitude_pos = 2177
+		set osd_home_dist_pos = 2209
+		set osd_gps_sats_pos = 2273
+		
+		# GPS Rescue AUX #
+
+		# feature
+		feature GPS
+		feature -AIRMODE
+
+		# AUX
+		aux 0 0 0 1550 2100 0 0
+		aux 1 1 1 900 1300 0 0
+		aux 2 46 3 1700 2100 0 0
+		aux 3 13 2 1700 2100 0 0
+		aux 4 28 1 1700 2100 0 0
+
+		# Failsafe Setting
+		set failsafe_switch_mode = STAGE2
+		set failsafe_procedure = GPS-RESCUE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Digital HDZero GPS
 		### HDZero GPS ###
-		#$ INCLUDE: presets/global/osd/osd_gps_digital_hd_hdzero.txt
-		#$ INCLUDE: presets/global/modes/aux_gps.txt
+
+		# OSD GPS
+		set osd_gps_lat_pos = 18497
+		set osd_gps_lon_pos = 18465
+
+		set osd_home_dir_pos = 2136
+		set osd_flip_arrow_pos = 2137
+
+		set osd_altitude_pos = 2177
+		set osd_home_dist_pos = 2209
+		set osd_gps_sats_pos = 2273
+		
+		# GPS Rescue AUX #
+
+		# feature
+		feature GPS
+		feature -AIRMODE
+
+		# AUX
+		aux 0 0 0 1550 2100 0 0
+		aux 1 1 1 900 1300 0 0
+		aux 2 46 3 1700 2100 0 0
+		aux 3 13 2 1700 2100 0 0
+		aux 4 28 1 1700 2100 0 0
+
+		# Failsafe Setting
+		set failsafe_switch_mode = STAGE2
+		set failsafe_procedure = GPS-RESCUE
 	#$ OPTION END
 
 #$ OPTION_GROUP END
